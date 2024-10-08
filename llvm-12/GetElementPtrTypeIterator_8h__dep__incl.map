@@ -1,0 +1,113 @@
+<map id="include/llvm/IR/GetElementPtrTypeIterator.h" name="include/llvm/IR/GetElementPtrTypeIterator.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5007,5,5207,45"/>
+<area shape="rect" id="Node000002" href="$TargetTransformInfoImpl_8h.html" title="This file provides helpers for the implementation of a TargetTransformInfo&#45;conforming class." alt="" coords="1227,93,1424,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4993,32,1424,112,1424,107,4993,27"/>
+<area shape="rect" id="Node000051" href="$Analysis_2Utils_2Local_8h.html" title=" " alt="" coords="3719,93,3881,133"/>
+<area shape="poly" id="edge16_Node000001_Node000051" title=" " alt="" coords="4993,33,4531,53,4234,71,3935,96,3881,102,3880,97,3934,91,4234,66,4530,47,4993,27"/>
+<area shape="rect" id="Node000053" href="$CodeGenPrepare_8cpp.html" title=" " alt="" coords="2446,277,2687,302"/>
+<area shape="poly" id="edge35_Node000001_Node000053" title=" " alt="" coords="4993,29,4600,30,4064,37,3788,46,3529,58,3307,74,3139,96,3056,114,2972,136,2813,189,2680,241,2593,279,2591,274,2678,236,2811,184,2971,131,3055,109,3138,91,3306,69,3529,52,3787,40,4064,32,4600,24,4993,23"/>
+<area shape="rect" id="Node000059" href="$SelectionDAGBuilder_8cpp.html" title=" " alt="" coords="2712,269,2907,309"/>
+<area shape="poly" id="edge38_Node000001_Node000059" title=" " alt="" coords="4993,31,4590,39,4057,52,3562,71,3383,83,3276,96,3212,113,3147,133,3024,182,2919,232,2844,272,2841,267,2916,227,3022,177,3146,128,3211,107,3276,91,3382,78,3562,66,4057,47,4590,33,4993,26"/>
+<area shape="rect" id="Node000062" href="$AArch64StackTagging_8cpp.html" title=" " alt="" coords="2931,269,3125,309"/>
+<area shape="poly" id="edge47_Node000001_Node000062" title=" " alt="" coords="4993,31,4612,37,4112,49,3651,69,3484,81,3386,96,3335,112,3285,133,3190,182,3111,232,3054,271,3051,267,3108,227,3188,178,3283,128,3333,107,3385,91,3484,76,3651,63,4112,44,4612,32,4993,25"/>
+<area shape="rect" id="Node000077" href="$GlobalOpt_8cpp.html" title=" " alt="" coords="3149,269,3289,309"/>
+<area shape="poly" id="edge53_Node000001_Node000077" title=" " alt="" coords="4993,30,4628,34,4152,44,3919,53,3715,64,3558,78,3503,87,3466,96,3429,112,3393,133,3327,182,3274,231,3237,271,3233,267,3270,228,3324,178,3390,129,3426,108,3464,91,3502,81,3557,73,3715,58,3919,47,4152,39,4627,28,4993,25"/>
+<area shape="rect" id="Node000097" href="$InstructionCombining_8cpp.html" title=" " alt="" coords="3313,269,3513,309"/>
+<area shape="poly" id="edge55_Node000001_Node000097" title=" " alt="" coords="4992,31,4620,39,4143,52,3720,71,3580,83,3536,89,3513,96,3491,112,3473,133,3445,181,3428,230,3419,270,3414,268,3422,229,3440,179,3468,129,3488,108,3511,91,3535,84,3579,77,3720,66,4143,47,4620,33,4992,26"/>
+<area shape="rect" id="Node000136" href="$MemCpyOptimizer_8cpp.html" title=" " alt="" coords="3538,269,3713,309"/>
+<area shape="poly" id="edge56_Node000001_Node000136" title=" " alt="" coords="4993,30,4705,35,4334,46,3971,65,3821,79,3707,96,3632,106,3571,114,3545,121,3519,134,3495,154,3472,183,3465,197,3466,209,3472,221,3482,232,3515,251,3554,267,3552,272,3513,256,3479,236,3467,224,3460,210,3460,195,3467,180,3492,150,3517,130,3543,116,3570,109,3632,101,3706,91,3820,74,3970,60,4334,40,4705,29,4993,25"/>
+<area shape="rect" id="Node000137" href="$NaryReassociate_8cpp.html" title=" " alt="" coords="3737,269,3900,309"/>
+<area shape="poly" id="edge57_Node000001_Node000137" title=" " alt="" coords="4993,33,4755,41,4471,54,4218,73,4128,84,4076,96,4049,109,4029,122,3999,152,3970,186,3928,223,3854,271,3851,267,3925,219,3966,182,3995,149,4026,118,4047,104,4074,91,4127,79,4218,67,4471,49,4755,36,4993,27"/>
+<area shape="rect" id="Node000144" href="$SROA_8cpp.html" title="This transformation implements the well known scalar replacement of aggregates transformation." alt="" coords="3925,269,4083,309"/>
+<area shape="poly" id="edge58_Node000001_Node000144" title=" " alt="" coords="4993,31,4765,37,4494,49,4255,68,4172,81,4124,96,4101,113,4080,134,4048,182,4025,231,4012,270,4007,268,4020,229,4043,180,4076,131,4097,109,4121,91,4170,75,4255,63,4494,44,4764,32,4993,26"/>
+<area shape="rect" id="Node000146" href="$SeparateConstOffsetFromGEP_8cpp.html" title=" " alt="" coords="4107,269,4351,309"/>
+<area shape="poly" id="edge59_Node000001_Node000146" title=" " alt="" coords="4993,29,4766,31,4499,39,4374,48,4267,60,4188,76,4161,85,4146,95,4134,115,4131,138,4135,161,4146,185,4178,231,4211,267,4207,271,4173,235,4141,188,4130,163,4125,138,4129,114,4142,91,4159,80,4186,70,4266,54,4374,43,4499,34,4766,25,4993,23"/>
+<area shape="rect" id="Node000149" href="$StraightLineStrengthReduce_8cpp.html" title=" " alt="" coords="4376,269,4611,309"/>
+<area shape="poly" id="edge60_Node000001_Node000149" title=" " alt="" coords="4993,29,4772,31,4512,40,4391,49,4287,61,4210,76,4185,85,4170,95,4158,111,4153,125,4152,139,4156,152,4176,177,4210,201,4254,221,4303,239,4402,267,4401,272,4301,244,4252,226,4207,205,4173,181,4151,154,4147,139,4147,124,4154,108,4166,91,4183,80,4209,71,4286,55,4390,44,4512,35,4772,26,4993,24"/>
+<area shape="rect" id="Node000161" href="$Local_8cpp.html" title=" " alt="" coords="4634,269,4782,309"/>
+<area shape="poly" id="edge61_Node000001_Node000161" title=" " alt="" coords="4993,29,4775,32,4520,41,4400,49,4298,61,4223,76,4198,85,4183,95,4177,104,4175,113,4183,132,4204,146,4245,163,4367,202,4509,239,4634,269,4633,274,4508,244,4365,207,4243,168,4202,151,4179,135,4170,113,4172,102,4179,91,4196,81,4221,71,4298,56,4400,44,4519,36,4775,26,4993,24"/>
+<area shape="rect" id="Node000173" href="$BasicAliasAnalysis_8cpp.html" title=" " alt="" coords="4193,101,4444,126"/>
+<area shape="poly" id="edge30_Node000001_Node000173" title=" " alt="" coords="4993,40,4746,64,4456,96,4399,103,4399,98,4456,91,4746,59,4993,35"/>
+<area shape="rect" id="Node000174" href="$InlineCost_8cpp.html" title=" " alt="" coords="4469,101,4662,126"/>
+<area shape="poly" id="edge31_Node000001_Node000174" title=" " alt="" coords="4993,46,4675,96,4632,103,4631,98,4674,91,4993,41"/>
+<area shape="rect" id="Node000175" href="$InstructionSimplify_8cpp.html" title=" " alt="" coords="4687,93,4857,133"/>
+<area shape="poly" id="edge32_Node000001_Node000175" title=" " alt="" coords="5021,51,4846,96,4845,91,5019,46"/>
+<area shape="rect" id="Node000176" href="$ValueTracking_8cpp.html" title=" " alt="" coords="4881,101,5100,126"/>
+<area shape="poly" id="edge33_Node000001_Node000176" title=" " alt="" coords="5071,56,5008,103,5005,98,5068,52"/>
+<area shape="rect" id="Node000177" href="$VectorUtils_8cpp.html" title=" " alt="" coords="5125,101,5323,126"/>
+<area shape="poly" id="edge34_Node000001_Node000177" title=" " alt="" coords="5145,51,5210,98,5207,103,5142,56"/>
+<area shape="rect" id="Node000178" href="$IRTranslator_8cpp.html" title="This file implements the IRTranslator class." alt="" coords="5348,93,5519,133"/>
+<area shape="poly" id="edge36_Node000001_Node000178" title=" " alt="" coords="5192,46,5362,91,5361,96,5191,51"/>
+<area shape="rect" id="Node000179" href="$FastISel_8cpp.html" title=" " alt="" coords="5543,93,5737,133"/>
+<area shape="poly" id="edge37_Node000001_Node000179" title=" " alt="" coords="5221,41,5531,91,5543,93,5542,98,5530,96,5220,47"/>
+<area shape="rect" id="Node000180" href="$Execution_8cpp.html" title=" " alt="" coords="5761,93,5951,133"/>
+<area shape="poly" id="edge39_Node000001_Node000180" title=" " alt="" coords="5221,33,5464,57,5750,91,5762,92,5761,98,5749,96,5464,62,5220,39"/>
+<area shape="rect" id="Node000181" href="$ConstantFold_8cpp.html" title=" " alt="" coords="5975,101,6145,126"/>
+<area shape="poly" id="edge40_Node000001_Node000181" title=" " alt="" coords="5221,29,5554,49,5759,67,5963,91,6007,98,6006,103,5962,96,5758,72,5554,55,5221,34"/>
+<area shape="rect" id="Node000182" href="$Constants_8cpp.html" title=" " alt="" coords="6170,101,6321,126"/>
+<area shape="poly" id="edge41_Node000001_Node000182" title=" " alt="" coords="5220,26,5401,31,5634,42,5895,62,6158,91,6199,98,6198,103,6157,96,5895,67,5634,48,5400,37,5220,31"/>
+<area shape="rect" id="Node000183" href="$DataLayout_8cpp.html" title=" " alt="" coords="6345,101,6506,126"/>
+<area shape="poly" id="edge42_Node000001_Node000183" title=" " alt="" coords="5221,25,5429,29,5706,39,6019,59,6178,73,6334,91,6376,98,6375,103,6333,96,6177,78,6018,64,5706,44,5429,34,5221,30"/>
+<area shape="rect" id="Node000184" href="$Operator_8cpp.html" title=" " alt="" coords="6530,101,6673,126"/>
+<area shape="poly" id="edge43_Node000001_Node000184" title=" " alt="" coords="5220,27,5884,49,6251,67,6403,79,6519,91,6558,98,6557,103,6518,96,6403,84,6251,73,5884,54,5220,32"/>
+<area shape="rect" id="Node000185" href="$Value_8cpp.html" title=" " alt="" coords="6697,101,6820,126"/>
+<area shape="poly" id="edge44_Node000001_Node000185" title=" " alt="" coords="5221,26,5542,32,5965,45,6381,64,6554,76,6686,91,6721,98,6720,103,6685,96,6554,81,6381,69,5964,50,5542,38,5221,31"/>
+<area shape="rect" id="Node000186" href="$AArch64FastISel_8cpp.html" title=" " alt="" coords="6844,93,7001,133"/>
+<area shape="poly" id="edge45_Node000001_Node000186" title=" " alt="" coords="5220,26,6033,46,6495,65,6687,77,6832,91,6844,92,6843,98,6832,96,6686,83,6494,71,6033,52,5220,31"/>
+<area shape="rect" id="Node000187" href="$AArch64ISelLowering_8cpp.html" title=" " alt="" coords="7026,93,7217,133"/>
+<area shape="poly" id="edge46_Node000001_Node000187" title=" " alt="" coords="5220,26,6118,47,6635,66,6850,78,7014,91,7026,92,7025,97,7013,96,6850,83,6635,71,6118,52,5220,31"/>
+<area shape="rect" id="Node000188" href="$ARMFastISel_8cpp.html" title=" " alt="" coords="7241,101,7468,126"/>
+<area shape="poly" id="edge48_Node000001_Node000188" title=" " alt="" coords="5221,26,6220,47,6803,66,7045,78,7230,91,7288,98,7288,103,7229,96,7045,83,6802,72,6220,53,5221,31"/>
+<area shape="rect" id="Node000189" href="$MipsFastISel_8cpp.html" title="This file defines the MIPS&#45;specific support for the FastISel class." alt="" coords="7492,93,7671,133"/>
+<area shape="poly" id="edge49_Node000001_Node000189" title=" " alt="" coords="5220,25,5684,30,6337,41,6997,61,7272,74,7480,91,7492,92,7492,97,7480,96,7271,80,6996,66,6337,47,5684,35,5220,30"/>
+<area shape="rect" id="Node000190" href="$PPCFastISel_8cpp.html" title=" " alt="" coords="7695,93,7838,133"/>
+<area shape="poly" id="edge50_Node000001_Node000190" title=" " alt="" coords="5221,24,5720,26,6431,35,6804,43,7154,55,7455,71,7683,91,7695,92,7695,98,7682,96,7455,76,7153,60,6804,49,6431,40,5719,32,5221,29"/>
+<area shape="rect" id="Node000191" href="$WebAssemblyFastISel_8cpp.html" title="This file defines the WebAssembly&#45;specific support for the FastISel class." alt="" coords="7863,93,8057,133"/>
+<area shape="poly" id="edge51_Node000001_Node000191" title=" " alt="" coords="5220,25,5748,29,6508,40,7282,59,7606,73,7851,91,7863,92,7862,97,7850,96,7606,79,7282,65,6508,45,5748,34,5220,30"/>
+<area shape="rect" id="Node000192" href="$X86FastISel_8cpp.html" title=" " alt="" coords="8082,101,8299,126"/>
+<area shape="poly" id="edge52_Node000001_Node000192" title=" " alt="" coords="5220,25,5785,29,6609,40,7451,60,7803,74,8070,91,8128,98,8127,103,8069,96,7803,79,7451,65,6609,45,5785,34,5220,30"/>
+<area shape="rect" id="Node000088" href="$InstCombineCompares_8cpp.html" title=" " alt="" coords="8323,93,8525,133"/>
+<area shape="poly" id="edge54_Node000001_Node000088" title=" " alt="" coords="5220,24,5826,27,6720,36,7193,45,7638,56,8022,71,8312,91,8323,92,8322,97,8312,96,8022,77,7638,61,7193,50,6720,42,5826,32,5220,29"/>
+<area shape="rect" id="Node000003" href="$BasicTTIImpl_8h.html" title="This file provides a helper that implements much of the TTI interface in terms of the target&#45;independ..." alt="" coords="1243,181,1408,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1328,147,1328,181,1323,181,1323,147"/>
+<area shape="rect" id="Node000050" href="$TargetTransformInfo_8cpp.html" title=" " alt="" coords="1011,181,1218,221"/>
+<area shape="poly" id="edge15_Node000002_Node000050" title=" " alt="" coords="1268,141,1162,184,1160,179,1266,136"/>
+<area shape="rect" id="Node000004" href="$BasicTargetTransformInfo_8cpp.html" title="This file provides the implementation of a basic TargetTransformInfo pass predicated on the target ab..." alt="" coords="5,269,251,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1229,224,1082,239,957,247,744,252,532,255,408,261,263,272,251,273,251,268,262,267,408,255,532,250,744,247,956,242,1081,234,1228,219"/>
+<area shape="rect" id="Node000005" href="$LLVMTargetMachine_8cpp.html" title=" " alt="" coords="275,277,536,302"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1229,224,1039,244,890,252,742,258,555,272,490,279,489,274,554,267,742,252,890,246,1038,238,1228,219"/>
+<area shape="rect" id="Node000006" href="$AArch64TargetTransformInfo_8cpp.html" title=" " alt="" coords="528,357,765,397"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1229,223,1089,228,888,233,787,237,700,245,634,256,612,263,599,271,593,280,591,291,597,313,611,336,628,355,624,359,607,339,592,315,586,291,588,279,595,267,610,258,632,251,699,240,787,232,888,227,1089,223,1229,218"/>
+<area shape="rect" id="Node000007" href="$AArch64TargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the AArch64 target machine." alt="" coords="610,269,833,309"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="1230,224,1230,224,1037,249,844,272,833,274,833,268,844,267,1037,244,1229,219,1229,219"/>
+<area shape="rect" id="Node000009" href="$AMDGPUTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the AMDGPU target machine." alt="" coords="856,269,1104,309"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="1237,227,1056,272,1055,267,1236,222"/>
+<area shape="rect" id="Node000013" href="$ARCTargetTransformInfo_8h.html" title=" " alt="" coords="1128,269,1312,309"/>
+<area shape="poly" id="edge9_Node000003_Node000013" title=" " alt="" coords="1293,232,1245,271,1242,267,1290,228"/>
+<area shape="rect" id="Node000015" href="$ARMTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the ARM target machine." alt="" coords="1337,269,1527,309"/>
+<area shape="poly" id="edge10_Node000003_Node000015" title=" " alt="" coords="1361,228,1410,267,1407,271,1358,232"/>
+<area shape="rect" id="Node000019" href="$BPFTargetTransformInfo_8h.html" title=" " alt="" coords="1552,269,1731,309"/>
+<area shape="poly" id="edge11_Node000003_Node000019" title=" " alt="" coords="1409,222,1573,267,1571,272,1407,228"/>
+<area shape="rect" id="Node000021" href="$HexagonTargetTransformInfo_8h.html" title="This file implements a TargetTransformInfo analysis pass specific to the Hexagon target machine." alt="" coords="1755,269,1981,309"/>
+<area shape="poly" id="edge12_Node000003_Node000021" title=" " alt="" coords="1422,215,1755,267,1754,273,1421,220"/>
+<area shape="rect" id="Node000024" href="$LanaiTargetTransformInfo_8h.html" title=" " alt="" coords="2005,269,2205,309"/>
+<area shape="poly" id="edge13_Node000003_Node000024" title=" " alt="" coords="1422,208,1681,231,1994,267,2006,268,2005,274,1993,272,1680,236,1421,213"/>
+<area shape="rect" id="Node000026" href="$MipsTargetMachine_8cpp.html" title=" " alt="" coords="2229,269,2421,309"/>
+<area shape="poly" id="edge14_Node000003_Node000026" title=" " alt="" coords="1422,204,1773,225,1995,243,2218,267,2229,268,2228,273,2217,272,1994,248,1773,230,1422,209"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="698,322,665,359,661,355,694,318"/>
+<area shape="rect" id="Node000052" href="$Transforms_2Utils_2Local_8h.html" title=" " alt="" coords="3481,181,3660,221"/>
+<area shape="poly" id="edge17_Node000051_Node000052" title=" " alt="" coords="3738,141,3622,184,3620,179,3736,136"/>
+<area shape="rect" id="Node000172" href="$MemoryBuiltins_8cpp.html" title=" " alt="" coords="3685,189,3915,214"/>
+<area shape="poly" id="edge29_Node000051_Node000172" title=" " alt="" coords="3803,147,3803,188,3797,188,3797,147"/>
+<area shape="poly" id="edge18_Node000052_Node000053" title=" " alt="" coords="3468,211,3127,234,2700,272,2642,279,2641,274,2700,267,3126,229,3467,206"/>
+<area shape="poly" id="edge19_Node000052_Node000059" title=" " alt="" coords="3468,214,3218,237,2919,272,2907,274,2907,268,2918,267,3217,232,3467,208"/>
+<area shape="poly" id="edge20_Node000052_Node000062" title=" " alt="" coords="3468,221,3136,272,3126,274,3125,268,3136,267,3467,215"/>
+<area shape="poly" id="edge21_Node000052_Node000077" title=" " alt="" coords="3481,227,3290,274,3289,268,3480,222"/>
+<area shape="poly" id="edge22_Node000052_Node000097" title=" " alt="" coords="3525,230,3449,272,3447,267,3523,226"/>
+<area shape="poly" id="edge23_Node000052_Node000136" title=" " alt="" coords="3592,232,3615,268,3611,271,3588,234"/>
+<area shape="poly" id="edge24_Node000052_Node000137" title=" " alt="" coords="3639,223,3765,267,3764,272,3637,228"/>
+<area shape="poly" id="edge25_Node000052_Node000144" title=" " alt="" coords="3674,220,3913,267,3925,269,3924,274,3911,272,3673,225"/>
+<area shape="poly" id="edge26_Node000052_Node000146" title=" " alt="" coords="3674,219,3886,244,4095,267,4107,268,4107,274,4094,272,3886,250,3674,224"/>
+<area shape="poly" id="edge27_Node000052_Node000149" title=" " alt="" coords="3674,219,3868,238,4020,245,4171,251,4363,267,4376,268,4376,273,4362,272,4171,256,4020,250,3868,243,3673,224"/>
+<area shape="poly" id="edge28_Node000052_Node000161" title=" " alt="" coords="3674,219,3819,232,3941,239,4151,240,4359,243,4480,251,4623,267,4634,268,4633,274,4622,272,4480,256,4358,248,4150,245,3941,244,3818,238,3674,224"/>
+</map>

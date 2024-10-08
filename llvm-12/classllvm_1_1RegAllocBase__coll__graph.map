@@ -1,0 +1,52 @@
+<map id="llvm::RegAllocBase" name="llvm::RegAllocBase">
+<area shape="rect" id="Node000001" title="RegAllocBase provides the register allocation driver and interface that can be extended to add intere..." alt="" coords="1681,232,1829,257"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1TargetRegisterInfo.html" title="TargetRegisterInfo base class &#45; We assume that the target defines a static array of TargetRegisterDes..." alt="" coords="1354,5,1533,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1547,17,1605,30,1633,42,1659,57,1680,76,1699,99,1726,149,1744,196,1754,231,1749,233,1739,198,1722,151,1694,102,1676,80,1656,61,1631,46,1604,35,1546,22"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1MCRegisterInfo.html" title="MCRegisterInfo base class &#45; We assume that the target defines a static array of MCRegisterDesc object..." alt="" coords="979,5,1137,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1151,15,1354,15,1354,21,1151,21"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1MachineRegisterInfo.html" title="MachineRegisterInfo &#45; Keep track of information for virtual and physical registers,..." alt="" coords="1347,55,1540,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1554,74,1608,89,1659,113,1691,141,1718,173,1750,230,1746,233,1713,176,1687,144,1656,118,1606,94,1553,79"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1VirtRegMap.html" title=" " alt="" coords="1376,281,1511,307"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1524,282,1657,262,1695,255,1696,260,1658,267,1525,287"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1MachineFunctionPass.html" title="MachineFunctionPass &#45; This class adapts the FunctionPass interface to allow convenient creation of pa..." alt="" coords="959,324,1157,349"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1108,351,1156,362,1210,369,1268,366,1295,360,1321,349,1329,342,1333,334,1337,325,1345,316,1375,302,1377,307,1348,320,1341,328,1338,336,1333,346,1324,354,1297,365,1268,371,1210,374,1155,367,1107,356"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1LiveIntervals.html" title=" " alt="" coords="1372,232,1515,257"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="1141,348,1185,350,1232,347,1279,336,1321,316,1330,306,1333,293,1335,280,1345,267,1371,252,1373,257,1348,271,1340,282,1338,295,1335,308,1324,320,1281,341,1233,352,1185,356,1140,353"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1LiveRegMatrix.html" title=" " alt="" coords="1367,183,1520,208"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="1093,315,1180,274,1220,262,1253,257,1284,251,1321,236,1333,227,1345,217,1375,206,1377,211,1348,222,1336,231,1324,240,1285,256,1253,262,1222,268,1182,279,1096,320"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1FunctionPass.html" title="FunctionPass class &#45; This class is used to implement most global optimizations." alt="" coords="591,324,733,349"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="747,334,959,334,959,339,747,339"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1Pass.html" title="Pass interface &#45; Implemented by all &#39;passes&#39;." alt="" coords="389,324,477,349"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="491,334,590,334,590,339,491,339"/>
+<area shape="rect" id="Node000009" href="$classchar.html" title=" " alt="" coords="1033,179,1083,204"/>
+<area shape="poly" id="edge27_Node000001_Node000009" title=" " alt="" coords="1096,182,1181,170,1361,158,1439,159,1540,167,1600,174,1658,190,1701,209,1736,230,1733,234,1698,214,1656,195,1599,179,1540,173,1439,165,1361,163,1182,175,1097,187"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="1092,208,1134,231,1182,250,1283,274,1376,287,1376,292,1282,279,1181,255,1132,235,1090,213"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="1097,197,1182,213,1372,236,1371,241,1181,218,1096,202"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="1097,189,1367,192,1366,197,1097,194"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1529,242,1681,242,1681,247,1529,247"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="1534,205,1658,223,1691,229,1690,235,1657,229,1533,210"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1RegisterClassInfo.html" title=" " alt="" coords="1357,331,1530,356"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="1543,327,1600,314,1656,297,1699,277,1734,255,1737,260,1701,281,1658,302,1601,320,1544,332"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1SmallPtrSet.html" title=" " alt="" coords="1370,385,1517,440"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="1530,394,1594,374,1656,344,1683,323,1708,299,1743,256,1747,259,1712,303,1687,327,1659,348,1596,379,1531,399"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1SmallPtrSetImpl.html" title=" " alt="" coords="966,458,1150,498"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="1163,458,1369,422,1370,428,1164,463"/>
+<area shape="rect" id="Node000015" href="$classllvm_1_1SmallPtrSetImplBase.html" title="SmallPtrSetImplBase &#45; This is the common code shared among all the SmallPtrSet&lt;&gt;&#39;s,..." alt="" coords="335,465,531,491"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="494,491,580,507,683,513,787,510,884,501,966,491,966,496,884,507,787,515,683,518,580,513,493,497"/>
+<area shape="rect" id="Node000019" href="$classllvm_1_1SmallPtrSetImpl.html" title="A templated base class for SmallPtrSet which provides the typesafe interface that is common across al..." alt="" coords="580,458,744,498"/>
+<area shape="poly" id="edge23_Node000019_Node000015" title=" " alt="" coords="544,475,580,475,580,481,544,481"/>
+<area shape="rect" id="Node000021" href="$classllvm_1_1SmallPtrSetImpl.html" title="A templated base class for SmallPtrSet which provides the typesafe interface that is common across al..." alt="" coords="580,394,744,434"/>
+<area shape="poly" id="edge26_Node000021_Node000015" title=" " alt="" coords="492,459,589,432,590,437,493,464"/>
+<area shape="rect" id="Node000016" href="$classllvm_1_1DebugEpochBase.html" title=" " alt="" coords="5,416,177,441"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="191,431,311,445,389,463,388,468,310,450,191,436"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="38,465,145,491"/>
+<area shape="poly" id="edge20_Node000015_Node000017" title=" " alt="" coords="158,475,334,475,334,481,158,481"/>
+<area shape="rect" id="Node000018" href="$classunsigned.html" title=" " alt="" coords="51,540,132,565"/>
+<area shape="poly" id="edge21_Node000015_Node000018" title=" " alt="" coords="146,548,224,541,310,525,361,508,405,488,407,493,363,512,311,530,225,546,146,553"/>
+<area shape="poly" id="edge22_Node000014_Node000019" title=" " alt="" coords="758,475,966,475,966,481,758,481"/>
+<area shape="rect" id="Node000020" href="$classllvm_1_1SmallPtrSet.html" title="SmallPtrSet &#45; This class implements a set which is optimized for holding SmallSize or less elements." alt="" coords="977,394,1139,434"/>
+<area shape="poly" id="edge24_Node000013_Node000020" title=" " alt="" coords="1152,415,1181,415,1323,415,1369,414,1370,419,1323,421,1181,421,1152,420"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="758,411,977,411,977,417,758,417"/>
+<area shape="rect" id="Node000022" href="$classbool.html" title=" " alt="" coords="1418,464,1469,489"/>
+<area shape="poly" id="edge28_Node000001_Node000022" title=" " alt="" coords="1482,470,1522,463,1567,450,1614,431,1656,404,1689,367,1716,326,1747,256,1752,259,1721,328,1694,371,1659,408,1616,436,1569,455,1523,468,1483,475"/>
+</map>

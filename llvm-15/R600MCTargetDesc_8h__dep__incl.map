@@ -1,0 +1,43 @@
+<map id="lib/Target/AMDGPU/MCTargetDesc/R600MCTargetDesc.h" name="lib/Target/AMDGPU/MCTargetDesc/R600MCTargetDesc.h">
+<area shape="rect" id="Node000001" title="Provides R600 specific target descriptions." alt="" coords="2341,5,2552,45"/>
+<area shape="rect" id="Node000002" href="$AMDGPUISelDAGToDAG_8cpp.html" title="Defines an instruction selector for the AMDGPU target." alt="" coords="5,93,237,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2328,31,1293,52,691,72,440,83,250,96,238,97,237,92,249,91,440,78,691,66,1293,47,2327,26"/>
+<area shape="rect" id="Node000003" href="$AMDGPUMCTargetDesc_8cpp.html" title="This file provides AMDGPU specific target descriptions." alt="" coords="261,93,499,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2327,29,2012,31,1562,40,1041,60,773,76,511,96,499,97,499,92,510,91,773,70,1041,55,1562,34,2012,26,2327,24"/>
+<area shape="rect" id="Node000004" href="$R600InstPrinter_8cpp.html" title=" " alt="" coords="523,93,733,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2327,29,2046,32,1654,41,1203,61,972,76,746,96,734,97,733,92,745,91,972,71,1203,56,1654,36,2046,26,2327,24"/>
+<area shape="rect" id="Node000005" href="$R600MCCodeEmitter_8cpp.html" title="The R600 code emitter produces machine code that can be executed directly on the GPU device." alt="" coords="757,93,976,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="2328,30,2083,35,1751,46,1372,65,988,96,977,97,976,92,988,91,1371,60,1750,41,2083,30,2328,25"/>
+<area shape="rect" id="Node000006" href="$R600MCTargetDesc_8cpp.html" title="This file provides R600 specific target descriptions." alt="" coords="1000,93,1211,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="2328,32,1845,50,1535,69,1223,96,1211,97,1210,92,1222,91,1535,63,1844,44,2328,26"/>
+<area shape="rect" id="Node000007" href="$R600AsmPrinter_8cpp.html" title="The R600AsmPrinter is used to print both assembly string and also binary code." alt="" coords="1235,93,1445,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="2328,34,1940,55,1699,72,1458,96,1446,97,1445,92,1457,91,1699,67,1940,49,2328,29"/>
+<area shape="rect" id="Node000008" href="$R600ClauseMergePass_8cpp.html" title="R600EmitClauseMarker pass emits CFAlu instruction in a conservative manner." alt="" coords="1469,93,1696,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="2328,38,2045,61,1708,96,1696,97,1696,92,1708,91,2045,56,2328,33"/>
+<area shape="rect" id="Node000009" href="$R600ControlFlowFinalizer_8cpp.html" title="This pass compute turns all control flow pseudo instructions into native one computing their address ..." alt="" coords="1720,93,1949,133"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="2328,45,1962,96,1950,98,1949,92,1961,91,2327,40"/>
+<area shape="rect" id="Node000010" href="$R600EmitClauseMarkers_8cpp.html" title="Add CF_ALU." alt="" coords="1974,93,2186,133"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="2354,51,2161,96,2160,91,2352,46"/>
+<area shape="rect" id="Node000011" href="$R600ExpandSpecialInstrs_8cpp.html" title="Vector, Reduction, and Cube instructions need to fill the entire instruction group to work correctly." alt="" coords="2210,93,2441,133"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="2410,55,2354,95,2351,91,2407,51"/>
+<area shape="rect" id="Node000012" href="$R600ISelDAGToDAG_8cpp.html" title="Defines an instruction selector for the R600 subtarget." alt="" coords="2465,93,2671,133"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="2486,51,2543,91,2540,95,2483,55"/>
+<area shape="rect" id="Node000013" href="$R600ISelLowering_8cpp.html" title="Custom DAG lowering for R600." alt="" coords="2695,93,2902,133"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="2538,46,2722,91,2721,96,2536,51"/>
+<area shape="rect" id="Node000014" href="$R600InstrInfo_8cpp.html" title="R600 Implementation of TargetInstrInfo." alt="" coords="2927,93,3137,133"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="2566,40,2915,91,2927,92,2926,98,2914,96,2565,46"/>
+<area shape="rect" id="Node000015" href="$R600MCInstLower_8cpp.html" title="Code to lower R600 MachineInstrs to their corresponding MCInst." alt="" coords="3161,93,3388,133"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="2566,33,2834,57,3150,91,3162,92,3161,97,3149,96,2833,62,2566,39"/>
+<area shape="rect" id="Node000016" href="$R600MachineCFGStructurizer_8cpp.html" title=" " alt="" coords="3412,93,3649,133"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="2566,30,2939,52,3169,69,3400,91,3412,92,3411,97,3400,96,3169,74,2938,57,2566,35"/>
+<area shape="rect" id="Node000017" href="$R600MachineScheduler_8cpp.html" title="R600 Machine Scheduler interface." alt="" coords="3673,93,3911,133"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="2566,27,3045,46,3352,65,3662,91,3673,92,3673,97,3661,96,3351,70,3045,52,2565,32"/>
+<area shape="rect" id="Node000018" href="$R600OptimizeVectorRegisters_8cpp.html" title="This pass merges inputs of swizzeable instructions into vector sharing common data and/or have enough..." alt="" coords="3935,93,4177,133"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="2566,26,2813,31,3150,42,3534,61,3923,91,3935,92,3935,97,3922,96,3533,67,3149,48,2813,36,2565,31"/>
+<area shape="rect" id="Node000019" href="$R600Packetizer_8cpp.html" title="This pass implements instructions packetization for R600." alt="" coords="4201,101,4476,126"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="2566,25,2853,30,3255,40,3719,60,4190,91,4258,98,4258,103,4189,96,3718,65,3255,46,2853,35,2566,30"/>
+<area shape="rect" id="Node000020" href="$R600RegisterInfo_8cpp.html" title="R600 implementation of the TargetRegisterInfo class." alt="" coords="4501,93,4737,133"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="2566,23,2896,25,3372,33,3925,53,4209,69,4488,91,4501,92,4500,97,4488,96,4209,75,3925,58,3372,38,2896,30,2566,29"/>
+<area shape="rect" id="Node000021" href="$R600Subtarget_8cpp.html" title="Implements the R600 specific subclass of TargetSubtarget." alt="" coords="4760,101,5032,126"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="2566,23,2934,24,3473,32,4105,53,4430,69,4750,91,4818,98,4818,103,4749,96,4430,74,4104,58,3473,38,2934,30,2566,29"/>
+</map>

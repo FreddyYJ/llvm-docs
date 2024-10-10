@@ -1,0 +1,122 @@
+<map id="include/llvm/ADT/bit.h" name="include/llvm/ADT/bit.h">
+<area shape="rect" id="Node000001" title="This file implements the C++20 &lt;bit&gt; header." alt="" coords="6871,5,7037,31"/>
+<area shape="rect" id="Node000002" href="$PointerSumType_8h.html" title=" " alt="" coords="2600,79,2783,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="6857,24,2783,98,2783,93,6857,18"/>
+<area shape="rect" id="Node001346" href="$MCInst_8h.html" title=" " alt="" coords="4569,181,4757,207"/>
+<area shape="poly" id="edge12_Node000001_Node001346" title=" " alt="" coords="6857,29,4758,188,4757,183,6857,24"/>
+<area shape="rect" id="Node001720" href="$APInt_8cpp.html" title=" " alt="" coords="6875,86,7033,111"/>
+<area shape="poly" id="edge60_Node000001_Node001720" title=" " alt="" coords="6957,44,6957,86,6951,86,6951,44"/>
+<area shape="rect" id="Node001721" href="$AArch64AddressingModes_8h.html" title=" " alt="" coords="8461,167,8711,221"/>
+<area shape="poly" id="edge61_Node000001_Node001721" title=" " alt="" coords="7051,27,8461,177,8460,182,7051,32"/>
+<area shape="rect" id="Node001723" href="$ARMAddressingModes_8h.html" title=" " alt="" coords="8789,79,9002,119"/>
+<area shape="poly" id="edge69_Node000001_Node001723" title=" " alt="" coords="7051,21,8789,90,8788,96,7051,26"/>
+<area shape="rect" id="Node000003" href="$MemoryDependenceAnalysis_8h.html" title=" " alt="" coords="2577,174,2805,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2694,132,2694,174,2689,174,2689,132"/>
+<area shape="rect" id="Node000012" href="$MachineInstr_8h.html" title=" " alt="" coords="649,174,814,214"/>
+<area shape="poly" id="edge3_Node000002_Node000012" title=" " alt="" coords="2586,108,814,191,814,186,2586,102"/>
+<area shape="rect" id="Node000334" href="$AsmPrinter_8cpp.html" title=" " alt="" coords="851,277,1028,317"/>
+<area shape="poly" id="edge4_Node000012_Node000334" title=" " alt="" coords="784,218,901,274,899,279,782,222"/>
+<area shape="rect" id="Node000395" href="$AArch64AsmPrinter_8cpp.html" title=" " alt="" coords="5841,372,6019,412"/>
+<area shape="poly" id="edge5_Node000012_Node000395" title=" " alt="" coords="635,202,477,210,297,224,143,244,91,257,64,271,55,284,52,297,55,310,63,322,82,326,128,330,298,338,891,350,1720,359,2669,364,4452,369,5293,369,5840,385,5840,390,5293,375,4452,374,2669,369,1720,364,890,356,298,343,128,336,81,331,60,326,50,312,47,297,50,282,60,267,89,252,142,239,296,219,476,205,635,196"/>
+<area shape="rect" id="Node000403" href="$AArch64InstrInfo_8cpp.html" title=" " alt="" coords="5119,372,5280,412"/>
+<area shape="poly" id="edge6_Node000012_Node000403" title=" " alt="" coords="635,201,466,209,272,222,106,243,49,256,31,264,20,271,11,284,8,297,11,310,19,322,66,328,188,334,615,344,1897,359,3789,369,5119,387,5118,392,3789,375,1897,364,615,350,188,339,65,333,17,326,6,312,3,297,6,282,16,267,28,259,48,251,105,238,272,217,466,203,635,196"/>
+<area shape="rect" id="Node000563" href="$AArch64MCInstLower_8cpp.html" title=" " alt="" coords="1052,277,1243,317"/>
+<area shape="poly" id="edge7_Node000012_Node000563" title=" " alt="" coords="823,215,1040,267,1070,274,1069,279,1039,272,822,220"/>
+<area shape="rect" id="Node000566" href="$AMDGPUMCInstLower_8cpp.html" title="Code to lower AMDGPU MachineInstrs to their corresponding MCInst." alt="" coords="1267,277,1521,317"/>
+<area shape="poly" id="edge8_Node000012_Node000566" title=" " alt="" coords="828,205,1025,232,1254,267,1297,274,1296,279,1253,272,1024,237,828,210"/>
+<area shape="rect" id="Node000227" href="$GCNVOPDUtils_8cpp.html" title=" " alt="" coords="74,284,346,309"/>
+<area shape="poly" id="edge9_Node000012_Node000227" title=" " alt="" coords="635,216,270,287,269,281,634,211"/>
+<area shape="rect" id="Node000570" href="$ARCAsmPrinter_8cpp.html" title=" " alt="" coords="370,284,613,309"/>
+<area shape="poly" id="edge10_Node000012_Node000570" title=" " alt="" coords="674,222,520,286,518,281,672,217"/>
+<area shape="rect" id="Node000571" href="$ARCMCInstLower_8cpp.html" title="This file contains code to lower ARC MachineInstrs to their corresponding MCInst records." alt="" coords="637,277,826,317"/>
+<area shape="poly" id="edge11_Node000012_Node000571" title=" " alt="" coords="734,228,734,277,729,277,729,228"/>
+<area shape="poly" id="edge23_Node001346_Node000334" title=" " alt="" coords="4556,199,2646,230,1582,251,1218,262,1040,272,1003,279,1002,274,1039,267,1218,257,1582,246,2646,224,4556,194"/>
+<area shape="poly" id="edge39_Node001346_Node000395" title=" " alt="" coords="4676,218,4707,278,4725,306,4741,322,4789,332,4893,342,5206,361,5840,385,5840,391,5206,366,4893,347,4789,337,4738,326,4721,309,4703,281,4672,221"/>
+<area shape="poly" id="edge40_Node001346_Node000403" title=" " alt="" coords="4664,220,4665,245,4670,273,4680,300,4697,322,4727,340,4770,355,4823,366,4883,374,5008,385,5119,388,5118,393,5007,390,4882,380,4822,371,4769,360,4725,345,4693,326,4675,302,4665,274,4660,245,4659,220"/>
+<area shape="poly" id="edge41_Node001346_Node000563" title=" " alt="" coords="4555,200,2757,231,1762,253,1422,263,1256,272,1216,279,1215,274,1255,267,1422,258,1762,247,2757,226,4555,194"/>
+<area shape="poly" id="edge48_Node001346_Node000566" title=" " alt="" coords="4556,200,2969,227,2067,249,1735,260,1539,272,1487,279,1486,274,1539,267,1735,255,2067,243,2968,222,4555,194"/>
+<area shape="poly" id="edge51_Node001346_Node000227" title=" " alt="" coords="4555,200,2251,236,967,258,358,272,263,287,262,281,358,267,967,252,2251,230,4555,194"/>
+<area shape="poly" id="edge55_Node001346_Node000570" title=" " alt="" coords="4556,199,2433,231,1236,253,826,263,625,272,539,287,539,281,624,267,826,258,1236,248,2433,226,4556,194"/>
+<area shape="poly" id="edge56_Node001346_Node000571" title=" " alt="" coords="4556,199,2542,229,1414,251,1027,262,838,272,799,279,798,274,838,267,1027,257,1414,246,2542,224,4556,194"/>
+<area shape="rect" id="Node001347" href="$MCFragment_8h.html" title=" " alt="" coords="1595,284,1822,309"/>
+<area shape="poly" id="edge13_Node001346_Node001347" title=" " alt="" coords="4556,200,3116,227,2307,248,2010,260,1834,272,1754,287,1753,281,1834,267,2009,255,2306,243,3116,222,4555,194"/>
+<area shape="rect" id="Node001441" href="$MCAssembler_8cpp.html" title=" " alt="" coords="3595,379,3777,405"/>
+<area shape="poly" id="edge27_Node001346_Node001441" title=" " alt="" coords="4659,221,4635,276,4615,304,4589,326,4542,341,4463,354,4238,373,3986,385,3778,391,3777,386,3985,380,4238,367,4462,348,4541,336,4586,322,4611,300,4630,273,4654,219"/>
+<area shape="rect" id="Node001442" href="$MCContext_8cpp.html" title=" " alt="" coords="1551,379,1717,405"/>
+<area shape="poly" id="edge28_Node001346_Node001442" title=" " alt="" coords="4555,200,2876,229,1983,250,1696,261,1615,267,1585,272,1577,283,1575,296,1584,326,1604,355,1624,377,1620,381,1599,358,1580,328,1570,297,1572,281,1582,267,1615,261,1696,256,1982,245,2876,223,4555,194"/>
+<area shape="rect" id="Node001668" href="$MCInstBuilder_8h.html" title=" " alt="" coords="6884,284,7117,309"/>
+<area shape="poly" id="edge16_Node001346_Node001668" title=" " alt="" coords="4772,194,5204,201,5811,214,6423,236,6678,250,6872,267,6954,281,6953,287,6871,272,6678,255,6423,241,5811,219,5204,206,4772,199"/>
+<area shape="rect" id="Node000423" href="$ARMAsmPrinter_8cpp.html" title=" " alt="" coords="7631,379,7879,405"/>
+<area shape="poly" id="edge59_Node001346_Node000423" title=" " alt="" coords="4771,193,5451,200,6430,213,6910,223,7319,235,7608,250,7693,258,7731,267,7751,293,7759,325,7761,355,7760,379,7754,379,7756,355,7754,326,7746,296,7728,272,7693,263,7608,255,7318,241,6909,229,6430,219,5451,205,4771,199"/>
+<area shape="rect" id="Node001669" href="$MCInstrAnalysis_8h.html" title=" " alt="" coords="4751,284,4999,309"/>
+<area shape="poly" id="edge20_Node001346_Node001669" title=" " alt="" coords="4701,210,4852,282,4850,286,4699,215"/>
+<area shape="rect" id="Node001682" href="$CodeEmitter_8h.html" title="A utility class used to compute instruction encodings." alt="" coords="5023,284,5255,309"/>
+<area shape="poly" id="edge21_Node001346_Node001682" title=" " alt="" coords="4731,207,5086,281,5085,287,4730,212"/>
+<area shape="rect" id="Node001684" href="$CustomBehaviour_8h.html" title="This file defines the base class CustomBehaviour which can be inherited from by specific targets (ex." alt="" coords="5279,284,5546,309"/>
+<area shape="poly" id="edge22_Node001346_Node001684" title=" " alt="" coords="4771,204,5000,231,5268,267,5354,281,5353,287,5267,272,4999,236,4771,209"/>
+<area shape="rect" id="Node001434" href="$RuntimeDyldChecker_8cpp.html" title=" " alt="" coords="5571,277,5849,317"/>
+<area shape="poly" id="edge24_Node001346_Node001434" title=" " alt="" coords="4772,199,5122,223,5340,242,5558,267,5608,274,5607,279,5558,272,5339,248,5122,228,4771,204"/>
+<area shape="rect" id="Node001604" href="$LTOModule_8cpp.html" title=" " alt="" coords="5873,284,6043,309"/>
+<area shape="poly" id="edge25_Node001346_Node001604" title=" " alt="" coords="4771,192,4975,195,5246,205,5553,227,5710,245,5862,267,5923,281,5922,287,5861,272,5709,250,5553,233,5246,210,4974,200,4771,197"/>
+<area shape="rect" id="Node001440" href="$MCAsmStreamer_8cpp.html" title=" " alt="" coords="6067,284,6270,309"/>
+<area shape="poly" id="edge26_Node001346_Node001440" title=" " alt="" coords="4771,192,5004,194,5323,204,5687,227,5874,244,6056,267,6127,281,6126,287,6055,272,5873,250,5687,232,5323,210,5004,200,4771,197"/>
+<area shape="rect" id="Node001444" href="$Disassembler_8cpp.html" title=" " alt="" coords="6295,277,6472,317"/>
+<area shape="poly" id="edge29_Node001346_Node001444" title=" " alt="" coords="4771,195,5098,202,5534,217,5967,238,6146,251,6282,267,6319,274,6318,279,6281,272,6146,257,5966,243,5534,222,5098,208,4771,200"/>
+<area shape="rect" id="Node001446" href="$MCExternalSymbolizer_8cpp.html" title=" " alt="" coords="6497,277,6697,317"/>
+<area shape="poly" id="edge30_Node001346_Node001446" title=" " alt="" coords="4771,194,5135,202,5630,216,6124,237,6329,251,6485,267,6525,274,6524,279,6484,272,6329,256,6123,242,5629,221,5135,207,4771,200"/>
+<area shape="rect" id="Node001692" href="$MCInst_8cpp.html" title=" " alt="" coords="6721,284,6859,309"/>
+<area shape="poly" id="edge31_Node001346_Node001692" title=" " alt="" coords="4771,193,5175,195,5736,205,6026,214,6298,227,6532,245,6709,267,6762,281,6760,287,6708,272,6532,250,6298,233,6026,220,5736,211,5175,201,4771,198"/>
+<area shape="rect" id="Node001693" href="$MCInstPrinter_8cpp.html" title=" " alt="" coords="7142,284,7323,309"/>
+<area shape="poly" id="edge32_Node001346_Node001693" title=" " alt="" coords="4771,193,5248,196,5931,206,6288,215,6623,228,6912,245,7130,267,7196,281,7195,287,7129,272,6912,250,6623,233,6288,220,5930,211,5248,201,4771,198"/>
+<area shape="rect" id="Node001694" href="$MCInstrDesc_8cpp.html" title=" " alt="" coords="7347,284,7523,309"/>
+<area shape="poly" id="edge33_Node001346_Node001694" title=" " alt="" coords="4771,192,5284,194,6026,202,6415,211,6782,225,7097,243,7336,267,7400,281,7399,287,7335,272,7097,248,6781,230,6415,217,6026,208,5284,199,4771,198"/>
+<area shape="rect" id="Node001695" href="$MCInstrInfo_8cpp.html" title=" " alt="" coords="7548,284,7717,309"/>
+<area shape="poly" id="edge34_Node001346_Node001695" title=" " alt="" coords="4771,192,5317,192,6118,199,6539,208,6936,221,7278,241,7419,253,7536,267,7598,281,7597,287,7535,272,7418,258,7277,246,6936,227,6539,213,6117,204,5317,197,4771,197"/>
+<area shape="rect" id="Node001696" href="$MCSchedule_8cpp.html" title=" " alt="" coords="1847,284,2021,309"/>
+<area shape="poly" id="edge35_Node001346_Node001696" title=" " alt="" coords="4556,200,3215,225,2468,246,2195,259,2033,272,1970,287,1969,281,2032,267,2194,253,2468,241,3215,219,4555,194"/>
+<area shape="rect" id="Node001460" href="$MCStreamer_8cpp.html" title=" " alt="" coords="2045,284,2220,309"/>
+<area shape="poly" id="edge36_Node001346_Node001460" title=" " alt="" coords="4556,198,4084,200,3412,210,3060,220,2730,232,2446,250,2232,272,2168,287,2167,281,2231,267,2446,244,2730,227,3060,214,3412,205,4084,195,4556,193"/>
+<area shape="rect" id="Node001671" href="$InstrBuilder_8cpp.html" title="This file implements the InstrBuilder interface." alt="" coords="2244,284,2421,309"/>
+<area shape="poly" id="edge37_Node001346_Node001671" title=" " alt="" coords="4556,198,4119,202,3505,213,3186,223,2886,235,2628,252,2433,272,2369,287,2368,281,2432,267,2627,246,2886,230,3185,217,3505,208,4119,197,4556,193"/>
+<area shape="rect" id="Node001697" href="$View_8cpp.html" title="This file defines the virtual anchor method in View.h to pin the vtable." alt="" coords="2445,284,2580,309"/>
+<area shape="poly" id="edge38_Node001346_Node001697" title=" " alt="" coords="4555,198,4147,200,3579,210,3284,219,3009,232,2772,249,2593,272,2542,287,2540,281,2592,267,2771,244,3009,227,3284,214,3579,204,4147,195,4555,193"/>
+<area shape="rect" id="Node000727" href="$AArch64AsmParser_8cpp.html" title=" " alt="" coords="8594,277,8842,317"/>
+<area shape="poly" id="edge42_Node001346_Node000727" title=" " alt="" coords="4771,192,5489,192,6593,199,7183,207,7739,221,8220,240,8419,253,8582,267,8632,274,8631,279,8582,272,8418,258,8220,246,7739,226,7182,213,6593,204,5489,197,4771,198"/>
+<area shape="rect" id="Node001698" href="$AArch64Disassembler_8cpp.html" title=" " alt="" coords="8866,277,9154,317"/>
+<area shape="poly" id="edge43_Node001346_Node001698" title=" " alt="" coords="4771,192,5534,193,6717,201,7349,210,7947,223,8465,242,8678,253,8854,267,8911,274,8911,279,8854,272,8678,259,8464,247,7947,228,7349,215,6717,206,5534,198,4771,198"/>
+<area shape="rect" id="Node001467" href="$AArch64ExternalSymbolizer_8cpp.html" title=" " alt="" coords="7793,269,8019,324"/>
+<area shape="poly" id="edge44_Node001346_Node001467" title=" " alt="" coords="4771,193,5357,195,6226,205,6686,215,7118,227,7492,245,7774,267,7793,269,7792,274,7774,272,7492,250,7118,233,6685,220,6226,211,5357,201,4771,198"/>
+<area shape="rect" id="Node001353" href="$AArch64ELFStreamer_8cpp.html" title=" " alt="" coords="2605,277,2890,317"/>
+<area shape="poly" id="edge45_Node001346_Node001353" title=" " alt="" coords="4555,198,4268,201,3859,211,3385,233,3141,250,2902,272,2848,279,2847,274,2902,267,3140,245,3384,228,3859,205,4268,195,4555,193"/>
+<area shape="rect" id="Node001699" href="$AArch64InstPrinter_8cpp.html" title=" " alt="" coords="8044,277,8315,317"/>
+<area shape="poly" id="edge46_Node001346_Node001699" title=" " alt="" coords="4771,193,5400,196,6343,206,6844,215,7316,228,7724,245,8031,267,8086,274,8085,279,8031,272,7724,250,7316,233,6844,221,6343,211,5400,201,4771,198"/>
+<area shape="rect" id="Node001471" href="$AArch64MCCodeEmitter_8cpp.html" title=" " alt="" coords="8339,269,8569,324"/>
+<area shape="poly" id="edge47_Node001346_Node001471" title=" " alt="" coords="4771,192,5449,192,6479,199,7027,207,7544,221,7991,240,8175,253,8328,267,8339,268,8338,273,8327,272,8175,258,7991,246,7544,226,7027,213,6479,204,5449,197,4771,198"/>
+<area shape="rect" id="Node000746" href="$AMDGPUAsmParser_8cpp.html" title=" " alt="" coords="2914,277,3133,317"/>
+<area shape="poly" id="edge49_Node001346_Node000746" title=" " alt="" coords="4556,197,4304,199,3954,209,3552,231,3346,249,3145,272,3102,279,3101,274,3144,267,3346,244,3552,226,3954,203,4304,194,4556,192"/>
+<area shape="rect" id="Node001700" href="$AMDGPUDisassembler_8h.html" title="This file contains declaration for AMDGPU ISA disassembler." alt="" coords="3157,277,3396,317"/>
+<area shape="poly" id="edge50_Node001346_Node001700" title=" " alt="" coords="4555,199,4344,205,4059,217,3735,239,3409,272,3363,279,3362,274,3408,267,3735,233,4058,212,4343,200,4555,194"/>
+<area shape="rect" id="Node001701" href="$AMDGPUInstPrinter_8cpp.html" title=" " alt="" coords="3421,277,3631,317"/>
+<area shape="poly" id="edge52_Node001346_Node001701" title=" " alt="" coords="4556,201,4381,207,4153,220,3899,241,3644,272,3603,279,3602,274,3643,267,3899,236,4153,215,4381,202,4555,195"/>
+<area shape="rect" id="Node001702" href="$R600InstPrinter_8cpp.html" title=" " alt="" coords="3655,277,3866,317"/>
+<area shape="poly" id="edge53_Node001346_Node001702" title=" " alt="" coords="4556,204,4250,227,4064,247,3878,272,3839,279,3838,274,3877,267,4064,241,4250,222,4555,199"/>
+<area shape="rect" id="Node001478" href="$R600MCCodeEmitter_8cpp.html" title="The R600 code emitter produces machine code that can be executed directly on the GPU device." alt="" coords="3890,277,4109,317"/>
+<area shape="poly" id="edge54_Node001346_Node001478" title=" " alt="" coords="4556,210,4353,236,4121,272,4083,279,4082,274,4120,267,4353,231,4555,205"/>
+<area shape="rect" id="Node001304" href="$ARCDisassembler_8cpp.html" title="This file is part of the ARC Disassembler." alt="" coords="4133,277,4340,317"/>
+<area shape="poly" id="edge57_Node001346_Node001304" title=" " alt="" coords="4602,212,4317,279,4316,274,4601,207"/>
+<area shape="rect" id="Node001656" href="$ARCInstPrinter_8cpp.html" title=" " alt="" coords="4365,277,4575,317"/>
+<area shape="poly" id="edge58_Node001346_Node001656" title=" " alt="" coords="4630,216,4507,279,4505,274,4628,211"/>
+<area shape="poly" id="edge14_Node001347_Node001441" title=" " alt="" coords="1768,310,1834,321,1996,336,2210,349,2723,368,3231,380,3594,387,3594,392,3231,386,2722,373,2209,354,1996,341,1834,327,1767,315"/>
+<area shape="poly" id="edge15_Node001347_Node001442" title=" " alt="" coords="1693,321,1645,381,1641,378,1689,318"/>
+<area shape="poly" id="edge17_Node001668_Node000395" title=" " alt="" coords="6939,315,6872,327,6631,354,6392,372,6020,391,6020,385,6392,367,6630,348,6871,321,6938,310"/>
+<area shape="poly" id="edge18_Node001668_Node000403" title=" " alt="" coords="6940,315,6872,327,6600,343,6134,362,5280,391,5280,386,6133,357,6600,338,6871,321,6939,310"/>
+<area shape="poly" id="edge19_Node001668_Node000423" title=" " alt="" coords="7065,309,7130,321,7398,356,7631,378,7631,383,7397,361,7129,327,7064,315"/>
+<area shape="poly" id="edge62_Node001721_Node000395" title=" " alt="" coords="8724,199,8869,209,9021,223,9146,243,9188,254,9212,267,9222,282,9225,297,9222,312,9211,326,9175,332,9086,338,8773,348,7800,368,6019,392,6019,387,7800,363,8773,343,9086,332,9175,327,9208,322,9217,310,9220,297,9217,284,9208,271,9186,259,9145,248,9020,229,8869,215,8724,205"/>
+<area shape="poly" id="edge63_Node001721_Node000403" title=" " alt="" coords="8724,201,8858,211,8995,226,9108,244,9146,255,9168,267,9178,282,9181,297,9178,312,9167,326,9124,333,9015,338,8637,348,7502,363,5829,375,5280,391,5280,385,5829,369,7502,357,8637,343,9015,333,9123,327,9165,322,9173,310,9176,297,9173,284,9164,271,9144,260,9107,249,8995,231,8857,217,8724,206"/>
+<area shape="poly" id="edge64_Node001721_Node000727" title=" " alt="" coords="8633,228,8695,274,8691,279,8630,232"/>
+<area shape="poly" id="edge65_Node001721_Node001698" title=" " alt="" coords="8710,222,8931,274,8930,279,8709,227"/>
+<area shape="poly" id="edge66_Node001721_Node001467" title=" " alt="" coords="8448,214,8251,239,8033,272,8020,274,8019,269,8032,267,8250,234,8447,209"/>
+<area shape="poly" id="edge67_Node001721_Node001699" title=" " alt="" coords="8468,227,8256,279,8255,274,8466,222"/>
+<area shape="poly" id="edge68_Node001721_Node001471" title=" " alt="" coords="8542,232,8490,271,8487,267,8539,227"/>
+<area shape="poly" id="edge70_Node001723_Node000423" title=" " alt="" coords="8987,120,9093,153,9145,175,9193,199,9230,227,9253,257,9258,274,9257,291,9249,308,9236,326,9216,335,9177,343,9052,357,8877,368,8670,376,8231,388,7879,392,7879,387,8231,382,8669,371,8876,363,9051,352,9176,338,9214,330,9232,322,9245,306,9251,290,9252,274,9248,260,9226,231,9190,204,9143,180,9091,158,8986,125"/>
+</map>

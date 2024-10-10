@@ -1,0 +1,330 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classllvm_1_1LiveRangeEdit_1_1Delegate.html" title="Callback methods for LiveRangeEdit owners." alt="" coords="455,19,607,59"/>
+<area shape="rect" id="Node000001" href="$classllvm_1_1RAGreedy.html" title=" " alt="" coords="803,55,927,80"/>
+<area shape="poly" id="edge3525_Node000000_Node000001" title=" " alt="" coords="621,44,803,60,802,65,621,49"/>
+<area shape="rect" id="Node000128" href="$classllvm_1_1Pass.html" title="Pass interface &#45; Implemented by all &#39;passes&#39;." alt="" coords="5,4113,93,4139"/>
+<area shape="rect" id="Node000129" href="$classllvm_1_1CallGraphSCCPass.html" title=" " alt="" coords="149,4064,327,4089"/>
+<area shape="poly" id="edge3526_Node000128_Node000129" title=" " alt="" coords="106,4109,188,4087,189,4092,107,4114"/>
+<area shape="rect" id="Node000072" href="$classllvm_1_1FunctionPass.html" title="FunctionPass class &#45; This class is used to implement most global optimizations." alt="" coords="167,2309,309,2335"/>
+<area shape="poly" id="edge3530_Node000128_Node000072" title=" " alt="" coords="51,4099,233,2335,238,2335,56,4100"/>
+<area shape="rect" id="Node000133" href="$classllvm_1_1LoopPass.html" title=" " alt="" coords="179,4113,297,4139"/>
+<area shape="poly" id="edge3642_Node000128_Node000133" title=" " alt="" coords="107,4123,178,4123,178,4129,107,4129"/>
+<area shape="rect" id="Node000093" href="$classllvm_1_1ModulePass.html" title="ModulePass class &#45; This class is used to implement unstructured interprocedural optimizations and ana..." alt="" coords="170,3717,306,3743"/>
+<area shape="poly" id="edge3644_Node000128_Node000093" title=" " alt="" coords="60,4100,228,3742,233,3744,65,4102"/>
+<area shape="rect" id="Node000135" href="$classllvm_1_1RegionPass.html" title="A pass that runs on each Region in a function." alt="" coords="171,4163,305,4188"/>
+<area shape="poly" id="edge3680_Node000128_Node000135" title=" " alt="" coords="107,4139,142,4149,186,4160,184,4165,141,4154,106,4144"/>
+<area shape="rect" id="Node000136" href="$classllvm_1_1legacy_1_1FunctionPassManagerImpl.html" title="FunctionPassManagerImpl manages FPPassManagers." alt="" coords="435,4231,628,4271"/>
+<area shape="poly" id="edge3681_Node000128_Node000136" title=" " alt="" coords="73,4147,104,4175,142,4198,216,4223,293,4239,368,4248,435,4251,435,4256,368,4253,292,4244,215,4228,140,4203,101,4179,70,4151"/>
+<area shape="rect" id="Node000138" href="$classllvm_1_1legacy_1_1PassManagerImpl.html" title="PassManagerImpl manages MPPassManagers." alt="" coords="419,4296,643,4321"/>
+<area shape="poly" id="edge3682_Node000128_Node000138" title=" " alt="" coords="58,4152,68,4187,84,4229,109,4269,124,4286,143,4300,185,4320,231,4334,278,4340,326,4342,415,4333,486,4319,487,4324,416,4339,326,4347,278,4346,230,4339,183,4325,140,4304,121,4290,104,4272,79,4231,63,4189,53,4153"/>
+<area shape="rect" id="Node000130" href="$structllvm_1_1AMDGPUPerfHintAnalysis.html" title=" " alt="" coords="418,4033,645,4059"/>
+<area shape="poly" id="edge3527_Node000129_Node000130" title=" " alt="" coords="341,4063,418,4055,418,4060,342,4069"/>
+<area shape="rect" id="Node000131" href="$classllvm_1_1DummyCGSCCPass.html" title="This pass is required by interprocedural register allocation." alt="" coords="439,4083,624,4108"/>
+<area shape="poly" id="edge3528_Node000129_Node000131" title=" " alt="" coords="341,4081,439,4087,438,4092,341,4086"/>
+<area shape="rect" id="Node000132" href="$structllvm_1_1LegacyInlinerBase.html" title="This class contains all of the helper code which is used to perform the inlining operations that do n..." alt="" coords="442,4132,621,4157"/>
+<area shape="poly" id="edge3529_Node000129_Node000132" title=" " alt="" coords="305,4090,336,4099,383,4118,442,4131,441,4136,382,4123,334,4105,304,4096"/>
+<area shape="rect" id="Node000073" href="$classllvm_1_1AAEvalLegacyPass.html" title=" " alt="" coords="441,1180,621,1205"/>
+<area shape="poly" id="edge3531_Node000072_Node000073" title=" " alt="" coords="238,2295,254,2070,284,1726,304,1551,326,1396,352,1279,366,1239,381,1215,408,1196,440,1187,442,1192,411,1201,385,1219,371,1241,357,1280,332,1397,309,1551,289,1726,259,2070,244,2296"/>
+<area shape="rect" id="Node000074" href="$classllvm_1_1AAResultsWrapperPass.html" title="A wrapper pass to provide the legacy pass manager access to a suitably prepared AAResults object." alt="" coords="427,1229,636,1255"/>
+<area shape="poly" id="edge3532_Node000072_Node000074" title=" " alt="" coords="236,2296,237,2093,242,1944,252,1782,269,1619,295,1470,312,1404,331,1347,354,1300,381,1264,402,1249,425,1239,427,1244,404,1253,385,1268,359,1302,336,1349,317,1406,300,1471,274,1620,257,1782,247,1945,242,2093,242,2296"/>
+<area shape="rect" id="Node000075" href="$classllvm_1_1BasicAAWrapperPass.html" title="Legacy wrapper pass to provide the BasicAAResult object." alt="" coords="434,1279,629,1304"/>
+<area shape="poly" id="edge3533_Node000072_Node000075" title=" " alt="" coords="236,2295,239,2102,244,1960,255,1806,273,1652,298,1510,315,1448,334,1393,356,1349,381,1315,405,1297,433,1288,435,1293,407,1302,385,1319,360,1351,339,1395,320,1449,303,1511,278,1652,261,1806,250,1961,244,2102,242,2296"/>
+<area shape="rect" id="Node000076" href="$classllvm_1_1BlockFrequencyInfoWrapperPass.html" title="Legacy analysis pass which computes BlockFrequencyInfo." alt="" coords="438,1329,625,1369"/>
+<area shape="poly" id="edge3534_Node000072_Node000076" title=" " alt="" coords="237,2295,242,2113,249,1981,261,1837,278,1694,303,1561,319,1503,337,1453,358,1411,381,1379,407,1360,437,1349,439,1354,409,1364,385,1383,362,1413,342,1455,324,1505,309,1563,284,1694,266,1838,254,1982,247,2114,242,2296"/>
+<area shape="rect" id="Node000077" href="$classllvm_1_1BranchProbabilityInfoWrapperPass.html" title="Legacy analysis pass which computes BranchProbabilityInfo." alt="" coords="432,1393,631,1433"/>
+<area shape="poly" id="edge3535_Node000072_Node000077" title=" " alt="" coords="237,2296,244,2125,252,2002,264,1868,283,1734,307,1612,322,1558,340,1511,359,1472,381,1443,404,1425,431,1415,433,1420,407,1430,385,1447,363,1475,344,1513,327,1560,312,1613,288,1735,270,1868,257,2002,249,2125,242,2296"/>
+<area shape="rect" id="Node000078" href="$classllvm_1_1CycleInfoWrapperPass.html" title="Legacy analysis pass which computes a CycleInfo." alt="" coords="429,1457,633,1483"/>
+<area shape="poly" id="edge3536_Node000072_Node000078" title=" " alt="" coords="237,2296,245,2133,253,2017,266,1891,285,1766,309,1651,324,1601,341,1557,360,1521,381,1493,403,1478,428,1468,430,1473,405,1482,385,1497,364,1524,346,1559,329,1602,314,1652,290,1767,272,1892,259,2017,250,2134,243,2296"/>
+<area shape="rect" id="Node000079" href="$classllvm_1_1DOTGraphTraitsPrinterWrapperPass.html" title=" " alt="" coords="412,1507,651,1577"/>
+<area shape="poly" id="edge3537_Node000072_Node000079" title=" " alt="" coords="238,2296,250,2151,276,1938,295,1828,318,1728,347,1644,363,1612,381,1587,410,1564,413,1568,385,1591,367,1615,352,1646,323,1729,300,1830,281,1939,255,2151,244,2296"/>
+<area shape="rect" id="Node000080" href="$classllvm_1_1DOTGraphTraitsViewerWrapperPass.html" title=" " alt="" coords="412,1601,651,1670"/>
+<area shape="poly" id="edge3538_Node000072_Node000080" title=" " alt="" coords="239,2295,254,2166,282,1982,301,1888,324,1801,350,1729,365,1702,381,1680,410,1658,413,1662,385,1684,369,1704,355,1732,329,1803,306,1889,287,1983,259,2167,244,2296"/>
+<area shape="rect" id="Node000081" href="$classllvm_1_1DemandedBitsWrapperPass.html" title=" " alt="" coords="412,1695,651,1720"/>
+<area shape="poly" id="edge3539_Node000072_Node000081" title=" " alt="" coords="239,2295,254,2174,282,2004,301,1917,324,1838,350,1774,365,1749,381,1731,410,1712,413,1717,384,1735,369,1752,355,1776,329,1840,306,1919,287,2005,259,2175,245,2296"/>
+<area shape="rect" id="Node000082" href="$classllvm_1_1DependenceAnalysisWrapperPass.html" title="Legacy pass manager pass to access dependence information." alt="" coords="434,1745,629,1785"/>
+<area shape="poly" id="edge3540_Node000072_Node000082" title=" " alt="" coords="240,2295,257,2187,287,2036,307,1960,329,1890,353,1833,381,1795,405,1778,433,1767,435,1772,408,1783,385,1799,358,1836,334,1892,312,1961,292,2037,263,2188,246,2296"/>
+<area shape="rect" id="Node000083" href="$classllvm_1_1DominanceFrontierWrapperPass.html" title=" " alt="" coords="398,1809,665,1835"/>
+<area shape="poly" id="edge3541_Node000072_Node000083" title=" " alt="" coords="236,2296,238,2208,244,2149,256,2085,274,2019,299,1955,335,1895,381,1844,397,1833,400,1837,384,1848,339,1898,304,1957,279,2021,261,2086,250,2150,244,2208,241,2296"/>
+<area shape="rect" id="Node000084" href="$classllvm_1_1DominatorTreeWrapperPass.html" title="Legacy analysis pass which computes a DominatorTree." alt="" coords="412,1859,651,1884"/>
+<area shape="poly" id="edge3542_Node000072_Node000084" title=" " alt="" coords="237,2295,242,2216,250,2163,262,2106,281,2048,306,1991,339,1938,381,1893,410,1876,413,1881,384,1897,343,1941,310,1993,285,2049,268,2107,255,2164,248,2216,242,2296"/>
+<area shape="rect" id="Node000085" href="$classllvm_1_1GVNHoistLegacyPass.html" title=" " alt="" coords="433,1908,630,1933"/>
+<area shape="poly" id="edge3543_Node000072_Node000085" title=" " alt="" coords="238,2295,247,2223,269,2127,287,2076,312,2027,343,1981,381,1943,405,1928,432,1919,433,1925,407,1933,384,1947,347,1985,316,2030,292,2078,274,2129,252,2224,243,2296"/>
+<area shape="rect" id="Node000086" href="$classllvm_1_1InjectTLIMappingsLegacy.html" title=" " alt="" coords="420,1957,643,1983"/>
+<area shape="poly" id="edge3544_Node000072_Node000086" title=" " alt="" coords="240,2295,252,2232,276,2149,295,2105,318,2063,346,2025,381,1992,399,1981,419,1973,421,1978,402,1985,384,1996,350,2028,322,2066,299,2108,281,2151,257,2233,245,2296"/>
+<area shape="rect" id="Node000087" href="$classllvm_1_1InstructionCombiningPass.html" title="The legacy pass manager&#39;s instcombine pass." alt="" coords="418,2007,645,2032"/>
+<area shape="poly" id="edge3545_Node000072_Node000087" title=" " alt="" coords="242,2295,257,2240,283,2171,302,2135,324,2100,350,2068,381,2041,417,2024,419,2029,384,2046,354,2072,328,2103,306,2137,288,2173,262,2242,247,2296"/>
+<area shape="rect" id="Node000088" href="$classllvm_1_1IntervalPartition.html" title=" " alt="" coords="450,2056,613,2081"/>
+<area shape="poly" id="edge3546_Node000072_Node000088" title=" " alt="" coords="245,2295,263,2249,291,2193,330,2137,354,2112,381,2090,414,2075,449,2067,450,2072,416,2080,384,2095,358,2116,334,2140,296,2196,268,2251,250,2297"/>
+<area shape="rect" id="Node000089" href="$structllvm_1_1LCSSAVerificationPass.html" title=" " alt="" coords="430,2105,633,2131"/>
+<area shape="poly" id="edge3547_Node000072_Node000089" title=" " alt="" coords="249,2296,270,2260,299,2218,337,2176,381,2141,404,2130,429,2123,431,2128,406,2135,384,2146,340,2179,303,2221,274,2263,254,2298"/>
+<area shape="rect" id="Node000090" href="$classllvm_1_1LPPassManager.html" title=" " alt="" coords="451,3269,611,3295"/>
+<area shape="poly" id="edge3548_Node000072_Node000090" title=" " alt="" coords="242,2348,246,2530,253,2661,265,2804,283,2947,308,3077,323,3134,341,3184,362,3225,385,3255,399,3266,415,3274,452,3283,451,3288,413,3279,396,3271,381,3259,357,3227,336,3186,318,3136,303,3078,277,2947,260,2804,248,2661,241,2530,237,2348"/>
+<area shape="rect" id="Node000140" href="$classllvm_1_1LazyBlockFrequencyInfoPass.html" title="This is an alternative analysis pass to BlockFrequencyInfoWrapperPass." alt="" coords="435,2155,627,2195"/>
+<area shape="poly" id="edge3549_Node000072_Node000140" title=" " alt="" coords="259,2297,312,2250,345,2226,382,2205,434,2187,436,2192,384,2210,348,2230,315,2254,263,2301"/>
+<area shape="rect" id="Node000141" href="$classllvm_1_1LazyBranchProbabilityInfoPass.html" title="This is an alternative analysis pass to BranchProbabilityInfoWrapperPass." alt="" coords="429,2219,633,2259"/>
+<area shape="poly" id="edge3550_Node000072_Node000141" title=" " alt="" coords="284,2302,382,2269,429,2257,430,2262,383,2274,285,2307"/>
+<area shape="rect" id="Node000142" href="$classllvm_1_1LazyValueInfoWrapperPass.html" title="Wrapper around LazyValueInfo." alt="" coords="414,2284,649,2309"/>
+<area shape="poly" id="edge3551_Node000072_Node000142" title=" " alt="" coords="323,2312,414,2304,414,2309,323,2317"/>
+<area shape="rect" id="Node000143" href="$classllvm_1_1LegacyDivergenceAnalysis.html" title=" " alt="" coords="414,2333,649,2359"/>
+<area shape="poly" id="edge3552_Node000072_Node000143" title=" " alt="" coords="323,2326,414,2334,414,2339,323,2332"/>
+<area shape="rect" id="Node000144" href="$classllvm_1_1LoopAccessLegacyAnalysis.html" title="This analysis provides dependence information for the memory accesses of a loop." alt="" coords="413,2383,649,2408"/>
+<area shape="poly" id="edge3553_Node000072_Node000144" title=" " alt="" coords="286,2337,383,2367,444,2380,443,2385,382,2373,284,2342"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1MachineFunctionPass.html" title="MachineFunctionPass &#45; This class adapts the FunctionPass interface to allow convenient creation of pa..." alt="" coords="432,1131,631,1156"/>
+<area shape="poly" id="edge3554_Node000072_Node000002" title=" " alt="" coords="238,2296,253,2062,282,1701,302,1518,325,1356,351,1233,365,1191,381,1166,404,1149,431,1139,433,1144,407,1153,385,1169,370,1193,356,1234,330,1357,307,1519,287,1702,258,2062,243,2296"/>
+<area shape="rect" id="Node000145" href="$classllvm_1_1MemoryDependenceWrapperPass.html" title="A wrapper analysis pass for the legacy pass manager that exposes a MemoryDepnedenceResults instance." alt="" coords="392,2432,671,2457"/>
+<area shape="poly" id="edge3625_Node000072_Node000145" title=" " alt="" coords="266,2342,318,2381,350,2401,384,2417,424,2429,423,2434,382,2422,347,2405,315,2385,262,2346"/>
+<area shape="rect" id="Node000146" href="$classllvm_1_1MemorySSAPrinterLegacyPass.html" title=" " alt="" coords="403,2481,660,2507"/>
+<area shape="poly" id="edge3626_Node000072_Node000146" title=" " alt="" coords="257,2345,309,2407,344,2440,384,2466,415,2479,413,2484,381,2471,341,2444,305,2411,253,2348"/>
+<area shape="rect" id="Node000147" href="$classllvm_1_1MemorySSAWrapperPass.html" title="Legacy analysis pass which computes MemorySSA." alt="" coords="420,2531,643,2556"/>
+<area shape="poly" id="edge3627_Node000072_Node000147" title=" " alt="" coords="252,2346,272,2384,300,2431,338,2478,360,2498,384,2516,421,2532,419,2537,381,2520,357,2502,334,2481,296,2434,267,2387,247,2348"/>
+<area shape="rect" id="Node000148" href="$classllvm_1_1OptimizationRemarkEmitterWrapperPass.html" title="OptimizationRemarkEmitter legacy analysis pass." alt="" coords="434,2581,629,2621"/>
+<area shape="poly" id="edge3628_Node000072_Node000148" title=" " alt="" coords="249,2347,267,2395,294,2454,333,2515,357,2542,384,2565,408,2579,435,2588,433,2593,406,2584,381,2570,353,2546,329,2518,290,2457,262,2397,244,2349"/>
+<area shape="rect" id="Node000149" href="$classllvm_1_1PhiValuesWrapperPass.html" title="Wrapper pass for the legacy pass manager." alt="" coords="428,2645,635,2671"/>
+<area shape="poly" id="edge3629_Node000072_Node000149" title=" " alt="" coords="246,2348,259,2408,284,2485,302,2526,325,2565,352,2600,384,2631,405,2643,429,2651,427,2656,403,2648,381,2635,348,2604,320,2568,297,2528,279,2487,254,2409,241,2349"/>
+<area shape="rect" id="Node000150" href="$structllvm_1_1PostDominatorTreeWrapperPass.html" title=" " alt="" coords="398,2695,665,2720"/>
+<area shape="poly" id="edge3630_Node000072_Node000150" title=" " alt="" coords="244,2348,254,2416,277,2507,295,2555,318,2601,348,2644,384,2680,404,2692,401,2697,381,2684,344,2647,314,2604,290,2557,272,2509,248,2417,239,2349"/>
+<area shape="rect" id="Node000151" href="$classllvm_1_1PredicateInfoPrinterLegacyPass.html" title=" " alt="" coords="437,2745,625,2785"/>
+<area shape="poly" id="edge3631_Node000072_Node000151" title=" " alt="" coords="243,2348,250,2424,271,2527,290,2582,314,2636,345,2686,384,2729,409,2746,438,2756,436,2761,407,2750,381,2733,341,2689,309,2639,285,2584,266,2528,245,2424,238,2348"/>
+<area shape="rect" id="Node000139" href="$classllvm_1_1RGPassManager.html" title="The pass manager to schedule RegionPasses." alt="" coords="449,3319,613,3344"/>
+<area shape="poly" id="edge3632_Node000072_Node000139" title=" " alt="" coords="242,2348,245,2538,251,2677,262,2827,279,2978,305,3116,321,3177,339,3229,361,3272,385,3304,398,3315,414,3323,450,3332,449,3337,412,3328,395,3320,381,3308,356,3275,334,3231,316,3178,299,3117,274,2979,256,2828,245,2677,239,2538,237,2348"/>
+<area shape="rect" id="Node000152" href="$classllvm_1_1RegionInfoPass.html" title=" " alt="" coords="452,2809,611,2835"/>
+<area shape="poly" id="edge3633_Node000072_Node000152" title=" " alt="" coords="241,2348,244,2435,250,2493,261,2557,279,2622,305,2686,339,2744,384,2795,416,2813,453,2822,451,2827,414,2818,381,2799,335,2748,300,2688,274,2624,256,2558,245,2494,239,2435,236,2348"/>
+<area shape="rect" id="Node000153" href="$structllvm_1_1ReplaceWithVeclibLegacy.html" title=" " alt="" coords="418,2859,645,2884"/>
+<area shape="poly" id="edge3634_Node000072_Node000153" title=" " alt="" coords="245,2348,262,2456,292,2607,311,2683,333,2752,358,2807,385,2844,401,2855,419,2864,417,2869,398,2860,381,2848,353,2810,328,2754,306,2684,286,2608,257,2457,240,2349"/>
+<area shape="rect" id="Node000154" href="$classllvm_1_1SCEVAAWrapperPass.html" title="Legacy wrapper pass to provide the SCEVAAResult object." alt="" coords="435,2908,628,2933"/>
+<area shape="poly" id="edge3635_Node000072_Node000154" title=" " alt="" coords="245,2348,260,2466,288,2631,308,2715,330,2791,356,2853,370,2876,384,2893,408,2909,435,2918,434,2923,406,2914,381,2897,365,2879,351,2855,325,2793,302,2716,283,2632,255,2467,240,2349"/>
+<area shape="rect" id="Node000155" href="$classllvm_1_1ScalarEvolutionWrapperPass.html" title=" " alt="" coords="409,2957,653,2983"/>
+<area shape="poly" id="edge3636_Node000072_Node000155" title=" " alt="" coords="244,2349,258,2475,285,2655,304,2747,327,2830,354,2898,369,2924,384,2943,411,2960,408,2964,381,2947,364,2927,349,2900,322,2832,299,2748,280,2656,253,2476,239,2349"/>
+<area shape="rect" id="Node000156" href="$classllvm_1_1StackProtector.html" title=" " alt="" coords="454,3007,609,3032"/>
+<area shape="poly" id="edge3637_Node000072_Node000156" title=" " alt="" coords="244,2348,256,2484,282,2679,301,2778,324,2869,352,2943,368,2971,385,2992,400,3003,417,3012,454,3020,453,3025,415,3017,397,3008,381,2996,363,2974,347,2946,319,2871,295,2780,276,2679,251,2484,238,2349"/>
+<area shape="rect" id="Node000157" href="$classllvm_1_1StackSafetyInfoWrapperPass.html" title="StackSafetyInfo wrapper for the legacy pass manager." alt="" coords="408,3056,655,3081"/>
+<area shape="poly" id="edge3638_Node000072_Node000157" title=" " alt="" coords="243,2348,254,2492,278,2702,297,2810,321,2908,350,2989,366,3019,384,3041,409,3058,406,3063,381,3045,362,3022,345,2991,316,2910,292,2811,273,2703,249,2493,238,2349"/>
+<area shape="rect" id="Node000158" href="$classllvm_1_1UnifyFunctionExitNodesLegacyPass.html" title=" " alt="" coords="424,3106,639,3146"/>
+<area shape="poly" id="edge3639_Node000072_Node000158" title=" " alt="" coords="243,2348,253,2501,277,2725,295,2841,319,2946,349,3033,366,3066,385,3091,403,3105,425,3115,423,3120,400,3110,381,3095,361,3069,344,3035,314,2948,290,2842,271,2726,248,2501,238,2349"/>
+<area shape="rect" id="Node000159" href="$classllvm_1_1gvn_1_1GVNLegacyPass.html" title=" " alt="" coords="434,3171,629,3196"/>
+<area shape="poly" id="edge3640_Node000072_Node000159" title=" " alt="" coords="243,2348,250,2513,258,2630,271,2757,289,2884,314,2999,329,3050,345,3094,364,3129,385,3156,407,3172,435,3181,433,3186,405,3177,381,3160,359,3132,340,3096,324,3051,309,3001,284,2885,266,2758,253,2630,244,2513,237,2349"/>
+<area shape="rect" id="Node000160" href="$classllvm_1_1sroa_1_1SROALegacyPass.html" title="A legacy pass for the legacy pass manager that wraps the SROA pass." alt="" coords="428,3220,635,3245"/>
+<area shape="poly" id="edge3641_Node000072_Node000160" title=" " alt="" coords="242,2349,248,2522,256,2646,268,2781,286,2915,311,3038,326,3092,343,3139,363,3177,385,3205,405,3220,429,3229,427,3234,402,3225,381,3209,358,3180,338,3141,321,3094,306,3040,281,2916,263,2781,250,2646,243,2522,237,2349"/>
+<area shape="poly" id="edge3606_Node000002_Node000001" title=" " alt="" coords="531,1117,543,915,555,767,574,605,599,442,632,293,652,228,674,171,699,125,726,89,743,77,762,68,802,61,803,66,763,73,745,81,730,93,703,127,679,174,657,230,637,295,604,443,579,605,561,767,548,915,536,1117"/>
+<area shape="rect" id="Node000003" href="$classMachineCycleInfoPrinterPass.html" title=" " alt="" coords="759,104,970,129"/>
+<area shape="poly" id="edge3555_Node000002_Node000003" title=" " alt="" coords="531,1117,544,923,558,782,577,628,602,473,635,332,654,270,676,216,700,172,726,139,741,127,758,119,760,124,744,132,730,143,704,175,681,219,659,272,640,334,608,475,582,628,563,782,550,924,537,1117"/>
+<area shape="rect" id="Node000004" href="$structX86ReturnThunks.html" title=" " alt="" coords="796,153,933,179"/>
+<area shape="poly" id="edge3556_Node000002_Node000004" title=" " alt="" coords="532,1116,546,931,560,796,580,650,606,504,638,371,657,312,678,261,701,220,726,188,741,177,759,168,795,160,796,166,760,173,744,181,730,192,705,222,683,264,662,314,643,372,611,506,585,651,566,797,551,931,537,1117"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1ARMBlockPlacement.html" title=" " alt="" coords="767,203,962,228"/>
+<area shape="poly" id="edge3557_Node000002_Node000005" title=" " alt="" coords="532,1116,548,939,563,812,583,674,609,536,641,410,660,355,680,307,702,267,726,237,745,224,766,215,768,220,747,229,730,241,706,270,685,309,665,357,646,411,614,537,588,675,568,813,553,940,537,1117"/>
+<area shape="rect" id="Node000006" href="$structllvm_1_1AVRFrameAnalyzer.html" title="The frame analyzer pass." alt="" coords="773,252,956,277"/>
+<area shape="poly" id="edge3558_Node000002_Node000006" title=" " alt="" coords="532,1116,550,948,565,828,586,697,612,568,644,449,662,397,682,352,703,315,726,287,748,272,772,263,774,268,750,277,730,291,708,318,687,354,667,399,649,450,618,569,592,698,571,829,555,949,538,1117"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1AsmPrinter.html" title="This class is intended to be used as a driving class for all asm writers." alt="" coords="799,301,930,327"/>
+<area shape="poly" id="edge3559_Node000002_Node000007" title=" " alt="" coords="533,1117,551,957,589,721,616,599,647,488,684,397,704,362,726,336,742,324,760,316,799,308,800,314,762,321,745,329,730,340,709,365,689,399,652,490,621,601,595,722,557,958,538,1117"/>
+<area shape="rect" id="Node000021" href="$classllvm_1_1BreakFalseDeps.html" title=" " alt="" coords="783,351,946,376"/>
+<area shape="poly" id="edge3573_Node000002_Node000021" title=" " alt="" coords="533,1117,553,966,593,745,619,631,650,527,686,442,705,410,726,385,753,369,782,360,784,365,755,374,730,389,710,413,691,445,655,529,624,632,598,746,559,967,538,1117"/>
+<area shape="rect" id="Node000022" href="$classllvm_1_1CFIFixup.html" title=" " alt="" coords="807,400,922,425"/>
+<area shape="poly" id="edge3574_Node000002_Node000022" title=" " alt="" coords="534,1117,556,975,596,768,623,663,653,566,688,487,707,457,726,435,744,422,765,414,807,407,808,412,766,419,747,427,730,439,711,460,693,490,658,568,628,664,601,770,561,975,539,1117"/>
+<area shape="rect" id="Node000023" href="$classllvm_1_1EdgeBundles.html" title=" " alt="" coords="793,449,936,475"/>
+<area shape="poly" id="edge3575_Node000002_Node000023" title=" " alt="" coords="534,1117,558,984,599,793,626,695,656,605,690,533,708,505,726,484,758,466,793,458,794,463,760,471,730,488,712,508,694,535,661,607,631,696,604,794,563,985,539,1118"/>
+<area shape="rect" id="Node000024" href="$classllvm_1_1ExecutionDomainFix.html" title=" " alt="" coords="769,499,961,524"/>
+<area shape="poly" id="edge3576_Node000002_Node000024" title=" " alt="" coords="530,1117,535,1008,544,932,559,849,584,763,618,679,640,638,665,600,694,565,726,533,746,520,768,512,770,517,748,525,730,537,698,569,670,604,645,641,623,681,589,765,565,850,549,933,540,1008,535,1117"/>
+<area shape="rect" id="Node000025" href="$classllvm_1_1GISelCSEAnalysisWrapperPass.html" title="The actual analysis pass wrapper." alt="" coords="736,548,993,573"/>
+<area shape="poly" id="edge3577_Node000002_Node000025" title=" " alt="" coords="530,1117,538,1016,549,947,566,870,590,792,624,715,669,644,696,612,726,583,743,571,746,576,730,587,700,615,673,647,629,717,595,794,571,872,554,948,544,1017,536,1117"/>
+<area shape="rect" id="Node000026" href="$classllvm_1_1GISelKnownBitsAnalysis.html" title="To use KnownBitsInfo analysis in a pass, KnownBitsInfo &amp;Info = getAnalysis&lt;GISelKnownBitsInfoAnalysis..." alt="" coords="756,597,973,623"/>
+<area shape="poly" id="edge3578_Node000002_Node000026" title=" " alt="" coords="531,1116,542,1023,554,960,572,891,597,820,630,750,673,687,698,658,726,632,755,616,757,620,730,636,702,662,677,690,635,753,602,822,577,892,560,961,548,1024,537,1117"/>
+<area shape="rect" id="Node000027" href="$classllvm_1_1IRTranslator.html" title=" " alt="" coords="797,647,932,672"/>
+<area shape="poly" id="edge3579_Node000002_Node000027" title=" " alt="" coords="533,1117,546,1032,560,975,579,913,604,849,636,787,677,730,726,681,760,664,796,656,798,661,762,669,730,685,681,733,641,790,609,851,584,914,565,976,552,1033,538,1118"/>
+<area shape="rect" id="Node000028" href="$classllvm_1_1InstructionSelect.html" title="This pass is responsible for selecting generic machine instructions to target&#45;specific instructions." alt="" coords="781,696,949,721"/>
+<area shape="poly" id="edge3580_Node000002_Node000028" title=" " alt="" coords="534,1117,551,1039,585,934,611,878,642,823,681,773,726,731,752,716,780,708,781,713,754,721,730,735,685,777,647,826,616,880,590,936,556,1041,539,1118"/>
+<area shape="rect" id="Node000029" href="$classllvm_1_1LEONMachineFunctionPass.html" title=" " alt="" coords="748,745,981,771"/>
+<area shape="poly" id="edge3581_Node000002_Node000029" title=" " alt="" coords="536,1117,556,1048,593,956,618,908,649,861,685,818,726,781,749,768,752,773,730,786,688,822,653,864,623,910,598,959,561,1050,541,1118"/>
+<area shape="rect" id="Node000033" href="$classllvm_1_1LazyMachineBlockFrequencyInfoPass.html" title="This is an alternative analysis pass to MachineBlockFrequencyInfo." alt="" coords="741,795,988,835"/>
+<area shape="poly" id="edge3585_Node000002_Node000033" title=" " alt="" coords="540,1117,564,1060,603,986,628,947,657,909,690,875,726,845,748,833,751,838,730,850,694,879,661,913,633,950,608,989,569,1062,544,1119"/>
+<area shape="rect" id="Node000034" href="$classllvm_1_1Legalizer.html" title=" " alt="" coords="805,860,924,885"/>
+<area shape="poly" id="edge3586_Node000002_Node000034" title=" " alt="" coords="542,1117,569,1069,609,1007,662,946,693,918,727,894,765,879,805,871,806,876,767,884,729,899,696,922,666,949,613,1011,573,1071,547,1120"/>
+<area shape="rect" id="Node000035" href="$classllvm_1_1LiveDebugVariables.html" title=" " alt="" coords="771,909,959,935"/>
+<area shape="poly" id="edge3587_Node000002_Node000035" title=" " alt="" coords="547,1118,576,1079,617,1031,668,983,727,944,770,928,771,933,729,948,672,987,621,1035,580,1082,551,1121"/>
+<area shape="rect" id="Node000036" href="$classllvm_1_1LiveIntervals.html" title=" " alt="" coords="793,959,936,984"/>
+<area shape="poly" id="edge3588_Node000002_Node000036" title=" " alt="" coords="553,1119,626,1055,674,1021,727,993,759,982,792,975,794,980,761,987,729,998,677,1026,629,1059,557,1123"/>
+<area shape="rect" id="Node000037" href="$classllvm_1_1LiveRegMatrix.html" title=" " alt="" coords="788,1008,941,1033"/>
+<area shape="poly" id="edge3589_Node000002_Node000037" title=" " alt="" coords="563,1121,637,1081,727,1042,787,1027,789,1033,729,1047,639,1086,566,1126"/>
+<area shape="rect" id="Node000038" href="$classllvm_1_1LiveStacks.html" title=" " alt="" coords="800,1057,929,1083"/>
+<area shape="poly" id="edge3590_Node000002_Node000038" title=" " alt="" coords="591,1125,727,1091,799,1078,800,1083,729,1097,593,1130"/>
+<area shape="rect" id="Node000039" href="$classllvm_1_1LiveVariables.html" title=" " alt="" coords="791,1107,938,1132"/>
+<area shape="poly" id="edge3591_Node000002_Node000039" title=" " alt="" coords="644,1133,791,1122,791,1127,645,1138"/>
+<area shape="rect" id="Node000040" href="$classllvm_1_1LoadStoreOpt.html" title=" " alt="" coords="791,1156,938,1181"/>
+<area shape="poly" id="edge3592_Node000002_Node000040" title=" " alt="" coords="645,1149,791,1160,791,1166,644,1155"/>
+<area shape="rect" id="Node000041" href="$classllvm_1_1Localizer.html" title="This pass implements the localization mechanism described at the top of this file." alt="" coords="806,1205,923,1231"/>
+<area shape="poly" id="edge3593_Node000002_Node000041" title=" " alt="" coords="645,1155,681,1165,705,1178,729,1190,768,1201,806,1209,805,1214,766,1206,727,1195,703,1182,679,1170,643,1160"/>
+<area shape="rect" id="Node000042" href="$classllvm_1_1MIRAddFSDiscriminators.html" title=" " alt="" coords="755,1255,974,1280"/>
+<area shape="poly" id="edge3594_Node000002_Node000042" title=" " alt="" coords="645,1149,682,1165,699,1184,707,1204,714,1223,730,1240,756,1253,754,1258,726,1244,709,1225,702,1205,695,1186,678,1170,643,1153"/>
+<area shape="rect" id="Node000043" href="$classllvm_1_1MIRProfileLoaderPass.html" title=" " alt="" coords="765,1304,964,1329"/>
+<area shape="poly" id="edge3595_Node000002_Node000043" title=" " alt="" coords="645,1146,682,1165,696,1180,703,1196,707,1229,710,1261,717,1275,730,1289,747,1300,766,1308,764,1313,744,1305,726,1293,713,1278,705,1262,702,1229,698,1198,691,1183,678,1169,643,1151"/>
+<area shape="rect" id="Node000044" href="$classllvm_1_1MachineBlockFrequencyInfo.html" title="MachineBlockFrequencyInfo pass uses BlockFrequencyInfoImpl implementation to estimate machine basic b..." alt="" coords="743,1353,986,1379"/>
+<area shape="poly" id="edge3596_Node000002_Node000044" title=" " alt="" coords="645,1145,664,1153,682,1165,699,1187,707,1209,708,1231,707,1254,705,1276,707,1298,714,1319,730,1339,748,1351,745,1355,726,1343,709,1321,701,1299,700,1276,702,1254,703,1231,702,1210,694,1189,678,1169,662,1158,643,1150"/>
+<area shape="rect" id="Node000045" href="$classllvm_1_1MachineCycleInfoWrapperPass.html" title="Legacy analysis pass which computes a MachineCycleInfo." alt="" coords="735,1403,994,1428"/>
+<area shape="poly" id="edge3597_Node000002_Node000045" title=" " alt="" coords="645,1144,665,1153,682,1165,703,1193,711,1221,711,1250,707,1279,703,1307,703,1335,711,1362,730,1388,747,1401,744,1405,726,1392,706,1364,698,1336,698,1307,702,1278,706,1250,706,1222,698,1195,678,1169,662,1157,643,1149"/>
+<area shape="rect" id="Node000046" href="$classllvm_1_1MachineDominanceFrontier.html" title=" " alt="" coords="745,1452,984,1477"/>
+<area shape="poly" id="edge3598_Node000002_Node000046" title=" " alt="" coords="645,1144,665,1152,682,1165,706,1199,715,1234,713,1269,707,1303,701,1338,699,1372,707,1405,730,1437,747,1450,743,1454,726,1441,702,1407,694,1372,695,1337,702,1302,708,1268,710,1234,701,1201,678,1169,662,1157,643,1149"/>
+<area shape="rect" id="Node000047" href="$classllvm_1_1MachineDominatorTree.html" title="DominatorTree Class &#45; Concrete subclass of DominatorTreeBase that is used to compute a normal dominat..." alt="" coords="759,1501,970,1527"/>
+<area shape="poly" id="edge3599_Node000002_Node000047" title=" " alt="" coords="645,1143,665,1152,682,1165,698,1185,710,1205,719,1246,716,1287,707,1328,698,1369,695,1409,704,1448,714,1468,730,1487,744,1498,760,1506,758,1511,741,1503,726,1491,710,1471,699,1450,690,1409,693,1368,702,1327,711,1286,714,1246,705,1207,694,1188,678,1169,662,1157,643,1148"/>
+<area shape="rect" id="Node000048" href="$classllvm_1_1MachineLoopInfo.html" title=" " alt="" coords="779,1551,950,1576"/>
+<area shape="poly" id="edge3600_Node000002_Node000048" title=" " alt="" coords="645,1143,665,1152,682,1165,701,1188,713,1212,720,1235,723,1259,718,1306,707,1353,696,1400,691,1446,694,1469,700,1491,712,1514,730,1536,753,1552,780,1561,778,1566,750,1557,726,1540,708,1517,695,1493,688,1470,686,1446,690,1399,702,1352,713,1305,718,1259,715,1236,708,1214,696,1191,678,1169,662,1157,643,1148"/>
+<area shape="rect" id="Node000049" href="$classllvm_1_1MachineOptimizationRemarkEmitterPass.html" title="The analysis pass." alt="" coords="765,1601,964,1641"/>
+<area shape="poly" id="edge3601_Node000002_Node000049" title=" " alt="" coords="645,1143,665,1152,682,1165,703,1191,717,1218,725,1244,727,1270,722,1323,709,1376,695,1429,689,1481,691,1507,698,1533,711,1559,730,1586,746,1600,766,1609,764,1614,743,1604,726,1589,706,1562,693,1535,686,1508,684,1481,690,1428,703,1375,717,1322,722,1270,719,1245,712,1220,698,1194,678,1169,662,1156,643,1148"/>
+<area shape="rect" id="Node000050" href="$classllvm_1_1MachinePipeliner.html" title="The main class in the implementation of the target independent software pipeliner pass." alt="" coords="779,1665,950,1691"/>
+<area shape="poly" id="edge3602_Node000002_Node000050" title=" " alt="" coords="645,1143,665,1152,682,1166,694,1184,703,1207,711,1265,711,1335,707,1410,703,1485,703,1554,711,1611,719,1634,730,1651,753,1667,780,1676,778,1681,750,1672,726,1655,714,1636,705,1613,697,1554,698,1485,702,1410,706,1334,706,1265,698,1208,690,1186,678,1169,662,1156,643,1148"/>
+<area shape="rect" id="Node000051" href="$classllvm_1_1MachinePostDominatorTree.html" title="MachinePostDominatorTree &#45; an analysis pass wrapper for DominatorTree used to compute the post&#45;domina..." alt="" coords="745,1715,984,1740"/>
+<area shape="poly" id="edge3603_Node000002_Node000051" title=" " alt="" coords="645,1142,665,1152,682,1166,695,1186,705,1211,713,1275,712,1352,707,1434,702,1517,701,1593,709,1657,718,1681,730,1700,747,1714,743,1718,726,1704,713,1684,704,1658,695,1594,696,1517,702,1434,707,1352,708,1275,700,1212,691,1188,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000052" href="$classllvm_1_1MachineRegionInfoPass.html" title=" " alt="" coords="758,1764,971,1789"/>
+<area shape="poly" id="edge3604_Node000002_Node000052" title=" " alt="" coords="645,1142,665,1152,682,1166,697,1187,706,1215,715,1285,714,1369,707,1459,700,1549,699,1633,707,1702,716,1729,730,1750,743,1761,759,1769,756,1774,740,1765,726,1753,712,1731,702,1703,693,1633,695,1549,702,1459,708,1369,710,1285,701,1217,692,1190,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000053" href="$classllvm_1_1MachineTraceMetrics.html" title=" " alt="" coords="767,1813,963,1839"/>
+<area shape="poly" id="edge3605_Node000002_Node000053" title=" " alt="" coords="645,1142,665,1151,682,1166,698,1189,708,1219,714,1255,717,1295,715,1386,707,1484,699,1582,697,1672,699,1712,705,1747,715,1776,730,1799,747,1813,767,1821,765,1826,744,1817,726,1802,711,1779,700,1748,694,1712,692,1672,694,1581,702,1483,710,1386,712,1295,709,1256,703,1221,693,1192,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000054" href="$classllvm_1_1ReachingDefAnalysis.html" title="This class provides the reaching def analysis." alt="" coords="766,1863,963,1888"/>
+<area shape="poly" id="edge3607_Node000002_Node000054" title=" " alt="" coords="645,1142,665,1151,682,1166,699,1191,710,1224,716,1262,719,1305,716,1403,707,1508,698,1614,695,1711,697,1754,704,1792,714,1824,730,1848,747,1862,767,1871,765,1876,744,1866,726,1852,710,1826,699,1793,692,1755,690,1711,693,1614,702,1508,711,1403,714,1305,711,1263,705,1225,694,1193,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000055" href="$classllvm_1_1RegAllocScoring.html" title=" " alt="" coords="783,1912,947,1937"/>
+<area shape="poly" id="edge3608_Node000002_Node000055" title=" " alt="" coords="645,1142,665,1151,682,1166,700,1193,712,1228,719,1269,721,1315,717,1420,707,1533,697,1646,693,1750,695,1797,702,1837,713,1871,730,1898,754,1915,783,1924,782,1929,752,1920,726,1901,708,1873,697,1838,690,1797,688,1751,692,1646,702,1533,712,1420,716,1315,713,1270,707,1229,695,1195,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000056" href="$classllvm_1_1RegBankSelect.html" title="This pass implements the reg bank selector pass used in the GlobalISel pipeline." alt="" coords="786,1961,943,1987"/>
+<area shape="poly" id="edge3609_Node000002_Node000056" title=" " alt="" coords="645,1142,665,1151,682,1166,701,1195,713,1232,721,1276,723,1325,719,1437,707,1558,696,1678,691,1790,693,1839,700,1882,712,1919,730,1947,755,1965,787,1974,785,1979,753,1970,726,1950,707,1921,695,1884,688,1839,686,1790,690,1678,702,1557,713,1437,718,1326,715,1276,708,1233,696,1197,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000057" href="$classllvm_1_1SelectionDAGISel.html" title="SelectionDAGISel &#45; This is the common base class used for SelectionDAG&#45;based pattern&#45;matching instruc..." alt="" coords="779,2011,951,2036"/>
+<area shape="poly" id="edge3610_Node000002_Node000057" title=" " alt="" coords="645,1142,665,1151,682,1166,702,1197,715,1236,723,1283,725,1336,720,1454,707,1582,694,1711,689,1829,691,1881,699,1927,711,1966,730,1996,752,2013,779,2022,778,2027,750,2018,726,2000,706,1968,693,1929,686,1882,684,1829,689,1710,702,1582,715,1454,720,1336,717,1283,710,1237,697,1199,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000068" href="$classllvm_1_1SlotIndexes.html" title="SlotIndexes pass." alt="" coords="797,2060,932,2085"/>
+<area shape="poly" id="edge3621_Node000002_Node000068" title=" " alt="" coords="645,1142,665,1151,682,1166,703,1198,717,1240,725,1290,727,1346,721,1471,707,1607,693,1743,687,1868,689,1924,697,1973,710,2014,730,2046,744,2058,760,2066,798,2074,796,2079,759,2071,741,2062,726,2049,705,2016,692,1974,684,1924,682,1868,688,1742,702,1606,716,1471,722,1346,719,1290,712,1242,698,1201,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000069" href="$classllvm_1_1SpillPlacement.html" title=" " alt="" coords="787,2109,943,2135"/>
+<area shape="poly" id="edge3622_Node000002_Node000069" title=" " alt="" coords="645,1142,665,1151,682,1166,704,1200,719,1244,727,1297,729,1356,723,1488,707,1632,692,1775,685,1907,687,1966,695,2018,709,2061,730,2095,756,2113,787,2122,786,2127,753,2118,726,2098,704,2063,690,2019,682,1967,680,1907,687,1775,702,1631,717,1488,724,1356,721,1297,713,1246,699,1203,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000070" href="$classllvm_1_1VirtRegMap.html" title=" " alt="" coords="797,2159,932,2184"/>
+<area shape="poly" id="edge3623_Node000002_Node000070" title=" " alt="" coords="645,1142,665,1151,682,1166,694,1190,703,1229,711,1343,711,1491,707,1656,703,1822,703,1970,711,2083,719,2122,730,2144,744,2156,760,2165,798,2173,797,2178,759,2170,741,2161,726,2148,714,2123,706,2084,698,1970,698,1822,702,1656,706,1491,705,1343,697,1230,689,1192,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000071" href="$classllvm_1_1WebAssemblyExceptionInfo.html" title=" " alt="" coords="745,2208,985,2233"/>
+<area shape="poly" id="edge3624_Node000002_Node000071" title=" " alt="" coords="645,1142,665,1151,682,1166,695,1191,703,1232,712,1352,711,1507,707,1681,703,1855,702,2010,710,2130,718,2170,730,2194,746,2207,742,2211,726,2197,713,2171,705,2130,697,2010,697,1855,702,1681,706,1507,706,1352,698,1233,690,1193,678,1169,662,1156,643,1147"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1AMDGPUAsmPrinter.html" title=" " alt="" coords="1076,5,1267,31"/>
+<area shape="poly" id="edge3560_Node000007_Node000008" title=" " alt="" coords="943,312,974,304,999,287,1021,258,1029,228,1028,197,1023,166,1018,134,1017,103,1025,71,1047,40,1075,23,1077,27,1051,44,1030,73,1022,103,1023,134,1028,165,1033,197,1034,228,1025,260,1003,291,976,309,945,317"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1ARMAsmPrinter.html" title=" " alt="" coords="1091,55,1252,80"/>
+<area shape="poly" id="edge3561_Node000007_Node000009" title=" " alt="" coords="943,312,974,303,1000,287,1017,264,1025,240,1025,216,1023,190,1020,165,1021,139,1029,114,1047,89,1067,76,1090,68,1091,73,1070,80,1051,93,1034,116,1026,140,1025,165,1028,190,1031,215,1030,241,1022,266,1003,291,976,308,945,317"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1AVRAsmPrinter.html" title="An AVR assembly code printer." alt="" coords="1093,104,1250,129"/>
+<area shape="poly" id="edge3562_Node000007_Node000010" title=" " alt="" coords="943,311,973,303,1000,287,1014,270,1021,252,1023,215,1025,176,1032,157,1048,139,1068,125,1091,117,1093,122,1071,130,1051,143,1037,160,1030,177,1028,215,1026,253,1018,272,1003,291,975,307,945,316"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1CSKYAsmPrinter.html" title=" " alt="" coords="1090,153,1253,179"/>
+<area shape="poly" id="edge3563_Node000007_Node000011" title=" " alt="" coords="943,309,973,301,1000,287,1011,276,1017,264,1023,239,1029,213,1036,200,1048,188,1067,176,1089,169,1090,174,1070,181,1051,192,1040,203,1033,215,1028,240,1022,266,1015,279,1003,291,975,306,944,315"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1HexagonAsmPrinter.html" title=" " alt="" coords="1077,203,1266,228"/>
+<area shape="poly" id="edge3564_Node000007_Node000012" title=" " alt="" coords="943,305,972,298,1000,286,1014,275,1023,263,1032,249,1048,237,1075,226,1077,230,1051,242,1036,253,1028,266,1018,279,1003,291,974,303,944,310"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1LoongArchAsmPrinter.html" title=" " alt="" coords="1072,252,1271,277"/>
+<area shape="poly" id="edge3565_Node000007_Node000013" title=" " alt="" coords="943,299,1091,275,1092,280,944,304"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1M68kAsmPrinter.html" title=" " alt="" coords="1088,301,1255,327"/>
+<area shape="poly" id="edge3566_Node000007_Node000014" title=" " alt="" coords="944,311,1087,311,1087,317,944,317"/>
+<area shape="rect" id="Node000015" href="$classllvm_1_1MipsAsmPrinter.html" title=" " alt="" coords="1090,351,1253,376"/>
+<area shape="poly" id="edge3567_Node000007_Node000015" title=" " alt="" coords="944,324,1092,348,1091,353,943,329"/>
+<area shape="rect" id="Node000016" href="$classllvm_1_1NVPTXAsmPrinter.html" title=" " alt="" coords="1084,400,1259,425"/>
+<area shape="poly" id="edge3568_Node000007_Node000016" title=" " alt="" coords="944,317,974,324,1003,336,1018,348,1028,361,1036,374,1051,385,1085,399,1083,404,1048,390,1032,377,1023,364,1015,352,1000,340,972,329,943,322"/>
+<area shape="rect" id="Node000017" href="$classllvm_1_1R600AsmPrinter.html" title=" " alt="" coords="1089,449,1253,475"/>
+<area shape="poly" id="edge3569_Node000007_Node000017" title=" " alt="" coords="944,313,975,321,1003,336,1015,348,1022,361,1028,387,1034,412,1040,423,1051,435,1069,446,1090,453,1088,458,1067,450,1048,439,1036,427,1029,414,1023,388,1017,363,1011,351,1000,340,973,326,943,318"/>
+<area shape="rect" id="Node000018" href="$classllvm_1_1SystemZAsmPrinter.html" title=" " alt="" coords="1077,499,1266,524"/>
+<area shape="poly" id="edge3570_Node000007_Node000018" title=" " alt="" coords="944,311,975,319,1003,336,1019,354,1026,373,1028,412,1030,449,1037,467,1051,484,1078,500,1075,504,1048,488,1032,470,1025,450,1023,412,1021,374,1014,357,1000,340,973,324,943,316"/>
+<area shape="rect" id="Node000019" href="$classllvm_1_1WebAssemblyAsmPrinter.html" title=" " alt="" coords="1060,548,1283,573"/>
+<area shape="poly" id="edge3571_Node000007_Node000019" title=" " alt="" coords="945,310,976,319,1003,336,1022,360,1030,386,1031,411,1028,437,1026,462,1026,486,1034,510,1051,533,1069,546,1065,550,1047,537,1029,513,1021,487,1020,461,1023,436,1026,411,1025,387,1017,363,1000,340,974,324,943,315"/>
+<area shape="rect" id="Node000020" href="$classllvm_1_1X86AsmPrinter.html" title=" " alt="" coords="1093,597,1249,623"/>
+<area shape="poly" id="edge3572_Node000007_Node000020" title=" " alt="" coords="945,310,976,318,1003,336,1025,367,1034,398,1034,430,1028,461,1023,493,1023,523,1030,553,1051,583,1071,597,1094,605,1092,610,1068,601,1047,587,1026,556,1017,524,1018,492,1023,460,1028,429,1029,399,1021,369,999,340,974,323,943,315"/>
+<area shape="rect" id="Node000030" href="$classllvm_1_1DetectRoundChange.html" title=" " alt="" coords="1075,696,1267,721"/>
+<area shape="poly" id="edge3582_Node000029_Node000030" title=" " alt="" coords="957,740,1091,719,1092,724,958,746"/>
+<area shape="rect" id="Node000031" href="$classllvm_1_1FixAllFDIVSQRT.html" title=" " alt="" coords="1091,745,1251,771"/>
+<area shape="poly" id="edge3583_Node000029_Node000031" title=" " alt="" coords="995,755,1091,755,1091,761,995,761"/>
+<area shape="rect" id="Node000032" href="$classllvm_1_1InsertNOPLoad.html" title=" " alt="" coords="1094,795,1249,820"/>
+<area shape="poly" id="edge3584_Node000029_Node000032" title=" " alt="" coords="958,770,1094,792,1093,798,957,775"/>
+<area shape="rect" id="Node000058" href="$classAMDGPUDAGToDAGISel.html" title="AMDGPU specific code to select AMDGPU machine instructions for SelectionDAG operations." alt="" coords="1083,1863,1260,1888"/>
+<area shape="poly" id="edge3611_Node000057_Node000058" title=" " alt="" coords="963,2014,982,2006,1000,1996,1011,1985,1017,1973,1023,1948,1029,1922,1036,1909,1048,1897,1081,1880,1083,1885,1051,1901,1040,1913,1033,1924,1028,1949,1022,1975,1015,1988,1003,2000,985,2011,965,2019"/>
+<area shape="rect" id="Node000060" href="$classllvm_1_1AVRDAGToDAGISel.html" title="Lowers LLVM IR (in DAG form) to AVR MC instructions (in DAG form)." alt="" coords="1081,1912,1262,1937"/>
+<area shape="poly" id="edge3613_Node000057_Node000060" title=" " alt="" coords="963,2010,1000,1996,1014,1984,1023,1972,1032,1959,1048,1946,1079,1934,1081,1939,1051,1951,1036,1962,1028,1975,1018,1988,1003,2000,965,2015"/>
+<area shape="rect" id="Node000061" href="$classllvm_1_1HexagonDAGToDAGISel.html" title=" " alt="" coords="1065,1961,1278,1987"/>
+<area shape="poly" id="edge3614_Node000057_Node000061" title=" " alt="" coords="957,2006,1091,1984,1092,1989,958,2011"/>
+<area shape="rect" id="Node000062" href="$classllvm_1_1LoongArchDAGToDAGISel.html" title=" " alt="" coords="1060,2011,1283,2036"/>
+<area shape="poly" id="edge3615_Node000057_Node000062" title=" " alt="" coords="964,2021,1060,2021,1060,2026,964,2026"/>
+<area shape="rect" id="Node000063" href="$classllvm_1_1MipsDAGToDAGISel.html" title=" " alt="" coords="1078,2060,1265,2085"/>
+<area shape="poly" id="edge3616_Node000057_Node000063" title=" " alt="" coords="958,2036,1092,2057,1091,2063,957,2041"/>
+<area shape="rect" id="Node000066" href="$classllvm_1_1NVPTXDAGToDAGISel.html" title=" " alt="" coords="1072,2109,1271,2135"/>
+<area shape="poly" id="edge3619_Node000057_Node000066" title=" " alt="" coords="965,2031,1003,2045,1018,2057,1028,2070,1036,2083,1051,2094,1081,2107,1079,2112,1048,2099,1032,2087,1023,2073,1015,2061,1000,2050,963,2036"/>
+<area shape="rect" id="Node000067" href="$classllvm_1_1RISCVDAGToDAGISel.html" title=" " alt="" coords="1074,2159,1269,2184"/>
+<area shape="poly" id="edge3620_Node000057_Node000067" title=" " alt="" coords="965,2027,985,2034,1003,2045,1015,2057,1022,2070,1028,2096,1034,2121,1040,2133,1051,2144,1075,2157,1072,2162,1048,2148,1036,2136,1029,2123,1023,2097,1017,2072,1011,2060,1000,2049,982,2039,963,2032"/>
+<area shape="rect" id="Node000059" href="$classR600DAGToDAGISel.html" title=" " alt="" coords="1367,1863,1518,1888"/>
+<area shape="poly" id="edge3612_Node000058_Node000059" title=" " alt="" coords="1274,1873,1367,1873,1367,1878,1274,1878"/>
+<area shape="rect" id="Node000064" href="$classllvm_1_1Mips16DAGToDAGISel.html" title=" " alt="" coords="1341,2035,1544,2060"/>
+<area shape="poly" id="edge3617_Node000063_Node000064" title=" " alt="" coords="1278,2060,1341,2054,1341,2059,1278,2065"/>
+<area shape="rect" id="Node000065" href="$classllvm_1_1MipsSEDAGToDAGISel.html" title=" " alt="" coords="1341,2084,1544,2109"/>
+<area shape="poly" id="edge3618_Node000063_Node000065" title=" " alt="" coords="1278,2079,1341,2085,1341,2090,1278,2085"/>
+<area shape="rect" id="Node000134" href="$classllvm_1_1IVUsersWrapperPass.html" title=" " alt="" coords="435,4181,628,4207"/>
+<area shape="poly" id="edge3643_Node000133_Node000134" title=" " alt="" coords="305,4140,336,4149,383,4167,435,4179,434,4184,382,4173,334,4154,304,4145"/>
+<area shape="rect" id="Node000094" href="$structllvm_1_1AMDGPUResourceUsageAnalysis.html" title=" " alt="" coords="422,3418,641,3458"/>
+<area shape="poly" id="edge3645_Node000093_Node000094" title=" " alt="" coords="243,3704,260,3653,287,3590,327,3524,352,3495,381,3469,421,3449,423,3454,384,3474,356,3498,331,3527,292,3592,265,3655,248,3705"/>
+<area shape="rect" id="Node000095" href="$classllvm_1_1CallGraphWrapperPass.html" title="The ModulePass which wraps up a CallGraph and the logic to build it." alt="" coords="428,3483,635,3508"/>
+<area shape="poly" id="edge3646_Node000093_Node000095" title=" " alt="" coords="247,3703,266,3661,294,3611,333,3560,356,3538,381,3518,403,3507,427,3499,429,3504,405,3512,384,3523,359,3542,337,3564,299,3614,270,3664,252,3705"/>
+<area shape="rect" id="Node000096" href="$classllvm_1_1DOTGraphTraitsModulePrinterWrapperPass.html" title=" " alt="" coords="383,3532,680,3587"/>
+<area shape="poly" id="edge3647_Node000093_Node000096" title=" " alt="" coords="257,3705,309,3651,344,3622,381,3597,409,3584,411,3589,384,3602,347,3626,313,3654,261,3708"/>
+<area shape="rect" id="Node000097" href="$classllvm_1_1DOTGraphTraitsModuleViewerWrapperPass.html" title=" " alt="" coords="383,3611,680,3665"/>
+<area shape="poly" id="edge3648_Node000093_Node000097" title=" " alt="" coords="284,3710,382,3675,424,3663,426,3668,383,3681,286,3715"/>
+<area shape="rect" id="Node000092" href="$classllvm_1_1FPPassManager.html" title="FPPassManager manages BBPassManagers and FunctionPasses." alt="" coords="451,3368,612,3393"/>
+<area shape="poly" id="edge3649_Node000093_Node000092" title=" " alt="" coords="240,3703,252,3641,277,3559,295,3516,318,3475,347,3436,381,3404,414,3386,450,3378,451,3383,416,3391,384,3408,351,3440,323,3478,300,3519,282,3561,257,3642,245,3704"/>
+<area shape="rect" id="Node000098" href="$classllvm_1_1GlobalsAAWrapperPass.html" title="Legacy wrapper pass to provide the GlobalsAAResult object." alt="" coords="427,3689,636,3715"/>
+<area shape="poly" id="edge3650_Node000093_Node000098" title=" " alt="" coords="319,3720,426,3709,427,3715,320,3725"/>
+<area shape="rect" id="Node000099" href="$classllvm_1_1IRSimilarityIdentifierWrapperPass.html" title="An analysis pass based on legacy pass manager that runs and returns IRSimilarityIdentifier run on the..." alt="" coords="435,3739,628,3779"/>
+<area shape="poly" id="edge3651_Node000093_Node000099" title=" " alt="" coords="320,3735,435,3747,434,3752,319,3741"/>
+<area shape="rect" id="Node000100" href="$classllvm_1_1ImmutablePass.html" title="ImmutablePass class &#45; This class is used to provide information that does not need to be run." alt="" coords="452,3804,611,3829"/>
+<area shape="poly" id="edge3652_Node000093_Node000100" title=" " alt="" coords="277,3746,327,3768,383,3789,453,3804,451,3809,382,3794,325,3773,275,3751"/>
+<area shape="rect" id="Node000125" href="$classllvm_1_1ModuleSummaryIndexWrapperPass.html" title="Legacy wrapper pass to provide the ModuleSummaryIndex object." alt="" coords="428,3854,635,3894"/>
+<area shape="poly" id="edge3677_Node000093_Node000125" title=" " alt="" coords="263,3750,315,3796,348,3820,384,3840,429,3856,427,3861,382,3844,346,3824,312,3800,259,3754"/>
+<area shape="rect" id="Node000126" href="$structllvm_1_1SPIRVModuleAnalysis.html" title=" " alt="" coords="431,3919,631,3944"/>
+<area shape="poly" id="edge3678_Node000093_Node000126" title=" " alt="" coords="254,3754,275,3789,304,3830,341,3871,384,3904,407,3914,432,3922,430,3927,405,3919,381,3908,337,3874,300,3833,270,3791,250,3756"/>
+<area shape="rect" id="Node000127" href="$classllvm_1_1StackSafetyGlobalInfoWrapperPass.html" title="This pass performs the global (interprocedural) stack safety analysis (legacy pass manager)." alt="" coords="429,3969,633,4009"/>
+<area shape="poly" id="edge3679_Node000093_Node000127" title=" " alt="" coords="250,3755,268,3799,297,3853,335,3909,358,3933,384,3954,406,3967,430,3975,428,3980,404,3972,381,3959,355,3937,331,3912,292,3856,264,3801,245,3757"/>
+<area shape="rect" id="Node000101" href="$classllvm_1_1AMDGPUAAWrapperPass.html" title="Legacy wrapper pass to provide the AMDGPUAAResult object." alt="" coords="755,3303,974,3328"/>
+<area shape="poly" id="edge3653_Node000100_Node000101" title=" " alt="" coords="624,3816,653,3807,678,3789,699,3762,714,3735,721,3707,724,3680,717,3624,702,3567,686,3510,680,3453,682,3424,690,3396,704,3367,726,3339,754,3320,757,3324,730,3343,709,3370,695,3397,687,3425,685,3453,692,3509,707,3566,722,3623,729,3680,727,3708,718,3737,704,3765,682,3793,656,3812,625,3821"/>
+<area shape="rect" id="Node000102" href="$classllvm_1_1AMDGPUArgumentUsageInfo.html" title=" " alt="" coords="741,3352,989,3377"/>
+<area shape="poly" id="edge3654_Node000100_Node000102" title=" " alt="" coords="624,3816,653,3807,678,3789,697,3765,710,3741,717,3717,720,3692,715,3642,702,3592,689,3541,683,3490,686,3464,693,3439,706,3413,726,3388,742,3375,745,3380,730,3392,711,3416,698,3441,691,3465,689,3490,694,3540,707,3590,720,3641,725,3692,722,3718,715,3743,702,3768,682,3793,656,3812,625,3821"/>
+<area shape="rect" id="Node000103" href="$classllvm_1_1AssumptionCacheTracker.html" title="An immutable pass that tracks lazily created AssumptionCache objects." alt="" coords="753,3401,976,3427"/>
+<area shape="poly" id="edge3655_Node000100_Node000103" title=" " alt="" coords="624,3816,653,3807,678,3789,695,3768,707,3747,713,3726,716,3704,712,3661,702,3616,691,3571,687,3527,690,3504,697,3482,709,3459,726,3437,751,3420,754,3424,730,3441,713,3462,702,3484,695,3505,693,3527,697,3571,707,3615,717,3660,721,3705,718,3727,712,3749,700,3771,682,3793,656,3812,625,3821"/>
+<area shape="rect" id="Node000104" href="$classllvm_1_1BasicBlockSectionsProfileReader.html" title=" " alt="" coords="772,3451,957,3491"/>
+<area shape="poly" id="edge3656_Node000100_Node000104" title=" " alt="" coords="624,3816,653,3806,678,3789,692,3773,702,3756,711,3721,709,3686,703,3650,696,3613,694,3576,702,3539,726,3503,747,3487,771,3476,773,3481,749,3491,730,3506,707,3541,699,3577,701,3613,708,3649,715,3685,716,3722,707,3758,697,3776,682,3793,656,3811,625,3821"/>
+<area shape="rect" id="Node000105" href="$classllvm_1_1CFLAndersAAWrapperPass.html" title="Legacy wrapper pass to provide the CFLAndersAAResult object." alt="" coords="749,3516,980,3541"/>
+<area shape="poly" id="edge3657_Node000100_Node000105" title=" " alt="" coords="624,3815,653,3806,678,3789,699,3762,707,3733,706,3703,702,3673,697,3643,696,3612,705,3582,726,3552,747,3537,750,3541,730,3556,710,3584,702,3613,702,3642,707,3672,712,3703,712,3734,703,3764,682,3793,655,3811,625,3820"/>
+<area shape="rect" id="Node000106" href="$classllvm_1_1CFLSteensAAWrapperPass.html" title="Legacy wrapper pass to provide the CFLSteensAAResult object." alt="" coords="751,3565,979,3591"/>
+<area shape="poly" id="edge3658_Node000100_Node000106" title=" " alt="" coords="623,3815,653,3806,678,3789,695,3768,703,3745,704,3722,702,3698,699,3673,700,3649,708,3625,726,3601,749,3586,752,3591,730,3605,713,3627,705,3650,705,3673,707,3697,709,3722,708,3746,700,3770,682,3793,655,3810,625,3820"/>
+<area shape="rect" id="Node000107" href="$structllvm_1_1ExternalAAWrapperPass.html" title="A wrapper pass for external alias analyses." alt="" coords="757,3615,972,3640"/>
+<area shape="poly" id="edge3659_Node000100_Node000107" title=" " alt="" coords="623,3814,653,3805,678,3789,692,3774,699,3757,701,3722,704,3686,712,3668,726,3651,756,3633,758,3638,730,3655,716,3671,709,3687,707,3722,704,3758,697,3776,682,3793,655,3810,625,3819"/>
+<area shape="rect" id="Node000109" href="$classllvm_1_1GCModuleInfo.html" title="An analysis pass which caches information about the entire Module." alt="" coords="789,3664,940,3689"/>
+<area shape="poly" id="edge3661_Node000100_Node000109" title=" " alt="" coords="624,3811,653,3803,678,3789,689,3779,695,3769,701,3746,708,3722,715,3711,726,3700,756,3684,788,3676,790,3681,758,3689,730,3704,719,3714,713,3725,707,3747,700,3771,693,3783,682,3794,655,3808,625,3816"/>
+<area shape="rect" id="Node000110" href="$classllvm_1_1ImmutableModuleSummaryIndexWrapperPass.html" title="Legacy wrapper pass to provide the ModuleSummaryIndex object." alt="" coords="744,3714,985,3754"/>
+<area shape="poly" id="edge3662_Node000100_Node000110" title=" " alt="" coords="624,3803,679,3789,703,3777,727,3765,769,3752,771,3757,729,3770,705,3782,681,3794,625,3808"/>
+<area shape="rect" id="Node000111" href="$classllvm_1_1MachineBranchProbabilityInfo.html" title=" " alt="" coords="737,3779,992,3804"/>
+<area shape="poly" id="edge3663_Node000100_Node000111" title=" " alt="" coords="624,3807,737,3798,737,3804,625,3812"/>
+<area shape="rect" id="Node000112" href="$classllvm_1_1MachineModuleInfoWrapperPass.html" title=" " alt="" coords="729,3828,1000,3853"/>
+<area shape="poly" id="edge3664_Node000100_Node000112" title=" " alt="" coords="625,3821,729,3828,729,3834,624,3826"/>
+<area shape="rect" id="Node000113" href="$classllvm_1_1PhysicalRegisterUsageInfo.html" title=" " alt="" coords="748,3877,981,3903"/>
+<area shape="poly" id="edge3665_Node000100_Node000113" title=" " alt="" coords="625,3826,681,3839,705,3852,729,3864,772,3875,770,3880,727,3868,703,3856,679,3845,624,3831"/>
+<area shape="rect" id="Node000114" href="$classllvm_1_1ProfileSummaryInfoWrapperPass.html" title="An analysis pass based on legacy pass manager to deliver ProfileSummaryInfo." alt="" coords="771,3927,959,3967"/>
+<area shape="poly" id="edge3666_Node000100_Node000114" title=" " alt="" coords="625,3818,654,3826,682,3840,699,3858,707,3877,714,3896,730,3913,772,3933,769,3938,726,3917,709,3899,702,3879,695,3861,678,3844,652,3831,624,3823"/>
+<area shape="rect" id="Node000115" href="$classllvm_1_1RegAllocEvictionAdvisorAnalysis.html" title="ImmutableAnalysis abstraction for fetching the Eviction Advisor." alt="" coords="756,3991,973,4031"/>
+<area shape="poly" id="edge3667_Node000100_Node000115" title=" " alt="" coords="625,3815,655,3824,682,3840,697,3857,704,3874,707,3910,710,3945,716,3961,730,3977,757,3995,754,3999,726,3981,712,3964,705,3946,702,3910,699,3876,692,3860,678,3844,653,3829,623,3820"/>
+<area shape="rect" id="Node000116" href="$classllvm_1_1ScopedNoAliasAAWrapperPass.html" title="Legacy wrapper pass to provide the ScopedNoAliasAAResult object." alt="" coords="736,4056,993,4081"/>
+<area shape="poly" id="edge3668_Node000100_Node000116" title=" " alt="" coords="625,3813,655,3823,682,3840,701,3865,709,3891,710,3917,707,3943,704,3968,704,3994,712,4018,730,4041,747,4054,744,4058,726,4045,707,4020,699,3994,699,3968,702,3942,704,3917,704,3892,696,3867,678,3844,653,3828,624,3819"/>
+<area shape="rect" id="Node000117" href="$classllvm_1_1TargetLibraryInfoWrapperPass.html" title=" " alt="" coords="738,4105,991,4131"/>
+<area shape="poly" id="edge3669_Node000100_Node000117" title=" " alt="" coords="625,3813,656,3822,682,3840,704,3871,713,3904,712,3936,707,3968,701,4000,700,4032,708,4062,730,4092,744,4103,741,4107,726,4096,704,4065,695,4032,696,4000,701,3967,707,3935,708,3904,700,3874,678,3844,653,3827,624,3818"/>
+<area shape="rect" id="Node000118" href="$classllvm_1_1TargetPassConfig.html" title="Target&#45;Independent Code Generator Pass Configuration Options." alt="" coords="780,4155,949,4180"/>
+<area shape="poly" id="edge3670_Node000100_Node000118" title=" " alt="" coords="625,3813,656,3822,682,3840,697,3859,708,3878,717,3916,715,3955,707,3993,699,4031,696,4069,705,4106,715,4124,730,4141,753,4157,781,4166,779,4171,751,4162,726,4145,711,4127,700,4108,691,4069,694,4031,701,3992,709,3954,712,3916,703,3880,693,3862,678,3844,653,3827,624,3818"/>
+<area shape="rect" id="Node000122" href="$classllvm_1_1TargetTransformInfoWrapperPass.html" title="Wrapper pass for TargetTransformInfo." alt="" coords="770,4205,959,4245"/>
+<area shape="poly" id="edge3674_Node000100_Node000122" title=" " alt="" coords="625,3812,656,3822,682,3840,700,3862,712,3884,719,3906,721,3928,718,3972,708,4017,698,4061,694,4105,696,4126,703,4148,713,4169,730,4191,749,4206,771,4216,769,4220,746,4210,726,4195,709,4172,698,4150,691,4127,689,4105,693,4060,703,4015,713,3972,716,3928,713,3907,707,3886,695,3865,678,3844,653,3827,624,3817"/>
+<area shape="rect" id="Node000123" href="$classllvm_1_1TypeBasedAAWrapperPass.html" title="Legacy wrapper pass to provide the TypeBasedAAResult object." alt="" coords="749,4269,980,4295"/>
+<area shape="poly" id="edge3675_Node000100_Node000123" title=" " alt="" coords="625,3812,656,3822,682,3840,702,3866,716,3892,724,3918,726,3945,720,3997,707,4050,693,4102,688,4154,690,4179,697,4204,710,4230,730,4255,751,4270,747,4274,726,4259,706,4233,692,4206,685,4180,682,4154,688,4101,702,4048,715,3996,721,3945,718,3919,711,3894,698,3869,678,3844,653,3826,624,3817"/>
+<area shape="rect" id="Node000124" href="$classllvm_1_1objcarc_1_1ObjCARCAAWrapperPass.html" title="Legacy wrapper pass to provide the ObjCARCAAResult object." alt="" coords="728,4319,1001,4344"/>
+<area shape="poly" id="edge3676_Node000100_Node000124" title=" " alt="" coords="625,3812,656,3821,682,3840,705,3869,720,3898,728,3928,730,3957,723,4016,707,4075,691,4134,683,4192,686,4220,694,4249,708,4277,730,4305,743,4317,740,4321,726,4309,703,4280,689,4251,681,4221,678,4192,685,4133,702,4074,718,4015,725,3957,722,3929,715,3900,700,3872,678,3844,653,3826,624,3817"/>
+<area shape="rect" id="Node000108" href="$classllvm_1_1AMDGPUExternalAAWrapper.html" title=" " alt="" coords="1049,3615,1293,3640"/>
+<area shape="poly" id="edge3660_Node000107_Node000108" title=" " alt="" coords="986,3625,1049,3625,1049,3630,986,3630"/>
+<area shape="rect" id="Node000119" href="$classDirectXPassConfig.html" title=" " alt="" coords="1101,4129,1241,4155"/>
+<area shape="poly" id="edge3671_Node000118_Node000119" title=" " alt="" coords="963,4157,1101,4145,1101,4150,963,4162"/>
+<area shape="rect" id="Node000120" href="$classllvm_1_1AMDGPUPassConfig.html" title=" " alt="" coords="1077,4179,1265,4204"/>
+<area shape="poly" id="edge3672_Node000118_Node000120" title=" " alt="" coords="963,4172,1077,4181,1077,4187,963,4178"/>
+<area shape="rect" id="Node000121" href="$classR600PassConfig.html" title=" " alt="" coords="1380,4179,1505,4204"/>
+<area shape="poly" id="edge3673_Node000120_Node000121" title=" " alt="" coords="1279,4189,1380,4189,1380,4194,1279,4194"/>
+<area shape="rect" id="Node000091" href="$classllvm_1_1PMDataManager.html" title="PMDataManager provides the common place to manage the analysis data used by pass managers." alt="" coords="155,3368,321,3393"/>
+<area shape="poly" id="edge3684_Node000091_Node000090" title=" " alt="" coords="269,3358,321,3330,382,3303,451,3287,452,3293,383,3309,323,3334,272,3363"/>
+<area shape="poly" id="edge3685_Node000091_Node000139" title=" " alt="" coords="327,3363,454,3341,455,3347,328,3368"/>
+<area shape="poly" id="edge3683_Node000091_Node000092" title=" " alt="" coords="335,3378,451,3378,451,3383,335,3383"/>
+<area shape="poly" id="edge3686_Node000091_Node000136" title=" " alt="" coords="251,3405,293,3533,317,3618,337,3706,342,3757,343,3822,341,3973,342,4049,349,4118,362,4176,372,4199,385,4218,408,4235,436,4246,434,4251,405,4240,381,4221,368,4202,357,4178,344,4119,337,4049,336,3973,338,3822,337,3757,332,3706,312,3619,288,3534,246,3407"/>
+<area shape="poly" id="edge3687_Node000091_Node000138" title=" " alt="" coords="251,3405,294,3533,318,3618,337,3706,344,3816,349,4000,361,4182,371,4247,378,4269,385,4282,401,4295,420,4304,418,4309,398,4299,381,4285,373,4271,366,4248,356,4182,344,4001,338,3816,332,3706,312,3619,289,3534,246,3407"/>
+<area shape="rect" id="Node000137" href="$classllvm_1_1PMTopLevelManager.html" title="PMTopLevelManager manages LastUser info and collects common APIs used by top level pass managers." alt="" coords="141,4264,335,4289"/>
+<area shape="poly" id="edge3688_Node000137_Node000136" title=" " alt="" coords="348,4265,434,4257,435,4262,348,4270"/>
+<area shape="poly" id="edge3689_Node000137_Node000138" title=" " alt="" coords="349,4286,420,4294,419,4299,348,4291"/>
+<area shape="rect" id="Node000161" href="$classllvm_1_1RegAllocBase.html" title="RegAllocBase provides the register allocation driver and interface that can be extended to add intere..." alt="" coords="457,84,605,109"/>
+<area shape="poly" id="edge3690_Node000161_Node000001" title=" " alt="" coords="619,86,802,70,802,75,619,92"/>
+</map>

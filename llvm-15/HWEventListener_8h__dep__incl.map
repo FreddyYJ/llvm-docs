@@ -1,0 +1,72 @@
+<map id="include/llvm/MCA/HWEventListener.h" name="include/llvm/MCA/HWEventListener.h">
+<area shape="rect" id="Node000001" title="This file defines the main interface for hardware event listeners." alt="" coords="1731,5,1931,45"/>
+<area shape="rect" id="Node000002" href="$Stage_8h.html" title="This file defines a stage." alt="" coords="1065,93,1249,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1718,44,1249,103,1248,98,1717,38"/>
+<area shape="rect" id="Node000006" href="$Pipeline_8cpp.html" title="This file implements an ordered container of stages that simulate the pipeline of a hardware backend." alt="" coords="814,277,969,302"/>
+<area shape="poly" id="edge38_Node000001_Node000006" title=" " alt="" coords="1718,34,1411,50,1030,80,848,100,691,124,575,152,537,167,515,183,507,201,514,219,549,230,627,245,814,274,813,280,626,250,548,235,511,223,501,201,511,180,534,162,573,147,690,119,847,95,1029,75,1411,45,1717,29"/>
+<area shape="rect" id="Node000008" href="$DispatchStage_8cpp.html" title="This file models the dispatch component of an instruction pipeline." alt="" coords="1886,277,2131,302"/>
+<area shape="poly" id="edge39_Node000001_Node000008" title=" " alt="" coords="1854,55,2003,275,1999,278,1850,58"/>
+<area shape="rect" id="Node000020" href="$RetireStage_8cpp.html" title="This file defines the retire stage of an instruction pipeline." alt="" coords="1358,277,1585,302"/>
+<area shape="poly" id="edge40_Node000001_Node000020" title=" " alt="" coords="1800,56,1702,133,1580,224,1492,279,1490,274,1576,219,1699,129,1796,52"/>
+<area shape="rect" id="Node000022" href="$View_8h.html" title="This file defines the main interface for Views." alt="" coords="2101,101,2284,126"/>
+<area shape="poly" id="edge27_Node000001_Node000022" title=" " alt="" coords="1925,46,2145,98,2144,103,1923,51"/>
+<area shape="rect" id="Node000030" href="$HWEventListener_8cpp.html" title="This file defines a vtable anchor for class HWEventListener." alt="" coords="2308,101,2523,126"/>
+<area shape="poly" id="edge37_Node000001_Node000030" title=" " alt="" coords="1946,40,2297,91,2344,98,2343,103,2296,96,1945,45"/>
+<area shape="rect" id="Node000003" href="$Pipeline_8h.html" title="This file implements an ordered container of stages that simulate the pipeline of a hardware backend." alt="" coords="945,189,1149,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1123,144,1064,190,1061,186,1120,140"/>
+<area shape="rect" id="Node000007" href="$DispatchStage_8h.html" title="This file models the dispatch component of an instruction pipeline." alt="" coords="1737,181,1921,221"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="1263,125,1736,186,1736,191,1262,131"/>
+<area shape="rect" id="Node000009" href="$EntryStage_8h.html" title="This file defines the Entry stage of an instruction pipeline." alt="" coords="737,181,921,221"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="1072,139,901,184,900,179,1071,134"/>
+<area shape="rect" id="Node000011" href="$ExecuteStage_8h.html" title="This file defines the execution stage of a default instruction pipeline." alt="" coords="1174,181,1358,221"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="1193,140,1243,179,1240,183,1190,144"/>
+<area shape="rect" id="Node000013" href="$InOrderIssueStage_8h.html" title="InOrderIssueStage implements an in&#45;order execution pipeline." alt="" coords="2155,269,2339,309"/>
+<area shape="poly" id="edge15_Node000002_Node000013" title=" " alt="" coords="1263,113,1398,118,1566,129,1750,148,1933,179,2009,198,2083,221,2204,267,2202,272,2082,226,2008,203,1932,184,1749,153,1566,134,1398,123,1263,118"/>
+<area shape="rect" id="Node000015" href="$InstructionTables_8h.html" title="This file implements a custom stage to generate instruction tables." alt="" coords="35,181,219,221"/>
+<area shape="poly" id="edge18_Node000002_Node000015" title=" " alt="" coords="1051,123,696,145,475,162,253,184,220,188,219,183,252,179,475,157,696,139,1051,117"/>
+<area shape="rect" id="Node000017" href="$MicroOpQueueStage_8h.html" title="This file defines a stage that implements a queue of micro opcodes." alt="" coords="265,181,449,221"/>
+<area shape="poly" id="edge20_Node000002_Node000017" title=" " alt="" coords="1051,128,513,184,449,191,449,186,512,179,1051,122"/>
+<area shape="rect" id="Node000019" href="$RetireStage_8h.html" title="This file defines the retire stage of a default instruction pipeline." alt="" coords="1382,181,1566,221"/>
+<area shape="poly" id="edge23_Node000002_Node000019" title=" " alt="" coords="1240,134,1405,179,1404,184,1239,140"/>
+<area shape="rect" id="Node000021" href="$Stage_8cpp.html" title="This file defines a stage." alt="" coords="524,189,712,214"/>
+<area shape="poly" id="edge26_Node000002_Node000021" title=" " alt="" coords="1051,133,725,184,682,191,681,186,724,179,1050,128"/>
+<area shape="rect" id="Node000004" href="$Context_8h.html" title="This file defines a class for holding ownership of various simulated hardware units." alt="" coords="1609,277,1811,302"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1127,213,1162,219,1380,243,1597,267,1645,274,1644,279,1596,272,1379,248,1162,224,1126,219"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1016,223,914,279,911,274,1013,218"/>
+<area shape="rect" id="Node000005" href="$Context_8cpp.html" title="This file defines a class for holding ownership of various simulated hardware units." alt="" coords="1243,365,1398,390"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1645,308,1373,367,1372,362,1644,302"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="1840,235,1841,274,1836,294,1825,311,1795,332,1752,348,1698,360,1638,369,1510,378,1398,380,1398,375,1510,373,1637,363,1697,355,1750,343,1793,327,1821,307,1831,292,1836,273,1834,235"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1882,225,1986,274,1984,279,1879,230"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="810,235,801,253,796,273,796,291,804,307,825,319,864,329,982,347,1120,360,1243,369,1243,374,1120,365,981,352,863,334,823,323,800,311,791,293,790,272,796,251,805,233"/>
+<area shape="rect" id="Node000010" href="$EntryStage_8cpp.html" title="This file defines the Fetch stage of an instruction pipeline." alt="" coords="517,277,740,302"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="773,229,656,279,654,274,771,224"/>
+<area shape="poly" id="edge13_Node000011_Node000005" title=" " alt="" coords="1279,234,1320,364,1314,365,1274,236"/>
+<area shape="rect" id="Node000012" href="$ExecuteStage_8cpp.html" title="This file defines the execution stage of an instruction pipeline." alt="" coords="993,277,1232,302"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="1222,230,1134,279,1132,274,1219,226"/>
+<area shape="poly" id="edge16_Node000013_Node000005" title=" " alt="" coords="2142,312,1927,336,1718,354,1398,375,1398,370,1718,349,1927,331,2141,307"/>
+<area shape="rect" id="Node000014" href="$InOrderIssueStage_8cpp.html" title="InOrderIssueStage implements an in&#45;order execution pipeline." alt="" coords="2135,357,2341,397"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="2246,323,2243,357,2237,357,2241,323"/>
+<area shape="rect" id="Node000016" href="$InstructionTables_8cpp.html" title="This file implements the method InstructionTables::execute()." alt="" coords="5,269,199,309"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="120,235,110,270,105,268,115,234"/>
+<area shape="poly" id="edge21_Node000017_Node000005" title=" " alt="" coords="398,227,457,267,481,290,492,299,507,307,569,324,653,339,858,358,1072,369,1243,373,1243,378,1072,374,858,364,652,344,568,330,505,312,489,303,478,294,454,271,395,231"/>
+<area shape="rect" id="Node000018" href="$MicroOpQueueStage_8cpp.html" title="This file defines the MicroOpQueueStage." alt="" coords="223,269,443,309"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="350,235,341,270,335,268,345,234"/>
+<area shape="poly" id="edge24_Node000019_Node000005" title=" " alt="" coords="1402,230,1373,247,1348,271,1335,294,1327,320,1323,365,1318,364,1322,319,1330,292,1344,268,1370,243,1400,225"/>
+<area shape="poly" id="edge25_Node000019_Node000020" title=" " alt="" coords="1476,235,1474,276,1469,276,1470,235"/>
+<area shape="rect" id="Node000023" href="$CustomBehaviour_8h.html" title="This file defines the base class CustomBehaviour which can be inherited from by specific targets (ex." alt="" coords="2114,189,2381,214"/>
+<area shape="poly" id="edge28_Node000022_Node000023" title=" " alt="" coords="2210,136,2242,187,2237,190,2205,139"/>
+<area shape="rect" id="Node000029" href="$View_8cpp.html" title="This file defines the virtual anchor method in View.h to pin the vtable." alt="" coords="2405,189,2540,214"/>
+<area shape="poly" id="edge36_Node000022_Node000029" title=" " alt="" coords="2244,128,2436,186,2434,191,2243,133"/>
+<area shape="poly" id="edge29_Node000023_Node000004" title=" " alt="" coords="2162,219,1782,279,1781,274,2161,214"/>
+<area shape="poly" id="edge30_Node000023_Node000013" title=" " alt="" coords="2250,228,2250,269,2245,269,2245,228"/>
+<area shape="rect" id="Node000024" href="$CustomBehaviour_8cpp.html" title="This file implements methods from the CustomBehaviour interface." alt="" coords="2566,277,2785,302"/>
+<area shape="poly" id="edge31_Node000023_Node000024" title=" " alt="" coords="2319,214,2619,274,2618,279,2318,219"/>
+<area shape="rect" id="Node000025" href="$AMDGPUCustomBehaviour_8h.html" title="This file defines the AMDGPUCustomBehaviour class which inherits from CustomBehaviour." alt="" coords="2809,269,3021,309"/>
+<area shape="poly" id="edge32_Node000023_Node000025" title=" " alt="" coords="2350,213,2394,219,2596,242,2797,267,2810,268,2809,274,2796,272,2595,247,2394,224,2349,218"/>
+<area shape="rect" id="Node000027" href="$X86CustomBehaviour_8h.html" title="This file defines the X86CustomBehaviour class which inherits from CustomBehaviour." alt="" coords="2363,269,2542,309"/>
+<area shape="poly" id="edge34_Node000023_Node000027" title=" " alt="" coords="2288,217,2408,267,2406,272,2286,222"/>
+<area shape="rect" id="Node000026" href="$AMDGPUCustomBehaviour_8cpp.html" title="This file implements methods from the AMDGPUCustomBehaviour class." alt="" coords="2802,357,3029,397"/>
+<area shape="poly" id="edge33_Node000025_Node000026" title=" " alt="" coords="2918,323,2918,357,2913,357,2913,323"/>
+<area shape="rect" id="Node000028" href="$X86CustomBehaviour_8cpp.html" title="This file implements methods from the X86CustomBehaviour class." alt="" coords="2365,357,2559,397"/>
+<area shape="poly" id="edge35_Node000027_Node000028" title=" " alt="" coords="2459,323,2463,357,2457,357,2454,323"/>
+</map>

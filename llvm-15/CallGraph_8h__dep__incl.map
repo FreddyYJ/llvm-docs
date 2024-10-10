@@ -1,0 +1,59 @@
+<map id="include/llvm/Analysis/CallGraph.h" name="include/llvm/Analysis/CallGraph.h">
+<area shape="rect" id="Node000001" title="This file provides interfaces used to build and manipulate a call graph, which is a very useful tool ..." alt="" coords="2985,5,3147,45"/>
+<area shape="rect" id="Node000002" href="$SyntheticCountsUtils_8h.html" title=" " alt="" coords="295,93,469,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2971,30,2482,34,1764,45,1029,65,721,79,489,96,470,98,469,93,488,91,721,74,1029,60,1764,40,2482,29,2971,25"/>
+<area shape="rect" id="Node000003" href="$SyntheticCountsUtils_8cpp.html" title=" " alt="" coords="5,181,212,221"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="2972,30,2371,37,1500,50,693,70,417,82,330,89,284,96,239,113,197,137,132,183,129,179,195,132,237,109,283,91,330,84,417,77,692,65,1500,45,2371,32,2972,25"/>
+<area shape="rect" id="Node000005" href="$SyntheticCountsPropagation_8cpp.html" title=" " alt="" coords="551,181,789,221"/>
+<area shape="poly" id="edge27_Node000001_Node000005" title=" " alt="" coords="2971,30,2405,36,1598,48,1204,57,868,67,631,81,563,88,534,95,527,107,526,118,532,130,543,141,575,162,614,179,612,184,573,166,539,145,528,133,521,120,522,105,531,91,562,83,631,75,868,62,1203,51,1598,42,2405,30,2971,25"/>
+<area shape="rect" id="Node000006" href="$CallGraph_8cpp.html" title=" " alt="" coords="545,101,737,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="2972,30,2527,36,1885,48,1231,68,957,81,750,96,699,103,698,98,750,91,957,75,1230,62,1885,43,2527,31,2972,25"/>
+<area shape="rect" id="Node000007" href="$CallGraphSCCPass_8cpp.html" title=" " alt="" coords="761,101,1008,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="2972,29,2649,30,2168,38,1601,59,1308,75,1021,96,958,103,957,98,1020,91,1308,70,1601,53,2168,33,2649,25,2972,24"/>
+<area shape="rect" id="Node000008" href="$CallPrinter_8cpp.html" title=" " alt="" coords="1033,101,1227,126"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="2972,31,2112,53,1609,72,1399,83,1240,96,1189,103,1188,98,1239,91,1398,78,1608,67,2112,47,2972,26"/>
+<area shape="rect" id="Node000009" href="$GlobalsModRef_8cpp.html" title=" " alt="" coords="1251,101,1478,126"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="2972,30,2716,34,2350,44,1925,64,1706,78,1492,96,1433,103,1433,98,1491,91,1705,73,1924,58,2349,39,2716,28,2972,25"/>
+<area shape="rect" id="Node000010" href="$MLInlineAdvisor_8cpp.html" title=" " alt="" coords="1503,101,1733,126"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="2971,31,2449,48,2100,68,1746,96,1688,103,1687,98,1746,91,2100,62,2449,43,2971,26"/>
+<area shape="rect" id="Node000011" href="$PassBuilder_8cpp.html" title="This file provides the implementation of the PassBuilder based on our static pass registry as well as..." alt="" coords="1757,101,1948,126"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="2972,32,2534,49,2249,68,1961,96,1912,103,1911,98,1960,91,2249,63,2534,44,2971,26"/>
+<area shape="rect" id="Node000012" href="$AMDGPUAnnotateKernelFeatures_8cpp.html" title=" " alt="" coords="1973,93,2239,133"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="2972,36,2653,60,2253,96,2240,97,2239,92,2252,91,2652,54,2971,30"/>
+<area shape="rect" id="Node000013" href="$AMDGPULowerModuleLDSPass_8cpp.html" title=" " alt="" coords="2264,93,2511,133"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="2972,40,2522,96,2511,97,2511,92,2522,91,2971,35"/>
+<area shape="rect" id="Node000014" href="$AMDGPUPerfHintAnalysis_8cpp.html" title="Analyzes if a function potentially memory bound and if a kernel kernel may benefit from limiting numb..." alt="" coords="2534,93,2769,133"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="2972,49,2743,96,2742,91,2971,43"/>
+<area shape="rect" id="Node000015" href="$AMDGPUReplaceLDSUseWithPointer_8cpp.html" title=" " alt="" coords="2792,93,3052,133"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="3024,55,2955,96,2952,91,3021,50"/>
+<area shape="rect" id="Node000016" href="$AMDGPUResourceUsageAnalysis_8cpp.html" title="Analyzes how many registers and other resources are used by functions." alt="" coords="3076,93,3344,133"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="3111,50,3180,91,3177,96,3108,55"/>
+<area shape="rect" id="Node000017" href="$CoroSplit_8cpp.html" title=" " alt="" coords="3368,93,3556,133"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="3161,44,3376,91,3375,96,3160,50"/>
+<area shape="rect" id="Node000018" href="$Coroutines_8cpp.html" title=" " alt="" coords="3580,93,3768,133"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="3161,35,3350,59,3569,91,3580,92,3579,98,3568,96,3349,65,3160,41"/>
+<area shape="rect" id="Node000019" href="$ArgumentPromotion_8cpp.html" title=" " alt="" coords="3793,93,3977,133"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="3161,30,3440,53,3610,70,3781,91,3793,92,3792,98,3780,96,3610,75,3439,58,3161,36"/>
+<area shape="rect" id="Node000020" href="$Attributor_8cpp.html" title=" " alt="" coords="4001,93,4141,133"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="3161,26,3319,32,3525,44,3757,63,3989,91,4002,93,4001,98,3988,96,3756,68,3525,49,3319,37,3161,32"/>
+<area shape="rect" id="Node000021" href="$FunctionAttrs_8cpp.html" title="This file implements interprocedural passes which walk the call&#45;graph deducing and/or propagating fun..." alt="" coords="4165,93,4305,133"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="3161,25,3345,28,3592,39,3872,58,4015,73,4154,91,4165,92,4165,98,4154,96,4014,78,3871,64,3592,44,3345,34,3161,30"/>
+<area shape="rect" id="Node000022" href="$Inliner_8cpp.html" title=" " alt="" coords="4329,93,4469,133"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="3160,23,3369,26,3657,35,3986,55,4154,71,4318,91,4329,92,4329,98,4318,96,4153,76,3985,60,3657,40,3369,31,3160,29"/>
+<area shape="rect" id="Node000023" href="$Internalize_8cpp.html" title=" " alt="" coords="4493,93,4633,133"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="3160,26,3828,48,4206,67,4363,78,4482,91,4493,92,4493,98,4482,96,4363,83,4206,72,3827,53,3160,32"/>
+<area shape="rect" id="Node000024" href="$OpenMPOpt_8cpp.html" title=" " alt="" coords="4657,93,4797,133"/>
+<area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="3160,26,3905,46,4333,65,4511,77,4646,91,4657,92,4657,98,4646,96,4511,82,4333,70,3905,51,3160,31"/>
+<area shape="rect" id="Node000025" href="$PruneEH_8cpp.html" title=" " alt="" coords="4821,93,4961,133"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="3160,25,3505,31,3982,44,4460,63,4659,76,4810,91,4821,92,4821,98,4810,96,4659,81,4460,68,3982,49,3505,37,3160,31"/>
+<area shape="rect" id="Node000026" href="$SampleProfile_8cpp.html" title=" " alt="" coords="4985,93,5128,133"/>
+<area shape="poly" id="edge26_Node000001_Node000026" title=" " alt="" coords="3161,25,3535,30,4059,42,4587,61,4808,75,4974,91,4986,92,4985,98,4974,96,4807,80,4587,67,4059,47,3535,36,3161,30"/>
+<area shape="rect" id="Node000027" href="$CallGraphUpdater_8cpp.html" title="This file provides interfaces used to manipulate a call graph, regardless if it is a &quot;old style&quot; Call..." alt="" coords="5153,93,5321,133"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="3160,25,3563,31,4136,43,4716,62,4958,75,5141,91,5153,92,5152,97,5140,96,4957,81,4715,68,4136,48,3563,36,3160,30"/>
+<area shape="rect" id="Node000028" href="$InlineFunction_8cpp.html" title=" " alt="" coords="5345,93,5493,133"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="3160,24,3596,28,4225,39,4864,59,5131,73,5333,91,5346,92,5345,98,5332,96,5131,78,4864,64,4225,44,3596,34,3160,30"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="310,140,169,184,168,179,308,135"/>
+<area shape="rect" id="Node000004" href="$SummaryBasedOptimizations_8cpp.html" title=" " alt="" coords="237,189,527,214"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="385,147,385,188,379,188,379,147"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="459,135,608,179,606,184,458,140"/>
+</map>

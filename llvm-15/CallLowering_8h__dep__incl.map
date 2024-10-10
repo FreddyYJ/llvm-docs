@@ -1,0 +1,115 @@
+<map id="include/llvm/CodeGen/GlobalISel/CallLowering.h" name="include/llvm/CodeGen/GlobalISel/CallLowering.h">
+<area shape="rect" id="Node000001" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="6704,5,6896,45"/>
+<area shape="rect" id="Node000002" href="$LegalizerHelper_8h.html" title=" " alt="" coords="4146,93,4355,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="6690,33,4355,111,4355,106,6690,28"/>
+<area shape="rect" id="Node000005" href="$LegalizerHelper_8cpp.html" title=" " alt="" coords="2875,189,3045,229"/>
+<area shape="poly" id="edge18_Node000001_Node000005" title=" " alt="" coords="6690,30,6276,34,5647,44,4900,64,4513,78,4133,96,3593,119,3358,139,3220,158,3058,184,3024,191,3023,186,3057,179,3219,152,3357,134,3593,114,4133,91,4513,73,4900,58,5647,39,6276,28,6690,25"/>
+<area shape="rect" id="Node000018" href="$CallLowering_8cpp.html" title="This file implements some simple delegations needed for call lowering." alt="" coords="5900,93,6071,133"/>
+<area shape="poly" id="edge16_Node000001_Node000018" title=" " alt="" coords="6690,36,6414,58,6248,75,6083,96,6071,98,6070,93,6082,91,6248,70,6414,53,6690,31"/>
+<area shape="rect" id="Node000019" href="$IRTranslator_8cpp.html" title="This file implements the IRTranslator class." alt="" coords="6095,93,6265,133"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="6691,41,6498,65,6278,96,6266,98,6265,93,6277,91,6497,59,6690,36"/>
+<area shape="rect" id="Node000020" href="$AArch64Subtarget_8h.html" title=" " alt="" coords="1597,93,1752,133"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="6690,31,1752,113,1752,108,6690,26"/>
+<area shape="rect" id="Node000058" href="$AArch64CallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="6290,93,6505,133"/>
+<area shape="poly" id="edge33_Node000001_Node000058" title=" " alt="" coords="6699,51,6486,96,6485,91,6698,46"/>
+<area shape="rect" id="Node000059" href="$AMDGPUCallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="6529,93,6762,133"/>
+<area shape="poly" id="edge34_Node000001_Node000059" title=" " alt="" coords="6755,54,6680,96,6678,91,6753,50"/>
+<area shape="rect" id="Node000144" href="$ARMCallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="5063,101,5310,126"/>
+<area shape="poly" id="edge35_Node000001_Node000144" title=" " alt="" coords="6690,31,6445,36,6105,47,5716,67,5322,96,5260,103,5259,98,5321,91,5716,61,6105,42,6444,31,6690,25"/>
+<area shape="rect" id="Node000147" href="$ARMSubtarget_8h.html" title=" " alt="" coords="5334,101,5559,126"/>
+<area shape="poly" id="edge37_Node000001_Node000147" title=" " alt="" coords="6690,32,6207,51,5894,70,5578,96,5518,103,5518,98,5577,91,5894,65,6207,46,6690,27"/>
+<area shape="rect" id="Node000171" href="$ARMTargetMachine_8cpp.html" title=" " alt="" coords="5501,189,5691,229"/>
+<area shape="poly" id="edge40_Node000001_Node000171" title=" " alt="" coords="6690,30,6427,33,6105,43,5951,51,5817,63,5716,77,5681,86,5659,96,5637,115,5621,140,5603,189,5598,188,5616,138,5633,112,5656,91,5679,81,5715,72,5817,58,5950,46,6105,38,6427,28,6690,24"/>
+<area shape="rect" id="Node000191" href="$M68kCallLowering_8cpp.html" title="This file implements the lowering of LLVM calls to machine code calls for GlobalISel." alt="" coords="6831,189,7004,229"/>
+<area shape="poly" id="edge41_Node000001_Node000191" title=" " alt="" coords="6805,58,6812,95,6828,132,6855,163,6886,186,6882,191,6851,167,6823,135,6807,97,6800,59"/>
+<area shape="rect" id="Node000192" href="$M68kCallLowering_8h.html" title="This file implements the lowering of LLVM calls to machine code calls for GlobalISel." alt="" coords="6837,93,6997,133"/>
+<area shape="poly" id="edge42_Node000001_Node000192" title=" " alt="" coords="6839,52,6893,91,6890,95,6836,56"/>
+<area shape="rect" id="Node000194" href="$M68kSubtarget_8h.html" title="This file declares the M68k specific subclass of TargetSubtargetInfo." alt="" coords="7021,101,7259,126"/>
+<area shape="poly" id="edge44_Node000001_Node000194" title=" " alt="" coords="6888,46,7095,98,7094,103,6887,51"/>
+<area shape="rect" id="Node000212" href="$MipsCallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="7283,93,7461,133"/>
+<area shape="poly" id="edge46_Node000001_Node000212" title=" " alt="" coords="6910,38,7271,91,7284,93,7283,98,7270,96,6910,44"/>
+<area shape="rect" id="Node000215" href="$MipsSubtarget_8h.html" title=" " alt="" coords="7485,101,7712,126"/>
+<area shape="poly" id="edge47_Node000001_Node000215" title=" " alt="" coords="6910,33,7167,57,7472,91,7526,98,7525,103,7472,96,7166,63,6910,39"/>
+<area shape="rect" id="Node000256" href="$PPCCallLowering_8cpp.html" title="This file implements the lowering of LLVM calls to machine code calls for GlobalISel." alt="" coords="7780,189,7980,229"/>
+<area shape="poly" id="edge48_Node000001_Node000256" title=" " alt="" coords="6910,24,7106,27,7342,37,7459,45,7566,57,7656,72,7725,91,7741,99,7753,109,7776,131,7854,186,7851,191,7773,135,7749,113,7738,104,7723,96,7655,77,7565,62,7458,50,7342,42,7106,32,6910,29"/>
+<area shape="rect" id="Node000257" href="$PPCCallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="7787,93,7973,133"/>
+<area shape="poly" id="edge49_Node000001_Node000257" title=" " alt="" coords="6910,28,7290,49,7529,67,7768,91,7788,93,7787,98,7768,96,7528,72,7290,54,6910,33"/>
+<area shape="rect" id="Node000259" href="$PPCSubtarget_8h.html" title=" " alt="" coords="7997,93,8139,133"/>
+<area shape="poly" id="edge51_Node000001_Node000259" title=" " alt="" coords="6910,24,7111,28,7378,38,7680,58,7834,72,7984,91,7997,93,7996,98,7984,96,7833,78,7680,63,7378,43,7110,33,6909,30"/>
+<area shape="rect" id="Node000294" href="$RISCVCallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="8163,93,8357,133"/>
+<area shape="poly" id="edge53_Node000001_Node000294" title=" " alt="" coords="6910,25,7136,29,7444,40,7796,60,8151,91,8163,92,8163,97,8150,96,7795,65,7444,45,7136,35,6909,30"/>
+<area shape="rect" id="Node000297" href="$RISCVSubtarget_8h.html" title=" " alt="" coords="8381,101,8624,126"/>
+<area shape="poly" id="edge54_Node000001_Node000297" title=" " alt="" coords="6910,25,7169,30,7530,41,7946,60,8368,91,8430,98,8430,103,8368,96,7945,65,7530,46,7168,35,6909,30"/>
+<area shape="rect" id="Node000323" href="$SPIRVCallLowering_8h.html" title=" " alt="" coords="5685,93,5875,133"/>
+<area shape="poly" id="edge55_Node000001_Node000323" title=" " alt="" coords="6690,34,6333,55,6111,72,5888,96,5876,98,5876,92,5888,91,6111,67,6333,49,6690,29"/>
+<area shape="rect" id="Node000325" href="$SPIRVSubtarget_8h.html" title=" " alt="" coords="5715,196,5957,221"/>
+<area shape="poly" id="edge58_Node000001_Node000325" title=" " alt="" coords="6690,32,6419,40,6090,53,5807,71,5715,83,5687,89,5674,95,5665,111,5666,125,5677,139,5694,153,5742,176,5793,193,5792,198,5740,181,5691,157,5673,143,5661,127,5660,110,5670,91,5685,84,5714,78,5807,66,6090,47,6419,34,6690,26"/>
+<area shape="rect" id="Node000340" href="$X86CallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="8698,101,8934,126"/>
+<area shape="poly" id="edge59_Node000001_Node000340" title=" " alt="" coords="6909,24,7214,27,7652,36,8161,56,8423,71,8680,91,8744,98,8743,103,8680,96,8423,77,8161,61,7652,41,7214,32,6909,29"/>
+<area shape="rect" id="Node000342" href="$X86Subtarget_8cpp.html" title=" " alt="" coords="8566,196,8797,221"/>
+<area shape="poly" id="edge62_Node000001_Node000342" title=" " alt="" coords="6910,25,7333,29,7891,40,8161,49,8391,60,8558,74,8610,82,8637,91,8659,115,8673,144,8683,195,8678,196,8668,146,8655,118,8635,96,8609,87,8557,79,8391,65,8160,54,7891,45,7333,35,6910,30"/>
+<area shape="rect" id="Node000343" href="$X86TargetMachine_8cpp.html" title=" " alt="" coords="8861,189,9041,229"/>
+<area shape="poly" id="edge63_Node000001_Node000343" title=" " alt="" coords="6910,25,7406,33,8077,47,8674,66,8867,78,8923,84,8948,91,8962,114,8966,141,8964,167,8959,189,8954,188,8959,166,8961,141,8957,116,8945,95,8922,89,8866,83,8674,71,8077,52,7406,38,6910,31"/>
+<area shape="rect" id="Node000003" href="$CombinerHelper_8cpp.html" title=" " alt="" coords="3293,189,3464,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="4133,121,3834,140,3655,158,3476,184,3443,191,3442,186,3476,179,3654,153,3833,134,4132,116"/>
+<area shape="rect" id="Node000004" href="$Legalizer_8cpp.html" title=" " alt="" coords="3488,189,3659,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="4133,127,3920,148,3798,164,3678,184,3644,191,3642,186,3677,179,3798,159,3920,143,4132,121"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="4132,121,3574,143,3275,162,3152,172,3058,184,3023,191,3022,186,3057,179,3151,167,3275,156,3574,138,4132,116"/>
+<area shape="rect" id="Node000006" href="$AArch64LegalizerInfo_8cpp.html" title="This file implements the targeting of the Machinelegalizer class for AArch64." alt="" coords="3581,284,3811,324"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="4132,117,4018,121,3897,131,3841,140,3791,151,3751,166,3723,183,3707,206,3699,233,3696,260,3697,284,3691,284,3691,260,3694,232,3702,203,3719,179,3749,161,3790,146,3840,134,3897,126,4018,115,4132,111"/>
+<area shape="rect" id="Node000007" href="$AArch64LegalizerInfo_8h.html" title="This file declares the targeting of the Machinelegalizer class for AArch64." alt="" coords="3734,189,3949,229"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="4155,139,3925,191,3923,186,4154,134"/>
+<area shape="rect" id="Node000010" href="$AMDGPULegalizerInfo_8cpp.html" title="This file implements the targeting of the Machinelegalizer class for AMDGPU." alt="" coords="3973,189,4240,229"/>
+<area shape="poly" id="edge8_Node000002_Node000010" title=" " alt="" coords="4211,143,4137,191,4134,186,4208,139"/>
+<area shape="rect" id="Node000011" href="$AMDGPURegisterBankInfo_8cpp.html" title="This file implements the targeting of the RegisterBankInfo class for AMDGPU." alt="" coords="4265,189,4527,229"/>
+<area shape="poly" id="edge9_Node000002_Node000011" title=" " alt="" coords="4293,139,4368,186,4365,191,4291,143"/>
+<area shape="rect" id="Node000012" href="$ARMLegalizerInfo_8cpp.html" title="This file implements the targeting of the Machinelegalizer class for ARM." alt="" coords="5267,189,5477,229"/>
+<area shape="poly" id="edge10_Node000002_Node000012" title=" " alt="" coords="4369,115,4541,121,4761,132,5004,151,5248,179,5291,186,5290,191,5248,184,5004,156,4760,138,4541,126,4369,120"/>
+<area shape="rect" id="Node000013" href="$M68kLegalizerInfo_8cpp.html" title="This file implements the targeting of the Machinelegalizer class for M68k." alt="" coords="4552,189,4725,229"/>
+<area shape="poly" id="edge11_Node000002_Node000013" title=" " alt="" coords="4348,134,4539,179,4568,186,4567,191,4538,184,4347,139"/>
+<area shape="rect" id="Node000014" href="$MipsLegalizerInfo_8cpp.html" title="This file implements the targeting of the Machinelegalizer class for Mips." alt="" coords="4749,189,4960,229"/>
+<area shape="poly" id="edge12_Node000002_Node000014" title=" " alt="" coords="4369,125,4544,148,4738,179,4775,186,4774,191,4737,184,4543,153,4369,131"/>
+<area shape="rect" id="Node000015" href="$MipsRegisterBankInfo_8cpp.html" title="This file implements the targeting of the RegisterBankInfo class for Mips." alt="" coords="4985,189,5191,229"/>
+<area shape="poly" id="edge13_Node000002_Node000015" title=" " alt="" coords="4369,118,4646,139,4809,156,4972,179,5011,186,5010,191,4972,184,4809,162,4645,145,4369,124"/>
+<area shape="rect" id="Node000016" href="$SPIRVLegalizerInfo_8cpp.html" title=" " alt="" coords="5419,284,5645,324"/>
+<area shape="poly" id="edge14_Node000002_Node000016" title=" " alt="" coords="4369,116,4589,124,4848,137,5075,155,5156,166,5204,179,5221,192,5231,206,5241,221,5256,234,5295,253,5337,268,5420,288,5419,293,5335,273,5293,258,5253,238,5237,224,5227,209,5218,195,5202,184,5155,172,5075,161,4847,142,4589,129,4369,121"/>
+<area shape="rect" id="Node000017" href="$X86LegalizerInfo_8cpp.html" title="This file implements the targeting of the Machinelegalizer class for X86." alt="" coords="3070,189,3269,229"/>
+<area shape="poly" id="edge15_Node000002_Node000017" title=" " alt="" coords="4132,119,3965,125,3752,136,3517,155,3282,184,3243,191,3242,186,3281,179,3517,150,3752,131,3965,120,4132,114"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="3801,239,3727,286,3724,282,3799,234"/>
+<area shape="poly" id="edge32_Node000020_Node000006" title=" " alt="" coords="1766,114,1905,119,2066,130,2217,149,2277,162,2323,179,2340,192,2349,208,2358,222,2373,234,2401,242,2443,251,2564,264,2722,276,2904,284,3280,295,3581,299,3581,304,3280,300,2904,289,2722,281,2564,270,2442,256,2399,248,2371,238,2354,225,2344,210,2336,196,2320,184,2276,168,2216,154,2066,135,1904,124,1766,119"/>
+<area shape="rect" id="Node000021" href="$AArch64A53Fix835769_8cpp.html" title=" " alt="" coords="2385,189,2583,229"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="1766,117,2036,138,2202,156,2367,179,2406,186,2406,191,2366,184,2201,161,2036,144,1766,123"/>
+<area shape="rect" id="Node000022" href="$AArch64A57FPLoadBalancing_8cpp.html" title=" " alt="" coords="2608,189,2851,229"/>
+<area shape="poly" id="edge21_Node000020_Node000022" title=" " alt="" coords="1766,115,2129,134,2361,153,2595,179,2641,186,2640,191,2594,184,2361,158,2129,140,1766,120"/>
+<area shape="rect" id="Node000023" href="$AArch64AsmPrinter_8cpp.html" title=" " alt="" coords="5,189,184,229"/>
+<area shape="poly" id="edge22_Node000020_Node000023" title=" " alt="" coords="1584,119,1287,126,887,138,488,158,322,170,196,184,160,191,159,186,196,179,321,165,487,152,886,133,1287,120,1584,114"/>
+<area shape="rect" id="Node000024" href="$AArch64BranchTargets_8cpp.html" title=" " alt="" coords="209,189,407,229"/>
+<area shape="poly" id="edge23_Node000020_Node000024" title=" " alt="" coords="1583,117,1375,119,1086,127,755,148,586,164,420,184,381,191,380,186,420,179,585,158,755,142,1086,122,1375,113,1583,111"/>
+<area shape="rect" id="Node000025" href="$AArch64CallingConvention_8cpp.html" title=" " alt="" coords="432,189,659,229"/>
+<area shape="poly" id="edge24_Node000020_Node000025" title=" " alt="" coords="1584,119,1413,125,1186,136,930,155,671,184,628,191,627,186,670,179,929,150,1186,131,1413,119,1583,114"/>
+<area shape="rect" id="Node000026" href="$AArch64CompressJumpTables_8cpp.html" title=" " alt="" coords="683,189,930,229"/>
+<area shape="poly" id="edge25_Node000020_Node000026" title=" " alt="" coords="1584,123,1297,144,1120,162,942,184,897,191,897,186,941,179,1119,157,1297,139,1584,117"/>
+<area shape="rect" id="Node000027" href="$AArch64CondBrTuning_8cpp.html" title="This file contains a pass that transforms CBZ/CBNZ/TBZ/TBNZ instructions into a conditional branch (B..." alt="" coords="954,189,1150,229"/>
+<area shape="poly" id="edge26_Node000020_Node000027" title=" " alt="" coords="1584,126,1389,149,1162,184,1126,191,1125,186,1161,179,1389,144,1584,121"/>
+<area shape="rect" id="Node000028" href="$AArch64DeadRegisterDefinitionsPass_8cpp.html" title=" " alt="" coords="1174,181,1413,236"/>
+<area shape="poly" id="edge27_Node000020_Node000028" title=" " alt="" coords="1585,139,1401,184,1400,179,1584,134"/>
+<area shape="rect" id="Node000029" href="$AArch64ExpandPseudoInsts_8cpp.html" title=" " alt="" coords="1437,189,1670,229"/>
+<area shape="poly" id="edge28_Node000020_Node000029" title=" " alt="" coords="1641,144,1579,191,1576,186,1637,140"/>
+<area shape="rect" id="Node000030" href="$AArch64FalkorHWPFFix_8cpp.html" title=" " alt="" coords="1695,189,1897,229"/>
+<area shape="poly" id="edge29_Node000020_Node000030" title=" " alt="" coords="1712,140,1773,186,1770,191,1709,144"/>
+<area shape="rect" id="Node000031" href="$AArch64FastISel_8cpp.html" title=" " alt="" coords="1921,189,2079,229"/>
+<area shape="poly" id="edge30_Node000020_Node000031" title=" " alt="" coords="1755,135,1910,179,1935,186,1934,191,1909,184,1753,140"/>
+<area shape="rect" id="Node000032" href="$AArch64FrameLowering_8cpp.html" title=" " alt="" coords="2103,189,2310,229"/>
+<area shape="poly" id="edge31_Node000020_Node000032" title=" " alt="" coords="1766,125,1919,149,2091,179,2127,186,2126,191,2090,184,1918,154,1766,130"/>
+<area shape="poly" id="edge36_Node000144_Node000012" title=" " alt="" coords="5223,130,5336,186,5333,191,5220,134"/>
+<area shape="poly" id="edge38_Node000147_Node000012" title=" " alt="" coords="5431,138,5389,190,5385,187,5427,135"/>
+<area shape="poly" id="edge39_Node000147_Node000171" title=" " alt="" coords="5478,131,5567,186,5564,191,5475,135"/>
+<area shape="poly" id="edge43_Node000192_Node000191" title=" " alt="" coords="6920,147,6920,189,6915,189,6915,147"/>
+<area shape="poly" id="edge45_Node000194_Node000191" title=" " alt="" coords="7101,134,6963,191,6961,186,7099,129"/>
+<area shape="poly" id="edge50_Node000257_Node000256" title=" " alt="" coords="7883,147,7883,189,7877,189,7877,147"/>
+<area shape="poly" id="edge52_Node000259_Node000256" title=" " alt="" coords="8019,142,7919,191,7917,186,8017,137"/>
+<area shape="poly" id="edge56_Node000323_Node000325" title=" " alt="" coords="5801,144,5831,194,5827,197,5796,147"/>
+<area shape="poly" id="edge57_Node000325_Node000016" title=" " alt="" coords="5786,228,5594,287,5592,281,5785,223"/>
+<area shape="poly" id="edge60_Node000340_Node000342" title=" " alt="" coords="8790,136,8699,198,8696,194,8787,131"/>
+<area shape="poly" id="edge61_Node000340_Node000343" title=" " alt="" coords="8845,132,8925,186,8922,191,8842,136"/>
+</map>

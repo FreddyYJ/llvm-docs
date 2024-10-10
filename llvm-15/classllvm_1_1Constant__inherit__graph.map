@@ -1,0 +1,73 @@
+<map id="llvm::Constant" name="llvm::Constant">
+<area shape="rect" id="Node000001" title="This is an important base class in LLVM." alt="" coords="285,647,403,672"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1BlockAddress.html" title="The address of a basic block." alt="" coords="473,55,619,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="344,633,352,517,370,354,383,271,401,195,422,133,435,108,449,89,471,74,474,79,453,93,439,111,427,135,406,197,389,272,375,355,357,518,349,633"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1ConstantAggregate.html" title="Base class for aggregate constants (with operands)." alt="" coords="454,104,638,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="349,633,387,494,416,403,448,312,496,205,535,128,540,131,501,207,453,314,421,405,392,496,354,634"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1ConstantData.html" title="Base class for constants with no operands." alt="" coords="472,325,620,351"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="358,633,534,349,539,352,363,636"/>
+<area shape="rect" id="Node000020" href="$classllvm_1_1ConstantExpr.html" title="A constant value that is initialized with an expression using other constant values." alt="" coords="473,647,619,672"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="417,657,473,657,473,662,417,662"/>
+<area shape="rect" id="Node000029" href="$classllvm_1_1DSOLocalEquivalent.html" title="Wrapper for a function that represents a value that functionally represents the original function." alt="" coords="451,696,641,721"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="411,673,494,693,493,699,409,678"/>
+<area shape="rect" id="Node000030" href="$classllvm_1_1GlobalValue.html" title=" " alt="" coords="477,820,615,845"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="372,679,532,818,528,822,369,683"/>
+<area shape="rect" id="Node000036" href="$classllvm_1_1NoCFIValue.html" title="Wrapper for a value that won&#39;t be replaced with a CFI jump table pointer in LowerTypeTestsModule." alt="" coords="479,869,613,895"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="354,685,367,723,387,770,415,817,452,856,479,870,477,875,449,860,411,820,382,772,362,725,349,686"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1User.html" title=" " alt="" coords="148,647,237,672"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,657,285,657,285,662,251,662"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1Value.html" title="LLVM Value Representation." alt="" coords="5,647,100,672"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,657,148,657,148,662,113,662"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1ConstantArray.html" title="ConstantArray &#45; Constant Array Declarations." alt="" coords="737,5,889,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="625,97,640,89,654,77,663,65,672,52,688,40,736,23,737,28,691,44,676,56,667,68,658,81,643,94,627,101"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1ConstantStruct.html" title=" " alt="" coords="735,55,890,80"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="628,99,743,77,744,83,629,104"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1ConstantVector.html" title="Constant Vector Declarations." alt="" coords="733,104,892,129"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="652,114,733,114,733,119,652,119"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1ConstantAggregateZero.html" title="All zero aggregate value." alt="" coords="705,153,920,179"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="561,312,612,249,648,215,688,188,715,176,717,181,691,192,651,220,616,253,565,315"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1ConstantDataSequential.html" title="ConstantDataSequential &#45; A vector or array constant whose element type is a simple 1/2/4/8&#45;byte integ..." alt="" coords="704,203,921,228"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="570,314,622,274,654,254,688,237,723,226,724,231,690,242,657,259,625,279,573,318"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1ConstantFP.html" title="ConstantFP &#45; Floating Point Values [float, double]." alt="" coords="746,252,879,277"/>
+<area shape="poly" id="edge13_Node000009_Node000014" title=" " alt="" coords="592,318,689,286,745,273,746,278,690,291,593,323"/>
+<area shape="rect" id="Node000015" href="$classllvm_1_1ConstantInt.html" title="This is the shared class of boolean and integer constants." alt="" coords="745,301,880,327"/>
+<area shape="poly" id="edge14_Node000009_Node000015" title=" " alt="" coords="634,327,745,317,745,323,634,333"/>
+<area shape="rect" id="Node000016" href="$classllvm_1_1ConstantPointerNull.html" title="A constant pointer value that points to null." alt="" coords="718,351,907,376"/>
+<area shape="poly" id="edge15_Node000009_Node000016" title=" " alt="" coords="634,344,718,352,718,357,633,349"/>
+<area shape="rect" id="Node000017" href="$classllvm_1_1ConstantTokenNone.html" title="A constant token which is empty." alt="" coords="719,400,907,425"/>
+<area shape="poly" id="edge16_Node000009_Node000017" title=" " alt="" coords="594,353,690,385,743,397,741,402,689,390,592,358"/>
+<area shape="rect" id="Node000018" href="$classllvm_1_1UndefValue.html" title="&#39;undef&#39; values are things that do not have specified contents." alt="" coords="745,449,880,475"/>
+<area shape="poly" id="edge17_Node000009_Node000018" title=" " alt="" coords="573,358,625,397,657,417,690,434,746,451,745,456,688,439,654,422,622,402,570,362"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1ConstantDataArray.html" title="An array constant whose element type is a simple 1/2/4/8&#45;byte integer or float/double,..." alt="" coords="987,179,1170,204"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="935,202,987,197,987,202,935,207"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1ConstantDataVector.html" title="A vector constant whose element type is a simple 1/2/4/8&#45;byte integer or float/double,..." alt="" coords="984,228,1173,253"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="935,224,984,229,983,234,935,230"/>
+<area shape="rect" id="Node000019" href="$classllvm_1_1PoisonValue.html" title="In order to facilitate speculative execution, many instructions do not invoke immediate undefined beh..." alt="" coords="1009,449,1148,475"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="894,459,1009,459,1009,465,894,465"/>
+<area shape="rect" id="Node000021" href="$classllvm_1_1BinaryConstantExpr.html" title="BinaryConstantExpr &#45; This class is private to Constants.cpp, and is used behind the scenes to impleme..." alt="" coords="719,499,907,524"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="565,634,617,582,651,555,688,533,718,522,720,527,690,538,654,560,620,586,569,638"/>
+<area shape="rect" id="Node000022" href="$classllvm_1_1CompareConstantExpr.html" title=" " alt="" coords="710,548,915,573"/>
+<area shape="poly" id="edge21_Node000020_Node000022" title=" " alt="" coords="577,637,628,609,688,582,728,571,730,576,690,587,631,613,580,642"/>
+<area shape="rect" id="Node000023" href="$classllvm_1_1ExtractElementConstantExpr.html" title="ExtractElementConstantExpr &#45; This class is private to Constants.cpp, and is used behind the scenes to..." alt="" coords="689,597,936,623"/>
+<area shape="poly" id="edge22_Node000020_Node000023" title=" " alt="" coords="628,642,743,620,744,625,629,647"/>
+<area shape="rect" id="Node000024" href="$classllvm_1_1GetElementPtrConstantExpr.html" title="GetElementPtrConstantExpr &#45; This class is private to Constants.cpp, and is used behind the scenes to ..." alt="" coords="692,647,933,672"/>
+<area shape="poly" id="edge23_Node000020_Node000024" title=" " alt="" coords="633,657,692,657,692,662,633,662"/>
+<area shape="rect" id="Node000025" href="$classllvm_1_1InsertElementConstantExpr.html" title="InsertElementConstantExpr &#45; This class is private to Constants.cpp, and is used behind the scenes to ..." alt="" coords="694,696,931,721"/>
+<area shape="poly" id="edge24_Node000020_Node000025" title=" " alt="" coords="629,672,744,693,743,699,628,677"/>
+<area shape="rect" id="Node000026" href="$classllvm_1_1SelectConstantExpr.html" title="SelectConstantExpr &#45; This class is private to Constants.cpp, and is used behind the scenes to impleme..." alt="" coords="719,745,906,771"/>
+<area shape="poly" id="edge25_Node000020_Node000026" title=" " alt="" coords="627,675,643,682,658,695,667,708,676,720,691,732,720,744,718,749,688,736,672,724,663,711,654,699,640,687,625,679"/>
+<area shape="rect" id="Node000027" href="$classllvm_1_1ShuffleVectorConstantExpr.html" title="ShuffleVectorConstantExpr &#45; This class is private to Constants.cpp, and is used behind the scenes to ..." alt="" coords="697,795,929,820"/>
+<area shape="poly" id="edge26_Node000020_Node000027" title=" " alt="" coords="633,676,643,683,655,695,662,708,668,734,673,759,680,770,691,781,710,792,707,797,688,785,676,773,668,761,662,735,657,710,650,698,640,687,630,680"/>
+<area shape="rect" id="Node000028" href="$classllvm_1_1UnaryConstantExpr.html" title="UnaryConstantExpr &#45; This class is private to Constants.cpp, and is used behind the scenes to implemen..." alt="" coords="720,844,905,869"/>
+<area shape="poly" id="edge27_Node000020_Node000028" title=" " alt="" coords="633,675,643,683,658,702,665,721,667,759,670,796,677,814,691,831,721,848,718,852,688,835,672,816,664,797,662,759,660,722,653,704,639,687,630,679"/>
+<area shape="rect" id="Node000031" href="$classllvm_1_1GlobalAlias.html" title=" " alt="" coords="746,893,879,919"/>
+<area shape="poly" id="edge30_Node000030_Node000031" title=" " alt="" coords="616,847,642,856,666,868,690,879,747,894,745,899,688,885,664,873,640,860,614,852"/>
+<area shape="rect" id="Node000032" href="$classllvm_1_1GlobalObject.html" title=" " alt="" coords="741,943,884,968"/>
+<area shape="poly" id="edge31_Node000030_Node000032" title=" " alt="" coords="629,847,643,856,660,875,668,894,675,912,691,929,715,941,742,949,740,954,713,946,688,933,670,915,663,896,655,877,640,860,626,852"/>
+<area shape="rect" id="Node000033" href="$classllvm_1_1Function.html" title=" " alt="" coords="1021,893,1136,919"/>
+<area shape="poly" id="edge32_Node000032_Node000033" title=" " alt="" coords="895,937,1021,914,1022,919,896,943"/>
+<area shape="rect" id="Node000034" href="$classllvm_1_1GlobalIFunc.html" title=" " alt="" coords="1011,943,1146,968"/>
+<area shape="poly" id="edge33_Node000032_Node000034" title=" " alt="" coords="898,953,1011,953,1011,958,898,958"/>
+<area shape="rect" id="Node000035" href="$classllvm_1_1GlobalVariable.html" title=" " alt="" coords="1001,992,1156,1017"/>
+<area shape="poly" id="edge34_Node000032_Node000035" title=" " alt="" coords="895,968,1010,989,1009,995,895,973"/>
+</map>

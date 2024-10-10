@@ -1,0 +1,85 @@
+<map id="clang::ExtQualsTypeCommonBase" name="clang::ExtQualsTypeCommonBase">
+<area shape="rect" id="Node000001" title="Base class that is common to both the ExtQuals and Type classes, which allows QualType to access the ..." alt="" coords="5,664,249,689"/>
+<area shape="rect" id="Node000002" href="$classclang_1_1ExtQuals.html" title="We can encode up to four bits in the low bits of a type pointer, but there are many more type qualifi..." alt="" coords="297,639,420,664"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,660,297,655,297,661,257,665"/>
+<area shape="rect" id="Node000003" href="$classclang_1_1Type.html" title="The base class of the type hierarchy." alt="" coords="311,688,406,713"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,688,311,693,311,698,262,693"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1AdjustedType.html" title="Represents a type which was implicitly adjusted by the semantic engine for arbitrary reasons." alt="" coords="521,29,673,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="415,678,418,674,430,652,438,624,446,554,446,472,441,383,436,294,436,212,444,141,453,113,466,90,491,67,522,52,524,57,494,71,470,93,458,115,449,143,441,212,441,294,446,383,451,472,451,554,443,625,435,654,422,677,419,681"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1ArrayType.html" title="Represents an array type, per C99 6.7.5.2 &#45; Array Declarators." alt="" coords="531,104,662,129"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="415,678,418,674,429,653,436,628,443,563,442,487,438,405,433,323,434,248,443,184,453,159,466,139,480,127,496,119,531,111,532,116,498,124,483,132,470,142,457,161,448,186,439,248,439,323,443,405,448,487,449,564,442,629,434,655,422,677,419,681"/>
+<area shape="rect" id="Node000011" href="$classclang_1_1AtomicType.html" title=" " alt="" coords="526,153,667,179"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="415,678,418,674,428,655,435,632,442,574,441,505,438,430,435,356,436,287,445,230,454,206,466,188,493,170,525,161,526,166,495,174,470,192,458,209,450,231,441,288,440,356,443,430,447,504,447,574,440,633,433,657,422,677,419,681"/>
+<area shape="rect" id="Node000012" href="$classclang_1_1BitIntType.html" title="A fixed int type of a specified bitwidth." alt="" coords="531,203,662,228"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="415,678,418,674,436,645,448,617,454,589,455,561,449,507,435,453,423,399,418,346,422,319,430,292,445,265,466,237,480,226,496,218,530,210,531,215,498,223,483,230,470,241,449,268,435,294,427,320,424,346,428,399,441,452,454,506,461,561,459,590,453,618,441,647,422,677,419,681"/>
+<area shape="rect" id="Node000013" href="$classclang_1_1BlockPointerType.html" title="Pointer to a block type." alt="" coords="508,252,685,277"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="414,678,418,674,434,648,445,623,450,599,452,574,447,526,436,478,426,430,423,383,426,359,434,335,447,311,466,287,485,272,507,264,509,269,488,277,470,291,451,314,439,337,431,360,428,383,431,430,441,477,452,525,458,574,456,600,450,625,439,651,422,677,419,681"/>
+<area shape="rect" id="Node000014" href="$classclang_1_1BuiltinType.html" title="This class is used for builtin types like &#39;int&#39;." alt="" coords="528,301,665,327"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="414,678,418,674,432,652,442,630,449,587,446,545,437,503,429,462,427,420,437,378,449,357,466,336,494,318,527,309,528,314,497,322,470,340,453,360,442,380,432,420,434,461,442,502,451,544,454,588,447,632,437,654,422,677,418,682"/>
+<area shape="rect" id="Node000015" href="$classclang_1_1ComplexType.html" title="Complex values, per C99 6.2.5p11." alt="" coords="520,351,673,376"/>
+<area shape="poly" id="edge14_Node000003_Node000015" title=" " alt="" coords="414,678,418,674,439,637,446,600,444,564,437,528,431,493,431,457,441,421,466,385,490,369,519,360,520,365,493,374,470,389,446,423,436,457,437,492,443,527,449,564,451,601,444,638,422,677,418,682"/>
+<area shape="rect" id="Node000016" href="$classclang_1_1DependentAddressSpaceType.html" title="Represents an extended address space qualifier where the input address space value is dependent." alt="" coords="468,400,725,425"/>
+<area shape="poly" id="edge15_Node000003_Node000016" title=" " alt="" coords="414,678,418,674,436,643,443,613,442,583,438,553,434,524,435,494,444,464,466,435,481,423,485,427,470,439,449,467,440,495,440,523,443,553,448,583,448,614,441,645,422,677,418,682"/>
+<area shape="rect" id="Node000017" href="$classclang_1_1DependentBitIntType.html" title=" " alt="" coords="496,449,697,475"/>
+<area shape="poly" id="edge16_Node000003_Node000017" title=" " alt="" coords="413,678,418,674,433,650,440,626,439,579,437,556,439,532,448,508,466,485,495,468,497,472,470,489,453,511,445,533,443,556,444,579,445,627,438,652,422,677,417,682"/>
+<area shape="rect" id="Node000018" href="$classclang_1_1DependentSizedExtVectorType.html" title="Represents an extended vector type where either the type or size is dependent." alt="" coords="501,499,693,539"/>
+<area shape="poly" id="edge17_Node000003_Node000018" title=" " alt="" coords="412,679,418,674,430,658,436,643,440,612,445,580,453,565,466,549,499,530,502,534,470,553,457,568,450,582,445,612,441,644,434,661,422,677,416,683"/>
+<area shape="rect" id="Node000019" href="$classclang_1_1DependentVectorType.html" title="Represents a vector type where either the type or size is dependent." alt="" coords="493,564,700,589"/>
+<area shape="poly" id="edge18_Node000003_Node000019" title=" " alt="" coords="411,679,418,673,433,655,441,636,449,617,466,599,492,586,494,590,470,603,453,620,446,638,438,657,422,677,414,683"/>
+<area shape="rect" id="Node000020" href="$classclang_1_1FunctionType.html" title="FunctionType &#45; C99 6.7.5.3 &#45; Function Declarators." alt="" coords="521,613,672,639"/>
+<area shape="poly" id="edge19_Node000003_Node000020" title=" " alt="" coords="403,680,419,673,442,659,467,647,521,634,522,639,469,653,445,664,421,678,405,685"/>
+<area shape="rect" id="Node000023" href="$classclang_1_1LocInfoType.html" title="Holds a QualType and a TypeSourceInfo* that came out of a declarator parsing." alt="" coords="525,663,668,688"/>
+<area shape="poly" id="edge22_Node000003_Node000023" title=" " alt="" coords="419,692,525,680,526,686,420,697"/>
+<area shape="rect" id="Node000024" href="$classclang_1_1MacroQualifiedType.html" title="Sugar type that represents a type that was qualified by a qualifier written as a macro invocation." alt="" coords="500,712,693,737"/>
+<area shape="poly" id="edge23_Node000003_Node000024" title=" " alt="" coords="420,704,500,712,500,718,420,709"/>
+<area shape="rect" id="Node000025" href="$classclang_1_1MatrixType.html" title="Represents a matrix type, as defined in the Matrix Types clang extensions." alt="" coords="528,761,665,787"/>
+<area shape="poly" id="edge24_Node000003_Node000025" title=" " alt="" coords="398,717,469,746,529,761,527,766,467,751,396,722"/>
+<area shape="rect" id="Node000028" href="$classclang_1_1MemberPointerType.html" title="A pointer to member type per C++ 8.3.3 &#45; Pointers to members." alt="" coords="499,811,694,836"/>
+<area shape="poly" id="edge27_Node000003_Node000028" title=" " alt="" coords="381,722,419,761,443,780,469,796,502,808,500,813,467,800,440,784,416,765,377,726"/>
+<area shape="rect" id="Node000029" href="$classclang_1_1ObjCObjectPointerType.html" title="Represents a pointer to an Objective C object." alt="" coords="489,860,704,885"/>
+<area shape="poly" id="edge28_Node000003_Node000029" title=" " alt="" coords="373,724,410,786,437,818,469,845,495,857,493,862,467,850,433,822,406,789,369,727"/>
+<area shape="rect" id="Node000030" href="$classclang_1_1ParenType.html" title="Sugar for parentheses used when specifying types." alt="" coords="531,909,662,935"/>
+<area shape="poly" id="edge29_Node000003_Node000030" title=" " alt="" coords="369,726,382,765,402,811,431,857,449,877,469,894,499,910,531,917,530,923,497,915,467,899,446,881,427,860,398,813,377,767,364,728"/>
+<area shape="rect" id="Node000031" href="$classclang_1_1PipeType.html" title="PipeType &#45; OpenCL20." alt="" coords="535,959,658,984"/>
+<area shape="poly" id="edge30_Node000003_Node000031" title=" " alt="" coords="366,727,376,775,395,834,426,894,446,921,470,944,501,961,536,968,535,974,499,966,466,948,442,924,421,897,390,836,371,776,361,728"/>
+<area shape="rect" id="Node000032" href="$classclang_1_1PointerType.html" title="PointerType &#45; C99 6.7.5.1 &#45; Pointer Declarators." alt="" coords="526,1008,667,1033"/>
+<area shape="poly" id="edge31_Node000003_Node000032" title=" " alt="" coords="364,727,371,783,388,856,402,894,420,931,442,964,470,993,496,1009,526,1017,525,1022,494,1014,466,997,438,968,415,933,397,896,383,857,366,784,359,728"/>
+<area shape="rect" id="Node000033" href="$classclang_1_1ReferenceType.html" title="Base for LValueReferenceType and RValueReferenceType." alt="" coords="516,1057,677,1083"/>
+<area shape="poly" id="edge32_Node000003_Node000033" title=" " alt="" coords="362,727,366,791,381,877,395,923,413,967,438,1008,470,1043,492,1057,517,1065,515,1070,489,1061,466,1047,434,1011,409,969,390,925,376,879,361,792,357,727"/>
+<area shape="rect" id="Node000036" href="$classclang_1_1TypeOfExprType.html" title="Represents a typeof (or typeof) expression (a C2x feature and GCC extension) or a typeof_unqual expre..." alt="" coords="512,1107,681,1132"/>
+<area shape="poly" id="edge35_Node000003_Node000036" title=" " alt="" coords="366,726,380,810,402,920,433,1025,450,1065,470,1092,490,1105,513,1114,511,1119,487,1110,466,1096,446,1068,428,1027,397,921,374,811,361,727"/>
+<area shape="rect" id="Node000038" href="$classclang_1_1TypedefType.html" title=" " alt="" coords="523,1156,670,1181"/>
+<area shape="poly" id="edge37_Node000003_Node000038" title=" " alt="" coords="365,727,377,820,399,945,413,1008,430,1065,449,1111,470,1141,495,1157,524,1166,523,1171,493,1162,466,1145,444,1113,425,1067,408,1009,393,946,372,821,360,727"/>
+<area shape="rect" id="Node000039" href="$classclang_1_1UnresolvedUsingType.html" title="Represents the dependent type named by a dependently&#45;scoped typename using declaration,..." alt="" coords="493,1205,700,1231"/>
+<area shape="poly" id="edge38_Node000003_Node000039" title=" " alt="" coords="365,727,375,829,395,969,409,1040,426,1104,447,1156,470,1191,495,1207,492,1211,466,1195,442,1159,421,1106,404,1041,390,970,370,830,359,727"/>
+<area shape="rect" id="Node000040" href="$classclang_1_1UsingType.html" title=" " alt="" coords="531,1255,663,1280"/>
+<area shape="poly" id="edge39_Node000003_Node000040" title=" " alt="" coords="364,727,373,838,392,993,406,1072,423,1143,445,1202,457,1224,470,1240,498,1258,531,1266,530,1271,496,1263,466,1244,452,1227,440,1204,418,1145,401,1073,387,994,368,839,359,727"/>
+<area shape="rect" id="Node000041" href="$classclang_1_1VectorType.html" title="Represents a GCC generic vector type." alt="" coords="529,1304,665,1329"/>
+<area shape="poly" id="edge40_Node000003_Node000041" title=" " alt="" coords="364,727,371,848,388,1018,402,1105,420,1184,443,1248,456,1273,470,1291,497,1308,529,1316,527,1321,495,1313,466,1295,451,1275,438,1250,415,1185,397,1106,383,1019,366,849,358,728"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1DecayedType.html" title="Represents a pointer type decayed from an array or function type." alt="" coords="819,5,971,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="686,32,818,21,819,27,687,37"/>
+<area shape="rect" id="Node000007" href="$classclang_1_1ConstantArrayType.html" title="Represents the canonical version of C arrays with a specified constant size." alt="" coords="801,55,989,80"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="675,101,817,77,818,83,676,106"/>
+<area shape="rect" id="Node000008" href="$classclang_1_1DependentSizedArrayType.html" title="Represents an array type in C++ whose size is a value&#45;dependent expression." alt="" coords="777,104,1013,129"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="676,114,776,114,776,119,676,119"/>
+<area shape="rect" id="Node000009" href="$classclang_1_1IncompleteArrayType.html" title="Represents a C array with an unspecified size." alt="" coords="793,153,996,179"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="676,127,818,151,817,156,675,132"/>
+<area shape="rect" id="Node000010" href="$classclang_1_1VariableArrayType.html" title="Represents a C array with a specified size that is not an integer&#45;constant&#45;expression." alt="" coords="803,203,986,228"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="676,121,702,128,727,138,742,151,752,164,760,176,775,188,804,200,802,205,772,192,756,180,747,167,739,154,724,143,700,133,675,126"/>
+<area shape="rect" id="Node000021" href="$classclang_1_1FunctionNoProtoType.html" title="Represents a K&amp;R&#45;style &#39;int foo()&#39; function, which has no information available about its arguments." alt="" coords="793,589,996,615"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="686,616,793,608,793,613,686,622"/>
+<area shape="rect" id="Node000022" href="$classclang_1_1FunctionProtoType.html" title="Represents a prototype with parameter type info, e.g." alt="" coords="803,639,987,664"/>
+<area shape="poly" id="edge21_Node000020_Node000022" title=" " alt="" coords="686,631,802,641,802,646,686,636"/>
+<area shape="rect" id="Node000026" href="$classclang_1_1ConstantMatrixType.html" title="Represents a concrete matrix type with constant number of rows and columns." alt="" coords="797,737,992,763"/>
+<area shape="poly" id="edge25_Node000025_Node000026" title=" " alt="" coords="679,765,797,755,797,760,679,770"/>
+<area shape="rect" id="Node000027" href="$classclang_1_1DependentSizedMatrixType.html" title="Represents a matrix type where the type and the number of rows and columns is dependent on a template..." alt="" coords="773,787,1016,812"/>
+<area shape="poly" id="edge26_Node000025_Node000027" title=" " alt="" coords="679,778,773,786,773,792,679,784"/>
+<area shape="rect" id="Node000034" href="$classclang_1_1LValueReferenceType.html" title="An lvalue reference type, per C++11 [dcl.ref]." alt="" coords="793,1008,996,1033"/>
+<area shape="poly" id="edge33_Node000033_Node000034" title=" " alt="" coords="687,1052,817,1031,817,1036,688,1058"/>
+<area shape="rect" id="Node000035" href="$classclang_1_1RValueReferenceType.html" title="An rvalue reference type, per C++11 [dcl.ref]." alt="" coords="791,1057,998,1083"/>
+<area shape="poly" id="edge34_Node000033_Node000035" title=" " alt="" coords="691,1067,791,1067,791,1073,691,1073"/>
+<area shape="rect" id="Node000037" href="$classclang_1_1DependentTypeOfExprType.html" title="Internal representation of canonical, dependent typeof(expr) types." alt="" coords="775,1107,1015,1132"/>
+<area shape="poly" id="edge36_Node000036_Node000037" title=" " alt="" coords="695,1117,774,1117,774,1122,695,1122"/>
+<area shape="rect" id="Node000042" href="$classclang_1_1ExtVectorType.html" title="ExtVectorType &#45; Extended vector type." alt="" coords="816,1304,973,1329"/>
+<area shape="poly" id="edge41_Node000041_Node000042" title=" " alt="" coords="679,1314,816,1314,816,1319,679,1319"/>
+</map>

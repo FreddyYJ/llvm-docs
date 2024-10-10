@@ -1,0 +1,69 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classclang_1_1threadSafety_1_1til_1_1SExpr.html" title="Base class for AST nodes in the typed intermediate language." alt="" coords="5,901,155,941"/>
+<area shape="rect" id="Node000001" href="$classclang_1_1threadSafety_1_1til_1_1Alloc.html" title="Allocate memory for a new value on the heap or stack." alt="" coords="203,5,352,45"/>
+<area shape="poly" id="edge1637_Node000000_Node000001" title=" " alt="" coords="79,887,85,716,102,469,118,341,139,223,166,125,182,86,201,56,213,44,217,47,205,59,187,88,171,127,144,224,123,342,108,469,90,716,84,888"/>
+<area shape="rect" id="Node000002" href="$classclang_1_1threadSafety_1_1til_1_1Apply.html" title="Apply an argument to a function." alt="" coords="203,69,352,109"/>
+<area shape="poly" id="edge1638_Node000000_Node000002" title=" " alt="" coords="80,887,87,727,106,499,121,381,142,273,168,183,183,147,201,120,213,108,217,112,205,123,188,150,173,185,147,274,127,382,111,500,92,728,85,888"/>
+<area shape="rect" id="Node000003" href="$classclang_1_1threadSafety_1_1til_1_1ArrayAdd.html" title="Pointer arithmetic, restricted to arrays only." alt="" coords="203,133,352,173"/>
+<area shape="poly" id="edge1639_Node000000_Node000003" title=" " alt="" coords="80,887,89,739,109,530,125,422,145,324,170,241,185,209,201,184,214,171,217,175,205,187,189,212,175,243,150,325,131,423,115,530,94,739,85,888"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1threadSafety_1_1til_1_1ArrayIndex.html" title="If p is a reference to an array, then p[i] is a reference to the i&#39;th element of the array." alt="" coords="203,197,352,237"/>
+<area shape="poly" id="edge1640_Node000000_Node000004" title=" " alt="" coords="81,887,91,750,113,560,129,463,149,374,172,300,186,271,201,248,214,235,217,239,205,251,191,273,177,302,154,375,134,464,119,561,97,751,86,888"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1threadSafety_1_1til_1_1BasicBlock.html" title="A basic block is part of an SCFG." alt="" coords="203,261,352,301"/>
+<area shape="poly" id="edge1641_Node000000_Node000005" title=" " alt="" coords="81,887,94,762,117,591,133,504,152,424,175,358,201,312,214,300,217,303,205,315,180,360,157,426,138,505,122,592,99,762,87,888"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1threadSafety_1_1til_1_1BinaryOp.html" title="Simple arithmetic binary operations, e.g." alt="" coords="203,325,352,365"/>
+<area shape="poly" id="edge1642_Node000000_Node000006" title=" " alt="" coords="82,888,96,774,121,622,137,545,156,475,177,417,201,376,214,363,218,367,205,379,182,419,161,477,142,547,126,623,102,775,87,888"/>
+<area shape="rect" id="Node000007" href="$classclang_1_1threadSafety_1_1til_1_1Call.html" title="Call a function (after all arguments have been applied)." alt="" coords="203,389,352,429"/>
+<area shape="poly" id="edge1643_Node000000_Node000007" title=" " alt="" coords="78,887,80,800,86,744,96,682,111,618,133,555,162,494,201,440,214,427,218,431,205,443,167,497,138,557,116,620,101,683,91,744,86,801,83,887"/>
+<area shape="rect" id="Node000008" href="$classclang_1_1threadSafety_1_1til_1_1Cast.html" title="Cast expressions." alt="" coords="203,453,352,493"/>
+<area shape="poly" id="edge1644_Node000000_Node000008" title=" " alt="" coords="79,888,85,811,103,710,119,655,140,601,167,550,201,504,215,491,218,495,205,507,171,553,145,603,124,657,109,711,91,812,85,888"/>
+<area shape="rect" id="Node000009" href="$classclang_1_1threadSafety_1_1til_1_1Code.html" title="A block of code – e.g. the body of a function." alt="" coords="203,517,352,557"/>
+<area shape="poly" id="edge1645_Node000000_Node000009" title=" " alt="" coords="81,887,91,821,111,737,127,692,147,647,171,605,201,567,216,555,219,559,205,571,175,608,151,650,132,694,116,738,96,822,87,888"/>
+<area shape="rect" id="Node000010" href="$classclang_1_1threadSafety_1_1til_1_1Field.html" title="A typed, writable location in memory." alt="" coords="203,581,352,621"/>
+<area shape="poly" id="edge1646_Node000000_Node000010" title=" " alt="" coords="84,887,97,833,120,765,153,694,175,661,201,631,216,619,220,624,205,635,180,664,158,697,125,767,102,834,90,888"/>
+<area shape="rect" id="Node000011" href="$classclang_1_1threadSafety_1_1til_1_1Function.html" title="A function – a.k.a." alt="" coords="203,645,352,685"/>
+<area shape="poly" id="edge1647_Node000000_Node000011" title=" " alt="" coords="89,887,105,845,129,794,161,742,201,695,218,683,221,688,204,699,165,745,134,796,110,847,94,889"/>
+<area shape="rect" id="Node000012" href="$classclang_1_1threadSafety_1_1til_1_1Future.html" title="Placeholder for an expression that has not yet been created." alt="" coords="203,709,352,749"/>
+<area shape="poly" id="edge1648_Node000000_Node000012" title=" " alt="" coords="97,887,140,824,168,790,201,759,220,747,223,752,204,763,172,793,144,827,101,890"/>
+<area shape="rect" id="Node000013" href="$classclang_1_1threadSafety_1_1til_1_1Identifier.html" title="An identifier, e.g." alt="" coords="203,773,352,813"/>
+<area shape="poly" id="edge1649_Node000000_Node000013" title=" " alt="" coords="112,890,153,856,201,823,224,811,227,816,204,828,156,861,115,894"/>
+<area shape="rect" id="Node000014" href="$classclang_1_1threadSafety_1_1til_1_1IfThenElse.html" title="An if&#45;then&#45;else expression." alt="" coords="203,837,352,877"/>
+<area shape="poly" id="edge1650_Node000000_Node000014" title=" " alt="" coords="154,895,214,875,216,880,156,900"/>
+<area shape="rect" id="Node000015" href="$classclang_1_1threadSafety_1_1til_1_1Let.html" title="A let&#45;expression, e.g." alt="" coords="203,901,352,941"/>
+<area shape="poly" id="edge1651_Node000000_Node000015" title=" " alt="" coords="169,919,202,919,202,924,169,924"/>
+<area shape="rect" id="Node000016" href="$classclang_1_1threadSafety_1_1til_1_1Literal.html" title=" " alt="" coords="203,965,352,1005"/>
+<area shape="poly" id="edge1652_Node000000_Node000016" title=" " alt="" coords="156,943,216,963,214,968,154,948"/>
+<area shape="rect" id="Node000018" href="$classclang_1_1threadSafety_1_1til_1_1LiteralPtr.html" title="A Literal pointer to an object allocated in memory." alt="" coords="203,1029,352,1069"/>
+<area shape="poly" id="edge1654_Node000000_Node000018" title=" " alt="" coords="115,948,156,982,204,1015,227,1027,224,1032,201,1020,153,986,112,953"/>
+<area shape="rect" id="Node000019" href="$classclang_1_1threadSafety_1_1til_1_1Load.html" title="Load a value from memory." alt="" coords="203,1093,352,1133"/>
+<area shape="poly" id="edge1655_Node000000_Node000019" title=" " alt="" coords="101,952,144,1016,172,1049,204,1079,223,1091,220,1096,201,1083,168,1053,140,1019,97,955"/>
+<area shape="rect" id="Node000020" href="$classclang_1_1threadSafety_1_1til_1_1Phi.html" title="Phi Node, for code in SSA form." alt="" coords="203,1157,352,1197"/>
+<area shape="poly" id="edge1656_Node000000_Node000020" title=" " alt="" coords="94,953,110,996,134,1046,165,1098,204,1143,221,1155,218,1159,201,1147,161,1101,129,1049,105,998,89,955"/>
+<area shape="rect" id="Node000021" href="$classclang_1_1threadSafety_1_1til_1_1Project.html" title="Project a named slot from a C++ struct or class." alt="" coords="203,1221,352,1261"/>
+<area shape="poly" id="edge1657_Node000000_Node000021" title=" " alt="" coords="90,954,102,1008,125,1076,158,1146,180,1178,205,1207,220,1219,216,1223,201,1211,175,1181,153,1148,120,1078,97,1010,84,955"/>
+<area shape="rect" id="Node000022" href="$classclang_1_1threadSafety_1_1til_1_1SApply.html" title="Apply a self&#45;argument to a self&#45;applicable function." alt="" coords="203,1285,352,1325"/>
+<area shape="poly" id="edge1658_Node000000_Node000022" title=" " alt="" coords="87,955,96,1020,116,1104,132,1149,151,1193,175,1234,205,1271,219,1283,216,1287,201,1275,171,1237,147,1195,127,1151,111,1106,91,1021,81,956"/>
+<area shape="rect" id="Node000023" href="$classclang_1_1threadSafety_1_1til_1_1SCFG.html" title="An SCFG is a control&#45;flow graph." alt="" coords="203,1349,352,1389"/>
+<area shape="poly" id="edge1659_Node000000_Node000023" title=" " alt="" coords="85,955,91,1031,109,1132,124,1186,145,1239,171,1290,205,1336,218,1347,215,1351,201,1339,167,1293,140,1242,119,1188,103,1133,85,1032,79,955"/>
+<area shape="rect" id="Node000024" href="$classclang_1_1threadSafety_1_1til_1_1SFunction.html" title="A self&#45;applicable function." alt="" coords="203,1413,352,1453"/>
+<area shape="poly" id="edge1660_Node000000_Node000024" title=" " alt="" coords="83,955,86,1042,91,1098,101,1159,116,1223,138,1286,167,1346,205,1400,218,1411,214,1415,201,1403,162,1348,133,1288,111,1224,96,1161,86,1099,80,1042,78,955"/>
+<area shape="rect" id="Node000025" href="$classclang_1_1threadSafety_1_1til_1_1Store.html" title="Store a value to memory." alt="" coords="203,1477,352,1517"/>
+<area shape="poly" id="edge1661_Node000000_Node000025" title=" " alt="" coords="87,954,102,1068,126,1219,142,1296,161,1366,182,1424,205,1464,218,1475,214,1479,201,1467,177,1426,156,1368,137,1297,121,1220,96,1068,82,955"/>
+<area shape="rect" id="Node000026" href="$classclang_1_1threadSafety_1_1til_1_1Terminator.html" title="Base class for basic block terminators: Branch, Goto, and Return." alt="" coords="203,1541,352,1581"/>
+<area shape="poly" id="edge1662_Node000000_Node000026" title=" " alt="" coords="87,955,99,1080,122,1251,138,1338,157,1417,180,1482,205,1528,217,1539,214,1543,201,1531,175,1485,152,1418,133,1339,117,1252,94,1081,81,956"/>
+<area shape="rect" id="Node000030" href="$classclang_1_1threadSafety_1_1til_1_1UnaryOp.html" title="Simple arithmetic unary operations, e.g." alt="" coords="203,1605,352,1645"/>
+<area shape="poly" id="edge1666_Node000000_Node000030" title=" " alt="" coords="86,955,97,1092,119,1282,134,1379,154,1467,177,1541,191,1570,205,1592,217,1603,214,1607,201,1595,186,1572,172,1543,149,1469,129,1380,113,1282,91,1092,81,955"/>
+<area shape="rect" id="Node000031" href="$classclang_1_1threadSafety_1_1til_1_1Undefined.html" title="Placeholder for expressions that cannot be represented in the TIL." alt="" coords="203,1669,352,1709"/>
+<area shape="poly" id="edge1667_Node000000_Node000031" title=" " alt="" coords="85,955,94,1103,115,1312,131,1419,150,1518,175,1599,189,1631,205,1656,217,1667,214,1671,201,1659,185,1634,170,1601,145,1519,125,1420,109,1313,89,1104,80,955"/>
+<area shape="rect" id="Node000032" href="$classclang_1_1threadSafety_1_1til_1_1Variable.html" title="A named variable, e.g." alt="" coords="203,1733,352,1773"/>
+<area shape="poly" id="edge1668_Node000000_Node000032" title=" " alt="" coords="85,955,92,1115,111,1343,127,1460,147,1568,173,1658,188,1693,205,1720,217,1731,213,1735,201,1723,183,1695,168,1660,142,1570,121,1461,106,1344,87,1115,80,955"/>
+<area shape="rect" id="Node000033" href="$classclang_1_1threadSafety_1_1til_1_1Wildcard.html" title="Placeholder for a wildcard that matches any other expression." alt="" coords="203,1797,352,1837"/>
+<area shape="poly" id="edge1669_Node000000_Node000033" title=" " alt="" coords="84,955,90,1126,108,1373,123,1501,144,1619,171,1716,187,1754,205,1784,217,1795,213,1799,201,1787,182,1757,166,1718,139,1620,118,1502,102,1374,85,1126,79,955"/>
+<area shape="rect" id="Node000017" href="$classclang_1_1threadSafety_1_1til_1_1LiteralT.html" title=" " alt="" coords="400,965,549,1005"/>
+<area shape="poly" id="edge1653_Node000016_Node000017" title=" " alt="" coords="366,983,400,983,400,988,366,988"/>
+<area shape="rect" id="Node000027" href="$classclang_1_1threadSafety_1_1til_1_1Branch.html" title="A conditional branch to two other blocks." alt="" coords="400,1477,549,1517"/>
+<area shape="poly" id="edge1663_Node000026_Node000027" title=" " alt="" coords="352,1535,412,1515,413,1520,353,1540"/>
+<area shape="rect" id="Node000028" href="$classclang_1_1threadSafety_1_1til_1_1Goto.html" title="Jump to another basic block." alt="" coords="400,1541,549,1581"/>
+<area shape="poly" id="edge1664_Node000026_Node000028" title=" " alt="" coords="366,1559,400,1559,400,1564,366,1564"/>
+<area shape="rect" id="Node000029" href="$classclang_1_1threadSafety_1_1til_1_1Return.html" title="Return from the enclosing function, passing the return value to the caller." alt="" coords="400,1605,549,1645"/>
+<area shape="poly" id="edge1665_Node000026_Node000029" title=" " alt="" coords="353,1583,413,1603,412,1608,352,1588"/>
+</map>

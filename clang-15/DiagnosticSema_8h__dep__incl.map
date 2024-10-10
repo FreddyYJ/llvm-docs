@@ -1,0 +1,114 @@
+<map id="include/clang/Basic/DiagnosticSema.h" name="include/clang/Basic/DiagnosticSema.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5408,5,5555,45"/>
+<area shape="rect" id="Node000002" href="$AllDiagnostics_8h.html" title="Includes all the separate Diagnostic headers &amp; some related helpers." alt="" coords="224,93,371,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="5394,30,4423,35,2862,47,1321,67,751,81,415,96,371,101,371,96,414,91,751,75,1321,62,2862,42,4423,30,5394,24"/>
+<area shape="rect" id="Node000005" href="$SemaDiagnostic_8h.html" title=" " alt="" coords="3691,93,3840,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="5394,34,3840,111,3840,106,5394,28"/>
+<area shape="rect" id="Node000011" href="$SemaExpr_8cpp.html" title=" " alt="" coords="586,416,761,441"/>
+<area shape="poly" id="edge57_Node000001_Node000011" title=" " alt="" coords="5394,30,4434,40,3706,50,2917,65,2148,85,1478,112,1204,127,985,144,831,163,782,173,752,184,709,214,685,248,670,290,657,343,656,363,659,382,670,415,665,417,653,384,650,363,652,342,665,288,680,245,706,210,749,179,780,168,830,158,985,139,1204,122,1477,106,2148,80,2917,60,3706,45,4434,34,5394,25"/>
+<area shape="rect" id="Node000012" href="$SemaExprCXX_8cpp.html" title="Implements semantic analysis for C++ expressions." alt="" coords="4377,416,4580,441"/>
+<area shape="poly" id="edge58_Node000001_Node000012" title=" " alt="" coords="5473,60,5438,138,5412,183,5381,223,5353,251,5328,269,5264,297,5205,315,5128,333,4940,368,4741,397,4574,419,4574,413,4740,392,4939,362,5127,328,5204,310,5262,292,5325,264,5349,247,5377,220,5408,180,5433,136,5468,57"/>
+<area shape="rect" id="Node000013" href="$SemaOpenMP_8cpp.html" title="This file implements semantic analysis for OpenMP directives and clauses." alt="" coords="4674,416,4873,441"/>
+<area shape="poly" id="edge59_Node000001_Node000013" title=" " alt="" coords="5484,59,5484,200,5484,284,5479,306,5465,326,5443,344,5415,360,5341,385,5251,403,5151,416,5050,424,4873,430,4873,425,5050,419,5151,411,5250,398,5340,380,5413,355,5440,340,5461,323,5474,304,5479,283,5479,200,5479,59"/>
+<area shape="rect" id="Node000014" href="$SemaTemplate_8cpp.html" title=" " alt="" coords="355,416,562,441"/>
+<area shape="poly" id="edge60_Node000001_Node000014" title=" " alt="" coords="5394,30,3192,50,1869,70,1379,82,1091,96,1035,98,978,96,863,82,753,63,651,48,605,45,564,46,527,52,496,64,471,84,452,113,440,151,436,200,436,283,438,321,444,359,458,415,453,417,439,360,433,322,431,283,431,200,435,150,447,110,467,81,493,60,526,47,563,40,606,39,652,43,754,58,864,77,978,91,1035,93,1091,91,1379,77,1869,64,3192,44,5394,25"/>
+<area shape="rect" id="Node000064" href="$CGException_8cpp.html" title=" " alt="" coords="5519,101,5734,126"/>
+<area shape="poly" id="edge54_Node000001_Node000064" title=" " alt="" coords="5526,50,5609,98,5606,103,5524,55"/>
+<area shape="rect" id="Node000065" href="$CGStmt_8cpp.html" title=" " alt="" coords="5758,101,5941,126"/>
+<area shape="poly" id="edge55_Node000001_Node000065" title=" " alt="" coords="5569,44,5801,98,5799,103,5567,49"/>
+<area shape="rect" id="Node000066" href="$SemaAvailability_8cpp.html" title=" " alt="" coords="5965,101,6184,126"/>
+<area shape="poly" id="edge56_Node000001_Node000066" title=" " alt="" coords="5569,36,5954,91,6002,98,6001,103,5953,96,5568,41"/>
+<area shape="rect" id="Node000067" href="$ASTReader_8cpp.html" title=" " alt="" coords="6208,101,6432,126"/>
+<area shape="poly" id="edge61_Node000001_Node000067" title=" " alt="" coords="5569,31,5848,54,6196,91,6250,98,6249,103,6196,96,5848,60,5568,36"/>
+<area shape="rect" id="Node000068" href="$ASTReaderDecl_8cpp.html" title=" " alt="" coords="6455,93,6654,133"/>
+<area shape="poly" id="edge62_Node000001_Node000068" title=" " alt="" coords="5569,27,5950,47,6196,66,6444,91,6456,92,6455,97,6444,96,6195,71,5949,53,5569,33"/>
+<area shape="rect" id="Node000003" href="$DiagnosticIDs_8cpp.html" title=" " alt="" coords="198,189,397,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,147,300,188,295,188,295,147"/>
+<area shape="rect" id="Node000004" href="$Warnings_8cpp.html" title=" " alt="" coords="5,189,173,214"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="240,141,118,191,116,186,238,136"/>
+<area shape="rect" id="Node000006" href="$SemaInternal_8h.html" title=" " alt="" coords="1564,181,1713,221"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="3677,118,3282,123,2718,134,2145,154,1906,168,1726,184,1714,186,1713,180,1725,179,1906,162,2145,149,2718,129,3282,118,3677,113"/>
+<area shape="rect" id="Node000010" href="$TreeTransform_8h.html" title=" " alt="" coords="673,343,860,368"/>
+<area shape="poly" id="edge53_Node000005_Node000010" title=" " alt="" coords="3677,118,3334,121,2811,131,2190,151,1868,165,1552,184,1483,186,1417,183,1294,169,1183,148,1080,132,1030,127,982,127,935,132,889,143,843,161,797,188,750,224,703,271,698,280,698,288,708,307,727,326,748,340,745,345,724,330,704,311,693,289,693,278,699,268,747,220,794,183,841,156,888,138,935,126,982,121,1031,122,1080,126,1184,143,1295,163,1417,178,1483,181,1552,179,1868,160,2190,145,2811,126,3334,116,3676,112"/>
+<area shape="rect" id="Node000023" href="$SemaCUDA_8cpp.html" title="This file implements semantic analysis for CUDA constructs." alt="" coords="4811,269,4997,295"/>
+<area shape="poly" id="edge50_Node000005_Node000023" title=" " alt="" coords="3854,114,4093,120,4395,132,4668,151,4766,164,4822,179,4850,198,4872,223,4901,267,4896,270,4868,226,4846,202,4820,184,4765,169,4667,156,4395,137,4093,125,3853,119"/>
+<area shape="rect" id="Node000028" href="$SemaConcept_8cpp.html" title=" " alt="" coords="5051,269,5251,295"/>
+<area shape="poly" id="edge51_Node000005_Node000028" title=" " alt="" coords="3854,112,4219,116,4707,126,4943,134,5144,146,5289,160,5334,169,5356,179,5368,197,5367,214,5356,228,5338,240,5287,259,5230,272,5229,267,5286,254,5335,235,5352,224,5362,212,5363,199,5353,183,5332,174,5288,166,5144,151,4943,140,4707,131,4219,121,3854,118"/>
+<area shape="rect" id="Node000049" href="$ARCMT_8cpp.html" title=" " alt="" coords="4885,189,5081,214"/>
+<area shape="poly" id="edge36_Node000005_Node000049" title=" " alt="" coords="3854,114,4289,133,4576,152,4866,179,4919,186,4918,191,4865,184,4575,157,4289,139,3854,120"/>
+<area shape="rect" id="Node000050" href="$TransAPIUses_8cpp.html" title=" " alt="" coords="5105,189,5343,214"/>
+<area shape="poly" id="edge37_Node000005_Node000050" title=" " alt="" coords="3854,114,4379,131,4733,150,5094,179,5153,186,5153,191,5093,184,4733,156,4379,136,3853,119"/>
+<area shape="rect" id="Node000051" href="$TransARCAssign_8cpp.html" title=" " alt="" coords="1738,189,1993,214"/>
+<area shape="poly" id="edge38_Node000005_Node000051" title=" " alt="" coords="3677,118,3397,121,2984,131,2500,151,2250,166,2006,184,1941,191,1940,186,2005,179,2250,160,2500,146,2984,126,3397,116,3677,112"/>
+<area shape="rect" id="Node000052" href="$TransAutoreleasePool_8cpp.html" title=" " alt="" coords="2017,181,2252,221"/>
+<area shape="poly" id="edge39_Node000005_Node000052" title=" " alt="" coords="3677,118,3434,123,3084,133,2678,153,2264,184,2253,185,2252,180,2264,179,2678,148,3084,128,3434,117,3677,113"/>
+<area shape="rect" id="Node000053" href="$TransGCAttrs_8cpp.html" title=" " alt="" coords="2276,189,2511,214"/>
+<area shape="poly" id="edge40_Node000005_Node000053" title=" " alt="" coords="3677,119,3185,138,2857,157,2523,184,2464,191,2464,186,2522,179,2856,151,3185,132,3677,114"/>
+<area shape="rect" id="Node000054" href="$TransGCCalls_8cpp.html" title=" " alt="" coords="2535,189,2769,214"/>
+<area shape="poly" id="edge41_Node000005_Node000054" title=" " alt="" coords="3677,121,3288,142,3036,161,2782,184,2724,191,2723,186,2781,179,3036,155,3288,137,3677,116"/>
+<area shape="rect" id="Node000055" href="$TransProperties_8cpp.html" title=" " alt="" coords="2793,189,3044,214"/>
+<area shape="poly" id="edge42_Node000005_Node000055" title=" " alt="" coords="3677,124,3400,149,3056,184,2998,191,2998,186,3056,179,3399,143,3677,119"/>
+<area shape="rect" id="Node000056" href="$TransProtectedScope_8cpp.html" title=" " alt="" coords="3068,181,3287,221"/>
+<area shape="poly" id="edge43_Node000005_Node000056" title=" " alt="" coords="3678,130,3299,184,3288,186,3287,180,3298,179,3677,124"/>
+<area shape="rect" id="Node000057" href="$TransRetainReleaseDealloc_8cpp.html" title=" " alt="" coords="3311,181,3510,221"/>
+<area shape="poly" id="edge44_Node000005_Node000057" title=" " alt="" coords="3678,138,3489,184,3488,179,3677,133"/>
+<area shape="rect" id="Node000058" href="$TransUnbridgedCasts_8cpp.html" title=" " alt="" coords="3533,181,3757,221"/>
+<area shape="poly" id="edge45_Node000005_Node000058" title=" " alt="" coords="3729,144,3673,183,3670,179,3726,139"/>
+<area shape="rect" id="Node000059" href="$TransUnusedInitDelegate_8cpp.html" title=" " alt="" coords="3782,181,3989,221"/>
+<area shape="poly" id="edge46_Node000005_Node000059" title=" " alt="" coords="3805,139,3860,179,3857,183,3802,144"/>
+<area shape="rect" id="Node000060" href="$ParseDecl_8cpp.html" title=" " alt="" coords="4013,189,4185,214"/>
+<area shape="poly" id="edge47_Node000005_Node000060" title=" " alt="" coords="3852,134,4055,186,4054,191,3851,139"/>
+<area shape="rect" id="Node000061" href="$ParseTemplate_8cpp.html" title=" " alt="" coords="4209,189,4412,214"/>
+<area shape="poly" id="edge48_Node000005_Node000061" title=" " alt="" coords="3854,125,4196,179,4242,186,4241,191,4196,184,3853,131"/>
+<area shape="rect" id="Node000062" href="$DeclSpec_8cpp.html" title=" " alt="" coords="4436,189,4607,214"/>
+<area shape="poly" id="edge49_Node000005_Node000062" title=" " alt="" coords="3854,118,4110,141,4267,158,4424,179,4467,186,4466,191,4424,184,4267,163,4110,146,3853,124"/>
+<area shape="rect" id="Node000063" href="$SemaSYCL_8cpp.html" title=" " alt="" coords="4631,189,4809,214"/>
+<area shape="poly" id="edge52_Node000005_Node000063" title=" " alt="" coords="3854,116,4191,136,4404,155,4619,179,4664,186,4663,191,4618,184,4404,160,4190,142,3854,121"/>
+<area shape="rect" id="Node000007" href="$AnalysisBasedWarnings_8cpp.html" title=" " alt="" coords="3866,269,4131,295"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1727,219,1940,235,2200,246,2798,254,3393,257,3648,260,3853,267,3866,267,3865,273,3853,272,3648,265,3393,262,2798,260,2200,251,1940,241,1727,224"/>
+<area shape="rect" id="Node000008" href="$CoroutineStmtBuilder_8h.html" title=" " alt="" coords="4156,269,4391,295"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1727,219,1968,237,2263,248,2594,253,2943,255,3619,256,3909,259,4143,267,4156,267,4156,273,4143,272,3909,264,3619,261,2943,260,2594,259,2263,253,1968,243,1727,224"/>
+<area shape="rect" id="Node000009" href="$SemaCoroutine_8cpp.html" title=" " alt="" coords="4199,343,4409,368"/>
+<area shape="poly" id="edge25_Node000006_Node000009" title=" " alt="" coords="1727,218,2231,222,3128,226,3592,231,3994,239,4282,250,4367,258,4404,267,4412,279,4412,291,4395,313,4367,331,4336,345,4334,340,4364,326,4392,309,4407,290,4407,281,4401,271,4366,263,4282,255,3994,244,3592,236,3128,232,2231,227,1727,223"/>
+<area shape="poly" id="edge35_Node000006_Node000010" title=" " alt="" coords="1550,205,1334,207,1070,216,944,224,836,236,756,252,729,261,714,271,709,279,708,288,716,307,733,325,751,340,748,344,729,329,712,310,703,289,704,278,710,267,727,256,754,246,835,231,944,219,1069,211,1334,202,1550,200"/>
+<area shape="poly" id="edge31_Node000006_Node000011" title=" " alt="" coords="1551,207,1335,213,1070,224,833,243,750,256,703,272,680,291,667,312,663,336,664,368,673,415,668,416,659,368,657,336,662,310,676,287,700,267,748,251,833,238,1070,219,1335,207,1550,201"/>
+<area shape="poly" id="edge32_Node000006_Node000012" title=" " alt="" coords="1728,218,2234,223,3137,230,4010,242,4302,253,4388,259,4427,267,4443,283,4456,302,4473,344,4480,385,4482,415,4476,416,4475,385,4468,345,4452,304,4439,286,4424,272,4387,264,4301,258,4010,248,3137,235,2234,229,1727,223"/>
+<area shape="poly" id="edge33_Node000006_Node000013" title=" " alt="" coords="1727,218,1935,227,2263,230,3116,228,3559,229,3957,234,4270,246,4382,255,4457,267,4504,281,4550,298,4638,340,4710,382,4759,414,4756,418,4707,387,4635,345,4548,303,4502,286,4455,272,4381,260,4270,251,3957,239,3558,234,3116,234,2263,235,1934,233,1727,224"/>
+<area shape="poly" id="edge34_Node000006_Node000014" title=" " alt="" coords="1550,205,1347,207,1092,216,964,225,846,236,745,252,670,272,606,304,548,346,502,387,471,418,467,414,498,383,545,341,603,300,668,267,744,247,845,231,963,219,1092,211,1347,202,1550,200"/>
+<area shape="rect" id="Node000018" href="$JumpDiagnostics_8cpp.html" title=" " alt="" coords="724,269,943,295"/>
+<area shape="poly" id="edge14_Node000006_Node000018" title=" " alt="" coords="1551,214,943,273,943,267,1550,209"/>
+<area shape="rect" id="Node000019" href="$ParsedAttr_8cpp.html" title=" " alt="" coords="967,269,1143,295"/>
+<area shape="poly" id="edge15_Node000006_Node000019" title=" " alt="" coords="1550,217,1140,272,1140,267,1550,212"/>
+<area shape="rect" id="Node000020" href="$Sema_8cpp.html" title=" " alt="" coords="1167,269,1313,295"/>
+<area shape="poly" id="edge16_Node000006_Node000020" title=" " alt="" coords="1551,223,1299,272,1298,267,1550,217"/>
+<area shape="rect" id="Node000021" href="$SemaAccess_8cpp.html" title=" " alt="" coords="1337,269,1529,295"/>
+<area shape="poly" id="edge17_Node000006_Node000021" title=" " alt="" coords="1578,229,1465,272,1463,267,1576,224"/>
+<area shape="rect" id="Node000022" href="$SemaAttr_8cpp.html" title=" " alt="" coords="1553,269,1724,295"/>
+<area shape="poly" id="edge18_Node000006_Node000022" title=" " alt="" coords="1641,235,1641,269,1636,269,1636,235"/>
+<area shape="poly" id="edge19_Node000006_Node000023" title=" " alt="" coords="1728,219,1870,231,2032,241,2406,253,2825,257,3268,257,4126,253,4495,256,4792,267,4811,268,4811,273,4792,272,4495,262,4126,259,3268,262,2825,262,2405,258,2032,246,1869,237,1727,224"/>
+<area shape="rect" id="Node000024" href="$SemaCXXScopeSpec_8cpp.html" title=" " alt="" coords="1749,269,1993,295"/>
+<area shape="poly" id="edge20_Node000006_Node000024" title=" " alt="" coords="1708,223,1838,267,1836,272,1706,228"/>
+<area shape="rect" id="Node000025" href="$SemaCast_8cpp.html" title=" " alt="" coords="2017,269,2193,295"/>
+<area shape="poly" id="edge21_Node000006_Node000025" title=" " alt="" coords="1728,219,2024,267,2023,272,1727,224"/>
+<area shape="rect" id="Node000026" href="$SemaChecking_8cpp.html" title=" " alt="" coords="2218,269,2425,295"/>
+<area shape="poly" id="edge22_Node000006_Node000026" title=" " alt="" coords="1727,218,2218,268,2217,273,1727,224"/>
+<area shape="rect" id="Node000027" href="$SemaCodeComplete_8cpp.html" title=" " alt="" coords="2449,269,2692,295"/>
+<area shape="poly" id="edge23_Node000006_Node000027" title=" " alt="" coords="1728,219,1927,241,2083,250,2238,255,2436,267,2449,268,2449,273,2436,272,2238,261,2083,255,1926,247,1727,224"/>
+<area shape="poly" id="edge24_Node000006_Node000028" title=" " alt="" coords="1728,219,1879,232,2053,243,2453,256,2902,261,3376,260,4296,256,4691,258,5009,267,5051,269,5050,274,5009,272,4691,263,4296,262,3376,266,2902,266,2453,261,2053,248,1879,238,1727,224"/>
+<area shape="rect" id="Node000029" href="$SemaDecl_8cpp.html" title=" " alt="" coords="2716,269,2892,295"/>
+<area shape="poly" id="edge26_Node000006_Node000029" title=" " alt="" coords="1728,219,1876,235,2002,245,2217,251,2431,252,2557,257,2704,267,2716,268,2715,273,2704,272,2556,262,2431,258,2217,256,2002,250,1875,241,1727,224"/>
+<area shape="rect" id="Node000030" href="$SemaDeclAttr_8cpp.html" title=" " alt="" coords="2917,269,3115,295"/>
+<area shape="poly" id="edge27_Node000006_Node000030" title=" " alt="" coords="1728,219,1906,238,2058,249,2192,253,2316,253,2575,253,2726,257,2904,267,2917,268,2916,273,2904,272,2726,262,2575,258,2316,259,2192,258,2058,254,1906,243,1727,224"/>
+<area shape="rect" id="Node000031" href="$SemaDeclCXX_8cpp.html" title=" " alt="" coords="3140,269,3343,295"/>
+<area shape="poly" id="edge28_Node000006_Node000031" title=" " alt="" coords="1727,219,1940,241,2120,252,2279,256,2427,256,2735,252,2915,256,3127,267,3140,268,3139,273,3127,272,2915,261,2735,258,2427,261,2279,262,2120,258,1939,246,1727,224"/>
+<area shape="rect" id="Node000032" href="$SemaDeclObjC_8cpp.html" title=" " alt="" coords="3367,269,3574,295"/>
+<area shape="poly" id="edge29_Node000006_Node000032" title=" " alt="" coords="1727,219,1974,244,2184,256,2369,260,2541,258,2898,252,3108,255,3355,267,3367,268,3367,273,3355,272,3108,260,2898,257,2541,263,2369,265,2184,261,1974,249,1727,224"/>
+<area shape="rect" id="Node000033" href="$SemaExceptionSpec_8cpp.html" title=" " alt="" coords="3599,269,3841,295"/>
+<area shape="poly" id="edge30_Node000006_Node000033" title=" " alt="" coords="1727,219,2009,247,2249,261,2460,265,2656,262,3064,254,3303,256,3585,267,3599,267,3598,273,3585,272,3303,261,3064,259,2656,268,2460,270,2248,266,2009,252,1727,224"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="4286,306,4301,341,4297,344,4281,308"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="4142,297,3822,310,3403,321,2418,338,860,356,860,351,2418,333,3403,315,3822,304,4142,292"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="743,378,690,418,687,414,739,374"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="874,356,4377,423,4377,428,874,361"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="874,354,1438,355,2350,362,3453,380,4028,394,4592,413,4674,418,4673,423,4592,419,4028,400,3453,385,2350,367,1438,360,874,359"/>
+<area shape="poly" id="edge13_Node000010_Node000014" title=" " alt="" coords="704,374,509,418,508,413,703,368"/>
+</map>

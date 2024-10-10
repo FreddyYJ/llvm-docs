@@ -1,0 +1,33 @@
+<map id="clang::ento::BugReporterVisitor" name="clang::ento::BugReporterVisitor">
+<area shape="rect" id="Node000001" title="BugReporterVisitors are used to add custom diagnostics along a path." alt="" coords="215,341,397,381"/>
+<area shape="rect" id="Node000003" href="$classclang_1_1ento_1_1ConditionBRVisitor.html" title="Visitor that tries to report interesting diagnostics from conditions." alt="" coords="447,5,671,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,327,322,265,346,188,364,147,386,108,412,72,444,41,464,29,467,33,447,45,416,76,390,111,369,150,351,190,327,267,314,328"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1ento_1_1FalsePositiveRefutationBRVisitor.html" title="The bug visitor will walk all the nodes in a path and collect all the constraints." alt="" coords="465,55,652,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="314,327,331,277,357,218,395,157,418,129,444,105,464,93,466,97,447,109,421,133,399,160,362,220,336,279,319,328"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1ento_1_1LikelyFalsePositiveSuppressionBRVisitor.html" title="Suppress reports that might lead to known false positives." alt="" coords="452,119,665,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="320,327,340,290,368,247,403,205,444,169,466,157,468,162,447,174,406,209,372,251,345,293,325,329"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1ento_1_1NilReceiverBRVisitor.html" title="Prints path notes when a message is sent to a nil receiver." alt="" coords="470,183,647,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="331,329,380,280,411,255,444,233,470,221,472,226,447,238,414,259,384,284,335,332"/>
+<area shape="rect" id="Node000007" href="$classclang_1_1ento_1_1NoStateChangeFuncVisitor.html" title="Put a diagnostic on return statement (or on } in its absence) of all inlined functions for which some..." alt="" coords="457,247,660,287"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="360,332,444,297,481,285,482,290,446,302,362,337"/>
+<area shape="rect" id="Node000008" href="$classclang_1_1ento_1_1SuppressInlineDefensiveChecksVisitor.html" title=" " alt="" coords="460,311,657,351"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="411,346,459,340,460,345,411,351"/>
+<area shape="rect" id="Node000009" href="$classclang_1_1ento_1_1TagVisitor.html" title="The visitor detects NoteTags and displays the event notes they contain." alt="" coords="475,376,642,401"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="412,370,475,377,475,382,411,375"/>
+<area shape="rect" id="Node000010" href="$classclang_1_1ento_1_1TrackConstraintBRVisitor.html" title=" " alt="" coords="457,426,660,466"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="370,383,446,411,484,423,483,428,444,417,368,388"/>
+<area shape="rect" id="Node000011" href="$classclang_1_1ento_1_1UndefOrNullArgVisitor.html" title="When a region containing undefined value or &#39;0&#39; value is passed as an argument in a call,..." alt="" coords="467,490,650,530"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="337,389,386,434,415,456,447,476,473,487,471,492,444,480,412,461,382,438,333,393"/>
+<area shape="rect" id="Node000012" href="$classclang_1_1ento_1_1bugreporter_1_1TrackingBugReporterVisitor.html" title="Visitor that tracks expressions and values." alt="" coords="455,554,662,594"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="326,392,346,427,374,467,407,506,447,540,468,552,466,556,444,544,404,510,369,470,342,430,321,394"/>
+<area shape="rect" id="Node000014" href="$classclang_1_1ento_1_1retaincountchecker_1_1RefCountReportVisitor.html" title=" " alt="" coords="445,618,672,658"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="319,393,337,440,363,498,400,555,422,581,447,604,466,616,463,620,444,608,418,585,396,558,359,500,332,443,314,395"/>
+<area shape="rect" id="Node000016" href="$classclang_1_1ento_1_1taint_1_1TaintBugVisitor.html" title="The bug visitor prints a diagnostic message at the location where a given variable was tainted." alt="" coords="493,682,625,722"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="315,394,329,453,354,527,371,566,392,603,418,638,447,668,469,682,493,691,491,696,466,687,444,672,413,641,388,606,366,568,349,529,324,454,310,395"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,348,167,373"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,358,214,358,214,363,181,363"/>
+<area shape="rect" id="Node000013" href="$classStoreSiteFinder.html" title="Finds last store into the given region, which is different from a given symbolic value." alt="" coords="773,561,894,587"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="676,571,772,571,772,577,676,577"/>
+<area shape="rect" id="Node000015" href="$classclang_1_1ento_1_1retaincountchecker_1_1RefLeakReportVisitor.html" title=" " alt="" coords="720,618,947,658"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="686,635,720,635,720,641,686,641"/>
+</map>

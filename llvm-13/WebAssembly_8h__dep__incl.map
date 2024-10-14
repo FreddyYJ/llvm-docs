@@ -1,0 +1,81 @@
+<map id="lib/Target/WebAssembly/WebAssembly.h" name="lib/Target/WebAssembly/WebAssembly.h">
+<area shape="rect" id="Node000001" title="This file contains the entry points for global functions defined in the LLVM WebAssembly back&#45;end." alt="" coords="4338,5,4517,45"/>
+<area shape="rect" id="Node000002" href="$WebAssemblyAsmParser_8cpp.html" title="This file is part of the WebAssembly Assembler." alt="" coords="5,101,292,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4324,29,3576,28,2411,34,1788,42,1198,54,689,72,478,83,305,96,247,103,247,98,304,91,478,78,688,66,1198,49,1788,36,2411,29,3576,23,4324,24"/>
+<area shape="rect" id="Node000003" href="$WebAssemblyAsmTypeCheck_8cpp.html" title="This file is part of the WebAssembly Assembler." alt="" coords="317,93,567,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="4324,30,3550,37,2379,50,1245,70,826,82,580,96,568,97,567,92,579,91,826,77,1244,64,2379,45,3550,31,4324,25"/>
+<area shape="rect" id="Node000004" href="$WebAssemblyInstPrinter_8cpp.html" title="Print MCInst instructions to wasm format." alt="" coords="592,93,831,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="4325,30,2511,51,1459,70,1072,83,844,96,831,97,831,92,843,91,1072,77,1459,65,2510,45,4325,25"/>
+<area shape="rect" id="Node000005" href="$WebAssemblyAddMissingPrototypes_8cpp.html" title="Add prototypes to prototypes&#45;less functions." alt="" coords="855,101,1146,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="4324,29,3715,32,2799,41,2312,49,1853,61,1457,76,1158,96,1101,103,1100,98,1158,91,1457,71,1853,56,2312,44,2799,36,3715,27,4324,24"/>
+<area shape="rect" id="Node000006" href="$WebAssemblyArgumentMove_8cpp.html" title="This file moves ARGUMENT instructions after ScheduleDAG scheduling." alt="" coords="1170,101,1415,141"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="4324,29,3760,31,2921,39,2478,48,2060,59,1700,75,1428,96,1378,103,1377,98,1427,91,1699,70,2060,54,2478,42,2921,34,3760,26,4324,24"/>
+<area shape="rect" id="Node000007" href="$WebAssemblyAsmPrinter_8cpp.html" title="This file contains a printer that converts from our internal representation of machine&#45;dependent LLVM..." alt="" coords="1439,101,1655,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="4324,29,3801,32,3034,40,2630,49,2250,60,1922,76,1674,96,1628,103,1627,98,1674,91,1921,71,2250,55,2630,43,3034,35,3801,26,4324,24"/>
+<area shape="rect" id="Node000008" href="$WebAssemblyCFGSort_8cpp.html" title="This file implements a CFG sorting pass." alt="" coords="1483,196,1681,236"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="4324,30,3739,37,2907,49,2141,69,1881,82,1798,89,1755,96,1692,137,1608,198,1605,194,1689,132,1753,91,1798,83,1880,76,2141,64,2907,44,3739,31,4324,25"/>
+<area shape="rect" id="Node000009" href="$WebAssemblyCFGStackify_8cpp.html" title="This file implements a CFG stacking pass." alt="" coords="1705,196,1928,236"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="4324,30,3727,35,2882,47,2470,55,2119,66,1872,80,1800,88,1770,95,1763,106,1761,118,1767,145,1782,171,1800,194,1796,197,1778,174,1762,147,1755,118,1758,104,1767,91,1799,82,1871,75,2119,61,2470,50,2882,41,3727,30,4324,25"/>
+<area shape="rect" id="Node000010" href="$WebAssemblyDebugFixup_8cpp.html" title="Several prior passes may &quot;stackify&quot; registers, here we ensure any references in such registers in deb..." alt="" coords="2024,101,2247,141"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="4324,30,3901,35,3304,46,2701,66,2450,79,2260,96,2215,103,2214,98,2259,91,2449,74,2701,60,3304,41,3901,30,4324,25"/>
+<area shape="rect" id="Node000011" href="$WebAssemblyDebugValueManager_8cpp.html" title="This file implements the manager for MachineInstr DebugValues." alt="" coords="2271,101,2549,141"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="4324,31,3446,53,2936,72,2723,83,2562,96,2508,103,2507,98,2562,91,2723,78,2935,66,3446,47,4324,26"/>
+<area shape="rect" id="Node000012" href="$WebAssemblyExceptionInfo_8h.html" title="This file implements WebAssemblyException information analysis." alt="" coords="1781,101,1999,141"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="4324,30,3858,33,3190,43,2511,63,2227,78,2013,96,1969,103,1968,98,2012,91,2227,72,2511,58,3190,38,3858,28,4324,24"/>
+<area shape="rect" id="Node000015" href="$WebAssemblyExplicitLocals_8cpp.html" title="This file converts any remaining registers into WebAssembly locals." alt="" coords="2574,101,2809,141"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="4324,31,3567,53,3136,72,2957,83,2821,96,2775,103,2774,98,2820,91,2957,78,3136,67,3567,48,4324,26"/>
+<area shape="rect" id="Node000016" href="$WebAssemblyFastISel_8cpp.html" title="This file defines the WebAssembly&#45;specific support for the FastISel class." alt="" coords="2833,101,3027,141"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="4324,32,3671,53,3306,72,3155,83,3040,96,3001,103,3000,98,3039,91,3154,78,3305,67,3670,48,4324,26"/>
+<area shape="rect" id="Node000017" href="$WebAssemblyFixBrTableDefaults_8cpp.html" title=" " alt="" coords="3051,101,3318,141"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="4324,32,3891,50,3613,68,3332,96,3281,103,3281,98,3331,91,3612,63,3891,44,4324,26"/>
+<area shape="rect" id="Node000018" href="$WebAssemblyFixFunctionBitcasts_8cpp.html" title="Fix bitcasted functions." alt="" coords="3343,101,3613,141"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="4324,35,4012,57,3819,74,3626,96,3578,103,3577,98,3626,91,3819,69,4011,51,4324,30"/>
+<area shape="rect" id="Node000019" href="$WebAssemblyFixIrreducibleControlFlow_8cpp.html" title="This file implements a pass that removes irreducible control flow." alt="" coords="3638,93,3891,148"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="4324,41,4129,64,3904,96,3892,98,3891,93,3903,91,4128,59,4323,35"/>
+<area shape="rect" id="Node000020" href="$WebAssemblyFrameLowering_8cpp.html" title="This file contains the WebAssembly implementation of TargetFrameLowering class." alt="" coords="3915,101,4161,141"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="4336,51,4117,103,4116,98,4335,46"/>
+<area shape="rect" id="Node000021" href="$WebAssemblyISelDAGToDAG_8cpp.html" title="This file defines an instruction selector for the WebAssembly target." alt="" coords="4185,101,4427,141"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="4393,56,4332,103,4329,98,4390,52"/>
+<area shape="rect" id="Node000022" href="$WebAssemblyInstrInfo_8cpp.html" title="This file contains the WebAssembly implementation of the TargetInstrInfo class." alt="" coords="4451,101,4649,141"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="4465,52,4527,98,4524,103,4462,56"/>
+<area shape="rect" id="Node000023" href="$WebAssemblyLateEHPrepare_8cpp.html" title="Does various transformations for exception handling." alt="" coords="4673,101,4915,141"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="4515,46,4721,98,4719,103,4514,51"/>
+<area shape="rect" id="Node000024" href="$WebAssemblyLowerBrUnless_8cpp.html" title="This file lowers br_unless into br_if with an inverted condition." alt="" coords="4939,101,5182,141"/>
+<area shape="poly" id="edge25_Node000001_Node000024" title=" " alt="" coords="4531,36,4716,59,4928,91,4969,98,4968,103,4927,96,4715,65,4530,41"/>
+<area shape="rect" id="Node000025" href="$WebAssemblyLowerEmscriptenEHSjLj_8cpp.html" title="This file lowers exception&#45;related instructions and setjmp/longjmp function calls in order to use Ems..." alt="" coords="5207,93,5467,148"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="4530,30,4829,52,5011,69,5194,91,5207,92,5206,98,5194,96,5011,74,4828,57,4530,35"/>
+<area shape="rect" id="Node000026" href="$WebAssemblyLowerGlobalDtors_8cpp.html" title="Lower @llvm.global_dtors." alt="" coords="5490,101,5751,141"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="4531,26,4946,45,5212,63,5480,91,5528,98,5527,103,5479,96,5211,69,4946,50,4530,32"/>
+<area shape="rect" id="Node000027" href="$WebAssemblyMCLowerPrePass_8cpp.html" title="Some information in MC lowering / asm printing gets generated as instructions get emitted,..." alt="" coords="5776,101,6031,141"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="4530,24,4753,28,5059,38,5409,58,5588,73,5764,91,5813,98,5812,103,5763,96,5588,78,5409,63,5059,44,4753,33,4530,30"/>
+<area shape="rect" id="Node000028" href="$WebAssemblyMemIntrinsicResults_8cpp.html" title="This file implements an optimization pass using memory intrinsic results." alt="" coords="6055,101,6333,141"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="4530,24,4795,26,5170,34,5603,55,5826,70,6044,91,6097,98,6096,103,6043,96,5825,76,5603,60,5169,40,4795,31,4530,29"/>
+<area shape="rect" id="Node000029" href="$WebAssemblyNullifyDebugValueLists_8cpp.html" title="Nullify DBG_VALUE_LISTs instructions as a temporary measure before we implement DBG_VALUE_LIST handli..." alt="" coords="6357,93,6596,148"/>
+<area shape="poly" id="edge30_Node000001_Node000029" title=" " alt="" coords="4531,25,4910,32,5434,44,5961,64,6180,76,6346,91,6357,92,6357,97,6346,96,6180,82,5960,69,5434,50,4910,37,4531,31"/>
+<area shape="rect" id="Node000030" href="$WebAssemblyOptimizeLiveIntervals_8cpp.html" title="Optimize LiveIntervals for use in a post&#45;RA context." alt="" coords="6621,101,6909,141"/>
+<area shape="poly" id="edge31_Node000001_Node000030" title=" " alt="" coords="4530,25,4956,32,5556,45,6163,64,6417,76,6609,91,6665,98,6664,103,6608,96,6417,82,6163,69,5556,50,4956,37,4530,31"/>
+<area shape="rect" id="Node000031" href="$WebAssemblyOptimizeReturned_8cpp.html" title="Optimize calls with &quot;returned&quot; attributes for WebAssembly." alt="" coords="6933,101,7196,141"/>
+<area shape="poly" id="edge32_Node000001_Node000031" title=" " alt="" coords="4531,25,5010,29,5701,40,6404,60,6699,74,6921,91,6974,98,6973,103,6920,96,6698,79,6404,65,5701,46,5010,35,4530,30"/>
+<area shape="rect" id="Node000032" href="$WebAssemblyPeephole_8cpp.html" title="Late peephole optimizations for WebAssembly." alt="" coords="7221,101,7426,141"/>
+<area shape="poly" id="edge33_Node000001_Node000032" title=" " alt="" coords="4531,24,5059,25,5834,32,6243,40,6627,52,6959,69,7209,91,7251,98,7250,103,7208,96,6958,74,6627,58,6242,46,5834,37,5059,30,4531,29"/>
+<area shape="rect" id="Node000033" href="$WebAssemblyPrepareForLiveIntervals_8cpp.html" title="Fix up code to meet LiveInterval&#39;s requirements." alt="" coords="7450,101,7749,141"/>
+<area shape="poly" id="edge34_Node000001_Node000033" title=" " alt="" coords="4530,24,5096,28,5938,38,6802,58,7165,73,7438,91,7497,98,7496,103,7438,96,7164,78,6802,63,5938,44,5096,33,4530,30"/>
+<area shape="rect" id="Node000034" href="$WebAssemblyRegColoring_8cpp.html" title="This file implements a virtual register coloring pass." alt="" coords="7773,101,7997,141"/>
+<area shape="poly" id="edge35_Node000001_Node000034" title=" " alt="" coords="4530,25,6220,46,7192,65,7550,77,7761,91,7807,98,7806,103,7760,96,7549,83,7192,71,6220,51,4530,30"/>
+<area shape="rect" id="Node000035" href="$WebAssemblyRegNumbering_8cpp.html" title="This file implements a pass which assigns WebAssembly register numbers for CodeGen virtual registers." alt="" coords="8021,101,8263,141"/>
+<area shape="poly" id="edge36_Node000001_Node000035" title=" " alt="" coords="4530,25,6343,45,7393,65,7780,77,8009,91,8058,98,8058,103,8008,96,7780,83,7393,71,6343,51,4530,30"/>
+<area shape="rect" id="Node000036" href="$WebAssemblyRegStackify_8cpp.html" title="This file implements a register stacking pass." alt="" coords="8288,101,8508,141"/>
+<area shape="poly" id="edge37_Node000001_Node000036" title=" " alt="" coords="4531,25,5305,30,6476,43,7610,63,8029,76,8276,91,8321,98,8320,103,8275,96,8029,81,7610,68,6476,48,5305,36,4531,30"/>
+<area shape="rect" id="Node000037" href="$WebAssemblyReplacePhysRegs_8cpp.html" title="This file implements a pass that replaces physical registers with virtual registers." alt="" coords="8532,101,8792,141"/>
+<area shape="poly" id="edge38_Node000001_Node000037" title=" " alt="" coords="4530,25,5348,31,6596,44,7809,64,8257,76,8521,91,8573,98,8573,103,8520,96,8257,82,7809,69,6596,49,5348,36,4530,30"/>
+<area shape="rect" id="Node000038" href="$WebAssemblySetP2AlignOperands_8cpp.html" title="This file sets the p2align operands on load and store instructions." alt="" coords="8817,101,9094,141"/>
+<area shape="poly" id="edge39_Node000001_Node000038" title=" " alt="" coords="4531,25,5398,31,6736,44,8040,64,8521,76,8805,91,8861,98,8860,103,8804,96,8521,82,8039,69,6736,49,5398,36,4530,30"/>
+<area shape="rect" id="Node000039" href="$WebAssemblyTargetMachine_8cpp.html" title="This file defines the WebAssembly&#45;specific subclass of TargetMachine." alt="" coords="9118,101,9358,141"/>
+<area shape="poly" id="edge40_Node000001_Node000039" title=" " alt="" coords="4530,24,5451,29,6884,40,8284,60,8801,74,8985,82,9106,91,9155,98,9155,103,9106,96,8984,87,8801,79,8284,65,6884,45,5451,34,4530,30"/>
+<area shape="poly" id="edge12_Node000012_Node000008" title=" " alt="" coords="1816,147,1645,198,1643,193,1814,142"/>
+<area shape="poly" id="edge13_Node000012_Node000009" title=" " alt="" coords="1869,153,1834,198,1829,194,1865,150"/>
+<area shape="rect" id="Node000013" href="$WebAssemblyExceptionInfo_8cpp.html" title="This file implements WebAssemblyException information analysis." alt="" coords="1951,196,2186,236"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="1940,145,2034,194,2031,198,1937,149"/>
+<area shape="rect" id="Node000014" href="$WebAssemblySortRegion_8cpp.html" title=" " alt="" coords="2210,196,2426,236"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="1991,141,2232,193,2231,199,1989,146"/>
+</map>

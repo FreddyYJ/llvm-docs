@@ -1,0 +1,100 @@
+<map id="lib/Target/PowerPC/PPCISelLowering.h" name="lib/Target/PowerPC/PPCISelLowering.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="502,5,649,45"/>
+<area shape="rect" id="Node000002" href="$PPCCallLowering_8cpp.html" title="This file implements the lowering of LLVM calls to machine code calls for GlobalISel." alt="" coords="358,269,558,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="581,59,582,94,579,137,570,181,552,223,528,251,499,272,496,267,524,247,548,220,565,180,574,136,577,94,576,59"/>
+<area shape="rect" id="Node000003" href="$PPCCallLowering_8h.html" title="This file describes how to lower LLVM calls to machine code calls." alt="" coords="765,181,951,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="619,50,829,179,826,183,616,55"/>
+<area shape="rect" id="Node000005" href="$PPCCCState_8h.html" title=" " alt="" coords="216,93,359,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="500,52,351,96,350,91,498,47"/>
+<area shape="rect" id="Node000008" href="$PPCFastISel_8cpp.html" title=" " alt="" coords="5,269,148,309"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="488,35,403,42,311,55,230,72,198,83,176,96,155,114,137,135,110,184,93,232,83,269,78,268,88,230,105,182,133,132,151,110,172,91,196,78,228,67,310,49,402,37,488,29"/>
+<area shape="rect" id="Node000009" href="$PPCISelLowering_8cpp.html" title=" " alt="" coords="172,269,333,309"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="489,33,408,40,324,52,251,70,224,82,205,95,185,124,179,153,184,184,196,220,211,246,231,267,227,271,207,249,192,222,179,185,174,153,180,122,201,91,221,77,249,65,323,46,408,35,488,28"/>
+<area shape="rect" id="Node000010" href="$PPCISelDAGToDAG_8cpp.html" title=" " alt="" coords="4485,269,4660,309"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="663,24,1160,28,1536,35,1972,47,2452,66,2957,94,3470,131,3973,179,4115,198,4257,221,4488,267,4487,272,4256,226,4115,203,3972,184,3470,136,2957,99,2452,72,1972,52,1535,40,1160,33,663,29"/>
+<area shape="rect" id="Node000011" href="$PPCSubtarget_8h.html" title=" " alt="" coords="1587,93,1729,133"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="663,31,1587,104,1586,109,663,36"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="758,227,546,272,545,267,756,222"/>
+<area shape="rect" id="Node000004" href="$PPCSubtarget_8cpp.html" title=" " alt="" coords="581,269,724,309"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="801,229,699,272,697,267,799,224"/>
+<area shape="rect" id="Node000006" href="$PPCCCState_8cpp.html" title=" " alt="" coords="216,181,359,221"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="290,147,290,181,285,181,285,147"/>
+<area shape="rect" id="Node000007" href="$PPCCallingConv_8cpp.html" title=" " alt="" coords="383,181,538,221"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="339,137,424,179,422,184,336,142"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="250,143,196,183,98,271,94,267,192,179,247,139"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="241,143,221,161,206,182,202,205,208,228,220,249,235,267,231,271,216,252,203,230,196,205,201,180,217,157,237,139"/>
+<area shape="poly" id="edge14_Node000011_Node000002" title=" " alt="" coords="1573,118,1383,122,1146,132,917,152,823,166,754,184,737,192,725,202,714,213,697,224,624,252,553,272,551,267,623,247,694,219,710,209,722,198,734,188,752,179,822,161,916,146,1145,126,1383,116,1573,113"/>
+<area shape="poly" id="edge32_Node000011_Node000004" title=" " alt="" coords="1573,120,1435,126,1271,137,1117,156,1055,169,1008,184,995,192,986,203,978,213,963,224,903,248,853,257,802,262,737,272,725,275,724,269,736,267,801,256,852,252,902,243,961,219,974,210,982,199,991,188,1006,179,1053,164,1116,151,1270,132,1434,120,1573,114"/>
+<area shape="poly" id="edge18_Node000011_Node000006" title=" " alt="" coords="1573,117,1361,119,1063,127,720,148,544,164,372,184,359,186,358,181,371,179,543,158,719,142,1063,122,1361,113,1573,112"/>
+<area shape="poly" id="edge19_Node000011_Node000007" title=" " alt="" coords="1573,121,1158,143,884,161,608,184,539,192,538,187,607,179,884,156,1157,137,1573,116"/>
+<area shape="poly" id="edge21_Node000011_Node000008" title=" " alt="" coords="1573,119,1364,126,1096,138,834,157,727,169,645,184,618,193,598,203,578,214,551,224,442,246,356,254,270,258,160,272,149,274,148,269,159,267,269,253,356,248,442,241,549,219,576,209,596,199,616,188,644,179,726,164,834,152,1096,133,1364,121,1573,114"/>
+<area shape="poly" id="edge25_Node000011_Node000009" title=" " alt="" coords="1573,117,1372,119,1117,127,989,136,871,148,771,163,696,184,681,192,672,203,662,214,646,224,603,240,565,251,499,259,431,262,346,272,334,274,333,269,346,267,431,257,499,254,564,246,601,235,643,219,658,210,668,199,678,188,694,179,770,158,870,142,989,130,1117,122,1372,113,1573,112"/>
+<area shape="poly" id="edge24_Node000011_Node000010" title=" " alt="" coords="1743,112,2068,114,2564,123,3153,143,3458,159,3757,179,3959,196,4116,214,4473,267,4485,269,4484,274,4472,272,4115,219,3959,201,3756,184,3458,164,3153,148,2564,128,2068,119,1743,117"/>
+<area shape="rect" id="Node000012" href="$PPCInstructionSelector_8cpp.html" title="This file implements the targeting of the InstructionSelector class for PowerPC." alt="" coords="3623,269,3861,309"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="1743,117,2049,136,2509,168,3054,212,3612,267,3623,268,3623,273,3611,272,3053,217,2509,173,2049,141,1743,122"/>
+<area shape="rect" id="Node000013" href="$PPCAsmPrinter_8cpp.html" title=" " alt="" coords="3885,269,4034,309"/>
+<area shape="poly" id="edge16_Node000011_Node000013" title=" " alt="" coords="1743,113,2085,121,2611,144,2916,163,3235,190,3557,224,3873,267,3885,269,3884,274,3872,272,3557,229,3234,195,2915,169,2610,149,2085,126,1743,118"/>
+<area shape="rect" id="Node000014" href="$PPCBranchSelector_8cpp.html" title=" " alt="" coords="1077,181,1252,221"/>
+<area shape="poly" id="edge17_Node000011_Node000014" title=" " alt="" coords="1574,131,1264,184,1253,186,1252,181,1263,179,1573,126"/>
+<area shape="rect" id="Node000015" href="$PPCExpandISEL_8cpp.html" title=" " alt="" coords="1276,181,1429,221"/>
+<area shape="poly" id="edge20_Node000011_Node000015" title=" " alt="" coords="1579,140,1420,184,1419,179,1577,134"/>
+<area shape="rect" id="Node000016" href="$PPCFrameLowering_8cpp.html" title=" " alt="" coords="4058,269,4237,309"/>
+<area shape="poly" id="edge22_Node000011_Node000016" title=" " alt="" coords="1743,113,2012,117,2408,128,2873,147,3348,179,3545,197,3698,214,4046,267,4058,269,4057,274,4046,272,3697,220,3544,202,3347,184,2872,153,2408,133,2012,122,1743,118"/>
+<area shape="rect" id="Node000017" href="$PPCHazardRecognizers_8cpp.html" title=" " alt="" coords="1454,181,1657,221"/>
+<area shape="poly" id="edge23_Node000011_Node000017" title=" " alt="" coords="1626,144,1580,183,1576,179,1623,140"/>
+<area shape="rect" id="Node000018" href="$PPCLoopInstrFormPrep_8cpp.html" title=" " alt="" coords="4261,269,4461,309"/>
+<area shape="poly" id="edge26_Node000011_Node000018" title=" " alt="" coords="1743,112,2040,115,2486,125,3013,145,3286,160,3553,179,3749,197,3902,215,4249,267,4261,268,4260,274,4248,272,3901,220,3749,202,3552,184,3285,165,3013,150,2486,130,2040,121,1743,118"/>
+<area shape="rect" id="Node000019" href="$PPCLowerMASSVEntries_8cpp.html" title=" " alt="" coords="749,269,957,309"/>
+<area shape="poly" id="edge27_Node000011_Node000019" title=" " alt="" coords="1573,122,1300,143,1163,161,1107,172,1066,184,1049,192,1037,202,1009,224,955,250,904,272,902,267,953,245,1006,219,1034,198,1046,188,1064,179,1106,167,1162,156,1300,138,1573,116"/>
+<area shape="rect" id="Node000020" href="$PPCMCInstLower_8cpp.html" title=" " alt="" coords="1681,181,1843,221"/>
+<area shape="poly" id="edge28_Node000011_Node000020" title=" " alt="" coords="1693,140,1741,179,1737,183,1690,144"/>
+<area shape="rect" id="Node000021" href="$PPCMacroFusion_8cpp.html" title=" " alt="" coords="1867,181,2027,221"/>
+<area shape="poly" id="edge29_Node000011_Node000021" title=" " alt="" coords="1735,135,1885,179,1883,184,1734,140"/>
+<area shape="rect" id="Node000022" href="$PPCPreEmitPeephole_8cpp.html" title=" " alt="" coords="2051,181,2241,221"/>
+<area shape="poly" id="edge30_Node000011_Node000022" title=" " alt="" coords="1743,127,2040,179,2052,181,2051,186,2039,184,1742,132"/>
+<area shape="rect" id="Node000023" href="$PPCRegisterInfo_8cpp.html" title=" " alt="" coords="981,269,1138,309"/>
+<area shape="poly" id="edge31_Node000011_Node000023" title=" " alt="" coords="1744,115,1885,123,2045,136,2182,154,2229,166,2254,179,2262,190,2264,201,2262,213,2254,223,2235,232,2196,238,2071,249,1708,262,1342,268,1150,272,1139,274,1138,268,1150,267,1342,262,1708,256,2071,244,2195,233,2233,227,2251,219,2257,210,2259,202,2257,192,2251,183,2227,171,2181,159,2044,141,1884,128,1743,121"/>
+<area shape="rect" id="Node000024" href="$PPCTargetMachine_8cpp.html" title=" " alt="" coords="3137,357,3310,397"/>
+<area shape="poly" id="edge33_Node000011_Node000024" title=" " alt="" coords="1743,113,2389,124,2855,134,3351,150,3829,170,4241,196,4407,211,4538,228,4629,246,4658,257,4675,267,4682,278,4684,289,4682,301,4674,311,4654,321,4614,329,4483,343,4302,354,4088,362,3645,373,3310,378,3310,373,3645,368,4088,357,4301,348,4483,337,4613,324,4652,316,4671,307,4677,298,4679,290,4677,280,4671,271,4656,261,4628,252,4537,233,4406,216,4240,201,3828,175,3350,155,2855,140,2389,129,1743,118"/>
+<area shape="rect" id="Node000025" href="$PPCTargetMachine_8h.html" title=" " alt="" coords="2316,181,2475,221"/>
+<area shape="poly" id="edge34_Node000011_Node000025" title=" " alt="" coords="1743,119,1992,142,2297,179,2316,182,2315,187,2296,184,1991,147,1743,124"/>
+<area shape="poly" id="edge35_Node000025_Node000002" title=" " alt="" coords="2302,219,2253,224,1997,240,1779,246,1588,246,1410,243,1232,240,1041,242,825,251,569,272,558,273,558,268,568,267,824,246,1041,237,1232,235,1410,237,1588,241,1779,241,1996,235,2252,219,2302,214"/>
+<area shape="poly" id="edge51_Node000025_Node000004" title=" " alt="" coords="2302,219,2253,224,2022,238,1826,243,1493,237,1333,234,1161,237,966,248,737,272,725,274,724,268,736,267,966,243,1161,231,1333,229,1494,232,1826,237,2022,233,2252,219,2302,214"/>
+<area shape="poly" id="edge41_Node000025_Node000008" title=" " alt="" coords="2302,219,2253,224,1934,242,1664,246,1426,240,1204,232,983,226,746,227,477,240,160,272,149,274,148,268,159,267,476,235,746,221,983,220,1204,227,1426,235,1664,240,1934,236,2252,219,2302,214"/>
+<area shape="poly" id="edge44_Node000025_Node000009" title=" " alt="" coords="2302,219,2253,224,1963,241,1717,246,1500,243,1298,237,1097,233,881,234,635,246,346,272,334,274,333,268,346,267,635,240,880,229,1097,227,1298,232,1500,238,1717,241,1963,236,2252,219,2302,214"/>
+<area shape="poly" id="edge43_Node000025_Node000010" title=" " alt="" coords="2489,201,2891,207,3465,220,4046,239,4289,252,4473,267,4485,268,4485,273,4472,272,4289,257,4046,244,3465,225,2891,213,2489,206"/>
+<area shape="poly" id="edge36_Node000025_Node000012" title=" " alt="" coords="2489,202,2970,221,3288,240,3612,267,3623,268,3623,273,3611,272,3288,245,2970,227,2488,208"/>
+<area shape="poly" id="edge37_Node000025_Node000013" title=" " alt="" coords="2489,202,3185,224,3582,243,3748,254,3873,267,3885,268,3884,274,3872,272,3747,259,3582,248,3185,229,2489,208"/>
+<area shape="poly" id="edge42_Node000025_Node000016" title=" " alt="" coords="2489,199,2755,200,3140,208,3589,228,3820,245,4046,267,4058,268,4058,273,4046,272,3820,250,3589,233,3140,213,2755,205,2489,204"/>
+<area shape="poly" id="edge46_Node000025_Node000018" title=" " alt="" coords="2489,199,2784,199,3219,207,3728,227,3991,244,4249,267,4261,268,4260,273,4248,272,3991,250,3728,233,3219,212,2784,205,2489,204"/>
+<area shape="poly" id="edge47_Node000025_Node000019" title=" " alt="" coords="2302,219,2253,224,2058,237,1892,244,1610,245,1329,248,1164,256,969,272,957,273,957,268,968,267,1163,250,1329,242,1610,240,1892,238,2057,232,2252,219,2302,213"/>
+<area shape="poly" id="edge50_Node000025_Node000023" title=" " alt="" coords="2303,223,2297,224,2123,240,1975,247,1723,246,1602,245,1472,246,1324,254,1150,272,1139,274,1138,268,1150,267,1324,249,1471,241,1602,239,1723,241,1975,242,2122,235,2296,219,2302,218"/>
+<area shape="poly" id="edge54_Node000025_Node000024" title=" " alt="" coords="2488,202,2676,207,2898,219,3093,238,3161,251,3185,259,3200,267,3215,288,3224,312,3228,357,3222,357,3219,313,3211,290,3196,271,3182,264,3160,256,3093,243,2898,224,2676,213,2488,207"/>
+<area shape="rect" id="Node000026" href="$PPCBoolRetToInt_8cpp.html" title=" " alt="" coords="3261,269,3421,309"/>
+<area shape="poly" id="edge38_Node000025_Node000026" title=" " alt="" coords="2489,204,2822,225,3032,243,3242,267,3261,269,3260,275,3242,272,3031,248,2822,230,2489,209"/>
+<area shape="rect" id="Node000027" href="$PPCEarlyReturn_8cpp.html" title=" " alt="" coords="3445,269,3599,309"/>
+<area shape="poly" id="edge39_Node000025_Node000027" title=" " alt="" coords="2489,202,2665,207,2900,218,3165,237,3433,267,3445,268,3444,274,3432,272,3165,243,2899,223,2665,212,2489,207"/>
+<area shape="rect" id="Node000028" href="$PPCExpandAtomicPseudoInsts_8cpp.html" title=" " alt="" coords="1381,269,1631,309"/>
+<area shape="poly" id="edge40_Node000025_Node000028" title=" " alt="" coords="2303,223,2297,224,2114,243,1971,251,1828,257,1645,272,1632,273,1631,268,1644,267,1828,252,1971,246,2114,238,2296,219,2302,218"/>
+<area shape="rect" id="Node000029" href="$PPCInstrInfo_8cpp.html" title=" " alt="" coords="1656,269,1799,309"/>
+<area shape="poly" id="edge45_Node000025_Node000029" title=" " alt="" coords="2303,223,2297,224,2161,240,2054,247,1948,254,1812,272,1799,274,1798,269,1811,267,1947,249,2054,241,2160,234,2296,219,2302,218"/>
+<area shape="rect" id="Node000030" href="$PPCMIPeephole_8cpp.html" title=" " alt="" coords="1823,269,1978,309"/>
+<area shape="poly" id="edge48_Node000025_Node000030" title=" " alt="" coords="2303,223,2297,224,2144,247,1990,272,1979,274,1978,269,1990,267,2143,242,2296,219,2302,218"/>
+<area shape="rect" id="Node000031" href="$PPCReduceCRLogicals_8cpp.html" title=" " alt="" coords="2002,269,2199,309"/>
+<area shape="poly" id="edge49_Node000025_Node000031" title=" " alt="" coords="2318,228,2166,272,2164,267,2317,223"/>
+<area shape="rect" id="Node000032" href="$PPCTLSDynamicCall_8cpp.html" title=" " alt="" coords="2223,269,2407,309"/>
+<area shape="poly" id="edge52_Node000025_Node000032" title=" " alt="" coords="2370,233,2335,271,2331,267,2366,230"/>
+<area shape="rect" id="Node000033" href="$PPCTOCRegDeps_8cpp.html" title=" " alt="" coords="2431,269,2594,309"/>
+<area shape="poly" id="edge53_Node000025_Node000033" title=" " alt="" coords="2434,228,2488,267,2485,271,2431,232"/>
+<area shape="rect" id="Node000034" href="$PPCTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the PPC target machine." alt="" coords="1163,269,1356,309"/>
+<area shape="poly" id="edge55_Node000025_Node000034" title=" " alt="" coords="2303,223,2297,224,2156,238,2037,246,1833,249,1629,252,1510,259,1369,272,1357,273,1356,268,1368,267,1509,254,1629,247,1833,244,2036,241,2156,233,2296,219,2302,218"/>
+<area shape="rect" id="Node000036" href="$PPCVSXCopy_8cpp.html" title=" " alt="" coords="2619,269,2761,309"/>
+<area shape="poly" id="edge58_Node000025_Node000036" title=" " alt="" coords="2474,223,2626,267,2625,272,2472,228"/>
+<area shape="rect" id="Node000037" href="$PPCVSXFMAMutate_8cpp.html" title=" " alt="" coords="2786,269,2965,309"/>
+<area shape="poly" id="edge59_Node000025_Node000037" title=" " alt="" coords="2489,216,2774,267,2786,269,2785,274,2774,272,2488,221"/>
+<area shape="rect" id="Node000038" href="$PPCVSXSwapRemoval_8cpp.html" title=" " alt="" coords="2989,269,3186,309"/>
+<area shape="poly" id="edge60_Node000025_Node000038" title=" " alt="" coords="2489,209,2712,233,2977,267,2989,268,2988,274,2976,272,2711,238,2488,214"/>
+<area shape="poly" id="edge56_Node000034_Node000024" title=" " alt="" coords="1370,307,1541,320,1760,331,2276,351,3137,372,3136,377,2276,356,1760,337,1540,325,1370,312"/>
+<area shape="rect" id="Node000035" href="$PPCTargetTransformInfo_8cpp.html" title=" " alt="" coords="1155,357,1363,397"/>
+<area shape="poly" id="edge57_Node000034_Node000035" title=" " alt="" coords="1262,323,1262,357,1257,357,1257,323"/>
+</map>

@@ -1,0 +1,105 @@
+<map id="lib/Target/AMDGPU/AMDGPUFrameLowering.h" name="lib/Target/AMDGPU/AMDGPUFrameLowering.h">
+<area shape="rect" id="Node000001" title="Interface to describe a layout of a stack frame on an AMDGPU target." alt="" coords="1793,5,2043,45"/>
+<area shape="rect" id="Node000002" href="$AMDGPUFrameLowering_8cpp.html" title=" " alt="" coords="1533,93,1783,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1849,52,1716,96,1714,91,1847,47"/>
+<area shape="rect" id="Node000003" href="$R600FrameLowering_8h.html" title=" " alt="" coords="1807,93,2029,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1921,59,1921,93,1915,93,1915,59"/>
+<area shape="rect" id="Node000033" href="$SIFrameLowering_8h.html" title=" " alt="" coords="7370,93,7573,133"/>
+<area shape="poly" id="edge20_Node000001_Node000033" title=" " alt="" coords="2057,26,7370,108,7370,113,2057,31"/>
+<area shape="rect" id="Node000004" href="$R600FrameLowering_8cpp.html" title=" " alt="" coords="5,255,228,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1793,136,1557,160,1356,177,1014,196,674,216,474,233,240,257,229,259,228,253,239,252,474,227,674,211,1014,191,1355,172,1556,155,1793,131"/>
+<area shape="rect" id="Node000005" href="$R600Subtarget_8h.html" title="AMDGPU R600 specific subclass of TargetSubtarget." alt="" coords="1789,181,2047,207"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1921,147,1921,181,1915,181,1915,147"/>
+<area shape="poly" id="edge13_Node000005_Node000004" title=" " alt="" coords="1776,197,1493,199,1112,208,678,226,457,240,240,257,229,258,228,253,239,252,456,234,678,220,1112,202,1493,194,1776,192"/>
+<area shape="rect" id="Node000006" href="$AMDGPUInstCombineIntrinsic_8cpp.html" title=" " alt="" coords="3650,255,3882,295"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="2060,192,2349,194,2741,203,3187,221,3415,234,3638,252,3650,253,3650,258,3638,257,3415,240,3187,226,2741,208,2349,200,2060,198"/>
+<area shape="rect" id="Node000007" href="$AMDGPUTargetMachine_8h.html" title="The AMDGPU TargetMachine interface definition for hw codgen targets." alt="" coords="3378,255,3626,295"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="2061,194,2307,199,2632,208,2998,226,3366,252,3378,253,3378,258,3366,257,2997,231,2632,214,2307,204,2061,199"/>
+<area shape="rect" id="Node000021" href="$AMDILCFGStructurizer_8cpp.html" title=" " alt="" coords="2060,262,2379,287"/>
+<area shape="poly" id="edge7_Node000005_Node000021" title=" " alt="" coords="1976,207,2176,259,2175,265,1974,213"/>
+<area shape="rect" id="Node000022" href="$R600AsmPrinter_8cpp.html" title="The R600AsmPrinter is used to print both assembly string and also binary code." alt="" coords="2403,255,2614,295"/>
+<area shape="poly" id="edge8_Node000005_Node000022" title=" " alt="" coords="2029,206,2390,252,2404,254,2403,259,2390,257,2029,211"/>
+<area shape="rect" id="Node000023" href="$R600ClauseMergePass_8cpp.html" title="R600EmitClauseMarker pass emits CFAlu instruction in a conservative maneer." alt="" coords="2638,255,2865,295"/>
+<area shape="poly" id="edge9_Node000005_Node000023" title=" " alt="" coords="2061,202,2324,222,2626,252,2638,253,2638,259,2626,257,2323,227,2060,207"/>
+<area shape="rect" id="Node000024" href="$R600ControlFlowFinalizer_8cpp.html" title="This pass compute turns all control flow pseudo instructions into native one computing their address ..." alt="" coords="2889,255,3118,295"/>
+<area shape="poly" id="edge10_Node000005_Node000024" title=" " alt="" coords="2061,198,2431,216,2654,232,2877,252,2889,253,2888,259,2876,257,2654,237,2431,222,2061,203"/>
+<area shape="rect" id="Node000025" href="$R600EmitClauseMarkers_8cpp.html" title="Add CF_ALU." alt="" coords="3143,255,3355,295"/>
+<area shape="poly" id="edge11_Node000005_Node000025" title=" " alt="" coords="2061,195,2536,210,2832,227,3130,252,3143,253,3142,259,3130,257,2832,232,2536,215,2061,200"/>
+<area shape="rect" id="Node000026" href="$R600ExpandSpecialInstrs_8cpp.html" title="Vector, Reduction, and Cube instructions need to fill the entire instruction group to work correctly." alt="" coords="252,255,483,295"/>
+<area shape="poly" id="edge12_Node000005_Node000026" title=" " alt="" coords="1776,199,1533,203,1214,213,856,230,494,257,483,258,483,253,494,252,855,225,1214,207,1533,198,1776,194"/>
+<area shape="rect" id="Node000027" href="$R600ISelLowering_8cpp.html" title="Custom DAG lowering for R600." alt="" coords="507,255,713,295"/>
+<area shape="poly" id="edge14_Node000005_Node000027" title=" " alt="" coords="1776,200,1309,215,1018,232,726,257,714,259,713,253,726,252,1018,227,1309,210,1776,195"/>
+<area shape="rect" id="Node000028" href="$R600InstrInfo_8cpp.html" title="R600 Implementation of TargetInstrInfo." alt="" coords="738,255,949,295"/>
+<area shape="poly" id="edge15_Node000005_Node000028" title=" " alt="" coords="1775,203,1406,221,1183,236,961,257,949,259,948,253,960,252,1183,231,1406,215,1775,197"/>
+<area shape="rect" id="Node000029" href="$R600MachineScheduler_8cpp.html" title="R600 Machine Scheduler interface." alt="" coords="973,255,1210,295"/>
+<area shape="poly" id="edge16_Node000005_Node000029" title=" " alt="" coords="1776,208,1518,228,1222,257,1211,259,1210,253,1222,252,1517,223,1775,202"/>
+<area shape="rect" id="Node000030" href="$R600OptimizeVectorRegisters_8cpp.html" title="This pass merges inputs of swizzeable instructions into vector sharing common data and/or have enough..." alt="" coords="1235,255,1476,295"/>
+<area shape="poly" id="edge17_Node000005_Node000030" title=" " alt="" coords="1822,211,1489,257,1477,259,1476,254,1488,252,1821,206"/>
+<area shape="rect" id="Node000031" href="$R600Packetizer_8cpp.html" title="This pass implements instructions packetization for R600." alt="" coords="1501,262,1775,287"/>
+<area shape="poly" id="edge18_Node000005_Node000031" title=" " alt="" coords="1865,213,1679,265,1678,259,1863,208"/>
+<area shape="rect" id="Node000032" href="$R600RegisterInfo_8cpp.html" title="R600 implementation of the TargetRegisterInfo class." alt="" coords="1800,255,2036,295"/>
+<area shape="poly" id="edge19_Node000005_Node000032" title=" " alt="" coords="1921,220,1921,255,1915,255,1915,220"/>
+<area shape="rect" id="Node000034" href="$GCNSubtarget_8h.html" title="AMD GCN specific subclass of TargetSubtarget." alt="" coords="7345,181,7598,207"/>
+<area shape="poly" id="edge21_Node000033_Node000034" title=" " alt="" coords="7474,147,7474,181,7469,181,7469,147"/>
+<area shape="rect" id="Node000067" href="$SIFrameLowering_8cpp.html" title=" " alt="" coords="11567,255,11770,295"/>
+<area shape="poly" id="edge53_Node000033_Node000067" title=" " alt="" coords="7587,114,8338,129,9487,157,10100,176,10679,198,11179,224,11556,252,11567,253,11567,259,11555,257,11178,229,10678,204,10100,181,9487,162,8338,134,7586,119"/>
+<area shape="poly" id="edge28_Node000034_Node000006" title=" " alt="" coords="7331,198,6648,199,5654,207,5131,214,4639,225,4215,239,3894,257,3882,258,3882,253,3894,252,4215,234,4639,219,5131,209,5654,202,6648,194,7331,193"/>
+<area shape="poly" id="edge40_Node000034_Node000007" title=" " alt="" coords="7331,198,6605,199,5537,206,4973,214,4442,224,3984,239,3638,257,3626,258,3626,253,3638,252,3984,233,4442,219,4973,208,5536,201,6605,194,7331,193"/>
+<area shape="rect" id="Node000035" href="$AMDGPUAnnotateKernelFeatures_8cpp.html" title=" " alt="" coords="5881,255,6147,295"/>
+<area shape="poly" id="edge22_Node000034_Node000035" title=" " alt="" coords="7331,201,6815,217,6488,234,6160,257,6148,258,6147,253,6159,252,6488,228,6815,212,7331,195"/>
+<area shape="rect" id="Node000036" href="$AMDGPUAsmPrinter_8cpp.html" title="The AMDGPUAsmPrinter is used to print both assembly string and also binary code." alt="" coords="6171,255,6409,295"/>
+<area shape="poly" id="edge23_Node000034_Node000036" title=" " alt="" coords="7331,202,6922,220,6672,236,6421,257,6409,259,6409,253,6420,252,6671,231,6922,215,7331,197"/>
+<area shape="rect" id="Node000037" href="$AMDGPUAtomicOptimizer_8cpp.html" title="This pass optimizes atomic operations by using a single lane of a wavefront to perform the atomic ope..." alt="" coords="6433,255,6688,295"/>
+<area shape="poly" id="edge24_Node000034_Node000037" title=" " alt="" coords="7331,206,7040,227,6701,257,6688,259,6688,253,6700,252,7040,222,7331,201"/>
+<area shape="rect" id="Node000038" href="$AMDGPUAttributor_8cpp.html" title=" " alt="" coords="6713,262,7009,287"/>
+<area shape="poly" id="edge25_Node000034_Node000038" title=" " alt="" coords="7370,211,6950,265,6949,259,7369,206"/>
+<area shape="rect" id="Node000039" href="$AMDGPUHSAMetadataStreamer_8cpp.html" title="AMDGPU HSA Metadata Streamer." alt="" coords="7033,255,7331,295"/>
+<area shape="poly" id="edge26_Node000034_Node000039" title=" " alt="" coords="7417,213,7252,257,7251,252,7415,208"/>
+<area shape="rect" id="Node000040" href="$AMDGPUISelLowering_8cpp.html" title="This is the parent TargetLowering class for hardware code gen targets." alt="" coords="7355,255,7587,295"/>
+<area shape="poly" id="edge27_Node000034_Node000040" title=" " alt="" coords="7474,220,7474,255,7469,255,7469,220"/>
+<area shape="rect" id="Node000041" href="$AMDGPULibCalls_8cpp.html" title="This file does AMD library function optimizations." alt="" coords="7611,255,7838,295"/>
+<area shape="poly" id="edge29_Node000034_Node000041" title=" " alt="" coords="7522,208,7665,252,7663,257,7521,213"/>
+<area shape="rect" id="Node000042" href="$AMDGPULowerKernelArguments_8cpp.html" title=" " alt="" coords="7863,255,8109,295"/>
+<area shape="poly" id="edge30_Node000034_Node000042" title=" " alt="" coords="7560,206,7863,252,7862,257,7559,211"/>
+<area shape="rect" id="Node000043" href="$AMDGPUMIRFormatter_8cpp.html" title="Implementation of AMDGPU overrides of MIRFormatter." alt="" coords="8133,262,8455,287"/>
+<area shape="poly" id="edge31_Node000034_Node000043" title=" " alt="" coords="7612,205,8122,252,8192,259,8192,265,8122,257,7612,210"/>
+<area shape="rect" id="Node000044" href="$AMDGPUMachineCFGStructurizer_8cpp.html" title=" " alt="" coords="8480,255,8743,295"/>
+<area shape="poly" id="edge32_Node000034_Node000044" title=" " alt="" coords="7612,198,7998,217,8233,233,8468,252,8480,253,8480,259,8467,257,8232,238,7998,223,7612,203"/>
+<area shape="rect" id="Node000045" href="$AMDGPUPostLegalizerCombiner_8cpp.html" title=" " alt="" coords="8767,255,9003,295"/>
+<area shape="poly" id="edge33_Node000034_Node000045" title=" " alt="" coords="7612,195,8117,210,8435,227,8756,252,8767,253,8766,258,8755,257,8435,232,8117,216,7612,200"/>
+<area shape="rect" id="Node000046" href="$AMDGPUPreLegalizerCombiner_8cpp.html" title=" " alt="" coords="9027,255,9257,295"/>
+<area shape="poly" id="edge34_Node000034_Node000046" title=" " alt="" coords="7612,193,7873,196,8222,205,8617,223,9016,252,9027,253,9027,259,9015,257,8616,228,8222,211,7873,202,7612,198"/>
+<area shape="rect" id="Node000047" href="$AMDGPUPromoteAlloca_8cpp.html" title=" " alt="" coords="9281,255,9544,295"/>
+<area shape="poly" id="edge35_Node000034_Node000047" title=" " alt="" coords="7612,193,7912,195,8323,204,8793,222,9033,235,9269,252,9282,253,9281,258,9268,257,9033,240,8793,227,8323,209,7912,201,7612,198"/>
+<area shape="rect" id="Node000048" href="$AMDGPURegBankCombiner_8cpp.html" title=" " alt="" coords="9568,255,9801,295"/>
+<area shape="poly" id="edge36_Node000034_Node000048" title=" " alt="" coords="7612,195,8594,213,9150,230,9381,240,9557,252,9568,253,9568,258,9556,257,9381,246,9150,235,8594,218,7612,200"/>
+<area shape="rect" id="Node000049" href="$AMDGPURegisterBankInfo_8cpp.html" title="This file implements the targeting of the RegisterBankInfo class for AMDGPU." alt="" coords="9825,255,10088,295"/>
+<area shape="poly" id="edge37_Node000034_Node000049" title=" " alt="" coords="7612,194,8715,213,9349,230,9614,240,9814,252,9825,253,9825,258,9814,257,9613,245,9349,235,8715,218,7612,200"/>
+<area shape="rect" id="Node000050" href="$AMDGPUReplaceLDSUseWithPointer_8cpp.html" title=" " alt="" coords="10112,255,10372,295"/>
+<area shape="poly" id="edge38_Node000034_Node000050" title=" " alt="" coords="7612,194,8850,210,9571,228,9872,239,10101,252,10112,253,10112,258,10100,257,9872,244,9571,233,8849,216,7612,199"/>
+<area shape="rect" id="Node000051" href="$AMDGPUResourceUsageAnalysis_8cpp.html" title="Analyzes how many registers and other resources are used by functions." alt="" coords="10396,255,10664,295"/>
+<area shape="poly" id="edge39_Node000034_Node000051" title=" " alt="" coords="7612,194,8181,198,8982,209,9791,226,10129,238,10385,252,10396,253,10396,258,10384,257,10129,243,9791,232,8982,214,8181,204,7612,199"/>
+<area shape="rect" id="Node000052" href="$GCNDPPCombine_8cpp.html" title=" " alt="" coords="10688,262,10977,287"/>
+<area shape="poly" id="edge41_Node000034_Node000052" title=" " alt="" coords="7612,193,8231,198,9117,208,10016,226,10392,238,10677,252,10751,259,10751,265,10676,257,10392,243,10016,231,9117,213,8231,203,7612,199"/>
+<area shape="rect" id="Node000053" href="$GCNHazardRecognizer_8cpp.html" title=" " alt="" coords="11002,255,11226,295"/>
+<area shape="poly" id="edge42_Node000034_Node000053" title=" " alt="" coords="7612,193,8285,194,9262,201,9775,209,10258,219,10675,233,10990,252,11002,253,11002,258,10990,257,10675,239,10258,224,9775,214,9262,207,8285,199,7612,198"/>
+<area shape="rect" id="Node000054" href="$GCNNSAReassign_8cpp.html" title="Try to reassign registers on GFX10+ from non&#45;sequential to sequential in NSA image instructions." alt="" coords="11251,262,11543,287"/>
+<area shape="poly" id="edge43_Node000034_Node000054" title=" " alt="" coords="7612,193,8327,196,9376,205,10449,223,10898,236,11238,252,11314,259,11313,265,11238,257,10898,241,10449,228,9376,210,8327,201,7612,198"/>
+<area shape="rect" id="Node000055" href="$GCNPreRAOptimizations_8cpp.html" title="This pass combines split register tuple initialization into a single psuedo:" alt="" coords="3907,255,4105,295"/>
+<area shape="poly" id="edge44_Node000034_Node000055" title=" " alt="" coords="7331,198,6686,199,5757,205,5270,213,4812,223,4417,238,4118,257,4106,259,4105,253,4118,252,4417,233,4812,218,5270,207,5757,200,6686,193,7331,192"/>
+<area shape="rect" id="Node000056" href="$GCNRegPressure_8h.html" title="This file defines the GCNRegPressure class, which tracks registry pressure by bookkeeping number of S..." alt="" coords="4130,255,4333,295"/>
+<area shape="poly" id="edge45_Node000034_Node000056" title=" " alt="" coords="7331,198,6725,200,5862,207,4987,225,4621,239,4345,257,4333,258,4333,253,4344,252,4621,234,4987,220,5862,202,6725,194,7331,193"/>
+<area shape="rect" id="Node000063" href="$SIAnnotateControlFlow_8cpp.html" title="Annotates the control flow with hardware specific intrinsics." alt="" coords="4357,255,4577,295"/>
+<area shape="poly" id="edge46_Node000034_Node000063" title=" " alt="" coords="7331,198,6767,202,5975,211,5175,229,4842,241,4589,257,4578,258,4577,253,4588,252,4841,236,5175,223,5975,206,6767,196,7331,193"/>
+<area shape="rect" id="Node000064" href="$SIFixSGPRCopies_8cpp.html" title="Copies from VGPR to SGPR registers are illegal and the register coalescer will sometimes generate the..." alt="" coords="4601,262,4888,287"/>
+<area shape="poly" id="edge47_Node000034_Node000064" title=" " alt="" coords="7331,199,6120,217,5416,235,5122,245,4900,257,4827,265,4826,259,4899,252,5122,240,5416,229,6120,212,7331,194"/>
+<area shape="rect" id="Node000065" href="$SIFixVGPRCopies_8cpp.html" title="Add implicit use of exec to vector register copies." alt="" coords="4912,262,5199,287"/>
+<area shape="poly" id="edge48_Node000034_Node000065" title=" " alt="" coords="7331,197,6962,198,6437,205,5829,223,5517,238,5210,257,5138,265,5137,259,5210,252,5516,233,5829,218,6437,199,6962,192,7331,192"/>
+<area shape="rect" id="Node000066" href="$SIFoldOperands_8cpp.html" title=" " alt="" coords="5223,255,5411,295"/>
+<area shape="poly" id="edge49_Node000034_Node000066" title=" " alt="" coords="7331,199,6916,205,6366,216,5821,233,5594,244,5422,257,5411,259,5410,253,5422,252,5594,239,5820,228,6365,210,6916,200,7331,194"/>
+<area shape="poly" id="edge50_Node000034_Node000067" title=" " alt="" coords="7612,193,9686,211,10865,228,11299,239,11556,252,11567,253,11567,258,11555,257,11299,245,10865,234,9686,216,7612,199"/>
+<area shape="rect" id="Node000068" href="$SIInsertHardClauses_8cpp.html" title="Insert s_clause instructions to form hard clauses." alt="" coords="5435,255,5633,295"/>
+<area shape="poly" id="edge51_Node000034_Node000068" title=" " alt="" coords="7331,200,6472,219,5994,235,5796,246,5645,257,5634,259,5633,253,5644,252,5796,240,5994,230,6472,213,7331,195"/>
+<area shape="rect" id="Node000069" href="$SIInsertWaitcnts_8cpp.html" title="Insert wait instructions for memory reads and writes." alt="" coords="5657,255,5856,295"/>
+<area shape="poly" id="edge52_Node000034_Node000069" title=" " alt="" coords="7331,197,7060,199,6697,207,6285,225,6075,239,5869,257,5856,259,5856,253,5868,252,6074,234,6285,220,6697,201,7060,193,7331,192"/>
+</map>

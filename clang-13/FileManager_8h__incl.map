@@ -1,0 +1,63 @@
+<map id="include/clang/Basic/FileManager.h" name="include/clang/Basic/FileManager.h">
+<area shape="rect" id="Node000001" title="Defines the clang::FileManager interface and associated types." alt="" coords="1434,5,1581,45"/>
+<area shape="rect" id="Node000002" href="$DirectoryEntry_8h.html" title="Defines interfaces for clang::DirectoryEntry and clang::DirectoryEntryRef." alt="" coords="471,189,675,214"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1433,29,1263,32,1047,42,939,50,840,62,756,77,694,96,663,113,635,135,592,180,588,176,631,131,660,109,692,91,755,72,839,57,939,45,1047,37,1262,27,1433,24"/>
+<area shape="rect" id="Node000003" href="$LLVM_8h.html" title="Forward&#45;declares and imports various common LLVM datatypes that clang wants to use unqualified." alt="" coords="179,269,326,295"/>
+<area shape="poly" id="edge23_Node000001_Node000003" title=" " alt="" coords="1434,29,1222,31,944,39,802,48,670,60,558,75,475,96,441,110,410,129,352,174,305,221,272,260,268,256,301,217,348,170,407,124,439,105,473,91,557,70,670,54,801,42,943,34,1222,25,1434,24"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,343,180,368"/>
+<area shape="poly" id="edge27_Node000001_Node000006" title=" " alt="" coords="1434,31,1187,39,864,52,566,71,459,83,396,96,348,118,302,146,259,178,220,213,155,280,111,333,107,330,151,277,216,209,256,174,299,142,346,113,395,91,458,78,566,66,864,47,1187,34,1434,26"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="351,269,515,295"/>
+<area shape="poly" id="edge28_Node000001_Node000009" title=" " alt="" coords="1434,32,1253,39,1020,52,794,71,701,82,631,96,568,108,517,119,495,127,474,139,454,157,435,183,427,200,425,219,428,256,423,256,419,219,422,199,430,180,450,154,471,135,492,122,515,113,567,103,629,91,700,77,794,65,1020,47,1252,34,1434,26"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="931,269,1089,295"/>
+<area shape="poly" id="edge29_Node000001_Node000010" title=" " alt="" coords="1479,47,1414,95,1390,123,1361,161,1331,199,1303,224,1268,238,1217,251,1102,271,1101,266,1216,246,1266,233,1301,219,1327,195,1357,158,1386,120,1411,91,1475,43"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1113,269,1280,295"/>
+<area shape="poly" id="edge31_Node000001_Node000011" title=" " alt="" coords="1491,47,1448,95,1421,132,1403,163,1382,193,1349,223,1304,250,1257,268,1255,263,1302,245,1346,219,1378,189,1399,160,1417,129,1444,92,1487,44"/>
+<area shape="rect" id="Node000012" href="$FileEntry_8h.html" title="Defines interfaces for clang::FileEntry and clang::FileEntryRef." alt="" coords="705,101,872,126"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1434,38,886,103,885,98,1433,33"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1108,189,1291,214"/>
+<area shape="poly" id="edge26_Node000001_Node000013" title=" " alt="" coords="1434,46,1373,66,1311,96,1284,115,1259,137,1219,180,1215,176,1255,133,1281,111,1309,91,1371,61,1433,41"/>
+<area shape="rect" id="Node000015" href="$FileSystemOptions_8h.html" title="Defines the clang::FileSystemOptions interface." alt="" coords="1467,101,1702,126"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="1526,44,1567,88,1563,92,1523,47"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1486,189,1545,214"/>
+<area shape="poly" id="edge37_Node000001_Node000016" title=" " alt="" coords="1489,47,1471,69,1458,94,1453,113,1458,132,1472,157,1491,178,1487,181,1468,160,1453,134,1448,113,1453,92,1467,66,1485,44"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1725,101,1892,126"/>
+<area shape="poly" id="edge24_Node000001_Node000017" title=" " alt="" coords="1574,43,1756,94,1755,100,1573,48"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="1917,93,2103,133"/>
+<area shape="poly" id="edge25_Node000001_Node000018" title=" " alt="" coords="1581,36,1904,90,1903,96,1581,41"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="2127,101,2306,126"/>
+<area shape="poly" id="edge30_Node000001_Node000019" title=" " alt="" coords="1581,30,1819,54,2116,91,2146,96,2145,101,2115,96,1819,59,1581,36"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="2331,101,2524,126"/>
+<area shape="poly" id="edge32_Node000001_Node000020" title=" " alt="" coords="1581,28,1902,49,2109,68,2318,91,2353,96,2352,101,2318,96,2108,73,1901,55,1581,33"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="2548,93,2723,133"/>
+<area shape="poly" id="edge33_Node000001_Node000021" title=" " alt="" coords="1581,26,1750,31,1984,43,2255,62,2535,91,2534,96,2255,67,1984,48,1749,37,1581,31"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="2747,101,2806,126"/>
+<area shape="poly" id="edge34_Node000001_Node000022" title=" " alt="" coords="1581,24,1827,28,2162,38,2494,58,2632,72,2736,91,2743,93,2742,98,2735,96,2631,78,2494,63,2161,43,1827,33,1581,30"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="2830,101,2881,126"/>
+<area shape="poly" id="edge35_Node000001_Node000023" title=" " alt="" coords="1581,24,1842,25,2201,34,2386,42,2559,54,2707,70,2819,91,2825,93,2823,98,2817,96,2706,75,2559,59,2386,47,2201,39,1842,31,1581,29"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="2905,101,2982,126"/>
+<area shape="poly" id="edge36_Node000001_Node000024" title=" " alt="" coords="1581,25,1855,29,2235,39,2616,59,2774,73,2893,91,2905,94,2904,99,2892,96,2773,78,2615,64,2235,44,1855,34,1581,30"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="527,217,313,269,312,264,526,211"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="539,269,731,295"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="584,213,620,257,615,260,580,216"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="756,269,907,295"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="611,211,782,263,780,268,610,217"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="553,217,467,265,464,260,551,212"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="637,211,933,264,932,270,636,217"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="664,211,1100,266,1100,271,663,217"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="361,343,531,368"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="285,292,403,335,401,340,283,297"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="204,343,336,368"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="258,294,267,329,261,330,253,296"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="228,297,132,339,130,335,226,292"/>
+<area shape="poly" id="edge12_Node000012_Node000002" title=" " alt="" coords="761,129,615,186,613,181,759,124"/>
+<area shape="poly" id="edge13_Node000012_Node000003" title=" " alt="" coords="705,125,576,146,504,162,434,184,391,202,349,223,282,264,279,259,347,218,388,197,432,179,502,157,575,141,705,120"/>
+<area shape="poly" id="edge14_Node000012_Node000007" title=" " alt="" coords="780,128,657,261,653,258,776,124"/>
+<area shape="poly" id="edge15_Node000012_Node000008" title=" " alt="" coords="790,126,790,169,798,221,816,257,812,259,793,222,784,169,785,126"/>
+<area shape="poly" id="edge17_Node000012_Node000009" title=" " alt="" coords="705,124,636,132,563,145,500,162,476,172,460,183,448,199,440,218,435,255,429,255,435,216,443,196,456,179,474,167,498,157,562,140,635,127,705,119"/>
+<area shape="poly" id="edge18_Node000012_Node000010" title=" " alt="" coords="794,126,809,171,822,197,841,219,882,246,927,263,925,268,879,251,838,223,818,200,804,173,789,127"/>
+<area shape="poly" id="edge19_Node000012_Node000011" title=" " alt="" coords="866,123,954,144,1001,160,1046,179,1072,198,1097,219,1165,260,1162,265,1094,223,1069,202,1043,184,999,165,952,149,864,129"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="844,123,1132,183,1131,188,843,129"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="851,181,1033,221"/>
+<area shape="poly" id="edge20_Node000012_Node000014" title=" " alt="" coords="811,124,898,172,895,177,808,129"/>
+<area shape="poly" id="edge22_Node000015_Node000016" title=" " alt="" coords="1577,128,1536,179,1531,176,1573,124"/>
+</map>

@@ -1,0 +1,121 @@
+<map id="include/clang/AST/DeclOpenMP.h" name="include/clang/AST/DeclOpenMP.h">
+<area shape="rect" id="Node000001" title="This file defines OpenMP nodes for declarative directives." alt="" coords="3739,5,3973,31"/>
+<area shape="rect" id="Node000002" href="$DeclVisitor_8h.html" title=" " alt="" coords="1042,86,1265,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3725,26,1265,97,1265,91,3725,20"/>
+<area shape="rect" id="Node000009" href="$TextNodeDumper_8cpp.html" title=" " alt="" coords="297,277,508,302"/>
+<area shape="poly" id="edge60_Node000001_Node000009" title=" " alt="" coords="3725,22,2887,25,2298,32,1675,43,1078,61,564,88,357,104,193,123,80,145,45,156,26,169,14,184,9,198,9,210,14,221,39,241,78,256,128,267,185,275,298,284,297,289,184,281,127,273,77,261,36,245,10,225,4,212,4,197,10,182,22,165,43,152,79,139,192,118,356,99,563,82,1077,56,1675,38,2298,26,2887,20,3725,17"/>
+<area shape="rect" id="Node000030" href="$ASTReaderDecl_8cpp.html" title=" " alt="" coords="1939,174,2138,214"/>
+<area shape="poly" id="edge69_Node000001_Node000030" title=" " alt="" coords="3725,21,3342,21,2854,28,2617,35,2409,46,2250,61,2194,71,2157,81,2124,100,2095,126,2053,176,2049,172,2091,122,2121,96,2155,76,2193,65,2249,56,2409,41,2617,30,2854,23,3342,16,3725,16"/>
+<area shape="rect" id="Node000032" href="$GlobalDecl_8h.html" title=" " alt="" coords="2949,79,3131,119"/>
+<area shape="poly" id="edge15_Node000001_Node000032" title=" " alt="" coords="3725,35,3132,91,3131,86,3725,29"/>
+<area shape="rect" id="Node000034" href="$ASTContext_8cpp.html" title=" " alt="" coords="2364,277,2537,302"/>
+<area shape="poly" id="edge51_Node000001_Node000034" title=" " alt="" coords="3725,24,3431,31,3076,42,2757,59,2643,69,2575,81,2530,95,2495,109,2466,131,2440,168,2432,196,2433,226,2440,254,2448,276,2443,277,2435,256,2428,227,2426,196,2435,166,2462,127,2492,105,2528,90,2574,76,2642,64,2757,53,3075,37,3431,25,3725,19"/>
+<area shape="rect" id="Node000037" href="$ItaniumMangle_8cpp.html" title=" " alt="" coords="3367,277,3563,302"/>
+<area shape="poly" id="edge56_Node000001_Node000037" title=" " alt="" coords="3825,40,3797,59,3770,81,3738,119,3718,154,3697,189,3660,223,3628,243,3594,258,3527,279,3526,274,3592,253,3626,238,3657,219,3693,185,3714,152,3733,116,3766,77,3794,54,3822,36"/>
+<area shape="rect" id="Node000040" href="$MicrosoftMangle_8cpp.html" title=" " alt="" coords="2562,277,2769,302"/>
+<area shape="poly" id="edge57_Node000001_Node000040" title=" " alt="" coords="3725,26,3398,39,2995,65,2804,84,2640,107,2573,121,2518,136,2479,152,2455,168,2447,181,2445,194,2448,206,2455,220,2478,236,2515,251,2603,274,2602,279,2513,256,2475,241,2451,223,2443,208,2440,194,2442,179,2451,165,2476,147,2517,131,2572,116,2639,102,2803,79,2995,60,3397,34,3725,20"/>
+<area shape="rect" id="Node000046" href="$CodeGenModule_8h.html" title=" " alt="" coords="2775,357,2999,383"/>
+<area shape="poly" id="edge67_Node000001_Node000046" title=" " alt="" coords="3725,24,2992,43,2642,60,2527,70,2472,81,2401,129,2371,156,2347,185,2332,215,2327,245,2334,276,2354,307,2373,318,2409,327,2518,343,2650,354,2775,361,2774,367,2650,359,2518,348,2408,333,2371,323,2350,311,2329,278,2322,245,2327,213,2343,182,2367,153,2398,125,2470,76,2526,65,2642,55,2992,38,3725,19"/>
+<area shape="rect" id="Node000053" href="$CGDecl_8cpp.html" title=" " alt="" coords="2245,431,2425,456"/>
+<area shape="poly" id="edge61_Node000001_Node000053" title=" " alt="" coords="3725,23,3383,28,2955,38,2566,55,2427,67,2345,81,2282,98,2228,115,2207,126,2191,142,2181,164,2177,193,2177,291,2180,340,2187,359,2202,381,2220,397,2240,410,2283,428,2281,433,2237,415,2216,401,2198,384,2182,362,2174,341,2172,291,2172,193,2176,162,2187,139,2204,122,2226,110,2281,93,2344,76,2426,62,2566,50,2954,32,3383,22,3725,18"/>
+<area shape="rect" id="Node000064" href="$CGStmtOpenMP_8cpp.html" title=" " alt="" coords="2769,431,3004,456"/>
+<area shape="poly" id="edge66_Node000001_Node000064" title=" " alt="" coords="3838,43,3814,80,3794,134,3789,193,3789,291,3783,307,3765,321,3736,334,3700,346,3604,369,3487,388,3230,418,3005,437,3004,432,3229,413,3487,383,3603,363,3698,341,3734,329,3762,316,3779,303,3784,290,3784,193,3789,133,3810,77,3834,40"/>
+<area shape="rect" id="Node000117" href="$CGOpenMPRuntime_8h.html" title=" " alt="" coords="2212,357,2457,383"/>
+<area shape="poly" id="edge62_Node000001_Node000117" title=" " alt="" coords="3725,22,3395,24,2986,32,2789,39,2617,50,2485,64,2439,72,2409,81,2378,97,2356,114,2340,136,2325,168,2317,194,2314,221,2315,275,2324,323,2333,356,2328,358,2319,324,2310,276,2308,220,2312,192,2320,166,2335,133,2353,110,2375,92,2407,76,2438,67,2485,58,2617,44,2789,34,2986,27,3395,19,3725,17"/>
+<area shape="rect" id="Node000119" href="$RecursiveASTVisitor_8h.html" title=" " alt="" coords="3824,79,4029,119"/>
+<area shape="poly" id="edge38_Node000001_Node000119" title=" " alt="" coords="3877,39,3912,77,3908,80,3874,43"/>
+<area shape="rect" id="Node000173" href="$ASTStructuralEquivalence_8cpp.html" title=" " alt="" coords="4054,86,4319,111"/>
+<area shape="poly" id="edge52_Node000001_Node000173" title=" " alt="" coords="3918,31,4139,83,4138,89,3917,36"/>
+<area shape="rect" id="Node000174" href="$Decl_8cpp.html" title=" " alt="" coords="4343,86,4470,111"/>
+<area shape="poly" id="edge53_Node000001_Node000174" title=" " alt="" coords="3988,29,4152,48,4331,76,4365,83,4364,89,4330,81,4151,54,3987,34"/>
+<area shape="rect" id="Node000175" href="$DeclBase_8cpp.html" title=" " alt="" coords="4494,86,4653,111"/>
+<area shape="poly" id="edge54_Node000001_Node000175" title=" " alt="" coords="3987,25,4218,44,4482,76,4522,83,4522,89,4481,81,4218,50,3987,30"/>
+<area shape="rect" id="Node000176" href="$DeclOpenMP_8cpp.html" title="This file implements OMPThreadPrivateDecl, OMPCapturedExprDecl classes." alt="" coords="4677,86,4856,111"/>
+<area shape="poly" id="edge55_Node000001_Node000176" title=" " alt="" coords="3987,22,4297,40,4481,56,4664,76,4711,83,4710,89,4664,81,4480,61,4296,46,3987,27"/>
+<area shape="rect" id="Node000177" href="$OpenMPClause_8cpp.html" title=" " alt="" coords="4881,86,5077,111"/>
+<area shape="poly" id="edge58_Node000001_Node000177" title=" " alt="" coords="3987,20,4382,37,4625,53,4868,76,4919,83,4918,89,4868,81,4625,58,4382,42,3987,25"/>
+<area shape="rect" id="Node000178" href="$StmtPrinter_8cpp.html" title=" " alt="" coords="5101,86,5272,111"/>
+<area shape="poly" id="edge59_Node000001_Node000178" title=" " alt="" coords="3987,17,4198,20,4473,30,4780,47,5088,76,5135,83,5134,89,5088,81,4779,52,4473,35,4198,26,3987,22"/>
+<area shape="rect" id="Node000088" href="$CGOpenMPRuntimeAMDGCN_8cpp.html" title=" " alt="" coords="5297,79,5530,119"/>
+<area shape="poly" id="edge63_Node000001_Node000088" title=" " alt="" coords="3987,18,4229,22,4551,31,4916,49,5284,76,5297,77,5296,83,5284,81,4916,54,4551,37,4229,27,3987,23"/>
+<area shape="rect" id="Node000090" href="$CGOpenMPRuntimeGPU_8cpp.html" title=" " alt="" coords="5554,79,5787,119"/>
+<area shape="poly" id="edge64_Node000001_Node000090" title=" " alt="" coords="3987,16,4269,19,4655,27,5096,45,5322,58,5543,76,5554,77,5554,82,5543,81,5321,64,5096,50,4655,32,4269,24,3987,22"/>
+<area shape="rect" id="Node000092" href="$CGOpenMPRuntimeNVPTX_8cpp.html" title=" " alt="" coords="5811,79,6045,119"/>
+<area shape="poly" id="edge65_Node000001_Node000092" title=" " alt="" coords="3988,19,4903,38,5421,55,5636,65,5800,76,5812,77,5811,82,5800,81,5636,70,5421,60,4903,43,3987,24"/>
+<area shape="rect" id="Node000179" href="$SemaOpenMP_8cpp.html" title="This file implements semantic analysis for OpenMP directives and clauses." alt="" coords="6069,86,6267,111"/>
+<area shape="poly" id="edge68_Node000001_Node000179" title=" " alt="" coords="3987,18,4427,23,5024,34,5621,51,5869,62,6058,76,6110,83,6109,89,6057,81,5869,68,5621,56,5024,39,4427,28,3987,23"/>
+<area shape="rect" id="Node000003" href="$ASTNodeTraverser_8h.html" title=" " alt="" coords="484,174,684,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1046,116,881,139,697,169,662,177,661,171,696,164,880,133,1046,110"/>
+<area shape="rect" id="Node000008" href="$TextNodeDumper_8h.html" title=" " alt="" coords="708,174,911,214"/>
+<area shape="poly" id="edge3_Node000002_Node000008" title=" " alt="" coords="1099,117,879,177,878,171,1098,112"/>
+<area shape="rect" id="Node000010" href="$Template_8h.html" title=" " alt="" coords="985,174,1135,214"/>
+<area shape="poly" id="edge5_Node000002_Node000010" title=" " alt="" coords="1134,123,1081,176,1077,172,1131,119"/>
+<area shape="rect" id="Node000022" href="$SemaTemplateInstantiateDecl_8cpp.html" title=" " alt="" coords="879,269,1129,309"/>
+<area shape="poly" id="edge12_Node000002_Node000022" title=" " alt="" coords="1052,118,1009,137,991,151,976,168,967,193,970,219,980,246,993,268,988,270,976,248,965,221,962,192,971,165,987,147,1006,133,1050,113"/>
+<area shape="rect" id="Node000025" href="$ASTImporter_8cpp.html" title=" " alt="" coords="1159,181,1337,207"/>
+<area shape="poly" id="edge7_Node000002_Node000025" title=" " alt="" coords="1177,119,1238,179,1235,183,1173,123"/>
+<area shape="rect" id="Node000026" href="$DeclPrinter_8cpp.html" title=" " alt="" coords="1362,181,1531,207"/>
+<area shape="poly" id="edge8_Node000002_Node000026" title=" " alt="" coords="1203,113,1411,179,1410,184,1202,118"/>
+<area shape="rect" id="Node000027" href="$ODRHash_8cpp.html" title="This file implements the ODRHash class, which calculates a hash based on AST nodes,..." alt="" coords="1556,181,1716,207"/>
+<area shape="poly" id="edge9_Node000002_Node000027" title=" " alt="" coords="1248,111,1388,133,1543,164,1599,179,1598,184,1542,169,1387,139,1247,116"/>
+<area shape="rect" id="Node000028" href="$IndexDecl_8cpp.html" title=" " alt="" coords="1741,181,1915,207"/>
+<area shape="poly" id="edge10_Node000002_Node000028" title=" " alt="" coords="1279,107,1490,128,1610,144,1729,164,1790,179,1789,184,1728,169,1609,150,1489,134,1278,112"/>
+<area shape="rect" id="Node000029" href="$USRGeneration_8cpp.html" title=" " alt="" coords="36,181,244,207"/>
+<area shape="poly" id="edge11_Node000002_Node000029" title=" " alt="" coords="1028,106,680,125,468,143,257,169,184,184,183,179,256,164,467,138,679,120,1028,101"/>
+<area shape="poly" id="edge13_Node000002_Node000030" title=" " alt="" coords="1279,103,1575,123,1752,140,1927,164,1965,171,1964,177,1926,169,1751,146,1575,128,1278,108"/>
+<area shape="rect" id="Node000031" href="$ASTWriterDecl_8cpp.html" title=" " alt="" coords="268,174,460,214"/>
+<area shape="poly" id="edge14_Node000002_Node000031" title=" " alt="" coords="1029,110,771,131,621,148,473,169,436,177,435,171,472,164,621,142,771,125,1028,104"/>
+<area shape="poly" id="edge4_Node000008_Node000009" title=" " alt="" coords="715,220,697,224,454,279,453,274,696,219,714,215"/>
+<area shape="poly" id="edge6_Node000010_Node000022" title=" " alt="" coords="1044,227,1018,271,1013,268,1039,225"/>
+<area shape="rect" id="Node000033" href="$Mangle_8h.html" title=" " alt="" coords="2725,181,2926,207"/>
+<area shape="poly" id="edge16_Node000032_Node000033" title=" " alt="" coords="2985,127,2853,184,2851,179,2983,122"/>
+<area shape="rect" id="Node000041" href="$QualTypeNames_8cpp.html" title=" " alt="" coords="3055,277,3259,302"/>
+<area shape="poly" id="edge29_Node000032_Node000041" title=" " alt="" coords="3015,131,3000,152,2988,175,2985,198,2992,220,3009,239,3030,254,3080,274,3078,279,3028,259,3005,243,2987,223,2979,199,2983,173,2995,149,3010,127"/>
+<area shape="poly" id="edge36_Node000032_Node000046" title=" " alt="" coords="3145,101,3292,109,3453,121,3588,139,3635,151,3661,165,3669,179,3671,193,3661,222,3646,254,3629,277,3607,295,3576,312,3529,328,3467,341,3313,359,3146,368,2999,371,2999,366,3146,363,3313,353,3466,336,3528,323,3574,307,3604,291,3626,274,3642,252,3656,220,3666,192,3664,181,3657,169,3633,156,3587,145,3452,127,3291,114,3145,106"/>
+<area shape="rect" id="Node000109" href="$VTableBuilder_8h.html" title=" " alt="" coords="2465,174,2649,214"/>
+<area shape="poly" id="edge24_Node000032_Node000109" title=" " alt="" coords="2935,120,2669,169,2635,177,2634,171,2668,164,2934,115"/>
+<area shape="rect" id="Node000112" href="$CGVTables_8h.html" title=" " alt="" coords="2793,277,2980,302"/>
+<area shape="poly" id="edge35_Node000032_Node000112" title=" " alt="" coords="2936,110,2869,118,2803,130,2748,147,2728,157,2714,168,2706,181,2704,194,2707,206,2714,220,2733,235,2765,250,2841,274,2839,279,2763,255,2731,240,2710,223,2702,208,2699,194,2701,179,2710,165,2725,152,2746,142,2802,125,2868,112,2935,105"/>
+<area shape="rect" id="Node000113" href="$CGCUDARuntime_8h.html" title=" " alt="" coords="3001,181,3231,207"/>
+<area shape="poly" id="edge30_Node000032_Node000113" title=" " alt="" coords="3066,127,3109,179,3104,183,3062,131"/>
+<area shape="rect" id="Node000114" href="$CGCall_8h.html" title=" " alt="" coords="3255,181,3417,207"/>
+<area shape="poly" id="edge31_Node000032_Node000114" title=" " alt="" coords="3114,120,3300,179,3299,184,3112,125"/>
+<area shape="poly" id="edge32_Node000032_Node000117" title=" " alt="" coords="2935,106,2810,113,2671,125,2543,143,2493,155,2455,169,2419,189,2394,209,2374,235,2355,270,2346,293,2340,317,2337,357,2332,357,2335,316,2341,292,2350,268,2370,232,2390,205,2416,184,2452,164,2491,150,2542,138,2670,120,2809,108,2934,101"/>
+<area shape="rect" id="Node000118" href="$SemaStmtAsm_8cpp.html" title=" " alt="" coords="3441,181,3647,207"/>
+<area shape="poly" id="edge37_Node000032_Node000118" title=" " alt="" coords="3145,114,3429,164,3496,179,3495,184,3428,169,3144,119"/>
+<area shape="poly" id="edge17_Node000033_Node000034" title=" " alt="" coords="2767,213,2498,279,2496,274,2766,207"/>
+<area shape="poly" id="edge18_Node000033_Node000037" title=" " alt="" coords="2909,206,2990,219,3381,274,3381,279,2989,224,2908,211"/>
+<area shape="poly" id="edge19_Node000033_Node000040" title=" " alt="" coords="2795,216,2687,279,2684,274,2793,211"/>
+<area shape="poly" id="edge20_Node000033_Node000041" title=" " alt="" coords="2880,208,3117,274,3116,279,2878,213"/>
+<area shape="poly" id="edge21_Node000033_Node000046" title=" " alt="" coords="2906,208,2955,230,2977,247,2994,268,3002,289,2994,311,2981,328,2965,341,2928,360,2926,355,2962,337,2977,324,2990,308,2996,289,2990,271,2973,251,2952,235,2904,213"/>
+<area shape="poly" id="edge22_Node000046_Node000053" title=" " alt="" coords="2785,387,2424,433,2423,428,2784,382"/>
+<area shape="poly" id="edge23_Node000046_Node000064" title=" " alt="" coords="2889,396,2889,431,2884,431,2884,396"/>
+<area shape="poly" id="edge25_Node000109_Node000034" title=" " alt="" coords="2527,225,2466,278,2462,274,2524,221"/>
+<area shape="poly" id="edge26_Node000109_Node000040" title=" " alt="" coords="2591,221,2654,274,2650,278,2588,225"/>
+<area shape="poly" id="edge27_Node000109_Node000112" title=" " alt="" coords="2638,215,2847,274,2845,279,2636,220"/>
+<area shape="poly" id="edge28_Node000112_Node000046" title=" " alt="" coords="2889,316,2889,357,2884,357,2884,316"/>
+<area shape="poly" id="edge33_Node000117_Node000053" title=" " alt="" coords="2337,396,2337,431,2332,431,2332,396"/>
+<area shape="poly" id="edge34_Node000117_Node000064" title=" " alt="" coords="2437,382,2798,428,2798,433,2437,387"/>
+<area shape="rect" id="Node000120" href="$LexicallyOrderedRecursiveASTVisitor_8h.html" title=" " alt="" coords="4323,174,4539,214"/>
+<area shape="poly" id="edge39_Node000119_Node000120" title=" " alt="" coords="4043,117,4311,164,4347,171,4346,177,4310,169,4043,122"/>
+<area shape="rect" id="Node000122" href="$CallGraph_8h.html" title=" " alt="" coords="4563,174,4730,214"/>
+<area shape="poly" id="edge40_Node000119_Node000122" title=" " alt="" coords="4043,116,4187,130,4300,136,4411,144,4551,164,4584,171,4583,177,4550,169,4410,149,4299,141,4187,135,4043,121"/>
+<area shape="rect" id="Node000126" href="$RecursiveSymbolVisitor_8h.html" title="A wrapper class around RecursiveASTVisitor that visits each occurrences of a named symbol." alt="" coords="4755,167,4973,221"/>
+<area shape="poly" id="edge41_Node000119_Node000126" title=" " alt="" coords="4044,116,4241,132,4395,137,4548,143,4742,164,4755,166,4754,171,4741,169,4547,149,4394,142,4240,138,4043,121"/>
+<area shape="rect" id="Node000129" href="$ObjCMT_8cpp.html" title=" " alt="" coords="4923,277,5123,302"/>
+<area shape="poly" id="edge42_Node000119_Node000129" title=" " alt="" coords="4044,116,4243,119,4541,120,4692,124,4826,132,4929,144,4964,153,4987,165,5008,190,5020,222,5025,253,5026,277,5021,277,5020,253,5015,223,5004,193,4984,169,4962,158,4928,150,4826,137,4692,129,4541,125,4243,124,4043,121"/>
+<area shape="rect" id="Node000130" href="$Transforms_8cpp.html" title=" " alt="" coords="5170,277,5393,302"/>
+<area shape="poly" id="edge43_Node000119_Node000130" title=" " alt="" coords="4043,116,4693,126,5076,139,5207,149,5247,156,5268,165,5286,191,5292,223,5291,253,5287,277,5282,276,5285,253,5286,223,5281,193,5265,169,5246,161,5206,155,5076,144,4693,131,4043,121"/>
+<area shape="rect" id="Node000131" href="$Transforms_8h.html" title=" " alt="" coords="5049,181,5255,207"/>
+<area shape="poly" id="edge44_Node000119_Node000131" title=" " alt="" coords="4044,116,4194,129,4322,135,4539,136,4755,139,4881,148,5030,164,5107,179,5106,184,5029,169,4881,153,4755,145,4539,141,4321,140,4194,134,4043,121"/>
+<area shape="rect" id="Node000145" href="$ASTImporterLookupTable_8cpp.html" title=" " alt="" coords="5330,174,5529,214"/>
+<area shape="poly" id="edge47_Node000119_Node000145" title=" " alt="" coords="4043,116,4237,131,4401,137,4680,134,4815,132,4958,134,5121,144,5312,164,5355,171,5354,177,5312,169,5121,149,4958,139,4815,137,4680,139,4401,142,4236,136,4043,121"/>
+<area shape="rect" id="Node000146" href="$ParentMapContext_8cpp.html" title=" " alt="" coords="5553,181,5772,207"/>
+<area shape="poly" id="edge48_Node000119_Node000146" title=" " alt="" coords="4043,116,4271,133,4465,139,4636,138,4795,134,4954,130,5123,131,5316,141,5542,164,5619,179,5618,184,5541,169,5315,147,5123,137,4954,135,4795,139,4636,143,4465,144,4271,138,4043,121"/>
+<area shape="rect" id="Node000147" href="$ASTMatchFinder_8cpp.html" title=" " alt="" coords="3825,174,4021,214"/>
+<area shape="poly" id="edge49_Node000119_Node000147" title=" " alt="" coords="3928,132,3926,174,3921,174,3923,132"/>
+<area shape="rect" id="Node000148" href="$GtestMatchers_8cpp.html" title=" " alt="" coords="4045,181,4299,207"/>
+<area shape="poly" id="edge50_Node000119_Node000148" title=" " alt="" coords="3990,121,4143,179,4141,184,3988,126"/>
+<area shape="poly" id="edge45_Node000131_Node000129" title=" " alt="" coords="5127,217,5040,279,5037,274,5124,212"/>
+<area shape="poly" id="edge46_Node000131_Node000130" title=" " alt="" coords="5181,212,5267,274,5264,279,5177,217"/>
+</map>

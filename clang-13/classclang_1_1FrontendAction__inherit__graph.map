@@ -1,0 +1,99 @@
+<map id="clang::FrontendAction" name="clang::FrontendAction">
+<area shape="rect" id="Node000001" title="Abstract base class for actions which can be performed by the frontend." alt="" coords="5,1196,168,1221"/>
+<area shape="rect" id="Node000002" href="$classclang_1_1ASTFrontendAction.html" title="Abstract base class to use for AST consumer&#45;based frontend actions." alt="" coords="243,515,431,540"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,1182,329,540,334,541,100,1184"/>
+<area shape="rect" id="Node000032" href="$classclang_1_1ASTMergeAction.html" title="Frontend action adaptor that merges ASTs together." alt="" coords="251,1024,423,1049"/>
+<area shape="poly" id="edge28_Node000001_Node000032" title=" " alt="" coords="100,1182,146,1120,178,1087,215,1060,250,1045,252,1050,217,1064,181,1091,150,1123,105,1185"/>
+<area shape="rect" id="Node000033" href="$classclang_1_1DumpCompilerOptionsAction.html" title=" " alt="" coords="231,1074,444,1114"/>
+<area shape="poly" id="edge29_Node000001_Node000033" title=" " alt="" coords="113,1186,159,1154,215,1124,247,1112,249,1117,217,1128,162,1158,116,1190"/>
+<area shape="rect" id="Node000034" href="$classclang_1_1InitOnlyAction.html" title=" " alt="" coords="259,1139,416,1164"/>
+<area shape="poly" id="edge30_Node000001_Node000034" title=" " alt="" coords="150,1190,215,1174,273,1161,274,1167,217,1179,151,1195"/>
+<area shape="rect" id="Node000035" href="$classclang_1_1PreprocessorFrontendAction.html" title="Abstract base class to use for preprocessor&#45;based frontend actions." alt="" coords="234,1189,441,1229"/>
+<area shape="poly" id="edge31_Node000001_Node000035" title=" " alt="" coords="182,1206,234,1206,234,1211,182,1211"/>
+<area shape="rect" id="Node000043" href="$classclang_1_1PrintDependencyDirectivesSourceMinimizerAction.html" title=" " alt="" coords="216,1253,459,1293"/>
+<area shape="poly" id="edge39_Node000001_Node000043" title=" " alt="" coords="151,1222,259,1250,258,1255,150,1227"/>
+<area shape="rect" id="Node000044" href="$classclang_1_1PrintPreambleAction.html" title=" " alt="" coords="238,1317,437,1343"/>
+<area shape="poly" id="edge40_Node000001_Node000044" title=" " alt="" coords="113,1229,159,1267,217,1302,253,1315,252,1320,215,1307,156,1271,109,1233"/>
+<area shape="rect" id="Node000045" href="$classclang_1_1ReadPCHAndPreprocessAction.html" title="Preprocessor&#45;based frontend action that also loads PCH files." alt="" coords="227,1367,448,1407"/>
+<area shape="poly" id="edge41_Node000001_Node000045" title=" " alt="" coords="105,1231,150,1292,182,1324,217,1352,244,1365,241,1370,215,1356,178,1328,146,1296,101,1234"/>
+<area shape="rect" id="Node000046" href="$classclang_1_1WrapperFrontendAction.html" title="A frontend action which simply wraps some other runtime&#45;specified frontend action." alt="" coords="228,1500,447,1525"/>
+<area shape="poly" id="edge42_Node000001_Node000046" title=" " alt="" coords="102,1233,148,1319,180,1370,218,1418,269,1464,317,1498,313,1502,266,1468,214,1421,176,1373,143,1321,97,1235"/>
+<area shape="rect" id="Node000003" href="$classASTSrcLocGenerationAction.html" title=" " alt="" coords="515,5,717,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,501,344,412,354,352,369,287,390,220,419,154,457,93,505,40,522,29,525,33,508,44,461,96,424,157,395,222,374,289,359,353,350,413,342,501"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1ASTDeclListAction.html" title=" " alt="" coords="525,55,707,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="338,501,349,420,359,367,375,308,397,249,425,190,461,136,505,89,523,78,526,82,508,93,465,139,429,193,402,251,380,310,365,368,354,421,343,501"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1ASTDumpAction.html" title=" " alt="" coords="531,104,701,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="339,501,353,428,382,330,403,277,431,226,464,179,505,139,529,125,532,129,508,143,468,183,435,229,408,280,387,332,358,429,345,502"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1ASTPrintAction.html" title=" " alt="" coords="535,153,697,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="341,500,358,436,389,351,410,306,437,263,468,223,505,188,534,173,536,177,508,192,472,226,441,266,415,309,393,353,363,438,346,502"/>
+<area shape="rect" id="Node000007" href="$classclang_1_1ASTViewAction.html" title=" " alt="" coords="535,203,697,228"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="343,501,363,445,395,373,417,336,443,299,472,266,505,237,533,223,535,228,508,242,476,270,447,303,422,339,400,376,368,447,348,502"/>
+<area shape="rect" id="Node000008" href="$classclang_1_1CodeGenAction.html" title=" " alt="" coords="533,252,699,277"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="347,500,369,454,403,395,449,336,476,309,505,286,532,274,534,278,508,291,479,313,453,340,408,398,374,456,352,503"/>
+<area shape="rect" id="Node000015" href="$classclang_1_1DumpModuleInfoAction.html" title="Dump information about the given module file, to be used for basic debugging and discovery." alt="" coords="507,301,725,327"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="351,501,376,464,411,419,455,373,505,336,531,324,533,329,508,340,458,377,415,422,380,467,356,504"/>
+<area shape="rect" id="Node000016" href="$classclang_1_1FixItAction.html" title=" " alt="" coords="549,351,683,376"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="358,502,420,444,461,413,506,386,548,371,549,376,508,391,464,417,423,448,361,506"/>
+<area shape="rect" id="Node000017" href="$classclang_1_1GenerateInterfaceStubsAction.html" title=" " alt="" coords="525,401,707,441"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="376,506,506,450,541,438,543,443,508,455,378,511"/>
+<area shape="rect" id="Node000018" href="$classclang_1_1GenerateModuleAction.html" title=" " alt="" coords="509,465,723,491"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="423,510,543,488,544,493,424,515"/>
+<area shape="rect" id="Node000022" href="$classclang_1_1GeneratePCHAction.html" title=" " alt="" coords="519,515,713,540"/>
+<area shape="poly" id="edge18_Node000002_Node000022" title=" " alt="" coords="445,525,519,525,519,530,445,530"/>
+<area shape="rect" id="Node000023" href="$classclang_1_1HTMLPrintAction.html" title=" " alt="" coords="529,564,703,589"/>
+<area shape="poly" id="edge19_Node000002_Node000023" title=" " alt="" coords="424,540,544,561,543,567,423,545"/>
+<area shape="rect" id="Node000024" href="$classclang_1_1PluginASTAction.html" title=" " alt="" coords="531,613,701,639"/>
+<area shape="poly" id="edge20_Node000002_Node000024" title=" " alt="" coords="378,544,438,571,508,598,553,611,551,616,506,603,436,576,376,549"/>
+<area shape="rect" id="Node000025" href="$classclang_1_1RewriteObjCAction.html" title=" " alt="" coords="523,663,709,688"/>
+<area shape="poly" id="edge21_Node000002_Node000025" title=" " alt="" coords="364,547,426,598,466,625,508,648,543,660,542,665,506,652,463,629,423,603,361,552"/>
+<area shape="rect" id="Node000026" href="$classclang_1_1SyntaxOnlyAction.html" title=" " alt="" coords="525,712,707,737"/>
+<area shape="poly" id="edge22_Node000002_Node000026" title=" " alt="" coords="357,550,383,583,418,623,460,664,508,697,538,710,536,714,505,702,457,668,414,627,379,587,353,553"/>
+<area shape="rect" id="Node000027" href="$classclang_1_1TemplightDumpAction.html" title=" " alt="" coords="511,761,721,787"/>
+<area shape="poly" id="edge23_Node000002_Node000027" title=" " alt="" coords="353,551,376,594,410,647,455,701,480,726,508,746,534,759,531,764,505,751,477,730,451,705,406,651,371,597,348,554"/>
+<area shape="rect" id="Node000028" href="$classclang_1_1VerifyPCHAction.html" title=" " alt="" coords="531,811,701,836"/>
+<area shape="poly" id="edge24_Node000002_Node000028" title=" " alt="" coords="350,552,370,605,403,671,449,739,477,770,508,796,532,808,529,813,505,800,473,773,445,742,398,674,365,607,345,554"/>
+<area shape="rect" id="Node000029" href="$classclang_1_1arcmt_1_1MigrateSourceAction.html" title=" " alt="" coords="513,861,719,901"/>
+<area shape="poly" id="edge25_Node000002_Node000029" title=" " alt="" coords="348,553,366,613,398,692,419,734,445,774,474,812,508,845,529,858,526,863,505,849,470,816,441,778,415,736,393,694,361,615,343,555"/>
+<area shape="rect" id="Node000030" href="$classclang_1_1ento_1_1AnalysisAction.html" title=" " alt="" coords="517,925,715,951"/>
+<area shape="poly" id="edge26_Node000002_Node000030" title=" " alt="" coords="345,553,358,625,387,722,409,774,436,824,469,871,508,911,528,923,526,927,505,915,465,874,431,827,404,776,382,724,353,626,339,554"/>
+<area shape="rect" id="Node000031" href="$classclang_1_1ento_1_1ParseModelFileAction.html" title="Frontend action to parse model files." alt="" coords="516,975,716,1015"/>
+<area shape="poly" id="edge27_Node000002_Node000031" title=" " alt="" coords="344,553,355,632,383,742,404,801,432,859,466,913,508,960,527,973,523,977,505,964,462,916,427,861,399,803,378,743,350,633,338,554"/>
+<area shape="rect" id="Node000009" href="$classclang_1_1EmitAssemblyAction.html" title=" " alt="" coords="786,129,986,155"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="710,245,724,237,740,220,747,202,755,182,772,164,793,153,796,157,775,168,759,185,752,204,744,223,727,241,713,250"/>
+<area shape="rect" id="Node000010" href="$classclang_1_1EmitBCAction.html" title=" " alt="" coords="809,179,963,204"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="695,246,724,237,748,225,772,213,812,202,813,207,774,218,750,230,726,242,697,251"/>
+<area shape="rect" id="Node000011" href="$classclang_1_1EmitCodeGenOnlyAction.html" title=" " alt="" coords="773,228,999,253"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="712,253,773,248,773,253,713,259"/>
+<area shape="rect" id="Node000012" href="$classclang_1_1EmitLLVMAction.html" title=" " alt="" coords="801,277,971,303"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="713,271,801,279,800,285,712,276"/>
+<area shape="rect" id="Node000013" href="$classclang_1_1EmitLLVMOnlyAction.html" title=" " alt="" coords="786,327,986,352"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="701,278,726,286,751,299,774,312,816,324,815,329,772,316,748,304,724,291,700,283"/>
+<area shape="rect" id="Node000014" href="$classclang_1_1EmitObjAction.html" title=" " alt="" coords="807,376,965,401"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="713,278,727,287,744,305,752,325,759,344,775,361,808,377,805,381,772,365,754,347,747,327,740,308,724,291,710,283"/>
+<area shape="rect" id="Node000036" href="$classclang_1_1DumpRawTokensAction.html" title=" " alt="" coords="507,1040,725,1065"/>
+<area shape="poly" id="edge32_Node000035_Node000036" title=" " alt="" coords="449,1179,457,1173,468,1162,474,1150,480,1125,486,1099,493,1087,505,1075,524,1063,527,1068,508,1079,497,1090,491,1101,485,1126,479,1152,472,1165,460,1177,452,1184"/>
+<area shape="rect" id="Node000037" href="$classclang_1_1DumpTokensAction.html" title=" " alt="" coords="521,1089,711,1115"/>
+<area shape="poly" id="edge33_Node000035_Node000037" title=" " alt="" coords="442,1181,457,1173,472,1161,480,1149,490,1136,505,1124,532,1112,534,1117,508,1128,494,1140,485,1152,475,1165,460,1178,444,1186"/>
+<area shape="rect" id="Node000038" href="$classclang_1_1PreprocessOnlyAction.html" title=" " alt="" coords="513,1139,719,1164"/>
+<area shape="poly" id="edge34_Node000035_Node000038" title=" " alt="" coords="448,1183,553,1161,554,1167,449,1189"/>
+<area shape="rect" id="Node000039" href="$classclang_1_1PrintPreprocessedAction.html" title=" " alt="" coords="525,1189,707,1229"/>
+<area shape="poly" id="edge35_Node000035_Node000039" title=" " alt="" coords="455,1206,524,1206,524,1211,455,1211"/>
+<area shape="rect" id="Node000040" href="$classclang_1_1RewriteIncludesAction.html" title=" " alt="" coords="511,1253,721,1279"/>
+<area shape="poly" id="edge36_Node000035_Node000040" title=" " alt="" coords="449,1229,554,1251,553,1256,448,1234"/>
+<area shape="rect" id="Node000041" href="$classclang_1_1RewriteMacrosAction.html" title=" " alt="" coords="515,1303,717,1328"/>
+<area shape="poly" id="edge37_Node000035_Node000041" title=" " alt="" coords="447,1232,460,1238,476,1251,485,1264,494,1276,508,1288,538,1300,535,1305,505,1292,490,1280,480,1267,472,1255,457,1243,445,1236"/>
+<area shape="rect" id="Node000042" href="$classclang_1_1RewriteTestAction.html" title=" " alt="" coords="525,1352,707,1377"/>
+<area shape="poly" id="edge38_Node000035_Node000042" title=" " alt="" coords="454,1234,460,1239,472,1251,479,1264,485,1290,491,1314,497,1326,508,1337,530,1350,527,1354,505,1341,493,1329,486,1316,480,1291,474,1266,468,1254,457,1243,451,1238"/>
+<area shape="rect" id="Node000047" href="$classclang_1_1FixItRecompile.html" title="Emits changes to temporary files and uses them for the original frontend action." alt="" coords="535,1401,697,1427"/>
+<area shape="poly" id="edge43_Node000046_Node000047" title=" " alt="" coords="376,1491,436,1464,506,1437,551,1424,553,1429,508,1442,438,1469,378,1496"/>
+<area shape="rect" id="Node000048" href="$classclang_1_1IncrementalAction.html" title="A custom action enabling the incremental processing functionality." alt="" coords="524,1451,708,1476"/>
+<area shape="poly" id="edge44_Node000046_Node000048" title=" " alt="" coords="423,1495,543,1473,544,1479,424,1500"/>
+<area shape="rect" id="Node000049" href="$classclang_1_1arcmt_1_1CheckAction.html" title=" " alt="" coords="520,1500,712,1525"/>
+<area shape="poly" id="edge45_Node000046_Node000049" title=" " alt="" coords="461,1510,520,1510,520,1515,461,1515"/>
+<area shape="rect" id="Node000050" href="$classclang_1_1arcmt_1_1MigrateAction.html" title=" " alt="" coords="515,1549,717,1575"/>
+<area shape="poly" id="edge46_Node000046_Node000050" title=" " alt="" coords="424,1525,544,1547,543,1552,423,1530"/>
+<area shape="rect" id="Node000051" href="$classclang_1_1arcmt_1_1ModifyAction.html" title=" " alt="" coords="518,1599,714,1624"/>
+<area shape="poly" id="edge47_Node000046_Node000051" title=" " alt="" coords="377,1529,437,1557,508,1585,548,1596,547,1601,506,1590,435,1562,374,1534"/>
+<area shape="rect" id="Node000052" href="$classclang_1_1arcmt_1_1ObjCMigrateAction.html" title="Migrates to modern ObjC syntax." alt="" coords="520,1649,712,1689"/>
+<area shape="poly" id="edge48_Node000046_Node000052" title=" " alt="" coords="364,1533,427,1583,466,1611,508,1634,536,1646,534,1651,505,1639,463,1615,424,1588,361,1537"/>
+</map>

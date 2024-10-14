@@ -1,0 +1,66 @@
+<map id="include/llvm/Analysis/ReplayInlineAdvisor.h" name="include/llvm/Analysis/ReplayInlineAdvisor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1545,5,1712,45"/>
+<area shape="rect" id="Node000002" href="$ModuleInliner_8h.html" title=" " alt="" coords="1098,93,1277,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1532,48,1277,97,1276,92,1531,43"/>
+<area shape="rect" id="Node000024" href="$InlineAdvisor_8cpp.html" title=" " alt="" coords="1301,101,1513,126"/>
+<area shape="poly" id="edge34_Node000001_Node000024" title=" " alt="" coords="1568,53,1438,103,1436,98,1566,48"/>
+<area shape="rect" id="Node000025" href="$ReplayInlineAdvisor_8cpp.html" title=" " alt="" coords="1537,93,1720,133"/>
+<area shape="poly" id="edge35_Node000001_Node000025" title=" " alt="" coords="1631,59,1631,93,1626,93,1626,59"/>
+<area shape="rect" id="Node000026" href="$Inliner_8cpp.html" title=" " alt="" coords="1744,93,1884,133"/>
+<area shape="poly" id="edge36_Node000001_Node000026" title=" " alt="" coords="1683,49,1775,91,1772,96,1681,54"/>
+<area shape="rect" id="Node000027" href="$SampleProfile_8cpp.html" title=" " alt="" coords="1908,93,2051,133"/>
+<area shape="poly" id="edge37_Node000001_Node000027" title=" " alt="" coords="1719,46,1909,92,1907,97,1718,51"/>
+<area shape="rect" id="Node000003" href="$llvm_2Passes_2PassBuilder_8h.html" title="Interfaces for registering analysis passes, producing common pass manager configurations,..." alt="" coords="1056,181,1207,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1170,146,1146,183,1141,180,1165,144"/>
+<area shape="rect" id="Node000016" href="$PassBuilder_8cpp.html" title="This file provides the implementation of the PassBuilder based on our static pass registry as well as..." alt="" coords="5,277,196,302"/>
+<area shape="poly" id="edge31_Node000002_Node000016" title=" " alt="" coords="1085,134,216,272,171,279,170,274,215,267,1084,128"/>
+<area shape="rect" id="Node000018" href="$PassBuilderPipelines_8cpp.html" title="This file provides the implementation of the PassBuilder based on our static pass registry as well as..." alt="" coords="1981,277,2231,302"/>
+<area shape="poly" id="edge32_Node000002_Node000018" title=" " alt="" coords="1204,144,1232,185,1250,204,1271,219,1299,231,1333,241,1414,255,1508,262,1609,264,1808,263,1894,263,1962,267,2025,274,2025,279,1962,272,1894,269,1808,268,1609,270,1508,267,1414,260,1332,246,1298,236,1269,224,1246,208,1227,188,1200,147"/>
+<area shape="rect" id="Node000023" href="$ModuleInliner_8cpp.html" title=" " alt="" coords="1282,181,1423,221"/>
+<area shape="poly" id="edge33_Node000002_Node000023" title=" " alt="" coords="1237,137,1318,179,1315,184,1235,142"/>
+<area shape="rect" id="Node000004" href="$Config_8h.html" title=" " alt="" coords="1719,277,1906,302"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1221,218,1226,219,1361,235,1467,243,1572,251,1708,267,1754,274,1753,279,1707,272,1572,256,1466,249,1361,241,1226,224,1220,223"/>
+<area shape="rect" id="Node000008" href="$LTOBackend_8cpp.html" title=" " alt="" coords="1639,519,1815,544"/>
+<area shape="poly" id="edge22_Node000003_Node000008" title=" " alt="" coords="1221,219,1221,219,1355,223,1578,225,1694,229,1798,237,1877,249,1903,257,1920,267,1947,290,1961,305,1972,324,1976,349,1970,381,1952,421,1919,472,1898,494,1872,509,1845,520,1816,527,1815,522,1843,515,1870,505,1895,489,1915,469,1947,419,1965,379,1971,349,1967,326,1957,308,1943,294,1916,271,1901,262,1875,254,1797,242,1694,235,1578,231,1355,228,1220,224,1220,224"/>
+<area shape="rect" id="Node000014" href="$ThinLTOCodeGenerator_8cpp.html" title=" " alt="" coords="752,519,999,544"/>
+<area shape="poly" id="edge23_Node000003_Node000014" title=" " alt="" coords="1042,209,579,233,363,251,292,261,261,271,240,300,231,327,232,351,243,373,264,394,292,413,367,445,460,472,561,492,752,517,752,523,560,497,459,477,365,450,289,417,260,398,239,376,227,352,225,326,235,298,258,267,291,256,362,246,579,228,1042,204"/>
+<area shape="rect" id="Node000015" href="$SpeculateAnalyses_8cpp.html" title=" " alt="" coords="271,269,474,309"/>
+<area shape="poly" id="edge21_Node000003_Node000015" title=" " alt="" coords="1042,213,792,237,486,272,475,274,474,268,486,267,791,231,1042,208"/>
+<area shape="poly" id="edge24_Node000003_Node000016" title=" " alt="" coords="1043,209,681,230,449,248,216,272,165,279,164,274,215,267,449,243,681,225,1042,204"/>
+<area shape="rect" id="Node000017" href="$PassBuilderBindings_8cpp.html" title="This file defines the C bindings to the new pass manager." alt="" coords="498,277,746,302"/>
+<area shape="poly" id="edge25_Node000003_Node000017" title=" " alt="" coords="1042,220,690,279,690,274,1041,215"/>
+<area shape="poly" id="edge26_Node000003_Node000018" title=" " alt="" coords="1221,218,1226,219,1432,240,1594,247,1755,252,1962,267,2026,274,2025,279,1962,272,1755,257,1593,252,1432,245,1226,224,1220,223"/>
+<area shape="rect" id="Node000019" href="$AMDGPUTargetMachine_8cpp.html" title="The AMDGPU target machine contains all of the hardware specific information needed to emit code for S..." alt="" coords="770,269,1018,309"/>
+<area shape="poly" id="edge27_Node000003_Node000019" title=" " alt="" coords="1067,229,947,272,945,267,1065,224"/>
+<area shape="rect" id="Node000020" href="$BPFTargetMachine_8cpp.html" title=" " alt="" coords="1042,269,1221,309"/>
+<area shape="poly" id="edge28_Node000003_Node000020" title=" " alt="" coords="1134,235,1134,269,1129,269,1129,235"/>
+<area shape="rect" id="Node000021" href="$HexagonTargetMachine_8cpp.html" title=" " alt="" coords="1245,269,1452,309"/>
+<area shape="poly" id="edge29_Node000003_Node000021" title=" " alt="" coords="1193,224,1302,267,1300,272,1191,229"/>
+<area shape="rect" id="Node000022" href="$NVPTXTargetMachine_8cpp.html" title=" " alt="" coords="1477,269,1695,309"/>
+<area shape="poly" id="edge30_Node000003_Node000022" title=" " alt="" coords="1221,218,1226,219,1484,267,1483,272,1226,224,1220,223"/>
+<area shape="rect" id="Node000005" href="$LTO_8h.html" title=" " alt="" coords="1403,357,1574,383"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1753,308,1536,360,1535,355,1752,303"/>
+<area shape="rect" id="Node000010" href="$LTOCodeGenerator_8h.html" title=" " alt="" coords="1727,431,1904,471"/>
+<area shape="poly" id="edge20_Node000004_Node000010" title=" " alt="" coords="1816,316,1818,430,1812,430,1810,316"/>
+<area shape="rect" id="Node000006" href="$LTOBackend_8h.html" title=" " alt="" coords="1376,438,1601,463"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1491,396,1491,438,1486,438,1486,396"/>
+<area shape="rect" id="Node000007" href="$LTO_8cpp.html" title=" " alt="" coords="1057,519,1179,544"/>
+<area shape="poly" id="edge16_Node000005_Node000007" title=" " alt="" coords="1390,382,1259,401,1203,415,1165,433,1147,452,1135,476,1122,519,1117,518,1130,474,1143,449,1162,429,1201,410,1258,395,1389,377"/>
+<area shape="poly" id="edge17_Node000005_Node000008" title=" " alt="" coords="1544,384,1591,403,1637,428,1664,450,1688,475,1722,517,1717,520,1684,478,1660,454,1634,433,1588,408,1542,389"/>
+<area shape="rect" id="Node000009" href="$LTOCodeGenerator_8cpp.html" title=" " alt="" coords="1397,519,1615,544"/>
+<area shape="poly" id="edge18_Node000005_Node000009" title=" " alt="" coords="1557,385,1590,402,1616,429,1624,451,1616,472,1603,489,1586,503,1549,521,1547,516,1583,498,1599,485,1612,469,1618,451,1612,432,1587,407,1555,390"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="1550,383,1737,428,1736,433,1549,388"/>
+<area shape="rect" id="Node000011" href="$LTOModule_8h.html" title=" " alt="" coords="1175,431,1352,471"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="1444,390,1318,433,1317,428,1442,385"/>
+<area shape="rect" id="Node000013" href="$ThinLTOCodeGenerator_8h.html" title=" " alt="" coords="913,431,1099,471"/>
+<area shape="poly" id="edge14_Node000005_Node000013" title=" " alt="" coords="1404,387,1118,433,1100,436,1099,431,1118,428,1403,382"/>
+<area shape="poly" id="edge19_Node000005_Node000014" title=" " alt="" coords="1390,378,1252,385,1100,397,971,412,926,422,902,433,888,452,880,476,877,519,872,518,875,475,883,450,899,429,925,417,970,407,1099,391,1252,380,1390,373"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1422,469,1173,521,1171,516,1421,464"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1537,465,1693,516,1692,521,1536,470"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="1497,476,1506,518,1501,519,1492,477"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="1729,477,1552,521,1551,516,1727,471"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="1335,472,1471,516,1470,521,1334,477"/>
+<area shape="rect" id="Node000012" href="$LTOModule_8cpp.html" title=" " alt="" coords="1203,519,1372,544"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="1276,483,1286,518,1281,519,1271,485"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="964,480,896,521,893,516,961,476"/>
+</map>

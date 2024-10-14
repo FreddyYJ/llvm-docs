@@ -1,0 +1,96 @@
+<map id="include/llvm/CodeGen/GlobalISel/InlineAsmLowering.h" name="include/llvm/CodeGen/GlobalISel/InlineAsmLowering.h">
+<area shape="rect" id="Node000001" title="This file describes how to lower LLVM inline asm to machine code INLINEASM." alt="" coords="2305,5,2537,45"/>
+<area shape="rect" id="Node000002" href="$IRTranslator_8cpp.html" title="This file implements the IRTranslator class." alt="" coords="2042,93,2213,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2344,52,2192,96,2191,91,2343,47"/>
+<area shape="rect" id="Node000003" href="$InlineAsmLowering_8cpp.html" title="This file implements the lowering from LLVM IR inline asm to MIR INLINEASM." alt="" coords="2237,93,2415,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2391,57,2349,95,2345,91,2388,53"/>
+<area shape="rect" id="Node000004" href="$AArch64Subtarget_8h.html" title=" " alt="" coords="2439,93,2594,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2454,53,2497,91,2494,95,2451,57"/>
+<area shape="rect" id="Node000043" href="$AMDGPUSubtarget_8cpp.html" title="Implements the AMDGPU specific subclass of TargetSubtarget." alt="" coords="2618,101,2917,126"/>
+<area shape="poly" id="edge51_Node000001_Node000043" title=" " alt="" coords="2511,46,2722,98,2721,103,2509,51"/>
+<area shape="rect" id="Node000005" href="$AArch64A53Fix835769_8cpp.html" title=" " alt="" coords="5,189,204,229"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="2426,136,2251,153,2090,164,1942,170,1804,172,1553,167,1318,155,1084,144,834,140,697,144,550,151,391,165,217,184,176,191,175,186,216,179,390,159,550,146,697,138,834,135,1084,139,1318,150,1553,161,1804,167,1942,165,2090,159,2250,148,2426,130"/>
+<area shape="rect" id="Node000006" href="$AArch64A57FPLoadBalancing_8cpp.html" title=" " alt="" coords="229,189,471,229"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="2426,136,2131,162,1880,171,1658,169,1452,161,1246,153,1026,151,777,159,484,184,435,191,434,186,483,179,777,154,1026,145,1247,148,1452,156,1658,164,1879,166,2130,157,2426,130"/>
+<area shape="rect" id="Node000007" href="$AArch64AsmPrinter_8cpp.html" title=" " alt="" coords="495,189,674,229"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="2426,136,2161,159,1936,165,1737,161,1552,153,1368,145,1171,144,948,155,823,167,686,184,649,191,648,186,686,179,822,161,948,150,1171,138,1368,140,1553,147,1737,156,1936,160,2161,153,2425,130"/>
+<area shape="rect" id="Node000008" href="$AArch64BranchTargets_8cpp.html" title=" " alt="" coords="699,189,897,229"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="2426,136,2195,157,1999,164,1826,162,1665,156,1504,151,1333,151,1138,160,910,184,870,191,869,186,910,179,1138,155,1332,145,1504,146,1665,151,1826,157,1999,159,2195,151,2425,130"/>
+<area shape="rect" id="Node000009" href="$AArch64CallingConvention_8cpp.html" title=" " alt="" coords="922,189,1149,229"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="2426,136,2233,154,2070,162,1925,162,1791,160,1657,157,1513,157,1351,165,1161,184,1116,191,1115,186,1160,179,1351,160,1513,152,1657,151,1791,154,1925,157,2069,157,2233,149,2426,130"/>
+<area shape="rect" id="Node000010" href="$AArch64CompressJumpTables_8cpp.html" title=" " alt="" coords="1173,189,1420,229"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="2426,136,2274,151,2145,159,1926,161,1708,162,1581,169,1432,184,1384,191,1383,186,1431,179,1581,164,1708,157,1926,155,2145,154,2274,146,2425,131"/>
+<area shape="rect" id="Node000011" href="$AArch64CondBrTuning_8cpp.html" title="This file contains a pass that transforms CBZ/CBNZ/TBZ/TBNZ instructions into a conditional branch (B..." alt="" coords="1444,189,1640,229"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="2426,136,2308,149,2207,155,2036,158,1866,162,1767,169,1652,184,1613,191,1612,186,1651,179,1767,164,1866,156,2036,152,2207,150,2307,143,2425,130"/>
+<area shape="rect" id="Node000012" href="$AArch64DeadRegisterDefinitionsPass_8cpp.html" title=" " alt="" coords="1664,181,1903,236"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="2426,136,2281,153,2168,160,2056,167,1914,184,1903,186,1902,180,1914,179,2055,162,2167,155,2280,148,2425,131"/>
+<area shape="rect" id="Node000013" href="$AArch64ExpandPseudoInsts_8cpp.html" title=" " alt="" coords="1927,189,2160,229"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="2426,136,2141,191,2140,186,2425,131"/>
+<area shape="rect" id="Node000014" href="$AArch64FalkorHWPFFix_8cpp.html" title=" " alt="" coords="1759,291,1962,331"/>
+<area shape="poly" id="edge13_Node000004_Node000014" title=" " alt="" coords="2427,137,2372,156,2320,184,2304,197,2295,211,2286,225,2269,238,2228,257,2191,269,2158,275,2126,277,2058,277,2019,280,1974,287,1940,294,1939,289,1974,281,2019,275,2058,272,2126,271,2157,269,2190,264,2226,252,2266,234,2282,222,2291,208,2300,194,2316,179,2370,152,2425,132"/>
+<area shape="rect" id="Node000015" href="$AArch64FastISel_8cpp.html" title=" " alt="" coords="2801,189,2958,229"/>
+<area shape="poly" id="edge14_Node000004_Node000015" title=" " alt="" coords="2606,134,2783,179,2810,186,2809,191,2781,184,2605,139"/>
+<area shape="rect" id="Node000016" href="$AArch64FrameLowering_8cpp.html" title=" " alt="" coords="1987,291,2193,331"/>
+<area shape="poly" id="edge15_Node000004_Node000016" title=" " alt="" coords="2463,142,2388,184,2354,212,2340,225,2319,238,2245,271,2172,294,2171,289,2243,266,2317,234,2337,221,2351,208,2384,179,2461,137"/>
+<area shape="rect" id="Node000017" href="$AArch64ISelLowering_8cpp.html" title=" " alt="" coords="2983,189,3173,229"/>
+<area shape="poly" id="edge16_Node000004_Node000017" title=" " alt="" coords="2608,131,2711,146,2791,154,2871,163,2970,179,3006,186,3004,191,2970,184,2870,168,2791,159,2710,151,2607,136"/>
+<area shape="rect" id="Node000018" href="$AArch64InstrInfo_8cpp.html" title=" " alt="" coords="3197,189,3359,229"/>
+<area shape="poly" id="edge17_Node000004_Node000018" title=" " alt="" coords="2608,131,2771,147,2899,151,3026,157,3100,165,3187,179,3219,186,3217,191,3185,184,3100,170,3026,162,2899,157,2771,152,2607,136"/>
+<area shape="rect" id="Node000019" href="$AArch64LoadStoreOptimizer_8cpp.html" title=" " alt="" coords="3383,189,3618,229"/>
+<area shape="poly" id="edge18_Node000004_Node000019" title=" " alt="" coords="2608,131,2724,144,2823,151,2991,155,3159,159,3257,166,3372,179,3416,186,3416,191,3371,184,3256,171,3159,164,2991,160,2823,156,2724,149,2607,136"/>
+<area shape="rect" id="Node000020" href="$AArch64LowerHomogeneousPrologEpilog_8cpp.html" title=" " alt="" coords="3643,181,3897,236"/>
+<area shape="poly" id="edge19_Node000004_Node000020" title=" " alt="" coords="2608,131,2763,147,2895,155,3121,156,3345,157,3476,164,3630,179,3643,180,3642,186,3630,184,3476,169,3345,163,3120,162,2895,160,2763,152,2607,136"/>
+<area shape="rect" id="Node000021" href="$AArch64MacroFusion_8cpp.html" title=" " alt="" coords="3922,189,4111,229"/>
+<area shape="poly" id="edge20_Node000004_Node000021" title=" " alt="" coords="2608,131,2806,149,2974,156,3123,155,3261,151,3399,147,3547,147,3714,157,3910,179,3949,186,3948,191,3910,184,3714,162,3547,153,3399,152,3261,156,3123,160,2974,161,2805,154,2607,136"/>
+<area shape="rect" id="Node000022" href="$AArch64RegisterInfo_8cpp.html" title=" " alt="" coords="4135,189,4322,229"/>
+<area shape="poly" id="edge21_Node000004_Node000022" title=" " alt="" coords="2608,131,2838,151,3034,158,3207,156,3368,150,3529,144,3701,144,3895,154,4124,179,4162,186,4161,191,4123,184,3895,159,3701,149,3529,149,3368,155,3207,161,3034,164,2838,157,2607,136"/>
+<area shape="rect" id="Node000023" href="$AArch64SLSHardening_8cpp.html" title=" " alt="" coords="4346,189,4543,229"/>
+<area shape="poly" id="edge22_Node000004_Node000023" title=" " alt="" coords="2608,131,2870,154,3093,161,3290,159,3473,151,3656,143,3852,142,4074,152,4334,179,4375,186,4374,191,4334,184,4073,157,3852,147,3656,149,3473,156,3290,164,3093,167,2870,159,2607,136"/>
+<area shape="rect" id="Node000024" href="$AArch64SpeculationHardening_8cpp.html" title=" " alt="" coords="4567,189,4818,229"/>
+<area shape="poly" id="edge23_Node000004_Node000024" title=" " alt="" coords="2608,131,2904,157,3155,167,3376,165,3583,157,3789,149,4010,147,4261,154,4556,179,4606,186,4605,191,4555,184,4261,160,4010,152,3790,155,3583,163,3377,170,3155,172,2904,163,2608,136"/>
+<area shape="rect" id="Node000025" href="$AArch64StackTagging_8cpp.html" title=" " alt="" coords="2217,291,2411,331"/>
+<area shape="poly" id="edge24_Node000004_Node000025" title=" " alt="" coords="2489,145,2336,293,2332,289,2486,141"/>
+<area shape="rect" id="Node000026" href="$AArch64Subtarget_8cpp.html" title=" " alt="" coords="2435,291,2606,331"/>
+<area shape="poly" id="edge25_Node000004_Node000026" title=" " alt="" coords="2496,146,2479,182,2474,209,2479,235,2492,265,2508,290,2503,293,2487,267,2474,237,2469,209,2474,181,2491,144"/>
+<area shape="rect" id="Node000027" href="$AArch64TargetMachine_8cpp.html" title=" " alt="" coords="1669,387,1871,427"/>
+<area shape="poly" id="edge26_Node000004_Node000027" title=" " alt="" coords="2426,139,2328,164,2269,184,2254,197,2246,211,2237,225,2221,238,2176,251,2116,256,1975,251,1903,250,1838,253,1785,264,1765,273,1749,286,1742,297,1739,309,1740,335,1749,362,1760,385,1755,387,1744,364,1735,336,1733,308,1737,294,1745,282,1762,269,1783,259,1837,248,1903,245,1975,246,2116,250,2175,246,2218,234,2233,222,2242,208,2250,193,2266,179,2326,159,2425,134"/>
+<area shape="rect" id="Node000028" href="$AArch64TargetMachine_8h.html" title=" " alt="" coords="2489,189,2675,229"/>
+<area shape="poly" id="edge27_Node000004_Node000028" title=" " alt="" coords="2540,143,2571,187,2567,190,2535,146"/>
+<area shape="rect" id="Node000032" href="$AArch64TargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the AArch64 target machine." alt="" coords="1463,291,1685,331"/>
+<area shape="poly" id="edge45_Node000004_Node000032" title=" " alt="" coords="2427,137,2231,184,2214,197,2203,211,2192,226,2173,238,2106,264,2047,278,1994,284,1943,283,1837,278,1775,279,1704,287,1662,294,1661,289,1703,281,1775,274,1837,273,1944,278,1994,278,2047,273,2104,259,2170,234,2188,222,2199,208,2210,193,2229,179,2425,132"/>
+<area shape="rect" id="Node000034" href="$AArch64InstructionSelector_8cpp.html" title="This file implements the targeting of the InstructionSelector class for AArch64." alt="" coords="4378,291,4645,331"/>
+<area shape="poly" id="edge47_Node000004_Node000034" title=" " alt="" coords="2595,135,2643,154,2689,179,2706,194,2717,209,2728,222,2746,234,2789,245,2855,255,3043,268,3284,274,3550,276,4060,276,4252,277,4366,281,4419,289,4418,294,4366,287,4252,282,4060,281,3550,282,3283,279,3043,273,2854,260,2788,250,2744,238,2724,226,2713,212,2702,198,2686,184,2640,159,2593,140"/>
+<area shape="rect" id="Node000037" href="$AArch64PostLegalizerLowering_8cpp.html" title="Post&#45;legalization lowering for instructions." alt="" coords="4669,284,4874,339"/>
+<area shape="poly" id="edge49_Node000004_Node000037" title=" " alt="" coords="2605,134,2680,157,2735,179,2753,194,2763,209,2773,222,2790,234,2839,247,2916,258,3132,272,3409,278,3717,278,4305,274,4525,275,4657,281,4669,283,4668,288,4656,287,4525,281,4305,280,3717,284,3409,283,3132,277,2915,263,2838,252,2788,238,2769,226,2758,212,2749,197,2733,184,2679,162,2604,139"/>
+<area shape="rect" id="Node000040" href="$AArch64CallLowering_8cpp.html" title="This file implements the lowering of LLVM calls to machine code calls for GlobalISel." alt="" coords="4842,189,5071,229"/>
+<area shape="poly" id="edge46_Node000004_Node000040" title=" " alt="" coords="2608,131,2784,148,2946,160,3094,167,3232,169,3485,165,3721,155,3956,144,4208,140,4346,143,4494,150,4655,161,4830,179,4877,186,4876,191,4830,184,4654,167,4494,155,4346,148,4208,146,3956,150,3721,160,3485,171,3232,175,3094,172,2945,165,2784,154,2608,136"/>
+<area shape="rect" id="Node000041" href="$AArch64LegalizerInfo_8cpp.html" title="This file implements the targeting of the Machinelegalizer class for AArch64." alt="" coords="5095,189,5325,229"/>
+<area shape="poly" id="edge48_Node000004_Node000041" title=" " alt="" coords="2608,131,2804,150,2984,163,3149,170,3303,173,3585,168,3847,155,4110,142,4391,137,4544,140,4709,147,4888,159,5084,179,5131,186,5130,191,5083,184,4888,165,4709,152,4544,145,4391,142,4110,148,3847,160,3585,173,3303,178,3149,175,2984,168,2804,155,2608,136"/>
+<area shape="rect" id="Node000042" href="$AArch64TargetStreamer_8cpp.html" title=" " alt="" coords="5349,181,5567,236"/>
+<area shape="poly" id="edge50_Node000004_Node000042" title=" " alt="" coords="2608,131,2824,152,3022,165,3205,173,3374,175,3685,168,3974,153,4263,138,4573,132,4742,134,4924,142,5122,157,5337,179,5349,180,5349,186,5336,184,5121,162,4924,148,4742,140,4573,137,4264,143,3974,158,3685,174,3374,181,3205,178,3022,171,2824,157,2608,136"/>
+<area shape="poly" id="edge28_Node000028_Node000014" title=" " alt="" coords="2475,222,2245,247,1974,287,1938,294,1937,289,1974,281,2244,242,2475,217"/>
+<area shape="poly" id="edge29_Node000028_Node000016" title=" " alt="" coords="2476,233,2205,287,2172,294,2171,289,2204,281,2475,227"/>
+<area shape="poly" id="edge32_Node000028_Node000025" title=" " alt="" coords="2520,236,2365,294,2363,289,2518,231"/>
+<area shape="poly" id="edge33_Node000028_Node000026" title=" " alt="" coords="2565,242,2534,293,2530,290,2561,239"/>
+<area shape="poly" id="edge34_Node000028_Node000027" title=" " alt="" coords="2607,239,2620,263,2630,290,2632,316,2620,340,2605,351,2581,359,2511,374,2417,385,2307,394,2072,404,1872,408,1872,402,2072,399,2306,389,2416,380,2510,369,2580,354,2603,346,2616,337,2626,315,2625,291,2616,265,2602,241"/>
+<area shape="rect" id="Node000029" href="$AArch64ISelDAGToDAG_8cpp.html" title=" " alt="" coords="2681,291,2883,331"/>
+<area shape="poly" id="edge30_Node000028_Node000029" title=" " alt="" coords="2633,233,2746,289,2743,294,2631,237"/>
+<area shape="rect" id="Node000030" href="$AArch64SelectionDAGInfo_8cpp.html" title=" " alt="" coords="2907,291,3129,331"/>
+<area shape="poly" id="edge31_Node000028_Node000030" title=" " alt="" coords="2677,229,2695,233,2936,289,2935,294,2693,239,2675,234"/>
+<area shape="rect" id="Node000031" href="$AArch64TargetObjectFile_8cpp.html" title=" " alt="" coords="3153,291,3365,331"/>
+<area shape="poly" id="edge35_Node000028_Node000031" title=" " alt="" coords="2671,229,2694,233,2819,250,2917,258,3016,265,3141,281,3180,289,3179,294,3140,287,3015,270,2917,263,2819,256,2694,239,2670,234"/>
+<area shape="poly" id="edge36_Node000028_Node000032" title=" " alt="" coords="2475,220,2150,246,1748,287,1686,295,1685,290,1747,281,2149,241,2475,215"/>
+<area shape="poly" id="edge39_Node000028_Node000034" title=" " alt="" coords="2667,229,2694,233,2947,260,3162,270,3352,270,3529,264,3706,258,3896,255,4112,261,4366,281,4419,289,4418,294,4366,287,4112,267,3896,260,3706,263,3529,270,3352,276,3162,276,2947,265,2694,239,2666,234"/>
+<area shape="rect" id="Node000035" href="$AArch64O0PreLegalizerCombiner_8cpp.html" title=" " alt="" coords="3390,284,3606,339"/>
+<area shape="poly" id="edge40_Node000028_Node000035" title=" " alt="" coords="2669,229,2694,233,2798,247,2886,254,3036,258,3186,262,3275,269,3378,281,3390,283,3389,288,3378,287,3274,274,3186,267,3036,263,2885,259,2797,252,2694,239,2668,234"/>
+<area shape="rect" id="Node000036" href="$AArch64PostLegalizerCombiner_8cpp.html" title="Post&#45;legalization combines on generic MachineInstrs." alt="" coords="3630,284,3835,339"/>
+<area shape="poly" id="edge41_Node000028_Node000036" title=" " alt="" coords="2668,229,2694,233,2834,250,2953,257,3156,258,3359,258,3478,265,3618,281,3630,283,3629,288,3618,287,3478,271,3359,263,3156,263,2953,262,2834,255,2694,239,2667,234"/>
+<area shape="poly" id="edge42_Node000028_Node000037" title=" " alt="" coords="2689,227,2745,233,3035,253,3282,259,3499,255,3702,247,3904,240,4121,240,4367,252,4657,281,4669,283,4668,288,4656,287,4367,258,4121,246,3904,246,3702,252,3499,260,3282,264,3035,259,2744,239,2689,232"/>
+<area shape="rect" id="Node000038" href="$AArch64PostSelectOptimize_8cpp.html" title=" " alt="" coords="3859,291,4131,331"/>
+<area shape="poly" id="edge43_Node000028_Node000038" title=" " alt="" coords="2668,229,2694,233,2869,253,3017,262,3148,264,3270,263,3523,260,3672,266,3848,281,3900,289,3899,294,3847,287,3672,272,3523,266,3270,268,3148,270,3017,268,2868,258,2694,239,2667,234"/>
+<area shape="rect" id="Node000039" href="$AArch64PreLegalizerCombiner_8cpp.html" title=" " alt="" coords="4155,284,4353,339"/>
+<area shape="poly" id="edge44_Node000028_Node000039" title=" " alt="" coords="2667,229,2694,233,2914,256,3100,264,3265,263,3419,257,3572,251,3737,250,3924,258,4144,281,4155,283,4154,288,4143,287,3924,264,3737,255,3573,256,3419,262,3265,268,3100,270,2913,261,2694,239,2666,234"/>
+<area shape="poly" id="edge37_Node000032_Node000027" title=" " alt="" coords="1627,335,1732,384,1729,389,1625,340"/>
+<area shape="rect" id="Node000033" href="$AArch64TargetTransformInfo_8cpp.html" title=" " alt="" coords="1407,387,1645,427"/>
+<area shape="poly" id="edge38_Node000032_Node000033" title=" " alt="" coords="1560,345,1538,388,1533,385,1556,342"/>
+</map>

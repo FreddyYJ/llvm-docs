@@ -1,0 +1,118 @@
+<map id="include/llvm/CodeGen/ScheduleDAGInstrs.h" name="include/llvm/CodeGen/ScheduleDAGInstrs.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3617,5,3783,45"/>
+<area shape="rect" id="Node000002" href="$MachinePipeliner_8h.html" title=" " alt="" coords="295,93,460,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3603,32,460,113,460,107,3603,26"/>
+<area shape="rect" id="Node000005" href="$MachineScheduler_8h.html" title=" " alt="" coords="3349,93,3515,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="3629,52,3491,96,3490,91,3627,47"/>
+<area shape="rect" id="Node000011" href="$MachineScheduler_8cpp.html" title=" " alt="" coords="507,189,757,214"/>
+<area shape="poly" id="edge61_Node000001_Node000011" title=" " alt="" coords="3603,32,3161,44,2465,72,2057,92,1629,117,1195,148,770,184,707,191,707,186,769,179,1195,142,1629,112,2057,87,2464,67,3161,39,3603,26"/>
+<area shape="rect" id="Node000038" href="$HexagonSubtarget_8cpp.html" title=" " alt="" coords="5762,181,5937,221"/>
+<area shape="poly" id="edge66_Node000001_Node000038" title=" " alt="" coords="3639,53,3607,71,3581,90,3573,101,3570,111,3571,121,3578,131,3607,138,3679,145,3925,156,4656,169,5390,175,5750,179,5762,180,5761,185,5749,184,5390,180,4656,174,3925,161,3679,150,3606,144,3574,136,3566,123,3564,110,3569,98,3577,87,3604,66,3637,49"/>
+<area shape="rect" id="Node000054" href="$DFAPacketizer_8cpp.html" title=" " alt="" coords="3589,101,3811,126"/>
+<area shape="poly" id="edge60_Node000001_Node000054" title=" " alt="" coords="3703,59,3703,100,3697,100,3697,59"/>
+<area shape="rect" id="Node000055" href="$MacroFusion_8cpp.html" title=" " alt="" coords="3835,101,4050,126"/>
+<area shape="poly" id="edge62_Node000001_Node000055" title=" " alt="" coords="3767,47,3911,98,3909,103,3765,52"/>
+<area shape="rect" id="Node000056" href="$PostRASchedulerList_8cpp.html" title=" " alt="" coords="4074,93,4289,133"/>
+<area shape="poly" id="edge63_Node000001_Node000056" title=" " alt="" coords="3796,41,4076,91,4075,96,3795,46"/>
+<area shape="rect" id="Node000057" href="$ScheduleDAGInstrs_8cpp.html" title=" " alt="" coords="4313,101,4569,126"/>
+<area shape="poly" id="edge64_Node000001_Node000057" title=" " alt="" coords="3796,34,4302,91,4359,98,4358,103,4301,96,3796,39"/>
+<area shape="rect" id="Node000058" href="$AMDGPUExportClustering_8cpp.html" title=" " alt="" coords="4593,93,4844,133"/>
+<area shape="poly" id="edge65_Node000001_Node000058" title=" " alt="" coords="3797,29,4143,52,4582,91,4593,92,4593,97,4581,96,4143,58,3796,35"/>
+<area shape="rect" id="Node000003" href="$MachinePipeliner_8cpp.html" title=" " alt="" coords="5,189,248,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="310,140,161,191,159,186,308,135"/>
+<area shape="rect" id="Node000004" href="$ARMBaseInstrInfo_8cpp.html" title=" " alt="" coords="272,181,483,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="380,147,380,181,375,181,375,147"/>
+<area shape="poly" id="edge42_Node000005_Node000004" title=" " alt="" coords="3335,118,2786,122,1963,132,1117,152,762,166,495,184,483,185,483,180,494,179,762,161,1117,147,1963,127,2785,116,3335,112"/>
+<area shape="rect" id="Node000006" href="$VLIWMachineScheduler_8h.html" title=" " alt="" coords="4567,181,4756,221"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="3529,130,3534,131,3687,146,3818,153,4041,156,4263,158,4394,165,4548,179,4567,181,4566,186,4548,184,4394,170,4263,164,4040,162,3818,159,3687,151,3533,136,3528,135"/>
+<area shape="rect" id="Node000008" href="$HexagonMachineScheduler_8cpp.html" title=" " alt="" coords="4340,357,4569,397"/>
+<area shape="poly" id="edge46_Node000005_Node000008" title=" " alt="" coords="3529,127,3563,131,4039,142,4349,156,4456,166,4489,172,4506,179,4513,190,4514,200,4506,223,4495,239,4481,248,4468,256,4457,270,4451,292,4449,316,4453,357,4448,357,4444,316,4446,292,4452,268,4464,252,4478,243,4491,235,4502,220,4509,200,4508,192,4502,183,4487,177,4455,171,4349,161,4039,148,3562,136,3528,132"/>
+<area shape="rect" id="Node000009" href="$HexagonMachineScheduler_8h.html" title=" " alt="" coords="4850,269,5065,309"/>
+<area shape="poly" id="edge47_Node000005_Node000009" title=" " alt="" coords="3529,130,3534,131,3620,135,3766,138,4154,143,4540,153,4684,164,4735,171,4769,179,4785,187,4796,197,4820,219,4867,245,4913,267,4911,272,4865,250,4817,224,4792,201,4782,192,4767,184,4734,176,4683,169,4540,159,4153,148,3766,143,3620,140,3533,136,3528,135"/>
+<area shape="poly" id="edge12_Node000005_Node000011" title=" " alt="" coords="3335,118,2831,125,2089,137,1329,157,1010,170,770,184,705,191,704,186,769,179,1010,164,1328,152,2089,132,2831,119,3335,113"/>
+<area shape="rect" id="Node000012" href="$TargetInstrInfo_8cpp.html" title=" " alt="" coords="4831,189,5057,214"/>
+<area shape="poly" id="edge13_Node000005_Node000012" title=" " alt="" coords="3529,130,3534,131,3728,149,3892,157,4037,160,4172,159,4453,159,4618,165,4812,179,4874,186,4873,191,4812,184,4617,170,4453,164,4172,164,4037,165,3892,163,3727,154,3533,136,3528,135"/>
+<area shape="rect" id="Node000013" href="$AArch64MachineScheduler_8h.html" title=" " alt="" coords="5081,181,5292,221"/>
+<area shape="poly" id="edge14_Node000005_Node000013" title=" " alt="" coords="3528,130,3534,131,3767,151,3964,160,4138,161,4301,158,4464,154,4638,154,4836,161,5070,179,5081,180,5081,185,5069,184,4836,166,4638,160,4464,160,4301,163,4139,166,3964,165,3766,156,3533,136,3528,135"/>
+<area shape="rect" id="Node000015" href="$AArch64TargetMachine_8cpp.html" title=" " alt="" coords="5339,269,5541,309"/>
+<area shape="poly" id="edge21_Node000005_Node000015" title=" " alt="" coords="3528,130,3534,131,3658,136,3867,137,4423,137,4714,140,4977,146,5183,158,5256,167,5305,179,5418,267,5414,271,5303,184,5255,173,5183,164,4977,151,4714,145,4423,143,3867,143,3658,141,3533,136,3528,135"/>
+<area shape="rect" id="Node000016" href="$AArch64MacroFusion_8h.html" title=" " alt="" coords="5367,181,5542,221"/>
+<area shape="poly" id="edge17_Node000005_Node000016" title=" " alt="" coords="3528,130,3534,131,3809,154,4043,162,4248,162,4440,156,4633,150,4839,149,5073,157,5348,179,5367,181,5367,186,5348,184,5072,162,4839,154,4633,156,4441,161,4249,167,4042,168,3809,159,3533,136,3528,135"/>
+<area shape="rect" id="Node000018" href="$AArch64Subtarget_8cpp.html" title=" " alt="" coords="5567,181,5737,221"/>
+<area shape="poly" id="edge20_Node000005_Node000018" title=" " alt="" coords="3528,130,3534,131,3840,155,4101,164,4330,161,4544,153,4758,146,4988,144,5248,153,5555,179,5567,180,5566,185,5554,184,5248,158,4988,149,4758,151,4544,159,4330,167,4101,169,3840,161,3533,136,3528,135"/>
+<area shape="rect" id="Node000019" href="$AMDGPUIGroupLP_8cpp.html" title=" " alt="" coords="781,181,1032,221"/>
+<area shape="poly" id="edge22_Node000005_Node000019" title=" " alt="" coords="3335,119,2215,139,1540,159,1258,171,1044,184,1033,185,1032,180,1044,179,1257,165,1540,153,2215,134,3335,113"/>
+<area shape="rect" id="Node000020" href="$AMDGPUSubtarget_8cpp.html" title="Implements the AMDGPU specific subclass of TargetSubtarget." alt="" coords="1056,189,1355,214"/>
+<area shape="poly" id="edge23_Node000005_Node000020" title=" " alt="" coords="3336,118,3010,121,2525,130,1952,150,1657,165,1367,184,1292,191,1292,186,1366,179,1656,160,1952,145,2524,125,3010,115,3336,112"/>
+<area shape="rect" id="Node000021" href="$GCNIterativeScheduler_8h.html" title="This file defines the class GCNIterativeScheduler, which uses an iterative approach to find a best sc..." alt="" coords="1621,181,1854,221"/>
+<area shape="poly" id="edge24_Node000005_Node000021" title=" " alt="" coords="3336,118,3080,122,2716,132,2295,152,2078,166,1866,184,1854,185,1854,180,1865,179,2078,161,2294,147,2716,127,3080,117,3335,113"/>
+<area shape="rect" id="Node000024" href="$GCNSchedStrategy_8h.html" title=" " alt="" coords="1379,181,1597,221"/>
+<area shape="poly" id="edge27_Node000005_Node000024" title=" " alt="" coords="3335,117,3043,118,2616,127,2117,147,1860,163,1608,184,1597,185,1597,180,1608,179,1860,158,2117,142,2616,121,3043,113,3335,112"/>
+<area shape="rect" id="Node000026" href="$GCNVOPDUtils_8h.html" title=" " alt="" coords="1878,189,2135,214"/>
+<area shape="poly" id="edge31_Node000005_Node000026" title=" " alt="" coords="3336,120,2828,139,2490,158,2148,184,2085,191,2084,186,2148,179,2490,152,2827,133,3335,114"/>
+<area shape="rect" id="Node000029" href="$R600MachineScheduler_8h.html" title="R600 Machine Scheduler interface." alt="" coords="2400,181,2637,221"/>
+<area shape="poly" id="edge35_Node000005_Node000029" title=" " alt="" coords="3336,124,3030,147,2650,184,2638,185,2637,180,2649,179,3029,142,3335,118"/>
+<area shape="rect" id="Node000032" href="$SIInstrInfo_8cpp.html" title="SI Implementation of TargetInstrInfo." alt="" coords="2662,181,2853,221"/>
+<area shape="poly" id="edge38_Node000005_Node000032" title=" " alt="" coords="3336,128,3123,152,2872,184,2853,187,2853,181,2872,179,3123,146,3335,122"/>
+<area shape="rect" id="Node000033" href="$SIMachineScheduler_8h.html" title="SI Machine Scheduler interface." alt="" coords="2160,181,2376,221"/>
+<area shape="poly" id="edge39_Node000005_Node000033" title=" " alt="" coords="3336,121,2923,141,2657,159,2388,184,2377,185,2376,180,2388,179,2657,154,2923,135,3336,115"/>
+<area shape="rect" id="Node000035" href="$ARMMacroFusion_8h.html" title=" " alt="" coords="2929,189,3173,214"/>
+<area shape="poly" id="edge43_Node000005_Node000035" title=" " alt="" coords="3337,139,3102,191,3101,186,3336,134"/>
+<area shape="rect" id="Node000037" href="$ARMTargetMachine_8cpp.html" title=" " alt="" coords="2995,269,3186,309"/>
+<area shape="poly" id="edge45_Node000005_Node000037" title=" " alt="" coords="3336,123,3215,132,3083,145,2974,163,2937,173,2918,183,2910,197,2910,209,2916,221,2928,232,2965,251,3010,267,3008,272,2962,256,2925,236,2912,224,2904,210,2905,195,2914,179,2935,168,2973,157,3083,140,3214,127,3336,118"/>
+<area shape="poly" id="edge48_Node000005_Node000038" title=" " alt="" coords="3528,130,3534,131,3709,147,3870,157,4155,166,4407,163,4641,154,4876,145,5128,142,5413,152,5574,163,5750,179,5762,180,5761,185,5749,184,5574,168,5413,157,5127,148,4876,151,4641,160,4407,168,4155,172,3870,163,3709,152,3533,136,3528,135"/>
+<area shape="rect" id="Node000039" href="$PPCMachineScheduler_8h.html" title=" " alt="" coords="3248,181,3429,221"/>
+<area shape="poly" id="edge49_Node000005_Node000039" title=" " alt="" coords="3403,145,3361,183,3358,179,3399,141"/>
+<area shape="rect" id="Node000041" href="$PPCTargetMachine_8cpp.html" title=" " alt="" coords="3252,269,3425,309"/>
+<area shape="poly" id="edge54_Node000005_Node000041" title=" " alt="" coords="3337,126,3309,134,3282,146,3258,162,3238,183,3232,201,3238,220,3261,247,3292,267,3289,271,3258,251,3234,223,3226,201,3234,180,3254,158,3279,141,3307,129,3335,121"/>
+<area shape="rect" id="Node000042" href="$PPCMacroFusion_8h.html" title=" " alt="" coords="3454,181,3599,221"/>
+<area shape="poly" id="edge51_Node000005_Node000042" title=" " alt="" coords="3465,141,3508,179,3504,183,3461,145"/>
+<area shape="rect" id="Node000043" href="$PPCSubtarget_8cpp.html" title=" " alt="" coords="3623,181,3766,221"/>
+<area shape="poly" id="edge53_Node000005_Node000043" title=" " alt="" coords="3503,135,3638,179,3636,184,3502,140"/>
+<area shape="rect" id="Node000044" href="$RISCVMacroFusion_8h.html" title=" " alt="" coords="3791,181,3999,221"/>
+<area shape="poly" id="edge55_Node000005_Node000044" title=" " alt="" coords="3528,130,3794,179,3793,184,3527,135"/>
+<area shape="rect" id="Node000048" href="$SystemZHazardRecognizer_8h.html" title=" " alt="" coords="4073,181,4287,221"/>
+<area shape="poly" id="edge56_Node000005_Node000048" title=" " alt="" coords="3529,130,3534,131,3680,148,3794,156,3908,164,4055,179,4073,181,4073,186,4054,184,3908,169,3794,161,3679,153,3533,136,3528,135"/>
+<area shape="rect" id="Node000050" href="$SystemZMachineScheduler_8h.html" title=" " alt="" coords="4001,269,4215,309"/>
+<area shape="poly" id="edge58_Node000005_Node000050" title=" " alt="" coords="3529,130,3534,131,3639,138,3776,142,3911,153,3968,164,4012,179,4040,198,4065,222,4099,267,4095,271,4061,225,4037,202,4009,184,3966,169,3910,158,3776,148,3639,143,3533,136,3528,135"/>
+<area shape="rect" id="Node000053" href="$X86TargetMachine_8cpp.html" title=" " alt="" coords="4311,181,4491,221"/>
+<area shape="poly" id="edge59_Node000005_Node000053" title=" " alt="" coords="3529,130,3534,131,3650,143,3748,150,3916,155,4084,160,4183,166,4299,179,4312,180,4311,186,4298,184,4182,172,4084,165,3916,160,3748,155,3649,148,3533,136,3528,135"/>
+<area shape="rect" id="Node000007" href="$VLIWMachineScheduler_8cpp.html" title=" " alt="" coords="4492,277,4775,302"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="4653,235,4640,277,4635,275,4648,233"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="4555,225,4515,244,4482,271,4469,291,4462,314,4457,357,4451,357,4456,313,4464,289,4478,268,4512,239,4553,221"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="4740,223,4893,267,4892,272,4739,228"/>
+<area shape="rect" id="Node000010" href="$HexagonTargetMachine_8cpp.html" title=" " alt="" coords="4781,357,4987,397"/>
+<area shape="poly" id="edge11_Node000006_Node000010" title=" " alt="" coords="4719,225,4754,244,4788,267,4836,313,4872,356,4868,359,4833,316,4785,271,4751,249,4716,230"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="4836,314,4565,360,4564,355,4836,309"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="4934,322,4902,359,4898,355,4930,318"/>
+<area shape="rect" id="Node000014" href="$AArch64MachineScheduler_8cpp.html" title=" " alt="" coords="5089,269,5314,309"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="5195,234,5201,269,5195,270,5190,235"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="5256,223,5385,267,5384,272,5254,228"/>
+<area shape="poly" id="edge19_Node000016_Node000015" title=" " alt="" coords="5452,235,5446,270,5441,269,5446,234"/>
+<area shape="rect" id="Node000017" href="$AArch64MacroFusion_8cpp.html" title=" " alt="" coords="5565,269,5755,309"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="5513,224,5616,267,5614,272,5511,229"/>
+<area shape="rect" id="Node000022" href="$AMDGPUTargetMachine_8cpp.html" title="The AMDGPU target machine contains all of the hardware specific information needed to emit code for S..." alt="" coords="1435,269,1683,309"/>
+<area shape="poly" id="edge25_Node000021_Node000022" title=" " alt="" coords="1687,230,1599,272,1597,267,1685,225"/>
+<area shape="rect" id="Node000023" href="$GCNIterativeScheduler_8cpp.html" title="This file implements the class GCNIterativeScheduler." alt="" coords="1177,269,1410,309"/>
+<area shape="poly" id="edge26_Node000021_Node000023" title=" " alt="" coords="1627,227,1391,272,1390,267,1626,221"/>
+<area shape="poly" id="edge28_Node000024_Node000022" title=" " alt="" coords="1514,230,1545,267,1541,271,1510,234"/>
+<area shape="poly" id="edge29_Node000024_Node000023" title=" " alt="" coords="1434,229,1337,272,1335,267,1432,224"/>
+<area shape="rect" id="Node000025" href="$GCNSchedStrategy_8cpp.html" title="This contains a MachineSchedStrategy implementation for maximizing wave occupancy on GCN hardware." alt="" coords="935,269,1153,309"/>
+<area shape="poly" id="edge30_Node000024_Node000025" title=" " alt="" coords="1378,227,1142,272,1141,267,1377,221"/>
+<area shape="poly" id="edge32_Node000026_Node000022" title=" " alt="" coords="1934,219,1657,272,1656,267,1933,214"/>
+<area shape="rect" id="Node000027" href="$GCNCreateVOPD_8cpp.html" title="Combine VALU pairs into VOPD instructions Only works on wave32 Has register requirements,..." alt="" coords="1707,269,1928,309"/>
+<area shape="poly" id="edge33_Node000026_Node000027" title=" " alt="" coords="1970,222,1860,272,1858,267,1968,217"/>
+<area shape="rect" id="Node000028" href="$GCNVOPDUtils_8cpp.html" title=" " alt="" coords="1952,277,2224,302"/>
+<area shape="poly" id="edge34_Node000026_Node000028" title=" " alt="" coords="2029,222,2079,274,2075,278,2025,226"/>
+<area shape="rect" id="Node000030" href="$R600MachineScheduler_8cpp.html" title="R600 Machine Scheduler interface." alt="" coords="2488,269,2725,309"/>
+<area shape="poly" id="edge36_Node000029_Node000030" title=" " alt="" coords="2550,229,2589,267,2585,271,2546,233"/>
+<area shape="rect" id="Node000031" href="$R600TargetMachine_8cpp.html" title="The AMDGPU&#45;R600 target machine contains all of the hardware specific information needed to emit code ..." alt="" coords="2749,269,2971,309"/>
+<area shape="poly" id="edge37_Node000029_Node000031" title=" " alt="" coords="2607,222,2786,267,2785,272,2606,227"/>
+<area shape="poly" id="edge40_Node000033_Node000022" title=" " alt="" coords="2146,224,1918,249,1695,272,1683,273,1682,268,1694,267,1918,243,2146,219"/>
+<area shape="rect" id="Node000034" href="$SIMachineScheduler_8cpp.html" title="SI Machine Scheduler interface." alt="" coords="2248,269,2464,309"/>
+<area shape="poly" id="edge41_Node000033_Node000034" title=" " alt="" coords="2299,229,2338,267,2335,271,2296,233"/>
+<area shape="poly" id="edge44_Node000035_Node000037" title=" " alt="" coords="3064,225,3084,268,3079,270,3059,227"/>
+<area shape="poly" id="edge50_Node000039_Node000041" title=" " alt="" coords="3341,235,3341,269,3336,269,3336,235"/>
+<area shape="poly" id="edge52_Node000042_Node000041" title=" " alt="" coords="3474,229,3381,272,3379,267,3472,225"/>
+<area shape="poly" id="edge57_Node000048_Node000050" title=" " alt="" coords="4157,234,4126,271,4122,267,4153,230"/>
+</map>

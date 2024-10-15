@@ -1,0 +1,119 @@
+<map id="include/llvm/Transforms/Utils/LoopUtils.h" name="include/llvm/Transforms/Utils/LoopUtils.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="4563,5,4742,45"/>
+<area shape="rect" id="Node000002" href="$LoopPassManager_8h.html" title="This header provides classes for managing a pipeline of passes over loops in LLVM IR." alt="" coords="968,101,1167,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4550,30,2990,49,2022,69,1616,81,1309,96,1167,109,1167,104,1308,91,1615,76,2022,63,2990,44,4549,25"/>
+<area shape="rect" id="Node000027" href="$LoopRerollPass_8cpp.html" title=" " alt="" coords="1961,284,2120,324"/>
+<area shape="poly" id="edge47_Node000001_Node000027" title=" " alt="" coords="4549,29,4125,31,3557,40,3282,48,3048,60,2880,76,2829,85,2804,95,2793,111,2790,128,2799,164,2809,201,2806,220,2795,238,2781,247,2759,255,2694,268,2608,279,2508,288,2296,299,2120,304,2120,299,2296,294,2508,282,2608,274,2693,263,2757,250,2778,242,2791,234,2801,218,2804,201,2794,165,2785,128,2788,109,2800,91,2827,80,2879,70,3048,54,3282,43,3557,34,4125,26,4549,24"/>
+<area shape="rect" id="Node000033" href="$LoopDeletion_8cpp.html" title=" " alt="" coords="5,196,164,236"/>
+<area shape="poly" id="edge40_Node000001_Node000033" title=" " alt="" coords="4550,30,3871,32,2830,42,2275,50,1750,62,1297,77,956,96,730,119,507,148,165,203,164,198,507,143,729,113,955,91,1297,71,1750,56,2275,45,2830,36,3871,27,4550,24"/>
+<area shape="rect" id="Node000034" href="$LoopFlatten_8cpp.html" title=" " alt="" coords="1181,196,1340,236"/>
+<area shape="poly" id="edge42_Node000001_Node000034" title=" " alt="" coords="4550,30,3921,33,3002,44,2536,52,2121,63,1798,78,1684,86,1608,96,1521,117,1436,144,1302,198,1300,193,1434,139,1519,112,1607,91,1683,81,1798,73,2121,58,2536,47,3002,38,3921,28,4550,24"/>
+<area shape="rect" id="Node000035" href="$LoopInterchange_8cpp.html" title=" " alt="" coords="1364,196,1525,236"/>
+<area shape="poly" id="edge45_Node000001_Node000035" title=" " alt="" coords="4550,30,3957,34,3097,46,2277,65,1976,79,1869,87,1798,96,1710,117,1623,144,1487,198,1485,193,1622,139,1708,112,1798,91,1869,82,1975,74,2276,60,3097,40,3957,29,4550,25"/>
+<area shape="rect" id="Node000037" href="$LoopSimplifyCFG_8cpp.html" title=" " alt="" coords="1549,196,1713,236"/>
+<area shape="poly" id="edge49_Node000001_Node000037" title=" " alt="" coords="4550,30,3992,36,3194,47,2434,67,2156,80,1992,96,1902,117,1814,144,1674,198,1672,193,1812,139,1900,112,1991,91,2155,75,2434,62,3194,42,3992,30,4550,25"/>
+<area shape="rect" id="Node000038" href="$LoopUnrollAndJamPass_8cpp.html" title=" " alt="" coords="1738,196,1941,236"/>
+<area shape="poly" id="edge52_Node000001_Node000038" title=" " alt="" coords="4549,30,4025,36,3284,48,2581,67,2323,80,2172,96,2088,117,2007,144,1879,198,1877,193,2005,139,2087,112,2171,91,2323,75,2580,62,3284,42,4025,30,4549,25"/>
+<area shape="rect" id="Node000039" href="$LoopUnrollPass_8cpp.html" title=" " alt="" coords="1965,196,2124,236"/>
+<area shape="poly" id="edge53_Node000001_Node000039" title=" " alt="" coords="4549,30,4054,35,3360,46,2704,66,2465,79,2380,87,2324,96,2253,117,2185,144,2078,198,2076,193,2183,139,2251,112,2323,91,2379,82,2464,74,2704,60,3360,40,4054,29,4549,25"/>
+<area shape="rect" id="Node000040" href="$SimpleLoopUnswitch_8cpp.html" title=" " alt="" coords="2149,196,2338,236"/>
+<area shape="poly" id="edge56_Node000001_Node000040" title=" " alt="" coords="4550,29,4074,31,3414,39,3084,47,2792,59,2565,75,2486,85,2433,96,2383,117,2337,144,2266,198,2262,194,2334,140,2381,112,2432,91,2485,80,2565,70,2791,54,3084,42,3413,34,4074,25,4549,24"/>
+<area shape="rect" id="Node000041" href="$LoopVersioning_8h.html" title=" " alt="" coords="2475,101,2654,141"/>
+<area shape="poly" id="edge21_Node000001_Node000041" title=" " alt="" coords="4549,30,4159,35,3616,45,3072,65,2845,79,2673,96,2634,103,2633,98,2672,91,2844,74,3071,60,3616,40,4159,29,4549,25"/>
+<area shape="rect" id="Node000042" href="$LoopDistribute_8cpp.html" title=" " alt="" coords="2363,196,2521,236"/>
+<area shape="poly" id="edge41_Node000001_Node000042" title=" " alt="" coords="4550,29,4057,29,3378,36,3047,44,2764,56,2559,73,2496,84,2465,95,2449,117,2442,144,2440,172,2441,195,2436,196,2434,172,2436,143,2444,115,2462,91,2495,79,2558,68,2763,51,3047,39,3378,31,4057,24,4550,24"/>
+<area shape="rect" id="Node000044" href="$LoopVersioningLICM_8cpp.html" title=" " alt="" coords="2597,196,2781,236"/>
+<area shape="poly" id="edge54_Node000001_Node000044" title=" " alt="" coords="4549,30,4110,33,3517,42,3230,50,2985,62,2807,77,2752,86,2725,96,2707,117,2696,144,2692,172,2690,196,2685,196,2686,171,2691,143,2702,114,2722,91,2751,81,2806,72,2984,57,3230,45,3517,37,4110,27,4549,24"/>
+<area shape="rect" id="Node000046" href="$LoopVectorize_8cpp.html" title=" " alt="" coords="2855,196,3034,236"/>
+<area shape="poly" id="edge66_Node000001_Node000046" title=" " alt="" coords="4550,29,4128,31,3565,39,3294,47,3062,59,2896,75,2845,85,2821,95,2813,107,2811,119,2814,132,2822,147,2833,162,2847,174,2881,194,2879,198,2844,179,2829,165,2817,149,2809,134,2806,120,2808,105,2818,91,2844,80,2895,70,3062,54,3294,42,3565,34,4128,25,4550,24"/>
+<area shape="rect" id="Node000060" href="$LoopVectorizationLegality_8h.html" title="This file defines the LoopVectorizationLegality class." alt="" coords="2831,93,3037,148"/>
+<area shape="poly" id="edge26_Node000001_Node000060" title=" " alt="" coords="4550,31,3798,52,3370,71,3192,83,3057,96,3038,99,3037,93,3056,91,3191,78,3369,66,3797,47,4549,26"/>
+<area shape="rect" id="Node000062" href="$ARMTargetTransformInfo_8cpp.html" title=" " alt="" coords="3059,196,3249,236"/>
+<area shape="poly" id="edge31_Node000001_Node000062" title=" " alt="" coords="4549,30,4187,34,3718,44,3493,53,3302,64,3165,78,3124,87,3104,95,3097,106,3094,118,3101,145,3117,172,3137,194,3133,198,3113,175,3096,147,3089,118,3092,104,3100,91,3122,81,3164,73,3301,59,3493,47,3717,39,4187,29,4549,25"/>
+<area shape="rect" id="Node000064" href="$ExpandReductions_8cpp.html" title=" " alt="" coords="3113,108,3365,133"/>
+<area shape="poly" id="edge29_Node000001_Node000064" title=" " alt="" coords="4549,30,4335,34,4045,45,3713,64,3378,96,3292,111,3291,105,3378,91,3713,59,4044,39,4335,29,4549,25"/>
+<area shape="rect" id="Node000065" href="$HardwareLoops_8cpp.html" title="Insert hardware loop intrinsics into loops which are deemed profitable by the target,..." alt="" coords="3389,108,3623,133"/>
+<area shape="poly" id="edge30_Node000001_Node000065" title=" " alt="" coords="4550,32,4376,38,4148,49,3893,68,3636,96,3555,111,3554,105,3635,91,3892,63,4148,44,4376,32,4550,26"/>
+<area shape="rect" id="Node000066" href="$MVETailPredication_8cpp.html" title="Armv8.1m introduced MVE, M&#45;Profile Vector Extension, and low&#45;overhead branches to help accelerate DSP..." alt="" coords="3647,108,3917,133"/>
+<area shape="poly" id="edge32_Node000001_Node000066" title=" " alt="" coords="4550,36,4269,59,4099,76,3929,96,3840,111,3839,105,3928,91,4099,70,4269,53,4549,31"/>
+<area shape="rect" id="Node000067" href="$PPCLoopInstrFormPrep_8cpp.html" title=" " alt="" coords="3941,101,4141,141"/>
+<area shape="poly" id="edge33_Node000001_Node000067" title=" " alt="" coords="4550,40,4365,63,4153,96,4118,103,4116,98,4152,91,4364,58,4550,35"/>
+<area shape="rect" id="Node000068" href="$X86LowerAMXIntrinsics_8cpp.html" title=" " alt="" coords="4164,108,4459,133"/>
+<area shape="poly" id="edge34_Node000001_Node000068" title=" " alt="" coords="4571,51,4354,110,4353,105,4570,46"/>
+<area shape="rect" id="Node000069" href="$GuardWidening_8cpp.html" title=" " alt="" coords="4483,101,4641,141"/>
+<area shape="poly" id="edge35_Node000001_Node000069" title=" " alt="" coords="4627,57,4582,102,4578,99,4623,53"/>
+<area shape="rect" id="Node000070" href="$IndVarSimplify_8cpp.html" title=" " alt="" coords="4665,101,4824,141"/>
+<area shape="poly" id="edge36_Node000001_Node000070" title=" " alt="" coords="4683,53,4728,99,4724,102,4679,57"/>
+<area shape="rect" id="Node000071" href="$InductiveRangeCheckElimination_8cpp.html" title=" " alt="" coords="4848,101,5116,141"/>
+<area shape="poly" id="edge37_Node000001_Node000071" title=" " alt="" coords="4733,47,4916,98,4915,103,4732,52"/>
+<area shape="rect" id="Node000072" href="$LICM_8cpp.html" title=" " alt="" coords="5140,101,5299,141"/>
+<area shape="poly" id="edge38_Node000001_Node000072" title=" " alt="" coords="4756,34,4931,56,5129,91,5159,98,5158,103,5128,96,4930,62,4755,40"/>
+<area shape="rect" id="Node000073" href="$LoopAccessAnalysisPrinter_8cpp.html" title=" " alt="" coords="5323,101,5550,141"/>
+<area shape="poly" id="edge39_Node000001_Node000073" title=" " alt="" coords="4756,31,5009,53,5161,70,5312,91,5353,98,5352,103,5311,96,5160,75,5009,59,4756,36"/>
+<area shape="rect" id="Node000074" href="$LoopIdiomRecognize_8cpp.html" title=" " alt="" coords="5575,101,5763,141"/>
+<area shape="poly" id="edge43_Node000001_Node000074" title=" " alt="" coords="4756,26,4912,32,5114,43,5338,62,5562,91,5600,98,5598,103,5562,96,5337,67,5113,48,4912,37,4756,31"/>
+<area shape="rect" id="Node000075" href="$LoopInstSimplify_8cpp.html" title=" " alt="" coords="5787,101,5945,141"/>
+<area shape="poly" id="edge44_Node000001_Node000075" title=" " alt="" coords="4756,27,5282,49,5568,68,5686,79,5776,91,5808,98,5807,103,5775,96,5685,84,5567,73,5282,55,4756,33"/>
+<area shape="rect" id="Node000076" href="$LoopPredication_8cpp.html" title=" " alt="" coords="5969,101,6128,141"/>
+<area shape="poly" id="edge46_Node000001_Node000076" title=" " alt="" coords="4756,26,5023,34,5370,46,5710,65,5851,77,5958,91,5991,98,5990,103,5958,96,5851,82,5710,71,5370,52,5023,39,4756,32"/>
+<area shape="rect" id="Node000077" href="$LoopRotation_8cpp.html" title=" " alt="" coords="6152,101,6311,141"/>
+<area shape="poly" id="edge48_Node000001_Node000077" title=" " alt="" coords="4756,25,5058,31,5458,43,5853,63,6017,76,6141,91,6174,98,6173,103,6140,96,6016,81,5852,68,5457,49,5058,37,4756,31"/>
+<area shape="rect" id="Node000078" href="$LoopSink_8cpp.html" title=" " alt="" coords="6335,101,6493,141"/>
+<area shape="poly" id="edge50_Node000001_Node000078" title=" " alt="" coords="4756,25,5091,30,5544,41,5995,60,6182,74,6324,91,6357,98,6356,103,6323,96,6181,79,5994,66,5544,46,5091,35,4756,30"/>
+<area shape="rect" id="Node000079" href="$LoopStrengthReduce_8cpp.html" title=" " alt="" coords="6518,101,6705,141"/>
+<area shape="poly" id="edge51_Node000001_Node000079" title=" " alt="" coords="4756,25,5124,30,5629,41,6136,61,6347,74,6506,91,6545,98,6544,103,6506,96,6346,80,6136,66,5629,46,5124,35,4756,30"/>
+<area shape="rect" id="Node000080" href="$LowerMatrixIntrinsics_8cpp.html" title=" " alt="" coords="6729,101,6923,141"/>
+<area shape="poly" id="edge55_Node000001_Node000080" title=" " alt="" coords="4756,25,5161,29,5728,39,6299,59,6537,73,6717,91,6757,98,6756,103,6716,96,6536,78,6299,64,5727,45,5161,34,4756,30"/>
+<area shape="rect" id="Node000081" href="$WarnMissedTransforms_8cpp.html" title=" " alt="" coords="6947,101,7151,141"/>
+<area shape="poly" id="edge57_Node000001_Node000081" title=" " alt="" coords="4756,24,5199,28,5829,37,6468,57,6734,72,6936,91,6977,98,6976,103,6935,96,6734,77,6468,63,5829,43,5199,33,4756,30"/>
+<area shape="rect" id="Node000082" href="$LCSSA_8cpp.html" title=" " alt="" coords="7175,101,7323,141"/>
+<area shape="poly" id="edge58_Node000001_Node000082" title=" " alt="" coords="4756,25,5285,32,6036,45,6748,65,7009,77,7164,91,7196,98,7194,103,7163,96,7009,82,6748,70,6036,50,5285,37,4756,30"/>
+<area shape="rect" id="Node000083" href="$LoopPeel_8cpp.html" title=" " alt="" coords="7347,101,7495,141"/>
+<area shape="poly" id="edge59_Node000001_Node000083" title=" " alt="" coords="4756,25,5317,31,6122,44,6888,63,7170,76,7336,91,7368,98,7366,103,7335,96,7169,81,6888,69,6122,49,5317,36,4756,30"/>
+<area shape="rect" id="Node000084" href="$LoopSimplify_8cpp.html" title=" " alt="" coords="7519,101,7667,141"/>
+<area shape="poly" id="edge60_Node000001_Node000084" title=" " alt="" coords="4755,25,5349,30,6208,42,7029,62,7330,75,7508,91,7540,98,7538,103,7507,96,7329,81,7028,68,6208,48,5349,36,4755,30"/>
+<area shape="rect" id="Node000085" href="$LoopUnroll_8cpp.html" title=" " alt="" coords="7691,101,7839,141"/>
+<area shape="poly" id="edge61_Node000001_Node000085" title=" " alt="" coords="4756,25,5381,30,6294,41,7169,61,7490,74,7604,82,7680,91,7712,98,7710,103,7679,96,7603,88,7490,80,7169,66,6294,47,5381,35,4756,30"/>
+<area shape="rect" id="Node000086" href="$LoopUnrollAndJam_8cpp.html" title=" " alt="" coords="7863,101,8037,141"/>
+<area shape="poly" id="edge62_Node000001_Node000086" title=" " alt="" coords="4756,25,5412,30,6379,43,7308,62,7650,75,7852,91,7888,98,7887,103,7851,96,7650,81,7308,68,6379,48,5412,36,4756,30"/>
+<area shape="rect" id="Node000087" href="$LoopUnrollRuntime_8cpp.html" title=" " alt="" coords="8061,101,8239,141"/>
+<area shape="poly" id="edge63_Node000001_Node000087" title=" " alt="" coords="4756,25,5448,30,6477,42,7469,62,7834,75,8049,91,8087,98,8086,103,8048,96,7833,80,7469,67,6477,47,5448,35,4756,30"/>
+<area shape="rect" id="Node000088" href="$LoopUtils_8cpp.html" title=" " alt="" coords="8264,101,8412,141"/>
+<area shape="poly" id="edge64_Node000001_Node000088" title=" " alt="" coords="4755,24,5485,27,6578,37,7136,46,7634,57,8023,72,8160,81,8252,91,8285,98,8283,103,8251,96,8160,86,8022,77,7634,63,7135,51,6578,43,5485,33,4755,30"/>
+<area shape="rect" id="Node000089" href="$ScalarEvolutionExpander_8cpp.html" title=" " alt="" coords="8436,101,8651,141"/>
+<area shape="poly" id="edge65_Node000001_Node000089" title=" " alt="" coords="4756,25,5516,30,6663,43,7774,62,8183,75,8425,91,8469,98,8468,103,8424,96,8183,81,7774,68,6663,48,5516,36,4756,30"/>
+<area shape="rect" id="Node000090" href="$SLPVectorizer_8cpp.html" title=" " alt="" coords="8675,101,8854,141"/>
+<area shape="poly" id="edge67_Node000001_Node000090" title=" " alt="" coords="4756,24,5559,28,6781,38,7408,47,7968,58,8406,73,8561,81,8664,91,8702,98,8701,103,8663,96,8560,86,8405,78,7968,63,7407,52,6781,43,5558,33,4756,30"/>
+<area shape="rect" id="Node000003" href="$CodeGenPassBuilder_8h.html" title="Interfaces for registering analysis passes, producing common pass manager configurations,..." alt="" coords="557,196,727,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="969,146,728,199,727,193,967,141"/>
+<area shape="rect" id="Node000005" href="$llvm_2Passes_2PassBuilder_8h.html" title="Interfaces for registering analysis passes, producing common pass manager configurations,..." alt="" coords="752,196,903,236"/>
+<area shape="poly" id="edge3_Node000002_Node000005" title=" " alt="" coords="1007,148,877,198,875,193,1005,143"/>
+<area shape="rect" id="Node000010" href="$LTOBackend_8cpp.html" title=" " alt="" coords="241,291,417,317"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="954,131,537,160,352,179,293,189,266,198,260,209,259,220,270,246,292,270,314,289,311,293,288,274,266,249,254,221,255,207,263,194,291,184,351,174,537,155,954,126"/>
+<area shape="rect" id="Node000018" href="$PassBuilder_8cpp.html" title="This file provides the implementation of the PassBuilder based on our static pass registry as well as..." alt="" coords="908,291,1099,317"/>
+<area shape="poly" id="edge11_Node000002_Node000018" title=" " alt="" coords="1015,150,989,171,968,197,964,222,970,247,982,271,995,289,991,293,978,274,965,249,958,222,964,195,985,167,1012,146"/>
+<area shape="rect" id="Node000020" href="$PassBuilderPipelines_8cpp.html" title="This file provides the implementation of the PassBuilder based on our static pass registry as well as..." alt="" coords="569,291,819,317"/>
+<area shape="poly" id="edge12_Node000002_Node000020" title=" " alt="" coords="954,131,545,161,364,180,305,189,280,198,274,207,272,216,280,234,293,242,317,250,390,265,574,289,573,294,389,270,315,255,290,247,276,238,267,216,269,205,276,194,304,184,363,174,544,155,954,126"/>
+<area shape="rect" id="Node000026" href="$LoopReroll_8h.html" title=" " alt="" coords="978,196,1157,236"/>
+<area shape="poly" id="edge7_Node000002_Node000026" title=" " alt="" coords="1070,154,1070,196,1065,196,1065,154"/>
+<area shape="rect" id="Node000028" href="$HexagonLoopIdiomRecognition_8h.html" title=" " alt="" coords="291,196,532,236"/>
+<area shape="poly" id="edge13_Node000002_Node000028" title=" " alt="" coords="955,141,532,200,532,195,954,135"/>
+<area shape="poly" id="edge14_Node000002_Node000033" title=" " alt="" coords="954,130,609,154,397,173,184,199,165,202,164,196,183,193,396,168,609,149,954,125"/>
+<area shape="poly" id="edge15_Node000002_Node000034" title=" " alt="" coords="1120,144,1223,194,1220,198,1118,149"/>
+<area shape="poly" id="edge16_Node000002_Node000035" title=" " alt="" coords="1157,141,1369,193,1368,199,1156,147"/>
+<area shape="poly" id="edge17_Node000002_Node000037" title=" " alt="" coords="1181,136,1537,193,1550,196,1549,201,1536,199,1180,141"/>
+<area shape="poly" id="edge18_Node000002_Node000038" title=" " alt="" coords="1181,130,1431,157,1725,193,1738,195,1737,200,1724,199,1430,162,1180,136"/>
+<area shape="poly" id="edge19_Node000002_Node000039" title=" " alt="" coords="1180,125,1526,147,1739,167,1953,193,1965,195,1965,201,1952,199,1739,172,1526,153,1180,130"/>
+<area shape="poly" id="edge20_Node000002_Node000040" title=" " alt="" coords="1180,123,1601,146,1868,166,2136,193,2149,195,2148,200,2135,199,1867,171,1601,151,1180,129"/>
+<area shape="poly" id="edge4_Node000005_Node000010" title=" " alt="" coords="739,239,406,294,405,289,738,233"/>
+<area shape="poly" id="edge5_Node000005_Node000018" title=" " alt="" coords="879,240,981,289,979,294,877,244"/>
+<area shape="poly" id="edge6_Node000005_Node000020" title=" " alt="" coords="788,246,713,293,711,289,785,241"/>
+<area shape="poly" id="edge8_Node000026_Node000018" title=" " alt="" coords="1047,249,1014,292,1010,289,1043,246"/>
+<area shape="poly" id="edge9_Node000026_Node000027" title=" " alt="" coords="1170,233,1399,258,1621,277,1961,297,1961,302,1621,282,1398,264,1170,239"/>
+<area shape="poly" id="edge22_Node000041_Node000018" title=" " alt="" coords="2568,155,2561,199,2551,220,2536,238,2513,247,2470,254,2332,267,2142,278,1918,287,1453,299,1099,304,1099,299,1453,293,1918,281,2141,273,2332,262,2469,249,2512,242,2532,234,2547,217,2556,197,2563,154"/>
+<area shape="poly" id="edge23_Node000041_Node000042" title=" " alt="" coords="2530,151,2468,198,2465,194,2527,147"/>
+<area shape="poly" id="edge24_Node000041_Node000044" title=" " alt="" coords="2602,147,2665,194,2662,198,2599,151"/>
+<area shape="poly" id="edge25_Node000041_Node000046" title=" " alt="" coords="2655,141,2869,193,2867,199,2654,147"/>
+<area shape="poly" id="edge28_Node000060_Node000046" title=" " alt="" coords="2941,161,2945,196,2940,196,2936,162"/>
+<area shape="poly" id="edge27_Node000060_Node000062" title=" " alt="" coords="3010,151,3111,194,3109,198,3007,156"/>
+</map>

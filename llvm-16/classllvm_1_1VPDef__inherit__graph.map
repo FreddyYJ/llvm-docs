@@ -1,0 +1,53 @@
+<map id="llvm::VPDef" name="llvm::VPDef">
+<area shape="rect" id="Node000001" title="This class augments a recipe with a set of VPValues defined by the recipe." alt="" coords="5,425,104,451"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1VPRecipeBase.html" title="VPRecipeBase is a base class modeling a sequence of one or more output IR instructions." alt="" coords="152,425,304,451"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,435,152,435,152,441,118,441"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1VPBlendRecipe.html" title="A recipe for vectorizing a phi&#45;node as a sequence of mask&#45;based select instructions." alt="" coords="393,5,551,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,412,230,338,246,237,262,183,284,131,313,82,350,40,370,27,392,19,394,24,372,32,354,44,317,85,288,133,267,185,252,238,235,338,232,412"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1VPBranchOnMaskRecipe.html" title="A recipe for generating conditional branches on the bits of a mask." alt="" coords="363,55,581,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="228,411,234,346,253,258,269,212,290,167,317,125,350,89,367,78,370,82,354,93,321,129,294,170,274,214,258,260,240,346,233,412"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1VPDerivedIVRecipe.html" title="A recipe for converting the canonical IV value to the corresponding value of an IV with different sta..." alt="" coords="380,104,564,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="229,411,239,354,260,280,276,241,296,203,320,169,350,139,378,123,381,128,354,143,324,172,300,206,281,243,265,281,244,355,235,412"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1VPExpandSCEVRecipe.html" title="Recipe to expand a SCEV expression." alt="" coords="371,153,573,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="232,411,244,363,267,302,302,240,324,212,350,188,370,176,372,181,354,192,328,216,306,243,272,304,250,365,237,413"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1VPHeaderPHIRecipe.html" title="A pure virtual base class for all recipes modeling header phis, including phis for first order recurr..." alt="" coords="377,203,567,228"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="235,411,251,372,275,325,308,277,328,256,351,237,376,224,378,229,353,242,332,259,312,280,279,327,255,374,240,413"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1VPInstruction.html" title="This is a concrete Recipe that models a single VPlan&#45;level instruction." alt="" coords="399,252,545,277"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="240,412,283,348,314,314,351,286,374,276,398,269,399,274,376,281,353,291,318,318,287,351,245,415"/>
+<area shape="rect" id="Node000015" href="$classllvm_1_1VPInterleaveRecipe.html" title="VPInterleaveRecipe is a recipe for transforming an interleave group of load or stores into one wide l..." alt="" coords="379,301,565,327"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="249,414,293,374,321,354,351,337,386,324,388,329,353,342,324,358,297,378,252,418"/>
+<area shape="rect" id="Node000016" href="$classllvm_1_1VPPredInstPHIRecipe.html" title="VPPredInstPHIRecipe is a recipe for generating the phi nodes needed when control converges back from ..." alt="" coords="375,351,569,376"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="269,417,351,386,400,374,402,379,353,391,270,422"/>
+<area shape="rect" id="Node000017" href="$classllvm_1_1VPReductionRecipe.html" title="A recipe to represent inloop reduction operations, performing a reduction on a vector operand into a ..." alt="" coords="379,400,565,425"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="318,426,379,420,379,425,318,431"/>
+<area shape="rect" id="Node000018" href="$classllvm_1_1VPReplicateRecipe.html" title="VPReplicateRecipe replicates a given instruction producing multiple scalar copies of the original sca..." alt="" coords="381,449,563,475"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="318,444,382,450,381,456,317,449"/>
+<area shape="rect" id="Node000019" href="$classllvm_1_1VPScalarIVStepsRecipe.html" title="A recipe for handling phi nodes of integer and floating&#45;point inductions, producing their scalar valu..." alt="" coords="367,499,577,524"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="270,454,353,485,397,496,396,501,351,490,268,459"/>
+<area shape="rect" id="Node000020" href="$classllvm_1_1VPWidenCallRecipe.html" title="A recipe for widening Call instructions." alt="" coords="379,548,565,573"/>
+<area shape="poly" id="edge19_Node000002_Node000020" title=" " alt="" coords="252,458,296,498,324,518,353,534,384,545,382,550,351,539,321,522,293,502,249,462"/>
+<area shape="rect" id="Node000021" href="$classllvm_1_1VPWidenCanonicalIVRecipe.html" title="A Recipe for widening the canonical induction variable of the vector loop." alt="" coords="353,597,591,623"/>
+<area shape="poly" id="edge20_Node000002_Node000021" title=" " alt="" coords="245,461,288,524,318,557,353,584,378,595,375,600,351,588,314,561,283,527,240,464"/>
+<area shape="rect" id="Node000022" href="$classllvm_1_1VPWidenGEPRecipe.html" title="A recipe for handling GEP instructions." alt="" coords="379,647,565,672"/>
+<area shape="poly" id="edge21_Node000002_Node000022" title=" " alt="" coords="240,463,256,502,280,548,312,595,332,615,353,633,379,646,377,651,351,638,328,619,308,598,275,551,251,504,235,465"/>
+<area shape="rect" id="Node000023" href="$classllvm_1_1VPWidenIntOrFpInductionRecipe.html" title="A recipe for handling phi nodes of integer and floating&#45;point inductions, producing their vector valu..." alt="" coords="359,697,585,737"/>
+<area shape="poly" id="edge22_Node000002_Node000023" title=" " alt="" coords="237,463,251,511,273,570,307,631,329,659,354,683,372,694,369,699,350,687,325,662,303,634,269,572,246,513,232,465"/>
+<area shape="rect" id="Node000024" href="$classllvm_1_1VPWidenMemoryInstructionRecipe.html" title="A Recipe for widening load/store operations." alt="" coords="352,761,592,801"/>
+<area shape="poly" id="edge23_Node000002_Node000024" title=" " alt="" coords="235,464,244,523,265,599,280,639,300,679,324,715,354,747,370,758,367,763,350,751,320,718,295,681,275,642,260,601,239,524,229,465"/>
+<area shape="rect" id="Node000025" href="$classllvm_1_1VPWidenRecipe.html" title="VPWidenRecipe is a recipe for producing a copy of vector type its ingredient." alt="" coords="391,825,553,851"/>
+<area shape="poly" id="edge24_Node000002_Node000025" title=" " alt="" coords="232,464,237,534,255,628,270,678,291,727,319,772,354,811,372,823,392,830,390,835,369,827,350,815,315,775,286,729,265,680,250,629,232,534,227,464"/>
+<area shape="rect" id="Node000026" href="$classllvm_1_1VPWidenSelectRecipe.html" title="A recipe for widening select instructions." alt="" coords="371,875,573,900"/>
+<area shape="poly" id="edge25_Node000002_Node000026" title=" " alt="" coords="231,465,233,543,238,595,248,651,263,708,285,764,315,816,354,861,373,874,370,878,350,865,311,820,280,767,258,710,243,652,233,595,228,543,226,465"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1VPActiveLaneMaskPHIRecipe.html" title="A recipe for generating the active lane mask for the vector loop that is used to predicate the vector..." alt="" coords="640,67,888,92"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="578,196,590,188,607,168,613,146,620,123,638,101,659,90,661,94,642,105,625,125,618,147,612,170,594,192,581,200"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1VPCanonicalIVPHIRecipe.html" title="Canonical scalar induction phi of the vector loop." alt="" coords="655,116,873,141"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="568,196,591,188,605,179,614,170,624,161,639,152,676,139,678,144,641,156,627,165,618,174,608,183,593,192,570,201"/>
+<area shape="rect" id="Node000010" href="$structllvm_1_1VPFirstOrderRecurrencePHIRecipe.html" title="A recipe for handling first&#45;order recurrence phis." alt="" coords="657,166,871,206"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="580,202,657,194,657,199,580,207"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1VPReductionPHIRecipe.html" title="A recipe for handling reduction phis." alt="" coords="661,231,867,256"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="581,223,661,231,660,236,580,228"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1VPWidenPHIRecipe.html" title="A recipe for handling header phis that are widened in the vector loop." alt="" coords="673,280,855,305"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="569,229,593,237,617,251,641,265,683,277,681,282,639,270,615,256,591,242,567,234"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1VPWidenPointerInductionRecipe.html" title=" " alt="" coords="653,330,875,370"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="581,230,594,237,611,257,619,277,626,297,642,316,661,328,659,332,638,320,621,300,614,279,607,259,590,241,578,234"/>
+</map>

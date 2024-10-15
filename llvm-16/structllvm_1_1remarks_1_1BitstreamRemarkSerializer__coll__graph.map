@@ -1,0 +1,103 @@
+<map id="llvm::remarks::BitstreamRemarkSerializer" name="llvm::remarks::BitstreamRemarkSerializer">
+<area shape="rect" id="Node000001" title="Implementation of the remark serializer using LLVM bitstream." alt="" coords="3081,213,3267,253"/>
+<area shape="rect" id="Node000002" href="$structllvm_1_1remarks_1_1RemarkSerializer.html" title="This is the base class for a remark serializer." alt="" coords="2752,120,2985,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2923,147,3113,210,3111,215,2921,152"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="2296,120,2364,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2377,130,2752,130,2752,135,2377,135"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1raw__ostream.html" title="This class implements an extremely fast bulk output stream that can only output to a stream." alt="" coords="2258,169,2402,195"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="2415,175,2561,165,2728,150,2785,143,2786,148,2728,155,2562,170,2416,180"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="1876,168,2047,193"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="2060,178,2258,179,2258,184,2060,184"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="2271,5,2389,31"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="2403,18,2555,31,2642,44,2729,65,2794,90,2847,117,2844,122,2792,95,2727,70,2641,50,2554,36,2403,23"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="2239,55,2421,95"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="2435,81,2728,110,2784,117,2783,123,2728,115,2434,86"/>
+<area shape="rect" id="Node000008" href="$classbool.html" title=" " alt="" coords="871,364,921,389"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="926,354,987,318,1072,277,1120,259,1170,244,1222,234,1275,230,2870,230,3081,230,3081,235,2870,235,1275,235,1223,239,1172,249,1122,264,1074,282,990,323,929,359"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1SmallVectorTemplateBase.html" title=" " alt="" coords="1514,270,1711,310"/>
+<area shape="poly" id="edge24_Node000012_Node000008" title=" " alt="" coords="934,366,1043,344,1177,322,1355,303,1513,292,1514,298,1356,309,1178,327,1044,349,935,371"/>
+<area shape="rect" id="Node000022" href="$classllvm_1_1SmallVectorTemplateBase.html" title="SmallVectorTemplateBase&lt;TriviallyCopyable = false&gt; &#45; This is where we put method implementations that..." alt="" coords="1177,486,1375,526"/>
+<area shape="poly" id="edge28_Node000022_Node000008" title=" " alt="" coords="936,380,968,390,997,411,1005,423,1008,435,1008,458,1008,479,1012,488,1020,497,1046,508,1084,513,1177,512,1177,518,1084,518,1044,513,1017,502,1007,491,1003,480,1002,458,1003,436,1000,425,993,415,965,395,934,385"/>
+<area shape="rect" id="Node000025" href="$classllvm_1_1SmallVectorTemplateBase.html" title="SmallVectorTemplateBase&lt;TriviallyCopyable = false&gt; &#45; This is where we put method implementations that..." alt="" coords="1177,401,1375,441"/>
+<area shape="poly" id="edge32_Node000025_Node000008" title=" " alt="" coords="935,378,1177,407,1177,412,935,384"/>
+<area shape="rect" id="Node000034" href="$classllvm_1_1SmallVectorTemplateBase.html" title=" " alt="" coords="1514,625,1711,665"/>
+<area shape="poly" id="edge51_Node000034_Node000008" title=" " alt="" coords="936,379,968,390,997,411,1006,426,1011,440,1010,467,1009,494,1013,508,1021,522,1055,557,1089,577,1128,589,1178,602,1265,622,1354,635,1439,641,1514,644,1514,649,1439,646,1354,640,1264,627,1177,607,1126,594,1087,582,1051,562,1017,525,1008,510,1004,495,1005,467,1005,441,1001,428,993,415,966,395,934,384"/>
+<area shape="rect" id="Node000009" href="$structllvm_1_1remarks_1_1BitstreamRemarkSerializerHelper.html" title="Serialize the remarks to LLVM bitstream." alt="" coords="2776,526,2961,566"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="2897,514,3151,251,3155,255,2901,518"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1SmallVector.html" title=" " alt="" coords="2256,422,2404,462"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="2418,449,2564,468,2729,499,2812,523,2810,529,2727,505,2563,474,2418,454"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1SmallVectorImpl.html" title=" " alt="" coords="1878,337,2045,377"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="2059,376,2256,422,2255,428,2057,382"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1725,309,1878,338,1877,343,1724,314"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1SmallVectorTemplateCommon.html" title=" " alt="" coords="1177,337,1375,377"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1388,332,1513,307,1514,312,1389,337"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1SmallVectorBase.html" title=" " alt="" coords="576,259,748,313"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="762,295,1178,343,1177,348,762,300"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="7,508,68,533"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="46,494,91,379,128,358,179,340,240,325,309,313,451,296,575,287,576,293,451,302,309,319,241,330,180,345,130,362,95,382,51,496"/>
+<area shape="rect" id="Node000017" href="$classllvm_1_1SmallVectorBase.html" title="This is all the stuff common to all SmallVectors." alt="" coords="191,395,361,435"/>
+<area shape="poly" id="edge17_Node000017_Node000015" title=" " alt="" coords="72,499,178,446,212,433,214,438,180,451,74,504"/>
+<area shape="rect" id="Node000020" href="$classllvm_1_1SmallVectorBase.html" title=" " alt="" coords="576,447,748,501"/>
+<area shape="poly" id="edge21_Node000020_Node000015" title=" " alt="" coords="82,532,169,556,288,577,353,582,420,581,487,573,551,557,575,546,597,532,634,499,638,503,600,536,578,551,553,562,488,579,421,586,353,587,287,582,168,561,80,537"/>
+<area shape="rect" id="Node000036" href="$classllvm_1_1SmallVectorBase.html" title=" " alt="" coords="576,676,748,731"/>
+<area shape="poly" id="edge47_Node000036_Node000015" title=" " alt="" coords="67,539,117,574,180,604,234,620,282,631,364,642,447,650,553,669,576,675,575,680,551,674,447,655,363,647,281,637,233,626,178,608,115,578,64,544"/>
+<area shape="rect" id="Node000016" href="$classSmallVectorSizeType_3_01char_01_4.html" title=" " alt="" coords="197,226,355,266"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="369,253,576,275,576,280,368,258"/>
+<area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="374,392,483,368,551,350,588,332,621,311,624,316,590,337,553,355,484,373,375,397"/>
+<area shape="poly" id="edge23_Node000020_Node000017" title=" " alt="" coords="375,418,461,427,552,441,576,446,575,451,552,446,461,432,374,424"/>
+<area shape="poly" id="edge49_Node000036_Node000017" title=" " alt="" coords="368,441,375,447,386,462,389,477,392,492,400,507,436,546,470,569,508,590,554,620,626,674,622,678,550,624,505,595,467,574,432,550,395,510,387,493,384,478,381,464,371,450,365,445"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="5,403,69,428"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="83,413,191,413,191,418,83,418"/>
+<area shape="rect" id="Node000019" href="$classllvm_1_1SmallVectorTemplateCommon.html" title="This is the part of SmallVectorTemplateBase which does not depend on whether the type T is a POD." alt="" coords="797,489,995,529"/>
+<area shape="poly" id="edge19_Node000013_Node000019" title=" " alt="" coords="994,483,1087,455,1125,440,1152,425,1159,416,1163,407,1167,397,1176,387,1195,374,1198,379,1179,391,1171,400,1168,409,1164,419,1155,429,1128,445,1088,460,996,488"/>
+<area shape="rect" id="Node000035" href="$classllvm_1_1SmallVectorTemplateCommon.html" title=" " alt="" coords="1177,678,1375,718"/>
+<area shape="poly" id="edge50_Node000035_Node000019" title=" " alt="" coords="915,539,933,570,956,603,986,635,1020,661,1047,671,1085,679,1177,690,1176,695,1085,684,1045,676,1017,666,982,639,952,607,928,573,910,542"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="762,486,798,491,797,497,761,491"/>
+<area shape="rect" id="Node000023" href="$classllvm_1_1SmallVectorTemplateCommon.html" title="This is the part of SmallVectorTemplateBase which does not depend on whether the type T is a POD." alt="" coords="797,425,995,465"/>
+<area shape="poly" id="edge27_Node000023_Node000020" title=" " alt="" coords="761,459,797,454,798,460,762,464"/>
+<area shape="rect" id="Node000021" href="$classSmallVectorSizeType_3_01T_01_4.html" title=" " alt="" coords="179,461,373,487"/>
+<area shape="poly" id="edge22_Node000020_Node000021" title=" " alt="" coords="387,471,575,471,575,477,387,477"/>
+<area shape="poly" id="edge25_Node000012_Node000022" title=" " alt="" coords="1329,477,1373,450,1432,404,1485,350,1496,334,1509,320,1531,308,1534,313,1512,324,1500,337,1489,353,1436,408,1376,455,1332,482"/>
+<area shape="poly" id="edge52_Node000034_Node000022" title=" " alt="" coords="1389,526,1440,546,1488,575,1497,584,1501,594,1505,602,1512,611,1532,622,1529,627,1509,615,1500,605,1496,596,1492,587,1485,579,1438,551,1387,531"/>
+<area shape="poly" id="edge26_Node000022_Node000023" title=" " alt="" coords="991,470,997,475,1006,488,1008,502,1011,514,1020,524,1044,536,1070,543,1125,545,1179,537,1225,523,1226,529,1180,542,1125,551,1069,548,1042,541,1017,528,1006,516,1003,503,1001,490,993,478,987,474"/>
+<area shape="poly" id="edge31_Node000025_Node000023" title=" " alt="" coords="1008,435,1177,424,1177,430,1009,440"/>
+<area shape="rect" id="Node000024" href="$classllvm_1_1SmallVectorImpl.html" title="This class consists of common code factored out of the SmallVector class to reduce code duplication b..." alt="" coords="1511,384,1715,409"/>
+<area shape="poly" id="edge29_Node000011_Node000024" title=" " alt="" coords="1728,381,1877,364,1878,369,1729,386"/>
+<area shape="rect" id="Node000033" href="$classllvm_1_1SmallVectorImpl.html" title=" " alt="" coords="1878,542,2045,582"/>
+<area shape="poly" id="edge53_Node000033_Node000024" title=" " alt="" coords="1693,411,1716,420,1762,446,1794,473,1825,500,1869,528,1896,539,1894,544,1867,532,1822,504,1790,477,1759,450,1714,424,1692,416"/>
+<area shape="poly" id="edge30_Node000024_Node000025" title=" " alt="" coords="1389,405,1398,405,1510,398,1511,403,1399,410,1389,411"/>
+<area shape="rect" id="Node000030" href="$classllvm_1_1SmallVectorImpl.html" title="This class consists of common code factored out of the SmallVector class to reduce code duplication b..." alt="" coords="1511,335,1715,360"/>
+<area shape="poly" id="edge39_Node000030_Node000025" title=" " alt="" coords="1356,394,1398,383,1530,357,1531,363,1399,389,1357,399"/>
+<area shape="rect" id="Node000026" href="$structllvm_1_1SmallVectorStorage.html" title=" " alt="" coords="1868,478,2055,518"/>
+<area shape="poly" id="edge33_Node000010_Node000026" title=" " alt="" coords="2068,479,2256,450,2256,456,2069,484"/>
+<area shape="rect" id="Node000027" href="$classchar.html" title=" " alt="" coords="1251,553,1301,579"/>
+<area shape="poly" id="edge34_Node000026_Node000027" title=" " alt="" coords="1314,553,1398,529,1525,512,1653,501,1868,495,1868,500,1653,507,1526,517,1399,534,1316,558"/>
+<area shape="rect" id="Node000028" href="$structllvm_1_1SmallVectorStorage.html" title="Storage for the SmallVector elements." alt="" coords="1519,561,1706,601"/>
+<area shape="poly" id="edge36_Node000028_Node000027" title=" " alt="" coords="1315,573,1399,589,1460,591,1519,589,1519,594,1460,597,1398,594,1314,579"/>
+<area shape="rect" id="Node000031" href="$structllvm_1_1SmallVectorStorage.html" title="Storage for the SmallVector elements." alt="" coords="1519,434,1706,474"/>
+<area shape="poly" id="edge41_Node000031_Node000027" title=" " alt="" coords="1314,559,1345,551,1373,536,1381,527,1384,517,1388,506,1397,496,1418,486,1448,477,1519,463,1520,468,1449,482,1420,491,1400,500,1392,509,1389,519,1385,529,1376,540,1347,556,1316,564"/>
+<area shape="rect" id="Node000038" href="$structllvm_1_1SmallVectorStorage.html" title=" " alt="" coords="1868,606,2055,646"/>
+<area shape="poly" id="edge55_Node000038_Node000027" title=" " alt="" coords="1315,579,1376,608,1414,632,1442,654,1471,673,1511,689,1566,699,1622,703,1678,700,1732,693,1832,669,1910,644,1912,649,1834,675,1733,698,1678,705,1621,708,1565,705,1510,694,1468,678,1439,658,1411,636,1373,612,1313,584"/>
+<area shape="poly" id="edge35_Node000026_Node000028" title=" " alt="" coords="1719,572,1782,562,1843,544,1855,536,1867,528,1894,516,1896,521,1869,532,1858,541,1845,548,1783,567,1720,577"/>
+<area shape="poly" id="edge56_Node000038_Node000028" title=" " alt="" coords="1720,592,1868,611,1868,617,1720,597"/>
+<area shape="rect" id="Node000029" href="$classllvm_1_1SmallVector.html" title="This is a &#39;vector&#39; (really, a variable&#45;sized array), optimized for the case when the array is small." alt="" coords="1887,414,2035,454"/>
+<area shape="poly" id="edge37_Node000010_Node000029" title=" " alt="" coords="2049,433,2255,438,2255,443,2049,439"/>
+<area shape="rect" id="Node000032" href="$classllvm_1_1SmallVector.html" title=" " alt="" coords="2256,493,2404,533"/>
+<area shape="poly" id="edge57_Node000032_Node000029" title=" " alt="" coords="2049,450,2079,457,2256,495,2255,500,2078,462,2048,455"/>
+<area shape="poly" id="edge38_Node000029_Node000030" title=" " alt="" coords="1689,361,1716,369,1740,379,1816,401,1888,418,1887,423,1814,407,1738,385,1714,374,1687,366"/>
+<area shape="poly" id="edge40_Node000029_Node000031" title=" " alt="" coords="1720,445,1887,436,1887,441,1720,451"/>
+<area shape="poly" id="edge42_Node000009_Node000032" title=" " alt="" coords="2418,515,2776,538,2776,543,2417,521"/>
+<area shape="poly" id="edge43_Node000032_Node000033" title=" " alt="" coords="2058,553,2190,538,2255,526,2256,532,2191,543,2059,558"/>
+<area shape="poly" id="edge44_Node000033_Node000034" title=" " alt="" coords="1696,618,1738,607,1877,576,1878,581,1739,613,1698,623"/>
+<area shape="poly" id="edge45_Node000034_Node000035" title=" " alt="" coords="1388,678,1513,658,1514,663,1389,683"/>
+<area shape="poly" id="edge46_Node000035_Node000036" title=" " alt="" coords="762,700,1177,696,1177,702,762,705"/>
+<area shape="rect" id="Node000037" href="$classSmallVectorSizeType_3_01uint64__t_01_4.html" title=" " alt="" coords="197,689,355,729"/>
+<area shape="poly" id="edge48_Node000036_Node000037" title=" " alt="" coords="368,705,576,702,576,707,368,710"/>
+<area shape="poly" id="edge54_Node000032_Node000038" title=" " alt="" coords="2064,600,2127,581,2189,557,2214,542,2255,527,2257,532,2216,547,2192,562,2129,586,2065,605"/>
+<area shape="rect" id="Node000039" href="$classllvm_1_1BitstreamWriter.html" title=" " alt="" coords="2249,557,2411,583"/>
+<area shape="poly" id="edge58_Node000009_Node000039" title=" " alt="" coords="2425,568,2568,566,2728,559,2775,555,2776,560,2728,565,2568,572,2425,573"/>
+<area shape="rect" id="Node000040" title=" " alt="" coords="2215,607,2445,632"/>
+<area shape="poly" id="edge59_Node000009_Node000040" title=" " alt="" coords="2459,616,2589,608,2727,589,2815,564,2817,569,2729,594,2590,613,2459,621"/>
+<area shape="rect" id="Node000041" href="$classuint64__t.html" title=" " alt="" coords="2293,840,2367,865"/>
+<area shape="poly" id="edge60_Node000009_Node000041" title=" " alt="" coords="2381,862,2454,873,2544,876,2592,873,2639,864,2685,849,2727,826,2759,800,2786,767,2808,731,2826,693,2850,620,2862,566,2867,567,2855,622,2831,695,2813,733,2790,770,2762,803,2729,831,2687,854,2641,869,2593,878,2544,882,2453,878,2380,867"/>
+</map>

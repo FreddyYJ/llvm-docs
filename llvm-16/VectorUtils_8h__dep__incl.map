@@ -1,0 +1,113 @@
+<map id="include/llvm/Analysis/VectorUtils.h" name="include/llvm/Analysis/VectorUtils.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="4695,5,4857,45"/>
+<area shape="rect" id="Node000002" href="$TargetTransformInfoImpl_8h.html" title="This file provides helpers for the implementation of a TargetTransformInfo&#45;conforming class." alt="" coords="95,93,292,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4682,30,3805,36,2434,49,1093,69,596,82,304,96,292,97,292,92,304,91,596,76,1092,64,2434,44,3805,31,4682,25"/>
+<area shape="rect" id="Node000062" href="$ConstantFolding_8cpp.html" title=" " alt="" coords="317,101,550,126"/>
+<area shape="poly" id="edge4_Node000001_Node000062" title=" " alt="" coords="4681,29,3926,30,2733,37,2091,45,1484,57,958,74,563,96,501,103,500,98,562,91,958,69,1484,52,2091,40,2733,32,3926,25,4681,24"/>
+<area shape="rect" id="Node000063" href="$InstructionSimplify_8cpp.html" title=" " alt="" coords="575,93,745,133"/>
+<area shape="poly" id="edge5_Node000001_Node000063" title=" " alt="" coords="4682,30,3886,36,2657,49,1460,69,1018,81,758,96,746,97,745,92,757,91,1018,76,1460,63,2657,43,3885,31,4682,25"/>
+<area shape="rect" id="Node000064" href="$LoopAccessAnalysis_8cpp.html" title=" " alt="" coords="769,101,1028,126"/>
+<area shape="poly" id="edge6_Node000001_Node000064" title=" " alt="" coords="4682,30,4003,33,2949,43,1850,63,1388,77,1040,96,973,103,972,98,1040,91,1388,72,1850,57,2948,37,4003,27,4682,24"/>
+<area shape="rect" id="Node000065" href="$VFABIDemangling_8cpp.html" title=" " alt="" coords="1053,101,1297,126"/>
+<area shape="poly" id="edge7_Node000001_Node000065" title=" " alt="" coords="4682,30,4047,33,3070,43,2056,63,1630,78,1310,96,1245,103,1245,98,1309,91,1630,72,2056,58,3070,38,4047,28,4682,24"/>
+<area shape="rect" id="Node000066" href="$ValueTracking_8cpp.html" title=" " alt="" coords="1321,101,1540,126"/>
+<area shape="poly" id="edge8_Node000001_Node000066" title=" " alt="" coords="4682,30,4086,33,3180,43,2242,63,1849,77,1552,96,1494,103,1494,98,1552,91,1849,72,2242,57,3180,37,4086,28,4682,24"/>
+<area shape="rect" id="Node000067" href="$VectorUtils_8cpp.html" title=" " alt="" coords="1565,101,1763,126"/>
+<area shape="poly" id="edge9_Node000001_Node000067" title=" " alt="" coords="4681,30,4122,33,3281,43,2413,62,2049,77,1775,96,1722,103,1721,98,1774,91,2049,72,2413,57,3281,37,4122,27,4681,24"/>
+<area shape="rect" id="Node000068" href="$CodeGenPrepare_8cpp.html" title=" " alt="" coords="1787,101,2029,126"/>
+<area shape="poly" id="edge10_Node000001_Node000068" title=" " alt="" coords="4681,30,4166,36,3402,48,2618,68,2290,81,2042,96,1978,103,1978,98,2041,91,2289,76,2618,63,3402,43,4166,31,4681,25"/>
+<area shape="rect" id="Node000069" href="$ExpandVectorPredication_8cpp.html" title=" " alt="" coords="2053,93,2248,133"/>
+<area shape="poly" id="edge11_Node000001_Node000069" title=" " alt="" coords="4682,30,4203,35,3503,46,2786,66,2487,80,2260,96,2249,97,2248,92,2260,91,2486,74,2786,61,3503,41,4203,30,4681,25"/>
+<area shape="rect" id="Node000070" href="$ReplaceWithVeclib_8cpp.html" title=" " alt="" coords="2272,101,2525,126"/>
+<area shape="poly" id="edge12_Node000001_Node000070" title=" " alt="" coords="4681,29,4332,29,3804,36,3179,57,2855,74,2538,96,2473,103,2472,98,2537,91,2855,68,3178,51,3804,31,4332,24,4681,23"/>
+<area shape="rect" id="Node000071" href="$DAGCombiner_8cpp.html" title=" " alt="" coords="2549,93,2744,133"/>
+<area shape="poly" id="edge13_Node000001_Node000071" title=" " alt="" coords="4682,31,3732,51,3169,70,2934,82,2756,96,2745,97,2744,92,2756,91,2934,77,3169,65,3732,46,4682,25"/>
+<area shape="rect" id="Node000072" href="$LegalizeVectorTypes_8cpp.html" title=" " alt="" coords="2768,93,2963,133"/>
+<area shape="poly" id="edge14_Node000001_Node000072" title=" " alt="" coords="4681,28,4393,29,3971,36,3478,57,3224,74,2975,96,2963,97,2963,92,2974,91,3223,68,3478,52,3971,31,4393,24,4681,23"/>
+<area shape="rect" id="Node000073" href="$SelectionDAG_8cpp.html" title=" " alt="" coords="2987,93,3181,133"/>
+<area shape="poly" id="edge15_Node000001_Node000073" title=" " alt="" coords="4682,29,4424,31,4056,40,3629,60,3409,76,3194,96,3182,97,3181,92,3193,91,3408,71,3628,55,4056,35,4424,26,4682,24"/>
+<area shape="rect" id="Node000074" href="$TargetLowering_8cpp.html" title=" " alt="" coords="3205,93,3400,133"/>
+<area shape="poly" id="edge16_Node000001_Node000074" title=" " alt="" coords="4682,30,4456,34,4142,44,3780,64,3594,78,3412,96,3401,97,3400,92,3412,91,3594,73,3779,59,4141,39,4456,29,4681,25"/>
+<area shape="rect" id="Node000075" href="$AArch64ISelLowering_8cpp.html" title=" " alt="" coords="3425,93,3615,133"/>
+<area shape="poly" id="edge17_Node000001_Node000075" title=" " alt="" coords="4682,31,4489,37,4227,48,3929,67,3627,96,3616,97,3616,92,3626,91,3928,62,4226,43,4488,31,4681,26"/>
+<area shape="rect" id="Node000019" href="$ARMISelLowering_8cpp.html" title=" " alt="" coords="3639,101,3899,126"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="4681,35,4341,58,3911,96,3850,103,3849,98,3910,91,4341,53,4681,30"/>
+<area shape="rect" id="Node000076" href="$HexagonVectorCombine_8cpp.html" title=" " alt="" coords="3923,93,4133,133"/>
+<area shape="poly" id="edge19_Node000001_Node000076" title=" " alt="" coords="4682,38,4438,62,4144,96,4134,97,4133,92,4144,91,4437,56,4681,32"/>
+<area shape="rect" id="Node000077" href="$RISCVGatherScatterLowering_8cpp.html" title=" " alt="" coords="4157,93,4369,133"/>
+<area shape="poly" id="edge20_Node000001_Node000077" title=" " alt="" coords="4682,45,4369,97,4368,92,4682,40"/>
+<area shape="rect" id="Node000078" href="$X86ISelLowering_8cpp.html" title=" " alt="" coords="4393,101,4644,126"/>
+<area shape="poly" id="edge21_Node000001_Node000078" title=" " alt="" coords="4707,52,4554,103,4552,98,4706,47"/>
+<area shape="rect" id="Node000079" href="$X86InterleavedAccess_8cpp.html" title="This file contains the X86 implementation of the interleaved accesses optimization generating X86&#45;spe..." alt="" coords="4669,93,4883,133"/>
+<area shape="poly" id="edge22_Node000001_Node000079" title=" " alt="" coords="4779,59,4779,93,4773,93,4773,59"/>
+<area shape="rect" id="Node000080" href="$InstCombineCalls_8cpp.html" title=" " alt="" coords="4908,93,5108,133"/>
+<area shape="poly" id="edge23_Node000001_Node000080" title=" " alt="" coords="4841,48,4958,91,4956,96,4839,53"/>
+<area shape="rect" id="Node000081" href="$InstCombineCompares_8cpp.html" title=" " alt="" coords="5133,93,5334,133"/>
+<area shape="poly" id="edge24_Node000001_Node000081" title=" " alt="" coords="4871,42,5134,91,5133,96,4870,47"/>
+<area shape="rect" id="Node000082" href="$InstCombineSelect_8cpp.html" title=" " alt="" coords="5359,93,5559,133"/>
+<area shape="poly" id="edge25_Node000001_Node000082" title=" " alt="" coords="4870,34,5088,58,5346,91,5359,93,5358,98,5345,96,5087,63,4870,39"/>
+<area shape="rect" id="Node000083" href="$InstCombineVectorOps_8cpp.html" title=" " alt="" coords="5583,93,5785,133"/>
+<area shape="poly" id="edge26_Node000001_Node000083" title=" " alt="" coords="4871,29,5182,52,5376,69,5571,91,5583,92,5582,98,5570,96,5376,75,5182,57,4870,35"/>
+<area shape="rect" id="Node000084" href="$InstructionCombining_8cpp.html" title=" " alt="" coords="5809,93,6009,133"/>
+<area shape="poly" id="edge27_Node000001_Node000084" title=" " alt="" coords="4871,27,5274,47,5534,65,5796,91,5810,92,5809,98,5796,96,5533,71,5274,52,4870,32"/>
+<area shape="rect" id="Node000085" href="$LowerMatrixIntrinsics_8cpp.html" title=" " alt="" coords="6034,93,6227,133"/>
+<area shape="poly" id="edge28_Node000001_Node000085" title=" " alt="" coords="4871,25,5078,30,5364,41,5691,61,6022,91,6034,92,6033,97,6021,96,5690,66,5364,47,5078,36,4871,31"/>
+<area shape="rect" id="Node000086" href="$Scalarizer_8cpp.html" title=" " alt="" coords="6251,93,6410,133"/>
+<area shape="poly" id="edge29_Node000001_Node000086" title=" " alt="" coords="4870,23,5110,25,5449,33,5841,53,6042,70,6239,91,6251,92,6251,98,6238,96,6042,75,5841,59,5449,38,5110,30,4870,29"/>
+<area shape="rect" id="Node000087" href="$InjectTLIMappings_8cpp.html" title=" " alt="" coords="6435,93,6605,133"/>
+<area shape="poly" id="edge30_Node000001_Node000087" title=" " alt="" coords="4870,23,5137,23,5520,31,5967,52,6197,68,6422,91,6435,92,6434,98,6421,96,6196,74,5967,57,5520,36,5136,29,4870,28"/>
+<area shape="rect" id="Node000088" href="$InlineFunction_8cpp.html" title=" " alt="" coords="6630,93,6778,133"/>
+<area shape="poly" id="edge31_Node000001_Node000088" title=" " alt="" coords="4871,25,5233,31,5738,44,6246,63,6457,76,6618,91,6630,93,6630,98,6617,96,6457,81,6245,68,5737,49,5233,37,4870,31"/>
+<area shape="rect" id="Node000089" href="$Transforms_2Utils_2Local_8cpp.html" title=" " alt="" coords="6802,93,6950,133"/>
+<area shape="poly" id="edge32_Node000001_Node000089" title=" " alt="" coords="4871,25,5263,30,5818,42,6379,61,6613,75,6790,91,6802,92,6802,98,6789,96,6612,80,6378,67,5817,47,5263,35,4870,30"/>
+<area shape="rect" id="Node000090" href="$ModuleUtils_8cpp.html" title=" " alt="" coords="6974,93,7122,133"/>
+<area shape="poly" id="edge33_Node000001_Node000090" title=" " alt="" coords="4871,25,5293,29,5897,40,6511,59,6768,73,6962,91,6974,92,6974,98,6961,96,6767,79,6511,65,5897,45,5293,34,4870,30"/>
+<area shape="rect" id="Node000091" href="$LoadStoreVectorizer_8cpp.html" title=" " alt="" coords="7146,93,7329,133"/>
+<area shape="poly" id="edge34_Node000001_Node000091" title=" " alt="" coords="4871,25,5322,30,5977,42,6644,61,6923,75,7134,91,7146,92,7145,97,7133,96,6922,80,6644,67,5977,47,5322,35,4871,30"/>
+<area shape="rect" id="Node000092" href="$LoopVectorizationLegality_8cpp.html" title=" " alt="" coords="7353,93,7572,133"/>
+<area shape="poly" id="edge35_Node000001_Node000092" title=" " alt="" coords="4871,25,5358,31,6072,43,6803,62,7109,75,7340,91,7353,92,7353,97,7340,96,7109,81,6803,68,6072,48,5357,36,4871,30"/>
+<area shape="rect" id="Node000093" href="$LoopVectorize_8cpp.html" title=" " alt="" coords="7583,357,7761,397"/>
+<area shape="poly" id="edge36_Node000001_Node000093" title=" " alt="" coords="4870,25,5491,30,6389,42,6830,50,7206,61,7472,75,7551,82,7586,91,7598,109,7604,134,7610,197,7612,261,7614,288,7620,308,7635,334,7654,355,7650,359,7631,337,7615,310,7609,289,7606,262,7604,197,7599,135,7593,111,7582,96,7550,88,7472,80,7206,67,6830,56,6389,47,5491,35,4870,30"/>
+<area shape="rect" id="Node000094" href="$SLPVectorizer_8cpp.html" title=" " alt="" coords="7647,93,7825,133"/>
+<area shape="poly" id="edge37_Node000001_Node000094" title=" " alt="" coords="4871,24,5405,28,6203,38,7024,58,7369,72,7628,91,7647,93,7646,98,7628,96,7368,78,7024,63,6203,43,5405,33,4870,30"/>
+<area shape="rect" id="Node000095" href="$VPlan_8h.html" title="This file contains the declarations of the Vectorization Plan base classes:" alt="" coords="7899,93,8077,133"/>
+<area shape="poly" id="edge38_Node000001_Node000095" title=" " alt="" coords="4870,25,5439,31,6298,43,7185,63,7557,76,7838,91,7899,97,7898,102,7837,96,7556,81,7184,68,6298,48,5439,36,4870,30"/>
+<area shape="rect" id="Node000103" href="$VPlanTransforms_8cpp.html" title="This file implements a set of utility VPlan to VPlan transformations." alt="" coords="8424,269,8603,309"/>
+<area shape="poly" id="edge60_Node000001_Node000103" title=" " alt="" coords="4870,24,5731,25,6366,31,7047,42,7707,61,8007,73,8276,88,8507,106,8689,127,8815,151,8854,165,8877,179,8888,196,8894,212,8893,226,8886,238,8859,257,8818,271,8767,281,8712,287,8603,292,8603,286,8711,282,8767,276,8817,266,8856,252,8882,234,8887,224,8888,212,8884,199,8873,183,8852,170,8813,156,8688,132,8506,112,8276,94,8007,79,7706,66,7047,47,6366,36,5731,31,4870,29"/>
+<area shape="rect" id="Node000106" href="$VPlanSLP_8cpp.html" title=" " alt="" coords="8684,181,8863,221"/>
+<area shape="poly" id="edge59_Node000001_Node000106" title=" " alt="" coords="4870,24,5481,27,6413,37,7378,57,7784,72,8090,91,8255,109,8419,132,8684,179,8683,185,8418,138,8254,114,8089,96,7784,77,7378,62,6413,43,5480,33,4870,30"/>
+<area shape="rect" id="Node000108" href="$VectorCombine_8cpp.html" title=" " alt="" coords="8937,93,9116,133"/>
+<area shape="poly" id="edge61_Node000001_Node000108" title=" " alt="" coords="4870,25,6956,45,8193,64,8649,77,8919,91,8938,93,8937,98,8918,96,8649,82,8192,70,6956,50,4870,30"/>
+<area shape="rect" id="Node000003" href="$BasicTTIImpl_8h.html" title="This file provides a helper that implements much of the TTI interface in terms of the target&#45;independ..." alt="" coords="5,181,171,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="161,144,113,183,110,179,158,140"/>
+<area shape="rect" id="Node000061" href="$TargetTransformInfo_8cpp.html" title=" " alt="" coords="195,181,402,221"/>
+<area shape="poly" id="edge3_Node000002_Node000061" title=" " alt="" coords="229,140,277,179,274,183,225,144"/>
+<area shape="poly" id="edge43_Node000095_Node000093" title=" " alt="" coords="7885,130,7729,155,7667,169,7647,176,7637,183,7625,203,7620,226,7620,249,7625,274,7642,320,7662,356,7657,358,7637,322,7620,275,7615,250,7615,225,7620,201,7633,179,7645,172,7666,164,7728,149,7884,125"/>
+<area shape="rect" id="Node000096" href="$LoopVectorizationPlanner_8h.html" title="This file provides a LoopVectorizationPlanner class." alt="" coords="7647,181,7849,221"/>
+<area shape="poly" id="edge39_Node000095_Node000096" title=" " alt="" coords="7924,140,7801,184,7800,179,7922,135"/>
+<area shape="rect" id="Node000097" href="$VPRecipeBuilder_8h.html" title=" " alt="" coords="7709,269,7888,309"/>
+<area shape="poly" id="edge44_Node000095_Node000097" title=" " alt="" coords="7959,145,7821,271,7817,267,7955,141"/>
+<area shape="rect" id="Node000099" href="$VPlan_8cpp.html" title="This is the LLVM vectorization plan." alt="" coords="7968,357,8147,397"/>
+<area shape="poly" id="edge45_Node000095_Node000099" title=" " alt="" coords="7974,147,7960,182,7949,224,7947,267,7950,288,7958,308,7981,335,8011,355,8008,360,7978,339,7954,311,7945,290,7941,268,7943,223,7955,180,7969,145"/>
+<area shape="rect" id="Node000100" href="$VPlanCFG_8h.html" title=" " alt="" coords="8025,181,8204,221"/>
+<area shape="poly" id="edge46_Node000095_Node000100" title=" " alt="" coords="8029,139,8088,179,8085,183,8026,144"/>
+<area shape="rect" id="Node000101" href="$VPlanDominatorTree_8h.html" title="This file implements dominator tree analysis for a single level of a VPlan&#39;s H&#45;CFG." alt="" coords="7968,269,8147,309"/>
+<area shape="poly" id="edge52_Node000095_Node000101" title=" " alt="" coords="7995,147,8003,183,8016,220,8045,268,8040,271,8011,222,7998,184,7990,148"/>
+<area shape="rect" id="Node000104" href="$VPlanVerifier_8cpp.html" title="This file defines the class VPlanVerifier, which contains utility functions to check the consistency ..." alt="" coords="8221,269,8400,309"/>
+<area shape="poly" id="edge58_Node000095_Node000104" title=" " alt="" coords="8092,129,8156,149,8217,179,8244,199,8267,223,8301,268,8297,271,8263,227,8240,203,8215,184,8154,154,8090,134"/>
+<area shape="rect" id="Node000105" href="$VPlanRecipes_8cpp.html" title="This file contains implementations for different VPlan recipes." alt="" coords="8279,181,8457,221"/>
+<area shape="poly" id="edge53_Node000095_Node000105" title=" " alt="" coords="8085,134,8285,179,8284,184,8084,139"/>
+<area shape="poly" id="edge54_Node000095_Node000106" title=" " alt="" coords="8091,119,8355,142,8672,179,8684,180,8683,186,8672,184,8354,147,8091,125"/>
+<area shape="rect" id="Node000107" href="$VPlanTransforms_8h.html" title="This file provides utility VPlan to VPlan transformations." alt="" coords="8481,181,8660,221"/>
+<area shape="poly" id="edge55_Node000095_Node000107" title=" " alt="" coords="8091,125,8470,179,8482,181,8481,186,8469,184,8090,130"/>
+<area shape="poly" id="edge40_Node000096_Node000093" title=" " alt="" coords="7724,233,7700,270,7684,316,7677,358,7671,357,7679,315,7695,268,7719,231"/>
+<area shape="poly" id="edge41_Node000096_Node000097" title=" " alt="" coords="7769,232,7790,268,7785,270,7764,235"/>
+<area shape="poly" id="edge42_Node000097_Node000093" title=" " alt="" coords="7761,320,7702,359,7699,355,7758,315"/>
+<area shape="poly" id="edge47_Node000100_Node000099" title=" " alt="" coords="8143,231,8155,249,8164,269,8167,290,8161,311,8137,339,8106,360,8103,355,8133,335,8156,308,8161,290,8158,270,8150,251,8139,234"/>
+<area shape="poly" id="edge48_Node000100_Node000101" title=" " alt="" coords="8096,234,8072,271,8068,268,8092,232"/>
+<area shape="poly" id="edge50_Node000100_Node000103" title=" " alt="" coords="8216,222,8427,267,8425,272,8215,227"/>
+<area shape="poly" id="edge51_Node000100_Node000104" title=" " alt="" coords="8171,224,8269,267,8267,272,8169,229"/>
+<area shape="poly" id="edge49_Node000101_Node000099" title=" " alt="" coords="8060,323,8060,357,8055,357,8055,323"/>
+<area shape="poly" id="edge56_Node000107_Node000093" title=" " alt="" coords="8601,231,8614,250,8624,271,8626,292,8616,312,8275,338,7762,373,7761,367,8275,333,8613,307,8621,291,8619,272,8609,252,8596,234"/>
+<area shape="poly" id="edge57_Node000107_Node000103" title=" " alt="" coords="8552,234,8528,271,8524,268,8548,232"/>
+</map>

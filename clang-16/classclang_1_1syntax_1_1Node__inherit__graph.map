@@ -1,0 +1,91 @@
+<map id="clang::syntax::Node" name="clang::syntax::Node">
+<area shape="rect" id="Node000001" title="A node in a syntax tree." alt="" coords="5,908,156,933"/>
+<area shape="rect" id="Node000002" href="$classclang_1_1syntax_1_1Leaf.html" title="A leaf node points to a single token." alt="" coords="204,883,349,908"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,907,203,902,204,907,170,912"/>
+<area shape="rect" id="Node000003" href="$classclang_1_1syntax_1_1Tree.html" title="A node that has children and represents a syntactic language construct." alt="" coords="205,932,349,957"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,929,205,933,204,938,169,934"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1syntax_1_1ArraySubscript.html" title="Array size specified inside a declarator." alt="" coords="410,349,622,375"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="343,922,347,918,359,898,366,873,374,809,373,733,368,651,364,569,364,493,373,430,382,404,395,384,409,373,412,377,399,388,387,407,378,431,369,494,369,569,374,651,378,733,379,809,372,874,363,900,351,921,347,926"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1syntax_1_1Declaration.html" title="A declaration that can appear at the top&#45;level." alt="" coords="420,399,612,424"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="342,923,347,918,364,896,374,876,382,837,385,794,395,741,459,552,507,424,512,425,464,554,400,743,390,794,388,838,379,878,369,899,351,921,345,927"/>
+<area shape="rect" id="Node000018" href="$classclang_1_1syntax_1_1Declarator.html" title="Covers a name, an initializer and a part of the type outside declaration specifiers." alt="" coords="423,755,609,780"/>
+<area shape="poly" id="edge17_Node000003_Node000018" title=" " alt="" coords="335,924,348,917,373,895,395,868,497,778,501,782,399,872,377,898,351,922,337,929"/>
+<area shape="rect" id="Node000021" href="$classclang_1_1syntax_1_1List.html" title="A list of Elements separated or terminated by a fixed token." alt="" coords="446,883,586,908"/>
+<area shape="poly" id="edge20_Node000003_Node000021" title=" " alt="" coords="350,927,397,917,451,905,452,911,398,922,351,932"/>
+<area shape="rect" id="Node000026" href="$classclang_1_1syntax_1_1MemberPointer.html" title="Member pointer inside a declarator E.g." alt="" coords="407,932,625,957"/>
+<area shape="poly" id="edge25_Node000003_Node000026" title=" " alt="" coords="363,942,407,942,407,947,363,947"/>
+<area shape="rect" id="Node000027" href="$classclang_1_1syntax_1_1ParametersAndQualifiers.html" title="Parameter list for a function type and a trailing return type, if the function has one." alt="" coords="421,982,611,1022"/>
+<area shape="poly" id="edge26_Node000003_Node000027" title=" " alt="" coords="344,958,433,979,431,985,343,963"/>
+<area shape="rect" id="Node000028" href="$classclang_1_1syntax_1_1Statement.html" title="An abstract node for C++ statements, e.g." alt="" coords="423,1319,609,1344"/>
+<area shape="poly" id="edge27_Node000003_Node000028" title=" " alt="" coords="295,968,509,1317,504,1320,291,971"/>
+<area shape="rect" id="Node000044" href="$classclang_1_1syntax_1_1TrailingReturnType.html" title="Trailing return type after the parameter list, including the arrow token." alt="" coords="397,1368,635,1393"/>
+<area shape="poly" id="edge43_Node000003_Node000044" title=" " alt="" coords="280,971,282,1046,287,1096,297,1150,312,1206,333,1260,362,1310,399,1353,417,1366,414,1370,396,1357,357,1313,328,1262,307,1207,292,1151,282,1097,277,1047,274,971"/>
+<area shape="rect" id="Node000045" href="$classclang_1_1syntax_1_1UnqualifiedId.html" title="Models an unqualified&#45;id." alt="" coords="415,1417,617,1443"/>
+<area shape="poly" id="edge44_Node000003_Node000045" title=" " alt="" coords="284,971,298,1067,322,1197,338,1263,356,1322,377,1371,399,1403,417,1415,414,1419,395,1407,372,1373,351,1324,333,1264,317,1198,292,1068,279,971"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1syntax_1_1EmptyDeclaration.html" title="A semicolon in the top&#45;level context. Does not declare anything." alt="" coords="693,5,927,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="622,393,633,384,649,363,660,343,666,322,669,301,665,258,656,215,646,172,643,128,645,106,652,85,664,63,681,41,697,29,700,33,685,45,668,66,657,87,651,107,648,128,651,171,661,214,671,257,674,301,672,323,665,345,654,366,637,388,626,397"/>
+<area shape="rect" id="Node000007" href="$classclang_1_1syntax_1_1ExplicitTemplateInstantiation.html" title="template &lt;declaration&gt; Examples: template struct X&lt;int&gt; template void foo&lt;int&gt;() template int var&lt;dou..." alt="" coords="697,55,923,95"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="623,393,633,384,656,351,664,317,663,283,657,248,650,212,649,177,657,141,681,106,695,93,699,97,685,109,662,143,654,177,656,212,662,247,668,282,670,317,661,353,637,388,626,397"/>
+<area shape="rect" id="Node000008" href="$classclang_1_1syntax_1_1LinkageSpecificationDeclaration.html" title="extern &lt;string&#45;literal&gt; declaration extern &lt;string&#45;literal&gt; { &lt;decls&gt; }" alt="" coords="685,119,935,159"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="622,393,633,384,651,359,659,333,660,306,656,279,653,252,654,224,661,197,681,170,696,157,699,162,685,173,666,199,659,225,658,252,662,279,665,306,664,334,656,361,637,388,626,397"/>
+<area shape="rect" id="Node000009" href="$classclang_1_1syntax_1_1NamespaceAliasDefinition.html" title="namespace &lt;name&gt; = &lt;namespace&#45;reference&gt;" alt="" coords="713,183,907,223"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="622,392,633,384,647,367,654,349,656,311,658,272,666,252,681,233,711,214,714,219,684,237,670,255,664,273,662,311,660,350,652,369,637,388,626,396"/>
+<area shape="rect" id="Node000010" href="$classclang_1_1syntax_1_1NamespaceDefinition.html" title="namespace &lt;name&gt; { &lt;decls&gt; }" alt="" coords="713,247,907,287"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="623,390,633,384,650,364,656,342,663,319,681,297,711,280,714,285,684,301,668,322,661,344,655,366,636,388,626,395"/>
+<area shape="rect" id="Node000011" href="$classclang_1_1syntax_1_1SimpleDeclaration.html" title="Groups multiple declarators (e.g." alt="" coords="691,312,929,337"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="610,392,633,384,647,375,657,366,667,357,682,348,719,335,721,340,684,352,670,361,660,370,651,379,636,388,612,397"/>
+<area shape="rect" id="Node000012" href="$classclang_1_1syntax_1_1StaticAssertDeclaration.html" title="static_assert(&lt;condition&gt;, &lt;message&gt;) static_assert(&lt;condition&gt;)" alt="" coords="713,362,907,402"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="625,398,712,389,713,394,626,403"/>
+<area shape="rect" id="Node000013" href="$classclang_1_1syntax_1_1TemplateDeclaration.html" title="template &lt;template&#45;parameters&gt; &lt;declaration&gt;" alt="" coords="684,427,936,452"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="626,419,684,425,683,430,626,424"/>
+<area shape="rect" id="Node000014" href="$classclang_1_1syntax_1_1TypeAliasDeclaration.html" title="using &lt;name&gt; = &lt;type&gt;" alt="" coords="721,477,899,517"/>
+<area shape="poly" id="edge13_Node000005_Node000014" title=" " alt="" coords="570,426,683,461,731,474,730,479,682,466,568,431"/>
+<area shape="rect" id="Node000015" href="$classclang_1_1syntax_1_1UnknownDeclaration.html" title="Declaration of an unknown kind, e.g. not yet supported in syntax trees." alt="" coords="683,541,937,567"/>
+<area shape="poly" id="edge14_Node000005_Node000015" title=" " alt="" coords="543,431,604,480,643,505,684,526,722,539,720,544,682,531,640,510,601,484,540,435"/>
+<area shape="rect" id="Node000016" href="$classclang_1_1syntax_1_1UsingDeclaration.html" title="using &lt;scope&gt;::&lt;name&gt; using typename &lt;scope&gt;::&lt;name&gt;" alt="" coords="695,591,925,616"/>
+<area shape="poly" id="edge15_Node000005_Node000016" title=" " alt="" coords="536,434,561,467,596,505,637,544,684,576,715,588,713,593,681,580,634,548,592,509,557,470,532,437"/>
+<area shape="rect" id="Node000017" href="$classclang_1_1syntax_1_1UsingNamespaceDirective.html" title="using namespace &lt;name&gt;" alt="" coords="695,641,925,681"/>
+<area shape="poly" id="edge16_Node000005_Node000017" title=" " alt="" coords="532,436,555,477,589,529,632,581,684,625,709,638,706,643,681,630,629,585,585,532,551,480,527,438"/>
+<area shape="rect" id="Node000019" href="$classclang_1_1syntax_1_1ParenDeclarator.html" title="Declarator inside parentheses." alt="" coords="699,705,921,731"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="605,750,733,728,734,733,606,755"/>
+<area shape="rect" id="Node000020" href="$classclang_1_1syntax_1_1SimpleDeclarator.html" title="A top&#45;level declarator without parentheses." alt="" coords="695,755,925,780"/>
+<area shape="poly" id="edge19_Node000018_Node000020" title=" " alt="" coords="622,765,695,765,695,770,622,770"/>
+<area shape="rect" id="Node000022" href="$classclang_1_1syntax_1_1CallArguments.html" title="Models arguments of a function call." alt="" coords="703,804,917,829"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="564,875,682,838,733,827,734,832,683,843,565,880"/>
+<area shape="rect" id="Node000023" href="$classclang_1_1syntax_1_1DeclaratorList.html" title=" " alt="" coords="706,853,914,879"/>
+<area shape="poly" id="edge22_Node000021_Node000023" title=" " alt="" coords="599,884,705,874,706,879,600,890"/>
+<area shape="rect" id="Node000024" href="$classclang_1_1syntax_1_1NestedNameSpecifier.html" title="Models a nested&#45;name&#45;specifier." alt="" coords="709,903,911,943"/>
+<area shape="poly" id="edge23_Node000021_Node000024" title=" " alt="" coords="600,901,709,911,708,916,599,906"/>
+<area shape="rect" id="Node000025" href="$classclang_1_1syntax_1_1ParameterDeclarationList.html" title="Models a parameter&#45;declaration&#45;list which appears within parameters&#45;and&#45;qualifiers." alt="" coords="718,967,902,1007"/>
+<area shape="poly" id="edge24_Node000021_Node000025" title=" " alt="" coords="600,905,636,917,651,926,661,935,670,944,684,953,719,966,717,971,681,958,667,948,657,939,647,930,634,922,599,910"/>
+<area shape="rect" id="Node000029" href="$classclang_1_1syntax_1_1BreakStatement.html" title="break;" alt="" coords="699,1032,921,1057"/>
+<area shape="poly" id="edge28_Node000028_Node000029" title=" " alt="" coords="523,1304,543,1253,576,1188,622,1122,650,1092,681,1066,703,1055,705,1060,684,1071,653,1096,626,1125,581,1191,548,1255,528,1306"/>
+<area shape="rect" id="Node000030" href="$classclang_1_1syntax_1_1CaseStatement.html" title="case : &lt;body&gt;" alt="" coords="701,1081,919,1107"/>
+<area shape="poly" id="edge29_Node000028_Node000030" title=" " alt="" coords="527,1305,550,1263,584,1211,628,1159,653,1136,681,1116,705,1104,708,1109,684,1120,657,1140,632,1163,588,1214,554,1266,531,1308"/>
+<area shape="rect" id="Node000031" href="$classclang_1_1syntax_1_1CompoundStatement.html" title="{ statement1; statement2; … }" alt="" coords="683,1131,937,1156"/>
+<area shape="poly" id="edge30_Node000028_Node000031" title=" " alt="" coords="532,1306,557,1273,592,1235,634,1197,681,1165,709,1154,711,1159,684,1170,637,1201,596,1239,561,1277,536,1309"/>
+<area shape="rect" id="Node000032" href="$classclang_1_1syntax_1_1ContinueStatement.html" title="continue;" alt="" coords="689,1180,931,1205"/>
+<area shape="poly" id="edge31_Node000028_Node000032" title=" " alt="" coords="540,1308,602,1261,641,1236,682,1216,721,1203,722,1208,684,1220,643,1241,605,1265,543,1312"/>
+<area shape="rect" id="Node000033" href="$classclang_1_1syntax_1_1DeclarationStatement.html" title="E.g. &#39;int a, b = 10;&#39;." alt="" coords="714,1230,906,1270"/>
+<area shape="poly" id="edge32_Node000028_Node000033" title=" " alt="" coords="571,1312,682,1279,727,1268,728,1273,683,1285,572,1317"/>
+<area shape="rect" id="Node000034" href="$classclang_1_1syntax_1_1DefaultStatement.html" title="default: &lt;body&gt;" alt="" coords="693,1295,927,1320"/>
+<area shape="poly" id="edge33_Node000028_Node000034" title=" " alt="" coords="622,1320,693,1314,693,1320,622,1325"/>
+<area shape="rect" id="Node000035" href="$classclang_1_1syntax_1_1EmptyStatement.html" title="The no&#45;op statement, i.e. &#39;;&#39;." alt="" coords="697,1344,923,1369"/>
+<area shape="poly" id="edge34_Node000028_Node000035" title=" " alt="" coords="623,1338,697,1344,696,1350,622,1343"/>
+<area shape="rect" id="Node000036" href="$classclang_1_1syntax_1_1ExpressionStatement.html" title="Expression in a statement position, e.g." alt="" coords="716,1394,904,1434"/>
+<area shape="poly" id="edge35_Node000028_Node000036" title=" " alt="" coords="609,1345,636,1353,660,1365,684,1378,723,1391,722,1397,682,1383,658,1370,634,1358,608,1350"/>
+<area shape="rect" id="Node000037" href="$classclang_1_1syntax_1_1ForStatement.html" title="for (&lt;init&gt;; &lt;cond&gt;; &lt;increment&gt;) &lt;body&gt;" alt="" coords="707,1459,913,1484"/>
+<area shape="poly" id="edge36_Node000028_Node000037" title=" " alt="" coords="623,1345,636,1353,648,1364,655,1376,661,1400,667,1423,674,1434,684,1444,708,1457,706,1462,681,1448,670,1437,662,1425,656,1401,650,1378,644,1368,633,1357,620,1350"/>
+<area shape="rect" id="Node000038" href="$classclang_1_1syntax_1_1IfStatement.html" title="if (cond) &lt;then&#45;statement&gt; else &lt;else&#45;statement&gt; FIXME: add condition that models &#39;expression or vari..." alt="" coords="713,1508,907,1533"/>
+<area shape="poly" id="edge37_Node000028_Node000038" title=" " alt="" coords="623,1344,636,1353,651,1371,659,1389,661,1425,664,1461,671,1477,684,1493,713,1510,711,1515,681,1497,666,1480,659,1462,656,1426,653,1390,647,1373,633,1357,620,1348"/>
+<area shape="rect" id="Node000039" href="$classclang_1_1syntax_1_1RangeBasedForStatement.html" title="for (&lt;decl&gt; : &lt;init&gt;) &lt;body&gt;" alt="" coords="711,1558,909,1598"/>
+<area shape="poly" id="edge38_Node000028_Node000039" title=" " alt="" coords="623,1343,637,1353,655,1377,663,1401,664,1425,662,1450,660,1474,661,1497,668,1520,685,1543,712,1561,709,1566,681,1547,663,1522,656,1498,655,1473,657,1449,659,1425,657,1402,650,1379,633,1357,619,1347"/>
+<area shape="rect" id="Node000040" href="$classclang_1_1syntax_1_1ReturnStatement.html" title="return &lt;expr&gt;; return;" alt="" coords="696,1623,924,1648"/>
+<area shape="poly" id="edge39_Node000028_Node000040" title=" " alt="" coords="623,1343,637,1353,659,1385,668,1418,667,1451,661,1483,656,1515,655,1547,663,1578,685,1608,701,1620,697,1625,681,1612,658,1580,650,1547,651,1515,656,1482,661,1450,662,1419,654,1388,633,1357,619,1347"/>
+<area shape="rect" id="Node000041" href="$classclang_1_1syntax_1_1SwitchStatement.html" title="switch (&lt;cond&gt;) &lt;body&gt;" alt="" coords="696,1672,924,1697"/>
+<area shape="poly" id="edge40_Node000028_Node000041" title=" " alt="" coords="623,1342,637,1353,652,1372,662,1392,671,1430,669,1469,661,1508,653,1546,651,1584,660,1621,670,1639,685,1657,700,1670,697,1674,681,1661,665,1642,655,1623,646,1584,648,1545,656,1507,664,1469,666,1431,657,1394,648,1375,633,1357,619,1347"/>
+<area shape="rect" id="Node000042" href="$classclang_1_1syntax_1_1UnknownStatement.html" title="A statement of an unknown kind, i.e." alt="" coords="687,1721,933,1747"/>
+<area shape="poly" id="edge41_Node000028_Node000042" title=" " alt="" coords="623,1342,637,1353,654,1376,666,1398,673,1420,675,1443,671,1488,661,1533,651,1577,647,1621,650,1643,656,1664,668,1685,685,1707,700,1719,696,1723,681,1711,663,1688,651,1666,645,1644,642,1621,646,1576,656,1531,666,1487,670,1443,667,1422,661,1400,650,1379,633,1357,620,1346"/>
+<area shape="rect" id="Node000043" href="$classclang_1_1syntax_1_1WhileStatement.html" title="while (&lt;cond&gt;) &lt;body&gt;" alt="" coords="699,1771,921,1796"/>
+<area shape="poly" id="edge42_Node000028_Node000043" title=" " alt="" coords="623,1342,637,1353,656,1379,669,1405,677,1430,679,1456,674,1507,661,1558,648,1609,643,1659,646,1684,653,1708,665,1733,685,1757,700,1770,696,1774,681,1761,661,1736,648,1710,640,1685,638,1659,643,1608,656,1557,669,1506,674,1456,671,1431,664,1406,652,1382,633,1357,619,1346"/>
+</map>

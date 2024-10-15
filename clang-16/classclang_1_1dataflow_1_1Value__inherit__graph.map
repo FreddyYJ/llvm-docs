@@ -1,0 +1,27 @@
+<map id="clang::dataflow::Value" name="clang::dataflow::Value">
+<area shape="rect" id="Node000001" title="Base class for all values computed by abstract interpretation." alt="" coords="5,326,169,351"/>
+<area shape="rect" id="Node000002" href="$classclang_1_1dataflow_1_1BoolValue.html" title="Models a boolean." alt="" coords="222,205,415,230"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,314,157,276,216,240,251,228,252,233,218,245,160,281,114,319"/>
+<area shape="rect" id="Node000010" href="$classclang_1_1dataflow_1_1IntegerValue.html" title="Models an integer." alt="" coords="231,255,406,295"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="147,320,245,292,246,297,148,325"/>
+<area shape="rect" id="Node000011" href="$classclang_1_1dataflow_1_1PointerValue.html" title="Models a symbolic pointer. Specifically, any value of type T*." alt="" coords="231,319,406,359"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="184,336,231,336,231,341,184,341"/>
+<area shape="rect" id="Node000012" href="$classclang_1_1dataflow_1_1ReferenceValue.html" title="Models a dereferenced pointer." alt="" coords="221,383,416,423"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="148,353,246,380,245,385,147,358"/>
+<area shape="rect" id="Node000013" href="$classclang_1_1dataflow_1_1StructValue.html" title="Models a value of struct or class type, with a flat map of fields to child storage locations,..." alt="" coords="217,447,420,473"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="114,359,160,397,218,432,252,445,251,450,216,437,157,401,111,363"/>
+<area shape="rect" id="Node000003" href="$classclang_1_1dataflow_1_1AtomicBoolValue.html" title="Models an atomic boolean." alt="" coords="473,5,676,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,192,387,124,425,87,467,55,490,43,493,48,469,60,428,91,391,128,338,195"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1dataflow_1_1BiconditionalValue.html" title="Models a boolean biconditional." alt="" coords="468,69,681,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="346,194,400,156,467,119,497,107,499,112,469,124,403,161,349,199"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1dataflow_1_1ConjunctionValue.html" title="Models a boolean conjunction." alt="" coords="472,133,677,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="383,199,493,171,494,176,385,204"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1dataflow_1_1DisjunctionValue.html" title="Models a boolean disjunction." alt="" coords="474,197,675,237"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="429,215,474,215,474,220,429,220"/>
+<area shape="rect" id="Node000007" href="$classclang_1_1dataflow_1_1ImplicationValue.html" title="Models a boolean implication." alt="" coords="474,261,675,301"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="385,231,494,259,493,264,383,236"/>
+<area shape="rect" id="Node000008" href="$classclang_1_1dataflow_1_1NegationValue.html" title="Models a boolean negation." alt="" coords="481,325,668,365"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="410,233,422,241,439,258,447,277,454,294,470,311,489,323,487,327,466,315,450,297,442,279,434,261,418,245,407,238"/>
+<area shape="rect" id="Node000009" href="$classclang_1_1dataflow_1_1TopBoolValue.html" title="Models the trivially true formula, which is Top in the lattice of boolean formulas." alt="" coords="485,389,664,429"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="414,235,422,241,436,258,443,275,447,309,450,343,457,359,470,375,487,388,484,392,466,379,452,362,445,344,442,310,438,276,431,260,418,245,411,239"/>
+</map>

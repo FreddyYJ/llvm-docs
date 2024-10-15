@@ -1,0 +1,160 @@
+<map id="include/clang/Format/Format.h" name="include/clang/Format/Format.h">
+<area shape="rect" id="Node000001" title="Various functions to configurably format source code." alt="" coords="3391,5,3550,45"/>
+<area shape="rect" id="Node000002" href="$AtomicChange_8h.html" title=" " alt="" coords="927,93,1139,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3378,33,1140,111,1139,106,3378,27"/>
+<area shape="rect" id="Node000019" href="$BreakableToken_8cpp.html" title="Contains implementation of BreakableToken class and classes derived from it." alt="" coords="1504,570,1725,595"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="3377,29,2998,32,2482,41,2226,49,2001,61,1827,76,1766,85,1726,96,1674,114,1631,134,1615,146,1603,162,1595,182,1592,207,1592,408,1595,455,1601,501,1614,569,1609,570,1595,502,1589,456,1587,408,1587,207,1590,180,1598,159,1611,142,1628,129,1672,110,1725,91,1765,80,1826,71,2001,55,2226,44,2482,35,2998,26,3377,24"/>
+<area shape="rect" id="Node000020" href="$ContinuationIndenter_8cpp.html" title="This file implements the continuation indenter." alt="" coords="1750,570,2005,595"/>
+<area shape="poly" id="edge18_Node000001_Node000020" title=" " alt="" coords="3378,30,3024,35,2549,46,2108,66,1949,79,1892,87,1855,96,1794,113,1742,130,1722,142,1707,158,1697,179,1693,207,1693,408,1698,438,1710,465,1728,489,1751,510,1802,545,1849,568,1847,572,1800,549,1748,514,1725,492,1706,467,1693,439,1688,408,1688,207,1692,177,1702,155,1719,138,1740,125,1793,108,1854,91,1891,82,1948,74,2108,60,2549,41,3024,30,3377,25"/>
+<area shape="rect" id="Node000021" href="$ContinuationIndenter_8h.html" title="This file implements an indenter that manages the indentation of continuations." alt="" coords="1941,394,2181,419"/>
+<area shape="poly" id="edge19_Node000001_Node000021" title=" " alt="" coords="3378,41,3229,63,3063,96,2915,133,2765,175,2478,264,2242,344,2093,396,2092,391,2240,339,2476,259,2763,170,2913,128,3062,91,3229,58,3377,35"/>
+<area shape="rect" id="Node000022" href="$Format_8cpp.html" title="This file implements functions declared in Format.h." alt="" coords="3644,570,3809,595"/>
+<area shape="poly" id="edge27_Node000001_Node000022" title=" " alt="" coords="3425,55,3397,73,3370,95,3333,135,3306,182,3284,255,3269,353,3266,403,3269,449,3277,486,3291,513,3314,530,3349,543,3393,554,3442,563,3547,574,3644,578,3644,583,3547,579,3441,568,3391,560,3347,548,3312,534,3287,516,3272,488,3263,449,3261,403,3264,352,3279,253,3302,180,3328,132,3366,91,3393,69,3422,50"/>
+<area shape="rect" id="Node000024" href="$UnwrappedLineFormatter_8h.html" title="Implements a combinatorial exploration of all the different linebreaks unwrapped lines can be formatt..." alt="" coords="1830,475,2023,515"/>
+<area shape="poly" id="edge103_Node000001_Node000024" title=" " alt="" coords="3378,29,2971,34,2702,43,2425,58,2165,80,2049,95,1947,112,1862,132,1798,154,1775,167,1758,180,1747,193,1744,208,1744,312,1748,341,1758,366,1774,390,1794,411,1840,447,1885,472,1882,477,1837,451,1790,415,1770,393,1754,369,1743,342,1739,313,1739,207,1743,191,1754,176,1772,162,1796,149,1861,126,1946,107,2048,89,2164,75,2425,52,2702,38,2971,29,3378,24"/>
+<area shape="rect" id="Node000026" href="$FormatToken_8h.html" title="This file contains the declaration of the FormatToken, a wrapper around Token with additional informa..." alt="" coords="3853,101,4040,126"/>
+<area shape="poly" id="edge28_Node000001_Node000026" title=" " alt="" coords="3564,41,3884,98,3883,103,3563,46"/>
+<area shape="rect" id="Node000028" href="$FormatTokenLexer_8cpp.html" title="This file implements FormatTokenLexer, which tokenizes a source file into a FormatToken stream suitab..." alt="" coords="3301,299,3537,324"/>
+<area shape="poly" id="edge93_Node000001_Node000028" title=" " alt="" coords="3467,59,3423,299,3418,298,3462,58"/>
+<area shape="rect" id="Node000029" href="$FormatTokenLexer_8h.html" title="This file contains FormatTokenLexer, which tokenizes a source file into a token stream suitable for C..." alt="" coords="3995,196,4216,221"/>
+<area shape="poly" id="edge94_Node000001_Node000029" title=" " alt="" coords="3564,24,3691,27,3834,37,3903,46,3965,57,4016,72,4054,91,4076,115,4092,144,4106,195,4101,197,4087,146,4072,118,4050,95,4014,77,3963,63,3902,51,3833,43,3690,33,3564,29"/>
+<area shape="rect" id="Node000030" href="$MacroExpander_8cpp.html" title="This file contains the implementation of MacroExpander, which handles macro configuration and expansi..." alt="" coords="4245,299,4464,324"/>
+<area shape="poly" id="edge95_Node000001_Node000030" title=" " alt="" coords="3564,27,3671,33,3803,44,3945,63,4086,91,4156,104,4212,115,4237,123,4262,136,4288,154,4315,180,4335,209,4348,243,4357,298,4352,299,4343,244,4331,212,4311,183,4285,158,4260,140,4235,128,4210,120,4155,109,4085,96,3944,68,3802,49,3671,38,3564,32"/>
+<area shape="rect" id="Node000031" href="$TokenAnalyzer_8cpp.html" title="This file implements an abstract TokenAnalyzer and associated helper classes." alt="" coords="4722,482,4934,507"/>
+<area shape="poly" id="edge100_Node000001_Node000031" title=" " alt="" coords="3564,26,3733,31,3958,43,4211,62,4467,91,4532,97,4591,98,4692,97,4738,102,4785,116,4832,140,4883,179,4909,207,4927,236,4938,265,4941,296,4938,327,4929,359,4897,428,4872,460,4846,484,4842,480,4868,457,4892,425,4924,357,4932,326,4936,296,4933,266,4923,238,4905,211,4880,183,4830,145,4783,121,4737,108,4691,102,4590,103,4532,102,4466,96,4211,67,3958,48,3733,37,3564,31"/>
+<area shape="rect" id="Node000032" href="$TokenAnalyzer_8h.html" title="This file declares an abstract TokenAnalyzer, and associated helper classes." alt="" coords="4141,394,4339,419"/>
+<area shape="poly" id="edge101_Node000001_Node000032" title=" " alt="" coords="3519,50,3700,150,3931,282,3975,311,4020,336,4109,369,4190,391,4188,397,4107,374,4018,341,3972,315,3928,286,3697,155,3516,55"/>
+<area shape="rect" id="Node000041" href="$SortJavaScriptImports_8cpp.html" title="This file implements a sort operation for JavaScript ES6 imports." alt="" coords="3302,475,3485,515"/>
+<area shape="poly" id="edge96_Node000001_Node000041" title=" " alt="" coords="3443,57,3405,98,3362,152,3321,216,3291,285,3286,312,3289,340,3297,367,3310,392,3342,439,3374,473,3370,476,3338,442,3305,395,3292,369,3283,341,3281,312,3285,283,3316,213,3357,149,3401,95,3439,54"/>
+<area shape="rect" id="Node000043" href="$UsingDeclarationsSorter_8cpp.html" title="This file implements UsingDeclarationsSorter, a TokenAnalyzer that sorts consecutive using declaratio..." alt="" coords="4892,563,5103,603"/>
+<area shape="poly" id="edge105_Node000001_Node000043" title=" " alt="" coords="3564,24,3962,30,4223,39,4492,55,4745,77,4857,92,4956,109,5039,128,5102,151,5142,177,5154,191,5157,207,5157,408,5154,435,5145,460,5131,483,5113,504,5073,539,5035,565,5032,560,5070,535,5109,500,5126,480,5140,457,5149,434,5152,408,5152,208,5149,194,5139,181,5100,156,5037,133,4955,114,4856,97,4744,82,4492,60,4222,45,3961,36,3564,29"/>
+<area shape="rect" id="Node000048" href="$UnwrappedLineParser_8h.html" title="This file contains the declaration of the UnwrappedLineParser, which turns a stream of tokens into Un..." alt="" coords="4635,189,4829,229"/>
+<area shape="poly" id="edge104_Node000001_Node000048" title=" " alt="" coords="3564,24,3719,27,3921,37,4147,57,4262,72,4374,91,4462,111,4548,137,4686,186,4684,191,4546,142,4460,116,4373,96,4261,77,4147,62,3921,42,3719,32,3564,29"/>
+<area shape="rect" id="Node000049" href="$TokenAnnotator_8h.html" title="This file implements a token annotator, i.e." alt="" coords="3713,299,3917,324"/>
+<area shape="poly" id="edge102_Node000001_Node000049" title=" " alt="" coords="3500,54,3586,138,3640,187,3698,234,3749,269,3795,296,3792,301,3746,274,3694,238,3637,191,3582,142,3497,58"/>
+<area shape="rect" id="Node000052" href="$WhitespaceManager_8h.html" title="WhitespaceManager class manages whitespace around tokens and their replacements." alt="" coords="2783,394,3019,419"/>
+<area shape="poly" id="edge106_Node000001_Node000052" title=" " alt="" coords="3378,39,3229,61,3163,77,3117,96,3074,129,3036,169,3003,213,2974,257,2931,340,2908,395,2903,393,2926,337,2969,255,2998,210,3032,165,3071,125,3115,91,3161,72,3228,56,3377,33"/>
+<area shape="rect" id="Node000054" href="$SortJavaScriptImports_8h.html" title="This file implements a sorter for JavaScript ES6 imports." alt="" coords="3043,387,3226,427"/>
+<area shape="poly" id="edge97_Node000001_Node000054" title=" " alt="" coords="3378,36,3309,44,3240,56,3182,73,3160,83,3146,95,3124,130,3111,169,3105,210,3105,252,3116,330,3131,386,3126,387,3111,331,3100,253,3100,210,3106,168,3119,127,3142,92,3158,79,3180,68,3239,50,3309,38,3377,30"/>
+<area shape="rect" id="Node000055" href="$CommentToXML_8cpp.html" title=" " alt="" coords="5193,101,5407,126"/>
+<area shape="poly" id="edge107_Node000001_Node000055" title=" " alt="" coords="3564,24,3838,27,4236,36,4700,56,4939,72,5174,91,5232,98,5231,103,5173,96,4939,77,4700,62,4235,42,3838,32,3564,29"/>
+<area shape="rect" id="Node000056" href="$Refactoring_8cpp.html" title=" " alt="" coords="5432,101,5627,126"/>
+<area shape="poly" id="edge108_Node000001_Node000056" title=" " alt="" coords="3564,26,4481,46,5023,66,5249,77,5420,91,5472,98,5471,103,5420,96,5249,83,5022,71,4480,52,3564,31"/>
+<area shape="rect" id="Node000003" href="$RefactoringResultConsumer_8h.html" title=" " alt="" coords="1331,181,1552,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1130,134,1331,180,1330,185,1129,139"/>
+<area shape="rect" id="Node000011" href="$RenamingAction_8h.html" title="Provides an action to rename every symbol at a point." alt="" coords="181,181,411,236"/>
+<area shape="poly" id="edge4_Node000002_Node000011" title=" " alt="" coords="914,127,686,150,423,184,411,186,410,181,422,179,685,144,913,122"/>
+<area shape="rect" id="Node000012" href="$USRLocFinder_8h.html" title="Provides functionality for finding all instances of a USR in a given AST." alt="" coords="435,189,698,229"/>
+<area shape="poly" id="edge7_Node000002_Node000012" title=" " alt="" coords="926,139,661,191,660,186,925,133"/>
+<area shape="rect" id="Node000014" href="$RewriteRule_8h.html" title="Defines the RewriteRule class and related functions for creating, modifying and interpreting RewriteR..." alt="" coords="866,189,1065,229"/>
+<area shape="poly" id="edge10_Node000002_Node000014" title=" " alt="" coords="1014,146,981,190,977,187,1009,143"/>
+<area shape="rect" id="Node000015" href="$Transformer_8h.html" title=" " alt="" coords="672,291,869,331"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="938,140,895,158,855,183,829,209,808,238,781,292,776,290,804,236,825,206,852,179,892,154,936,135"/>
+<area shape="rect" id="Node000016" href="$Transformer_8cpp.html" title=" " alt="" coords="851,387,1021,427"/>
+<area shape="poly" id="edge16_Node000002_Node000016" title=" " alt="" coords="1060,143,1078,180,1092,225,1100,263,1097,299,1078,340,1065,356,1050,370,1014,389,1011,384,1047,365,1062,352,1074,337,1092,298,1095,263,1087,227,1074,182,1055,146"/>
+<area shape="rect" id="Node000018" href="$AtomicChange_8cpp.html" title=" " alt="" coords="1139,189,1306,229"/>
+<area shape="poly" id="edge15_Node000002_Node000018" title=" " alt="" coords="1085,137,1186,186,1183,191,1083,142"/>
+<area shape="rect" id="Node000004" href="$RefactoringActionRulesInternal_8h.html" title=" " alt="" coords="1331,284,1552,339"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1444,250,1444,284,1439,284,1439,250"/>
+<area shape="rect" id="Node000008" href="$RefactoringActions_8cpp.html" title=" " alt="" coords="5,291,181,331"/>
+<area shape="poly" id="edge5_Node000011_Node000008" title=" " alt="" coords="232,244,133,293,131,289,230,240"/>
+<area shape="rect" id="Node000010" href="$RenamingAction_8cpp.html" title="Provides an action to rename every symbol at a point." alt="" coords="205,291,424,331"/>
+<area shape="poly" id="edge6_Node000011_Node000010" title=" " alt="" coords="306,249,314,290,308,291,301,250"/>
+<area shape="poly" id="edge8_Node000012_Node000010" title=" " alt="" coords="508,236,363,294,361,289,506,231"/>
+<area shape="rect" id="Node000013" href="$USRLocFinder_8cpp.html" title="Methods for finding all instances of a USR." alt="" coords="449,291,647,331"/>
+<area shape="poly" id="edge9_Node000012_Node000013" title=" " alt="" coords="563,243,554,292,549,291,558,242"/>
+<area shape="poly" id="edge11_Node000014_Node000015" title=" " alt="" coords="918,237,808,294,806,289,916,233"/>
+<area shape="rect" id="Node000017" href="$RewriteRule_8cpp.html" title=" " alt="" coords="893,291,1064,331"/>
+<area shape="poly" id="edge13_Node000014_Node000017" title=" " alt="" coords="972,242,979,291,974,292,967,242"/>
+<area shape="poly" id="edge12_Node000015_Node000016" title=" " alt="" coords="817,336,904,384,901,389,814,340"/>
+<area shape="poly" id="edge20_Node000021_Node000019" title=" " alt="" coords="1987,425,1899,446,1806,477,1755,500,1707,527,1633,572,1630,567,1704,522,1753,496,1804,472,1898,441,1986,420"/>
+<area shape="poly" id="edge21_Node000021_Node000020" title=" " alt="" coords="1968,424,1878,446,1841,460,1819,476,1814,488,1813,500,1824,525,1843,549,1864,568,1860,572,1839,553,1819,528,1808,501,1809,486,1815,473,1839,455,1876,441,1967,419"/>
+<area shape="poly" id="edge22_Node000021_Node000022" title=" " alt="" coords="2062,433,2067,475,2075,496,2088,512,2145,518,2290,526,2747,545,3644,576,3644,581,2747,550,2290,531,2144,523,2085,517,2070,499,2061,477,2057,434"/>
+<area shape="rect" id="Node000023" href="$FormatToken_8cpp.html" title="This file implements specific functions of FormatTokens and their roles." alt="" coords="2099,482,2301,507"/>
+<area shape="poly" id="edge23_Node000021_Node000023" title=" " alt="" coords="2093,424,2183,479,2180,484,2090,429"/>
+<area shape="poly" id="edge24_Node000021_Node000024" title=" " alt="" coords="2033,429,1958,477,1955,472,2030,425"/>
+<area shape="poly" id="edge25_Node000024_Node000022" title=" " alt="" coords="2037,511,2043,512,2316,527,2784,546,3644,576,3643,581,2784,551,2315,533,2042,517,2036,517"/>
+<area shape="rect" id="Node000025" href="$UnwrappedLineFormatter_8cpp.html" title=" " alt="" coords="2525,563,2718,603"/>
+<area shape="poly" id="edge26_Node000024_Node000025" title=" " alt="" coords="2037,511,2043,512,2304,545,2525,569,2524,574,2303,550,2042,517,2036,516"/>
+<area shape="poly" id="edge30_Node000026_Node000020" title=" " alt="" coords="3840,121,3463,139,3226,158,2988,184,2824,203,2684,216,2446,239,2333,258,2215,286,2083,329,1930,389,1889,406,1857,420,1831,441,1808,476,1802,494,1808,514,1818,530,1831,545,1859,568,1856,572,1827,549,1813,534,1803,516,1797,494,1803,474,1827,438,1854,416,1887,401,1928,384,2081,324,2213,281,2332,253,2445,234,2684,211,2824,198,2988,179,3226,153,3462,134,3839,115"/>
+<area shape="poly" id="edge31_Node000026_Node000021" title=" " alt="" coords="3840,125,3591,148,3296,184,3071,222,2897,259,2724,298,2499,341,2143,397,2143,391,2498,336,2723,293,2896,254,3070,217,3296,179,3591,142,3840,120"/>
+<area shape="poly" id="edge32_Node000026_Node000022" title=" " alt="" coords="3902,133,3852,156,3796,189,3744,232,3722,257,3704,285,3698,299,3697,311,3704,338,3710,352,3718,362,3737,385,3767,427,3778,447,3788,474,3792,495,3788,516,3768,548,3743,572,3740,568,3763,545,3783,514,3787,495,3783,475,3773,449,3762,430,3733,388,3714,365,3706,355,3699,340,3692,311,3693,298,3699,283,3717,254,3740,228,3793,184,3849,151,3899,129"/>
+<area shape="poly" id="edge33_Node000026_Node000023" title=" " alt="" coords="3840,129,3669,152,3478,184,3099,265,2734,353,2432,432,2241,484,2240,479,2430,427,2733,348,3098,259,3477,179,3668,147,3839,124"/>
+<area shape="rect" id="Node000027" href="$AffectedRangeManager_8cpp.html" title="This file implements AffectRangeManager class." alt="" coords="3536,387,3723,427"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="3858,131,3790,150,3719,181,3685,201,3655,225,3628,253,3608,285,3601,311,3603,338,3611,364,3621,386,3616,388,3606,366,3598,339,3596,310,3603,283,3624,250,3651,221,3682,197,3716,176,3788,145,3856,126"/>
+<area shape="poly" id="edge34_Node000026_Node000028" title=" " alt="" coords="3840,119,3774,125,3701,136,3626,156,3556,184,3515,210,3478,243,3429,300,3425,297,3474,239,3511,206,3553,179,3625,150,3700,131,3773,120,3840,114"/>
+<area shape="poly" id="edge35_Node000026_Node000029" title=" " alt="" coords="3979,131,4087,194,4084,198,3977,135"/>
+<area shape="poly" id="edge59_Node000026_Node000030" title=" " alt="" coords="4054,125,4180,147,4235,162,4273,179,4304,207,4327,240,4353,297,4348,300,4322,243,4299,210,4271,184,4234,167,4179,152,4053,130"/>
+<area shape="poly" id="edge64_Node000026_Node000031" title=" " alt="" coords="4054,113,4263,118,4510,128,4626,137,4725,148,4800,162,4826,170,4843,179,4870,206,4888,234,4898,262,4902,291,4900,322,4893,354,4873,428,4858,459,4841,483,4836,480,4854,456,4868,426,4888,353,4894,321,4896,291,4893,263,4883,236,4866,210,4840,183,4824,175,4799,167,4725,153,4625,142,4509,134,4263,123,4053,118"/>
+<area shape="poly" id="edge65_Node000026_Node000032" title=" " alt="" coords="3952,139,3963,186,3972,211,3985,235,4008,264,4035,291,4097,336,4158,370,4209,391,4207,396,4156,374,4094,341,4032,295,4004,268,3980,237,3967,213,3958,187,3947,140"/>
+<area shape="rect" id="Node000040" href="$QualifierAlignmentFixer_8cpp.html" title="This file implements LeftRightQualifierAlignmentFixer, a TokenAnalyzer that enforces either left or r..." alt="" coords="4361,563,4575,603"/>
+<area shape="poly" id="edge63_Node000026_Node000040" title=" " alt="" coords="4054,112,4252,115,4491,125,4610,134,4719,145,4812,160,4882,179,4947,200,5002,220,5024,234,5041,253,5052,278,5056,310,5056,408,5051,446,5036,474,5012,496,4979,517,4947,531,4906,543,4801,561,4684,573,4576,580,4576,575,4684,568,4800,556,4904,538,4946,526,4976,512,5009,491,5032,470,5046,444,5051,408,5051,310,5047,279,5037,256,5021,238,5000,225,4945,205,4881,184,4811,165,4719,150,4610,139,4491,130,4252,121,4054,117"/>
+<area shape="rect" id="Node000044" href="$Macros_8h.html" title="This file contains the main building blocks of macro support in clang&#45;format." alt="" coords="4393,196,4543,221"/>
+<area shape="poly" id="edge60_Node000026_Node000044" title=" " alt="" coords="4025,126,4323,179,4405,193,4404,199,4322,184,4024,131"/>
+<area shape="rect" id="Node000046" href="$TokenAnnotator_8cpp.html" title="This file implements a token annotator, i.e." alt="" coords="3899,394,4117,419"/>
+<area shape="poly" id="edge66_Node000026_Node000046" title=" " alt="" coords="3944,140,3939,185,3941,236,3954,283,3972,327,4004,393,3999,395,3967,330,3949,284,3936,236,3933,185,3939,139"/>
+<area shape="rect" id="Node000047" href="$UnwrappedLineParser_8cpp.html" title="This file contains the implementation of the UnwrappedLineParser, which turns a stream of tokens into..." alt="" coords="4465,387,4658,427"/>
+<area shape="poly" id="edge67_Node000026_Node000047" title=" " alt="" coords="4054,124,4159,145,4202,160,4230,180,4242,201,4244,221,4233,261,4222,299,4224,318,4235,337,4260,345,4317,358,4465,386,4464,391,4316,363,4259,350,4232,341,4219,320,4217,299,4228,260,4239,221,4237,202,4226,183,4200,165,4158,150,4053,129"/>
+<area shape="poly" id="edge68_Node000026_Node000048" title=" " alt="" coords="4054,122,4285,147,4556,179,4636,190,4635,195,4556,184,4284,152,4053,128"/>
+<area shape="poly" id="edge36_Node000029_Node000022" title=" " alt="" coords="3982,224,3845,247,3773,264,3702,287,3645,305,3599,320,3579,330,3561,344,3543,363,3526,388,3519,408,3520,416,3526,425,3540,439,3555,449,3586,457,3620,455,3654,448,3689,441,3724,439,3757,448,3772,458,3787,473,3794,486,3795,500,3785,527,3764,552,3743,572,3740,568,3760,549,3780,525,3790,499,3789,488,3783,476,3769,462,3754,453,3723,444,3690,446,3655,453,3620,460,3586,462,3553,453,3537,443,3522,428,3515,418,3514,407,3522,385,3539,359,3557,340,3576,326,3597,315,3643,300,3701,281,3771,259,3844,241,3981,219"/>
+<area shape="poly" id="edge37_Node000029_Node000028" title=" " alt="" coords="4014,226,3497,301,3496,296,4013,221"/>
+<area shape="poly" id="edge38_Node000029_Node000030" title=" " alt="" coords="4148,224,4327,296,4325,301,4146,229"/>
+<area shape="poly" id="edge39_Node000029_Node000031" title=" " alt="" coords="4121,232,4159,285,4185,313,4215,336,4240,350,4262,358,4304,364,4347,368,4371,374,4399,384,4415,395,4427,405,4438,415,4454,424,4506,440,4580,455,4738,479,4737,485,4579,460,4505,445,4452,429,4435,419,4423,409,4412,399,4396,389,4370,379,4346,373,4303,369,4261,363,4238,355,4212,341,4181,317,4155,289,4117,235"/>
+<area shape="poly" id="edge40_Node000029_Node000032" title=" " alt="" coords="4109,234,4118,285,4127,312,4141,337,4157,355,4175,370,4214,392,4211,396,4172,374,4153,359,4136,340,4122,314,4113,286,4104,235"/>
+<area shape="poly" id="edge44_Node000032_Node000022" title=" " alt="" coords="4159,425,4075,445,3989,477,3961,497,3932,517,3850,550,3775,573,3774,567,3848,545,3929,512,3958,492,3987,472,4074,440,4158,419"/>
+<area shape="poly" id="edge55_Node000032_Node000031" title=" " alt="" coords="4324,419,4358,424,4745,479,4744,485,4357,429,4323,424"/>
+<area shape="rect" id="Node000033" href="$DefinitionBlockSeparator_8h.html" title="This file declares DefinitionBlockSeparator, a TokenAnalyzer that inserts or removes empty lines sepa..." alt="" coords="2934,475,3125,515"/>
+<area shape="poly" id="edge41_Node000032_Node000033" title=" " alt="" coords="4167,424,4130,429,3894,451,3710,460,3526,466,3289,477,3125,489,3125,483,3289,472,3526,460,3710,455,3894,446,4129,424,4166,419"/>
+<area shape="rect" id="Node000035" href="$IntegerLiteralSeparatorFixer_8h.html" title="This file declares IntegerLiteralSeparatorFixer that fixes C++ integer literal separators." alt="" coords="4000,475,4179,515"/>
+<area shape="poly" id="edge45_Node000032_Node000035" title=" " alt="" coords="4209,429,4124,477,4121,472,4207,424"/>
+<area shape="rect" id="Node000037" href="$NamespaceEndCommentsFixer_8h.html" title="This file declares NamespaceEndCommentsFixer, a TokenAnalyzer that fixes namespace end comments." alt="" coords="3509,475,3773,515"/>
+<area shape="poly" id="edge48_Node000032_Node000037" title=" " alt="" coords="4162,424,4130,429,3774,479,3773,474,4129,424,4161,419"/>
+<area shape="rect" id="Node000039" href="$QualifierAlignmentFixer_8h.html" title="This file declares LeftRightQualifierAlignmentFixer, a TokenAnalyzer that enforces either east or wes..." alt="" coords="4203,475,4418,515"/>
+<area shape="poly" id="edge51_Node000032_Node000039" title=" " alt="" coords="4260,428,4297,472,4293,476,4256,432"/>
+<area shape="poly" id="edge54_Node000032_Node000041" title=" " alt="" coords="4166,424,4130,429,3952,446,3813,453,3675,460,3498,477,3485,479,3485,474,3497,472,3674,454,3813,447,3952,441,4129,424,4165,419"/>
+<area shape="rect" id="Node000042" href="$UsingDeclarationsSorter_8h.html" title="This file declares UsingDeclarationsSorter, a TokenAnalyzer that sorts consecutive using declarations..." alt="" coords="4443,475,4653,515"/>
+<area shape="poly" id="edge56_Node000032_Node000042" title=" " alt="" coords="4295,421,4481,472,4479,477,4294,426"/>
+<area shape="poly" id="edge43_Node000033_Node000022" title=" " alt="" coords="3139,511,3144,512,3418,546,3644,570,3643,576,3418,551,3144,517,3138,517"/>
+<area shape="rect" id="Node000034" href="$DefinitionBlockSeparator_8cpp.html" title="This file implements DefinitionBlockSeparator, a TokenAnalyzer that inserts or removes empty lines se..." alt="" coords="2934,563,3125,603"/>
+<area shape="poly" id="edge42_Node000033_Node000034" title=" " alt="" coords="3032,529,3032,562,3027,562,3027,529"/>
+<area shape="poly" id="edge46_Node000035_Node000022" title=" " alt="" coords="3997,520,3776,573,3774,567,3996,515"/>
+<area shape="rect" id="Node000036" href="$IntegerLiteralSeparatorFixer_8cpp.html" title="This file implements IntegerLiteralSeparatorFixer that fixes C++ integer literal separators." alt="" coords="4000,563,4179,603"/>
+<area shape="poly" id="edge47_Node000035_Node000036" title=" " alt="" coords="4092,529,4092,562,4087,562,4087,529"/>
+<area shape="poly" id="edge49_Node000037_Node000022" title=" " alt="" coords="3672,523,3717,568,3713,571,3668,526"/>
+<area shape="poly" id="edge50_Node000037_Node000025" title=" " alt="" coords="3496,517,3058,555,2719,578,2718,573,3057,550,3495,512"/>
+<area shape="poly" id="edge52_Node000039_Node000022" title=" " alt="" coords="4190,517,3808,573,3807,567,4189,512"/>
+<area shape="poly" id="edge53_Node000039_Node000040" title=" " alt="" coords="4358,519,4435,560,4432,565,4356,524"/>
+<area shape="poly" id="edge57_Node000042_Node000022" title=" " alt="" coords="4429,517,4081,555,3810,578,3810,573,4081,550,4429,512"/>
+<area shape="poly" id="edge58_Node000042_Node000043" title=" " alt="" coords="4661,515,4899,560,4898,565,4660,520"/>
+<area shape="poly" id="edge62_Node000044_Node000030" title=" " alt="" coords="4446,233,4369,301,4366,297,4443,229"/>
+<area shape="rect" id="Node000045" href="$MacroCallReconstructor_8cpp.html" title="This file contains the implementation of MacroCallReconstructor, which fits an reconstructed macro ca..." alt="" coords="4489,299,4762,324"/>
+<area shape="poly" id="edge61_Node000044_Node000045" title=" " alt="" coords="4499,226,4609,296,4606,301,4496,231"/>
+<area shape="poly" id="edge69_Node000048_Node000022" title=" " alt="" coords="4798,232,4835,254,4869,282,4922,341,4946,370,4964,399,4976,428,4979,457,4970,487,4948,517,4931,524,4897,530,4789,541,4474,555,3988,565,3810,578,3809,572,3988,560,4473,549,4789,535,4897,525,4930,519,4945,513,4965,484,4973,457,4971,429,4960,401,4941,373,4918,345,4865,286,4832,258,4795,237"/>
+<area shape="poly" id="edge71_Node000048_Node000031" title=" " alt="" coords="4792,233,4821,254,4844,283,4854,310,4860,338,4858,396,4847,447,4835,482,4830,481,4842,445,4853,395,4854,339,4849,311,4839,285,4817,258,4789,238"/>
+<area shape="poly" id="edge72_Node000048_Node000032" title=" " alt="" coords="4759,238,4774,262,4785,289,4788,316,4784,329,4776,341,4759,348,4722,355,4608,371,4339,399,4339,394,4608,366,4721,350,4757,343,4773,337,4779,326,4782,315,4780,290,4769,265,4754,241"/>
+<area shape="poly" id="edge70_Node000048_Node000045" title=" " alt="" coords="4704,240,4640,300,4636,296,4700,236"/>
+<area shape="poly" id="edge92_Node000048_Node000047" title=" " alt="" coords="4779,235,4803,256,4821,283,4831,312,4829,326,4821,340,4795,359,4756,374,4659,395,4657,390,4754,369,4793,354,4817,337,4824,324,4825,313,4816,285,4799,259,4775,239"/>
+<area shape="poly" id="edge73_Node000048_Node000049" title=" " alt="" coords="4622,230,4556,239,4205,277,3917,304,3917,299,4204,272,4556,233,4621,224"/>
+<area shape="poly" id="edge79_Node000049_Node000022" title=" " alt="" coords="3836,333,3861,370,3885,416,3893,442,3896,467,3893,492,3882,516,3865,536,3843,552,3794,572,3792,567,3840,548,3861,532,3878,513,3888,491,3891,467,3888,443,3880,418,3857,372,3831,336"/>
+<area shape="poly" id="edge74_Node000049_Node000027" title=" " alt="" coords="3781,332,3668,389,3665,384,3779,328"/>
+<area shape="poly" id="edge81_Node000049_Node000031" title=" " alt="" coords="3931,320,4163,346,4273,363,4352,384,4369,394,4381,405,4393,415,4409,424,4458,436,4545,450,4744,479,4743,485,4544,456,4457,441,4407,429,4389,419,4378,409,4366,398,4350,389,4272,369,4163,351,3930,325"/>
+<area shape="poly" id="edge82_Node000049_Node000032" title=" " alt="" coords="3881,324,4188,391,4187,396,3880,330"/>
+<area shape="poly" id="edge80_Node000049_Node000041" title=" " alt="" coords="3807,338,3780,385,3760,409,3736,429,3485,479,3484,474,3734,424,3756,405,3776,382,3802,335"/>
+<area shape="poly" id="edge83_Node000049_Node000046" title=" " alt="" coords="3852,328,3985,391,3983,396,3850,332"/>
+<area shape="poly" id="edge84_Node000049_Node000047" title=" " alt="" coords="3920,323,4465,391,4464,396,3920,328"/>
+<area shape="rect" id="Node000050" href="$BreakableToken_8h.html" title="Declares BreakableToken, BreakableStringLiteral, BreakableComment, BreakableBlockComment and Breakabl..." alt="" coords="2326,482,2533,507"/>
+<area shape="poly" id="edge75_Node000049_Node000050" title=" " alt="" coords="3699,328,3548,341,3377,346,3156,349,3043,352,2937,359,2844,371,2772,389,2755,398,2744,408,2733,419,2716,429,2674,443,2615,458,2491,485,2490,479,2614,453,2672,438,2714,424,2729,414,2740,404,2752,393,2770,384,2843,366,2936,354,3043,347,3156,343,3377,341,3548,336,3698,322"/>
+<area shape="poly" id="edge85_Node000049_Node000052" title=" " alt="" coords="3699,327,3548,341,3289,363,3031,389,2976,397,2975,391,3030,384,3289,358,3548,336,3698,321"/>
+<area shape="poly" id="edge76_Node000050_Node000019" title=" " alt="" coords="2351,512,2314,517,2152,534,2026,542,1899,550,1738,565,1684,573,1684,567,1737,560,1899,544,2025,536,2151,528,2313,512,2351,507"/>
+<area shape="poly" id="edge77_Node000050_Node000020" title=" " alt="" coords="2347,512,2314,517,1953,573,1953,567,2313,512,2346,507"/>
+<area shape="poly" id="edge78_Node000050_Node000022" title=" " alt="" coords="2547,504,2647,512,3217,550,3644,574,3644,580,3217,555,2646,517,2547,509"/>
+<area shape="poly" id="edge87_Node000052_Node000020" title=" " alt="" coords="2821,425,2724,446,2622,477,2600,487,2584,498,2568,508,2545,517,2442,537,2300,554,2005,577,2005,572,2299,549,2441,532,2543,512,2565,503,2582,493,2598,483,2620,472,2723,441,2819,419"/>
+<area shape="poly" id="edge89_Node000052_Node000022" title=" " alt="" coords="2981,420,3058,440,3137,472,3153,483,3163,494,3173,503,3188,512,3225,524,3274,535,3397,552,3644,574,3643,579,3396,558,3273,540,3223,529,3186,517,3170,508,3159,497,3149,487,3135,477,3056,446,2979,425"/>
+<area shape="poly" id="edge90_Node000052_Node000025" title=" " alt="" coords="2811,424,2714,446,2674,461,2649,477,2635,496,2627,519,2623,563,2618,562,2622,518,2630,494,2645,473,2672,456,2712,441,2809,419"/>
+<area shape="poly" id="edge88_Node000052_Node000033" title=" " alt="" coords="2932,425,3003,472,3000,477,2929,429"/>
+<area shape="poly" id="edge86_Node000052_Node000050" title=" " alt="" coords="2825,424,2493,485,2492,479,2824,419"/>
+<area shape="rect" id="Node000053" href="$WhitespaceManager_8cpp.html" title="This file implements WhitespaceManager class." alt="" coords="2659,482,2909,507"/>
+<area shape="poly" id="edge91_Node000052_Node000053" title=" " alt="" coords="2876,430,2802,484,2798,480,2873,425"/>
+<area shape="poly" id="edge98_Node000054_Node000022" title=" " alt="" coords="3158,436,3196,477,3220,496,3246,512,3278,524,3320,534,3426,552,3644,573,3643,579,3425,557,3319,540,3276,529,3244,517,3217,501,3193,481,3154,439"/>
+<area shape="poly" id="edge99_Node000054_Node000041" title=" " alt="" coords="3205,429,3338,472,3336,477,3204,434"/>
+</map>

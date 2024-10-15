@@ -1,0 +1,84 @@
+<map id="include/clang/Basic/HLSLRuntime.h" name="include/clang/Basic/HLSLRuntime.h">
+<area shape="rect" id="Node000001" title="Defines helper utilities for supporting the HLSL runtime environment." alt="" coords="1860,5,2006,45"/>
+<area shape="rect" id="Node000002" href="$LangOptions_8h.html" title="Defines the clang::LangOptions interface." alt="" coords="1062,93,1255,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1860,37,1269,96,1269,91,1859,31"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="2786,247,2853,273"/>
+<area shape="poly" id="edge49_Node000001_Node000021" title=" " alt="" coords="2007,25,2197,32,2315,40,2438,53,2557,71,2665,94,2752,125,2785,144,2811,165,2821,181,2826,199,2827,234,2821,234,2821,199,2816,183,2807,168,2782,148,2750,130,2663,100,2556,76,2438,58,2315,46,2197,37,2006,30"/>
+<area shape="rect" id="Node000003" href="$CommentOptions_8h.html" title="Defines the clang::CommentOptions interface." alt="" coords="25,167,252,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1061,116,270,169,265,170,265,164,270,164,1061,111"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="260,247,318,273"/>
+<area shape="poly" id="edge45_Node000002_Node000004" title=" " alt="" coords="1062,112,875,119,655,130,461,147,393,157,354,169,337,182,322,200,301,236,296,233,317,196,333,179,352,164,392,152,460,141,654,125,874,114,1061,107"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="32,247,95,273"/>
+<area shape="poly" id="edge46_Node000002_Node000005" title=" " alt="" coords="1061,111,789,117,449,128,154,145,58,156,28,162,15,169,8,184,13,202,25,220,41,237,37,240,21,223,8,204,3,184,11,165,27,157,57,151,154,140,449,123,788,112,1061,106"/>
+<area shape="rect" id="Node000006" href="$LLVM_8h.html" title="Forward&#45;declares and imports various common LLVM datatypes that clang wants to use unqualified." alt="" coords="1405,247,1552,273"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1256,109,1372,117,1497,129,1601,144,1636,154,1656,165,1662,179,1656,194,1638,209,1609,223,1539,246,1538,241,1607,218,1635,204,1652,190,1657,179,1652,168,1634,159,1600,150,1496,134,1372,122,1255,115"/>
+<area shape="rect" id="Node000010" href="$LangStandard_8h.html" title=" " alt="" coords="1440,167,1642,192"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1220,116,1466,161,1465,167,1219,121"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="978,247,1136,273"/>
+<area shape="poly" id="edge42_Node000002_Node000011" title=" " alt="" coords="1255,111,1312,121,1360,136,1377,146,1388,160,1389,176,1378,194,1126,247,1125,242,1375,190,1383,175,1383,162,1374,150,1358,141,1311,126,1255,117"/>
+<area shape="rect" id="Node000013" href="$ObjCRuntime_8h.html" title="Defines types useful for describing an Objective&#45;C runtime." alt="" coords="376,167,575,192"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="1062,120,589,169,588,164,1061,115"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="574,247,708,273"/>
+<area shape="poly" id="edge43_Node000002_Node000014" title=" " alt="" coords="1061,110,874,113,655,121,553,129,465,139,401,152,379,160,367,168,362,179,367,190,581,242,579,247,363,194,357,179,363,165,377,155,399,147,465,134,552,124,655,116,874,107,1061,105"/>
+<area shape="rect" id="Node000018" href="$Sanitizers_8h.html" title="Defines the clang::SanitizerKind enum." alt="" coords="2086,167,2262,192"/>
+<area shape="poly" id="edge21_Node000002_Node000018" title=" " alt="" coords="1255,111,2073,168,2072,174,1255,117"/>
+<area shape="rect" id="Node000023" href="$TargetCXXABI_8h.html" title="Defines the TargetCXXABI class, which abstracts details of the C++ ABI that we&#39;re targeting." alt="" coords="1718,167,1919,192"/>
+<area shape="poly" id="edge29_Node000002_Node000023" title=" " alt="" coords="1255,115,1704,163,1704,168,1255,120"/>
+<area shape="rect" id="Node000027" href="$Visibility_8h.html" title="Defines the clang::Visibility enumeration and various utility functions." alt="" coords="2630,167,2796,192"/>
+<area shape="poly" id="edge36_Node000002_Node000027" title=" " alt="" coords="1256,109,2616,171,2615,176,1255,114"/>
+<area shape="rect" id="Node000030" title=" " alt="" coords="599,167,819,192"/>
+<area shape="poly" id="edge41_Node000002_Node000030" title=" " alt="" coords="1086,121,795,167,795,162,1086,116"/>
+<area shape="rect" id="Node000031" title=" " alt="" coords="844,167,918,192"/>
+<area shape="poly" id="edge44_Node000002_Node000031" title=" " alt="" coords="1114,121,932,168,931,163,1113,116"/>
+<area shape="rect" id="Node000032" title=" " alt="" coords="943,167,1150,192"/>
+<area shape="poly" id="edge47_Node000002_Node000032" title=" " alt="" coords="1142,121,1078,161,1075,157,1139,116"/>
+<area shape="rect" id="Node000033" title=" " alt="" coords="1174,167,1364,192"/>
+<area shape="poly" id="edge48_Node000002_Node000033" title=" " alt="" coords="1177,116,1241,157,1238,161,1175,121"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="162,190,256,239,253,243,159,195"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="129,194,86,239,82,236,125,190"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1217,328,1388,353"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1454,275,1341,325,1339,320,1452,270"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1412,328,1544,353"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1481,273,1481,314,1476,314,1476,273"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1568,328,1743,353"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="1505,270,1619,320,1616,325,1503,275"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="1534,194,1498,238,1494,235,1530,191"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="1457,195,1148,243,1124,247,1123,242,1147,237,1456,189"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1160,247,1381,273"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="1502,195,1323,246,1322,241,1501,189"/>
+<area shape="poly" id="edge20_Node000013_Node000004" title=" " alt="" coords="449,194,330,245,328,240,447,190"/>
+<area shape="poly" id="edge14_Node000013_Node000006" title=" " alt="" coords="575,188,588,189,814,202,991,206,1168,213,1271,222,1393,237,1419,242,1419,247,1393,243,1271,228,1167,218,991,211,814,207,587,195,575,194"/>
+<area shape="poly" id="edge15_Node000013_Node000011" title=" " alt="" coords="575,189,963,237,990,242,989,247,962,243,575,195"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="501,190,606,239,603,244,498,194"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="740,247,950,273"/>
+<area shape="poly" id="edge17_Node000013_Node000015" title=" " alt="" coords="530,189,778,242,777,247,529,195"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1924,247,2123,273"/>
+<area shape="poly" id="edge18_Node000013_Node000016" title=" " alt="" coords="575,188,588,189,789,201,960,205,1251,206,1541,210,1712,220,1913,237,1951,242,1951,248,1913,243,1712,225,1541,216,1251,211,960,211,789,206,587,195,575,194"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="348,247,550,273"/>
+<area shape="poly" id="edge19_Node000013_Node000017" title=" " alt="" coords="474,193,460,235,455,234,469,191"/>
+<area shape="poly" id="edge22_Node000018_Node000006" title=" " alt="" coords="2086,189,1850,208,1707,223,1564,243,1540,247,1539,242,1563,237,1706,218,1849,202,2086,183"/>
+<area shape="poly" id="edge23_Node000018_Node000011" title=" " alt="" coords="2086,188,1564,215,1300,231,1148,243,1120,247,1119,242,1147,237,1300,225,1564,210,2086,182"/>
+<area shape="poly" id="edge24_Node000018_Node000016" title=" " alt="" coords="2153,195,2059,243,2057,239,2151,190"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="2434,240,2669,280"/>
+<area shape="poly" id="edge25_Node000018_Node000019" title=" " alt="" coords="2230,189,2448,235,2447,240,2229,195"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="2693,247,2762,273"/>
+<area shape="poly" id="edge26_Node000018_Node000020" title=" " alt="" coords="2263,181,2456,198,2570,214,2682,237,2690,240,2689,245,2680,243,2569,219,2456,203,2262,187"/>
+<area shape="poly" id="edge27_Node000018_Node000021" title=" " alt="" coords="2263,179,2367,183,2496,192,2636,210,2775,237,2784,240,2782,245,2774,243,2635,215,2496,198,2367,188,2262,184"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="2221,247,2410,273"/>
+<area shape="poly" id="edge28_Node000018_Node000022" title=" " alt="" coords="2196,190,2284,238,2281,243,2194,195"/>
+<area shape="poly" id="edge31_Node000023_Node000006" title=" " alt="" coords="1769,195,1541,247,1540,242,1768,189"/>
+<area shape="poly" id="edge33_Node000023_Node000014" title=" " alt="" coords="1717,191,1654,195,1393,205,1190,208,987,216,868,226,728,243,701,247,700,242,727,237,868,221,987,210,1190,202,1393,200,1654,189,1717,185"/>
+<area shape="poly" id="edge34_Node000023_Node000015" title=" " alt="" coords="1717,190,967,243,926,248,925,243,966,237,1717,185"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="2146,247,2197,273"/>
+<area shape="poly" id="edge30_Node000023_Node000024" title=" " alt="" coords="1920,189,2025,208,2136,237,2141,239,2139,244,2135,243,2024,213,1919,194"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="1736,247,1900,273"/>
+<area shape="poly" id="edge32_Node000023_Node000025" title=" " alt="" coords="1821,192,1821,233,1816,233,1816,192"/>
+<area shape="rect" id="Node000026" title=" " alt="" coords="1576,247,1712,273"/>
+<area shape="poly" id="edge35_Node000023_Node000026" title=" " alt="" coords="1794,194,1683,244,1680,239,1792,190"/>
+<area shape="poly" id="edge39_Node000027_Node000020" title=" " alt="" coords="2718,192,2726,233,2720,234,2712,193"/>
+<area shape="poly" id="edge40_Node000027_Node000021" title=" " alt="" coords="2730,190,2794,237,2791,241,2727,194"/>
+<area shape="rect" id="Node000028" href="$include_2clang_2Basic_2Linkage_8h.html" title="Defines the Linkage enumeration and various utility functions." alt="" coords="2877,247,3040,273"/>
+<area shape="poly" id="edge37_Node000027_Node000028" title=" " alt="" coords="2749,189,2911,241,2909,246,2748,195"/>
+<area shape="rect" id="Node000029" title=" " alt="" coords="2928,328,2988,353"/>
+<area shape="poly" id="edge38_Node000028_Node000029" title=" " alt="" coords="2961,273,2961,314,2956,314,2956,273"/>
+</map>

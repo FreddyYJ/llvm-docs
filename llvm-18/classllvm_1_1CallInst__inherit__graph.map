@@ -1,0 +1,102 @@
+<map id="llvm::CallInst" name="llvm::CallInst">
+<area shape="rect" id="Node000001" title="This class represents a function call, abstracting a target machine&#39;s calling convention." alt="" coords="2593,766,2701,791"/>
+<area shape="rect" id="Node000019" href="$classllvm_1_1IntrinsicInst.html" title="A wrapper class for inspecting calls to intrinsic functions." alt="" coords="2751,766,2885,791"/>
+<area shape="poly" id="edge21_Node000001_Node000019" title=" " alt="" coords="2715,776,2751,776,2751,781,2715,781"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1CallBase.html" title="Base class for all callable instructions (InvokeInst and CallInst) Holds everything related to callin..." alt="" coords="2428,766,2544,791"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2558,776,2593,776,2593,781,2558,781"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1Instruction.html" title=" " alt="" coords="2251,766,2379,791"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2392,776,2428,776,2428,781,2392,781"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1User.html" title=" " alt="" coords="2065,729,2154,754"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="2168,749,2251,764,2250,770,2167,754"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1Value.html" title="LLVM Value Representation." alt="" coords="1636,729,1731,754"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1745,739,2064,739,2064,744,1745,744"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1ilist__node__with__parent.html" title=" " alt="" coords="2017,779,2201,848"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="2215,793,2250,787,2251,792,2216,798"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1ilist__node.html" title=" " alt="" coords="1323,855,1533,895"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1547,864,1784,845,2017,821,2018,826,1784,851,1547,869"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1ilist__node__impl.html" title=" " alt="" coords="696,887,900,956"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="913,910,1322,880,1323,885,914,915"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1ilist__node__base.html" title="Base class for ilist nodes." alt="" coords="251,989,455,1059"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="468,998,669,953,695,947,696,952,670,959,469,1004"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1ilist__node__impl.html" title="Implementation for an ilist node." alt="" coords="273,799,432,839"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="406,842,482,872,592,896,696,911,695,916,591,902,481,877,404,847"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1ilist__node__impl.html" title=" " alt="" coords="693,793,903,863"/>
+<area shape="poly" id="edge14_Node000013_Node000010" title=" " alt="" coords="446,818,693,823,693,828,446,823"/>
+<area shape="rect" id="Node000017" href="$classllvm_1_1ilist__node__impl.html" title=" " alt="" coords="707,700,889,769"/>
+<area shape="poly" id="edge19_Node000017_Node000010" title=" " alt="" coords="415,791,481,771,706,742,707,747,482,776,416,796"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="5,806,199,831"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="212,816,273,816,273,821,212,821"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1ilist__node.html" title=" " alt="" coords="952,808,1101,848"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="1116,840,1126,841,1323,863,1322,868,1125,847,1115,845"/>
+<area shape="rect" id="Node000016" href="$classllvm_1_1ilist__node.html" title=" " alt="" coords="1333,789,1523,829"/>
+<area shape="poly" id="edge20_Node000016_Node000012" title=" " alt="" coords="1115,821,1333,811,1333,816,1115,827"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="917,825,952,825,952,831,917,831"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1ilist__node__base.html" title="Base class for ilist nodes." alt="" coords="248,910,457,965"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="471,952,521,953,572,948,622,935,668,914,676,905,680,896,683,884,691,873,707,861,710,865,695,877,688,887,685,897,681,908,671,918,624,940,573,953,521,958,471,957"/>
+<area shape="rect" id="Node000015" href="$classllvm_1_1ilist__node__with__parent.html" title="An ilist node that can access its parent list." alt="" coords="1583,782,1784,837"/>
+<area shape="poly" id="edge15_Node000006_Node000015" title=" " alt="" coords="1798,808,2017,810,2017,815,1798,813"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="1536,807,1583,807,1583,812,1536,812"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="903,744,1333,796,1333,801,903,750"/>
+<area shape="rect" id="Node000018" href="$classllvm_1_1ilist__node__base.html" title="Base class for ilist nodes." alt="" coords="261,645,444,715"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="458,678,561,683,670,696,707,704,706,709,669,701,560,688,458,683"/>
+<area shape="rect" id="Node000020" href="$classllvm_1_1MemIntrinsicBase.html" title=" " alt="" coords="2973,5,3149,45"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="2819,752,2846,501,2872,322,2907,140,2912,94,2918,75,2933,55,2951,42,2971,33,2973,38,2954,47,2937,59,2923,77,2917,95,2912,140,2877,323,2851,502,2824,753"/>
+<area shape="rect" id="Node000028" href="$classllvm_1_1MemIntrinsicBase.html" title=" " alt="" coords="2969,69,3152,109"/>
+<area shape="poly" id="edge23_Node000019_Node000028" title=" " alt="" coords="2817,752,2824,619,2842,429,2857,331,2877,242,2902,169,2916,141,2933,119,2949,106,2968,97,2970,102,2952,111,2937,123,2921,144,2907,171,2882,244,2863,332,2848,430,2830,619,2823,752"/>
+<area shape="rect" id="Node000036" href="$classllvm_1_1MemIntrinsicBase.html" title=" " alt="" coords="2973,133,3149,173"/>
+<area shape="poly" id="edge24_Node000019_Node000036" title=" " alt="" coords="2819,752,2846,542,2872,396,2907,249,2914,213,2920,198,2933,183,2951,171,2971,162,2973,167,2954,175,2936,187,2924,201,2919,215,2912,250,2877,397,2851,543,2824,753"/>
+<area shape="rect" id="Node000046" href="$classllvm_1_1AnyCoroEndInst.html" title=" " alt="" coords="2979,198,3142,223"/>
+<area shape="poly" id="edge25_Node000019_Node000046" title=" " alt="" coords="2818,752,2827,638,2847,480,2862,401,2881,329,2904,271,2918,249,2933,233,2954,220,2978,212,2980,217,2957,224,2936,237,2922,252,2909,273,2886,331,2867,402,2852,481,2832,638,2823,752"/>
+<area shape="rect" id="Node000049" href="$classllvm_1_1AnyCoroIdInst.html" title="This represents a common base class for llvm.coro.id instructions." alt="" coords="2985,247,3136,273"/>
+<area shape="poly" id="edge26_Node000019_Node000049" title=" " alt="" coords="2819,752,2829,648,2851,506,2866,434,2884,369,2907,317,2919,297,2933,282,2957,268,2984,260,2986,265,2959,273,2936,286,2923,300,2911,319,2889,371,2871,435,2856,507,2835,649,2824,753"/>
+<area shape="rect" id="Node000055" href="$classllvm_1_1AnyCoroSuspendInst.html" title=" " alt="" coords="2964,297,3157,322"/>
+<area shape="poly" id="edge27_Node000019_Node000055" title=" " alt="" coords="2820,752,2832,657,2855,530,2870,466,2888,409,2909,362,2933,331,2962,315,2965,320,2936,335,2913,365,2893,411,2875,468,2860,531,2837,658,2825,753"/>
+<area shape="rect" id="Node000059" href="$classllvm_1_1AssumeInst.html" title="This represents the llvm.assume intrinsic." alt="" coords="2993,346,3128,371"/>
+<area shape="poly" id="edge28_Node000019_Node000059" title=" " alt="" coords="2820,752,2834,666,2858,554,2874,498,2891,448,2911,407,2933,381,2961,365,2992,357,2994,362,2963,370,2936,385,2915,410,2896,450,2879,500,2863,555,2840,667,2826,753"/>
+<area shape="rect" id="Node000060" href="$classllvm_1_1BinaryOpIntrinsic.html" title="This class represents an intrinsic that is based on a binary operation." alt="" coords="2975,395,3146,421"/>
+<area shape="poly" id="edge29_Node000019_Node000060" title=" " alt="" coords="2816,752,2820,685,2836,597,2851,550,2871,505,2898,464,2933,430,2953,418,2974,411,2976,416,2955,423,2936,434,2902,468,2876,508,2856,552,2841,598,2826,686,2822,753"/>
+<area shape="rect" id="Node000063" href="$classllvm_1_1ConstrainedFPIntrinsic.html" title="This is the common base class for constrained floating point intrinsics." alt="" coords="2958,445,3163,470"/>
+<area shape="poly" id="edge30_Node000019_Node000063" title=" " alt="" coords="2818,752,2826,694,2844,619,2859,580,2878,543,2903,508,2933,479,2956,466,2959,471,2936,483,2907,512,2883,545,2864,582,2849,621,2831,695,2824,753"/>
+<area shape="rect" id="Node000065" href="$classllvm_1_1ConvergenceControlInst.html" title="Represents calls to the llvm.experimintal.convergence.* intrinsics." alt="" coords="2953,494,3168,519"/>
+<area shape="poly" id="edge31_Node000019_Node000065" title=" " alt="" coords="2821,752,2832,703,2853,642,2885,580,2907,552,2933,529,2952,517,2955,522,2936,533,2911,556,2890,583,2857,644,2837,705,2826,753"/>
+<area shape="rect" id="Node000066" href="$classllvm_1_1CoroAlignInst.html" title="This represents the llvm.coro.align instruction." alt="" coords="2987,543,3134,569"/>
+<area shape="poly" id="edge32_Node000019_Node000066" title=" " alt="" coords="2824,752,2838,713,2860,665,2892,618,2911,596,2933,578,2959,564,2987,557,2988,562,2961,569,2936,582,2915,600,2896,621,2865,668,2843,715,2829,754"/>
+<area shape="rect" id="Node000067" href="$classllvm_1_1CoroAllocInst.html" title="This represents the llvm.coro.alloc instruction." alt="" coords="2988,593,3133,618"/>
+<area shape="poly" id="edge33_Node000019_Node000067" title=" " alt="" coords="2829,752,2869,689,2898,655,2933,627,2959,615,2987,608,2988,613,2961,620,2936,632,2902,659,2873,692,2834,755"/>
+<area shape="rect" id="Node000068" href="$classllvm_1_1CoroAllocaAllocInst.html" title="This represents the llvm.coro.alloca.alloc instruction." alt="" coords="2968,642,3153,667"/>
+<area shape="poly" id="edge34_Node000019_Node000068" title=" " alt="" coords="2837,754,2879,713,2905,693,2934,676,2967,664,2969,669,2936,681,2908,698,2882,717,2841,757"/>
+<area shape="rect" id="Node000069" href="$classllvm_1_1CoroAllocaFreeInst.html" title="This represents the llvm.coro.alloca.free instruction." alt="" coords="2970,691,3151,717"/>
+<area shape="poly" id="edge35_Node000019_Node000069" title=" " alt="" coords="2855,757,2934,725,2978,714,2980,719,2936,731,2857,762"/>
+<area shape="rect" id="Node000070" href="$classllvm_1_1CoroAllocaGetInst.html" title="This represents the llvm.coro.alloca.get instruction." alt="" coords="2973,741,3149,766"/>
+<area shape="poly" id="edge36_Node000019_Node000070" title=" " alt="" coords="2899,768,2972,760,2973,765,2899,773"/>
+<area shape="rect" id="Node000071" href="$classllvm_1_1CoroAsyncContextAllocInst.html" title="This represents the llvm.coro.context.alloc instruction." alt="" coords="2943,790,3178,815"/>
+<area shape="poly" id="edge37_Node000019_Node000071" title=" " alt="" coords="2899,784,2943,788,2943,794,2899,789"/>
+<area shape="rect" id="Node000072" href="$classllvm_1_1CoroAsyncContextDeallocInst.html" title="This represents the llvm.coro.context.dealloc instruction." alt="" coords="2935,839,3187,865"/>
+<area shape="poly" id="edge38_Node000019_Node000072" title=" " alt="" coords="2859,794,2935,824,2985,837,2984,842,2934,829,2857,799"/>
+<area shape="rect" id="Node000073" href="$classllvm_1_1CoroAsyncResumeInst.html" title="This represents the llvm.coro.async.resume instruction." alt="" coords="2958,889,3163,914"/>
+<area shape="poly" id="edge39_Node000019_Node000073" title=" " alt="" coords="2841,800,2883,838,2908,858,2936,874,2970,886,2968,891,2934,878,2905,862,2879,842,2838,803"/>
+<area shape="rect" id="Node000074" href="$classllvm_1_1CoroAsyncSizeReplace.html" title="This represents the llvm.coro.async.size.replace instruction." alt="" coords="2957,938,3164,963"/>
+<area shape="poly" id="edge40_Node000019_Node000074" title=" " alt="" coords="2834,802,2874,864,2902,896,2936,923,2963,935,2960,940,2933,928,2899,900,2869,867,2829,805"/>
+<area shape="rect" id="Node000075" href="$classllvm_1_1CoroBeginInst.html" title="This class represents the llvm.coro.begin instruction." alt="" coords="2985,987,3136,1013"/>
+<area shape="poly" id="edge41_Node000019_Node000075" title=" " alt="" coords="2829,804,2843,843,2866,889,2896,936,2915,956,2936,974,2960,986,2986,994,2985,999,2958,991,2933,978,2911,960,2892,939,2861,892,2838,845,2824,806"/>
+<area shape="rect" id="Node000076" href="$classllvm_1_1CoroEndResults.html" title="This represents the llvm.end.results instruction." alt="" coords="2980,1037,3141,1062"/>
+<area shape="poly" id="edge42_Node000019_Node000076" title=" " alt="" coords="2826,804,2837,852,2858,912,2890,973,2911,1000,2936,1023,2957,1035,2980,1043,2979,1048,2955,1040,2933,1027,2907,1003,2886,976,2853,914,2832,853,2821,805"/>
+<area shape="rect" id="Node000077" href="$classllvm_1_1CoroFrameInst.html" title="This represents the llvm.coro.frame instruction." alt="" coords="2983,1086,3138,1111"/>
+<area shape="poly" id="edge43_Node000019_Node000077" title=" " alt="" coords="2824,805,2832,862,2851,935,2866,973,2884,1010,2908,1044,2936,1073,2958,1086,2984,1094,2982,1099,2956,1091,2933,1077,2904,1047,2880,1012,2861,975,2846,936,2827,863,2819,806"/>
+<area shape="rect" id="Node000078" href="$classllvm_1_1CoroFreeInst.html" title="This represents the llvm.coro.free instruction." alt="" coords="2990,1135,3131,1161"/>
+<area shape="poly" id="edge44_Node000019_Node000078" title=" " alt="" coords="2822,805,2827,871,2843,957,2858,1003,2878,1047,2904,1087,2936,1122,2962,1137,2991,1145,2989,1150,2960,1142,2933,1126,2899,1091,2873,1050,2853,1005,2838,959,2822,871,2817,805"/>
+<area shape="rect" id="Node000079" href="$classllvm_1_1CoroPromiseInst.html" title="This represents the llvm.coro.promise instruction." alt="" coords="2977,1185,3144,1210"/>
+<area shape="poly" id="edge45_Node000019_Node000079" title=" " alt="" coords="2826,804,2840,889,2864,1000,2897,1105,2916,1145,2936,1171,2956,1183,2978,1191,2976,1196,2953,1188,2933,1175,2912,1148,2892,1107,2859,1002,2835,890,2821,805"/>
+<area shape="rect" id="Node000080" href="$classllvm_1_1CoroSaveInst.html" title="This represents the llvm.coro.save instruction." alt="" coords="2988,1234,3133,1259"/>
+<area shape="poly" id="edge46_Node000019_Node000080" title=" " alt="" coords="2825,805,2838,899,2861,1025,2876,1088,2894,1145,2914,1191,2936,1221,2960,1235,2988,1243,2987,1248,2958,1240,2933,1225,2910,1193,2889,1147,2871,1089,2856,1026,2833,900,2820,806"/>
+<area shape="rect" id="Node000081" href="$classllvm_1_1CoroSizeInst.html" title="This represents the llvm.coro.size instruction." alt="" coords="2991,1283,3131,1309"/>
+<area shape="poly" id="edge47_Node000019_Node000081" title=" " alt="" coords="2824,805,2835,908,2857,1049,2872,1120,2891,1185,2912,1236,2936,1270,2962,1285,2991,1293,2989,1298,2960,1290,2933,1274,2907,1239,2886,1186,2867,1122,2852,1050,2830,909,2819,806"/>
+<area shape="rect" id="Node000082" href="$classllvm_1_1CoroSubFnInst.html" title="This class represents the llvm.coro.subfn.addr instruction." alt="" coords="2984,1333,3137,1358"/>
+<area shape="poly" id="edge48_Node000019_Node000082" title=" " alt="" coords="2824,805,2833,918,2853,1074,2868,1153,2887,1224,2910,1282,2923,1304,2936,1319,2959,1333,2984,1341,2983,1346,2956,1338,2933,1323,2918,1307,2905,1284,2882,1226,2863,1154,2848,1075,2828,918,2818,806"/>
+<area shape="rect" id="Node000083" href="$classllvm_1_1DbgInfoIntrinsic.html" title="This is the common base class for debug info intrinsics." alt="" coords="2979,1382,3142,1407"/>
+<area shape="poly" id="edge49_Node000019_Node000083" title=" " alt="" coords="2823,805,2831,927,2849,1098,2864,1185,2883,1264,2907,1328,2921,1351,2936,1369,2957,1382,2980,1390,2978,1395,2954,1386,2933,1373,2917,1354,2903,1330,2878,1266,2859,1186,2844,1099,2825,927,2818,805"/>
+<area shape="rect" id="Node000089" href="$classllvm_1_1GCProjectionInst.html" title="Common base class for representing values projected from a statepoint." alt="" coords="2977,1431,3144,1457"/>
+<area shape="poly" id="edge50_Node000019_Node000089" title=" " alt="" coords="2823,805,2829,936,2846,1122,2860,1218,2880,1304,2905,1373,2920,1399,2936,1418,2956,1431,2978,1438,2976,1443,2953,1435,2933,1422,2916,1402,2900,1375,2875,1305,2855,1219,2840,1123,2823,936,2817,805"/>
+<area shape="rect" id="Node000092" href="$classllvm_1_1InstrProfInstBase.html" title="A base class for all instrprof intrinsics." alt="" coords="2975,1481,3146,1506"/>
+<area shape="poly" id="edge51_Node000019_Node000092" title=" " alt="" coords="2824,805,2851,1047,2877,1218,2912,1393,2918,1435,2923,1451,2936,1467,2955,1479,2976,1487,2974,1492,2952,1484,2933,1471,2918,1454,2912,1436,2907,1394,2872,1219,2846,1048,2819,805"/>
+</map>

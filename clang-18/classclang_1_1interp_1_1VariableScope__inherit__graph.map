@@ -1,0 +1,13 @@
+<map id="clang::interp::VariableScope&lt; Emitter &gt;" name="clang::interp::VariableScope&lt; Emitter &gt;">
+<area shape="rect" id="Node000001" title="Scope chain managing the variable lifetimes." alt="" coords="96,5,299,45"/>
+<area shape="rect" id="Node000002" href="$classclang_1_1interp_1_1DeclScope.html" title="Scope used to handle temporaries in toplevel variable declarations." alt="" coords="5,93,184,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,56,119,95,116,91,162,52"/>
+<area shape="rect" id="Node000003" href="$classclang_1_1interp_1_1LocalScope.html" title="Generic scope for local variables." alt="" coords="208,93,392,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,52,279,91,276,95,229,56"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1interp_1_1AutoScope.html" title="Like a regular LocalScope, except that the destructors of all local variables are automatically emitt..." alt="" coords="210,181,390,221"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="303,147,303,181,297,181,297,147"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1interp_1_1BlockScope.html" title="Scope for storage declared in a compound statement." alt="" coords="104,269,291,309"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="268,232,222,271,218,267,265,228"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1interp_1_1ExprScope.html" title="Expression scope which tracks potentially lifetime extended temporaries which are hoisted to the pare..." alt="" coords="315,269,493,309"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="335,228,383,267,379,271,332,232"/>
+</map>

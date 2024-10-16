@@ -1,0 +1,37 @@
+<map id="clang::syntax::Statement" name="clang::syntax::Statement">
+<area shape="rect" id="Node000001" title="An abstract node for C++ statements, e.g." alt="" coords="396,375,581,400"/>
+<area shape="rect" id="Node000004" href="$classclang_1_1syntax_1_1BreakStatement.html" title="break;" alt="" coords="645,5,868,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="490,360,500,295,523,208,541,161,564,117,592,75,628,40,645,29,648,33,631,44,597,79,568,119,545,164,528,209,505,296,495,361"/>
+<area shape="rect" id="Node000005" href="$classclang_1_1syntax_1_1CaseStatement.html" title="case : &lt;body&gt;" alt="" coords="648,55,865,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="492,360,505,303,530,229,548,190,570,153,596,119,628,89,646,78,649,83,631,93,600,122,574,156,552,193,535,231,510,304,497,361"/>
+<area shape="rect" id="Node000006" href="$classclang_1_1syntax_1_1CompoundStatement.html" title="{ statement1; statement2; … }" alt="" coords="629,104,884,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="494,360,510,312,537,252,576,190,600,162,628,138,648,127,651,132,631,143,604,166,580,193,542,254,515,314,499,362"/>
+<area shape="rect" id="Node000007" href="$classclang_1_1syntax_1_1ContinueStatement.html" title="continue;" alt="" coords="635,153,878,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="498,360,517,322,545,275,582,228,628,189,654,176,656,181,631,194,586,232,550,278,522,324,503,363"/>
+<area shape="rect" id="Node000008" href="$classclang_1_1syntax_1_1DeclarationStatement.html" title="E.g. &#39;int a, b = 10;&#39;." alt="" coords="661,203,853,243"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="506,362,557,307,591,278,628,253,659,239,661,244,631,258,594,282,561,311,510,366"/>
+<area shape="rect" id="Node000009" href="$classclang_1_1syntax_1_1DefaultStatement.html" title="default: &lt;body&gt;" alt="" coords="640,268,873,293"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="517,365,567,332,628,302,666,291,668,296,630,307,570,337,519,369"/>
+<area shape="rect" id="Node000010" href="$classclang_1_1syntax_1_1EmptyStatement.html" title="The no&#45;op statement, i.e. &#39;;&#39;." alt="" coords="643,317,870,343"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="557,369,629,353,690,340,691,345,630,358,558,374"/>
+<area shape="rect" id="Node000011" href="$classclang_1_1syntax_1_1ExpressionStatement.html" title="Expression in a statement position, e.g." alt="" coords="663,367,851,407"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="595,385,662,385,662,390,595,390"/>
+<area shape="rect" id="Node000012" href="$classclang_1_1syntax_1_1ForStatement.html" title="for (&lt;init&gt;; &lt;cond&gt;; &lt;increment&gt;) &lt;body&gt;" alt="" coords="654,432,859,457"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="558,401,630,417,691,429,690,435,629,422,557,406"/>
+<area shape="rect" id="Node000013" href="$classclang_1_1syntax_1_1IfStatement.html" title="if (cond) &lt;then&#45;statement&gt; else &lt;else&#45;statement&gt; FIXME: add condition that models &#39;expression or vari..." alt="" coords="659,481,854,507"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="519,406,570,438,630,468,668,479,666,484,628,472,567,443,517,410"/>
+<area shape="rect" id="Node000014" href="$classclang_1_1syntax_1_1RangeBasedForStatement.html" title="for (&lt;decl&gt; : &lt;init&gt;) &lt;body&gt;" alt="" coords="657,531,856,571"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="510,409,561,464,594,493,631,517,658,529,656,534,628,522,591,497,557,468,506,413"/>
+<area shape="rect" id="Node000015" href="$classclang_1_1syntax_1_1ReturnStatement.html" title="return &lt;expr&gt;; return;" alt="" coords="643,596,871,621"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="503,412,522,451,550,497,586,543,631,581,656,593,654,598,628,586,582,547,545,500,517,453,498,414"/>
+<area shape="rect" id="Node000016" href="$classclang_1_1syntax_1_1SwitchStatement.html" title="switch (&lt;cond&gt;) &lt;body&gt;" alt="" coords="643,645,871,671"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="499,412,515,461,542,521,580,582,604,609,631,632,651,643,648,647,628,636,600,612,576,585,537,523,510,463,494,414"/>
+<area shape="rect" id="Node000017" href="$classclang_1_1syntax_1_1UnknownStatement.html" title="A statement of an unknown kind, i.e." alt="" coords="633,695,880,720"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="497,413,510,470,535,544,552,582,574,619,600,652,631,681,649,692,646,697,628,685,596,656,570,622,548,584,530,546,505,472,492,415"/>
+<area shape="rect" id="Node000018" href="$classclang_1_1syntax_1_1WhileStatement.html" title="while (&lt;cond&gt;) &lt;body&gt;" alt="" coords="645,744,868,769"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="495,413,505,479,528,565,545,611,568,655,597,696,631,731,648,742,645,746,628,735,592,699,564,658,541,613,523,567,500,480,490,414"/>
+<area shape="rect" id="Node000002" href="$classclang_1_1syntax_1_1Tree.html" title="A node that has children and represents a syntactic language construct." alt="" coords="204,375,348,400"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="362,385,396,385,396,390,362,390"/>
+<area shape="rect" id="Node000003" href="$classclang_1_1syntax_1_1Node.html" title="A node in a syntax tree." alt="" coords="5,375,156,400"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="170,385,204,385,204,390,170,390"/>
+</map>
